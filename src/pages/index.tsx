@@ -1,9 +1,11 @@
+import { Link } from 'gatsby';
 import React from 'react';
+
 const IndexPage = () => (
     <div style={{ color: `purple` }}>
-        <h1>Hello Gatsby!</h1>
+        <h1>Home</h1>
         <p>What a world.</p>
-        <img src="https://source.unsplash.com/random/400x200" alt="" />
+        <Link to="/about">&rarr; Learn about me</Link>
     </div>
 );
 
