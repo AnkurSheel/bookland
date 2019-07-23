@@ -20,5 +20,12 @@ module.exports = {
                 defaultLayouts: require.resolve('./src/components/layouts.tsx'),
             },
         },
+        {
+            resolve: 'gatsby-source-filesystem',
+            options: {
+                name: 'posts',
+                path: './posts',
+            },
+        },
     ],
 };
