@@ -2,9 +2,16 @@ import { Link } from 'gatsby';
 import React from 'react';
 import { css } from '@emotion/core';
 import ReadLink from './readLink';
-// import ReadLink from './read-link';
 
-const PostPreview = ({ post }: any) => {
+export interface PostPreviewProps {
+    post: {
+        title: string;
+        author: string;
+        slug: string;
+        excerpt: string;
+    };
+}
+const PostPreview = ({ post }: PostPreviewProps) => {
     return (
         <article
             css={css`

@@ -11,7 +11,7 @@ interface SiteMetaDataProps {
 
 const useSiteMetaData = () => {
     const data: SiteMetaDataProps = useStaticQuery(graphql`
-        query MyQuery {
+        query {
             site {
                 siteMetadata {
                     description
