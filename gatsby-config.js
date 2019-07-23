@@ -10,5 +10,15 @@ module.exports = {
         description: 'A blog for book reviews',
     },
     /* Your site config here */
-    plugins: [`gatsby-plugin-typescript`, 'gatsby-plugin-emotion', 'gatsby-plugin-react-helmet'],
+    plugins: [
+        `gatsby-plugin-typescript`,
+        `gatsby-plugin-emotion`,
+        `gatsby-plugin-react-helmet`,
+        {
+            resolve: `gatsby-mdx`,
+            options: {
+                defaultLayouts: require.resolve('./src/components/layouts.tsx'),
+            },
+        },
+    ],
 };
