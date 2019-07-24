@@ -2,6 +2,7 @@ import { Link } from 'gatsby';
 import React from 'react';
 import { css } from '@emotion/core';
 import ReadLink from './readLink';
+import Image from 'gatsby-image';
 
 export interface PostPreviewProps {
     post: {
@@ -11,24 +12,44 @@ export interface PostPreviewProps {
         excerpt: string;
     };
 }
-const PostPreview = ({ post }: PostPreviewProps) => {
+const PostPreview = ({ post }: any) => {
     return (
         <article
             css={css`
                 border-bottom: 1px solid #ddd;
+                display: flex;
                 padding-bottom: 1rem;
-                margin-top: 0.75rem;
+                margin-top: 0;
 
                 &:first-of-type {
                     margin-top: 1rem;
                 }
             `}
         >
-            <h3>
-                <Link to={post.slug}>{post.title}</Link>
-            </h3>
-            <h3>{post.excerpt}</h3>
-            <ReadLink to={post.slug}>Read this Post &rarr;</ReadLink>
+            <Link
+                to={post.slug}
+                css={css`
+                    margin: 1rem 1rem 0 0;
+                    width: 100px;
+                `}
+            >
+                <Image
+                    fluid={post.image.sharp.fluid}
+                    css={css`
+                        * {
+                            margin: 0;
+                        }
+                    `}
+                    alt={post.title}
+                ></Image>
+            </Link>
+            <div>
+                <h3>
+                    <Link to={post.slug}>{post.title}</Link>
+                </h3>
+                <h3>{post.excerpt}</h3>
+                <ReadLink to={post.slug}>Read this Post &rarr;</ReadLink>
+            </div>
         </article>
     );
 };
