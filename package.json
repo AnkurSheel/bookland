@@ -12,7 +12,8 @@
         "serve": "gatsby serve",
         "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
         "lint": "eslint --ignore-path .gitignore . --ext ts --ext tsx --ext js --ext jsx",
-        "lint:fix": "yarn lint --fix"
+        "lint:fix": "yarn lint --fix",
+        "generate-graphql": "graphql-codegen --config codegen.yml"
     },
     "dependencies": {
         "gatsby": "^2.13.31",
@@ -23,6 +24,9 @@
     "devDependencies": {
         "@emotion/core": "^10.0.14",
         "@emotion/styled": "^10.0.14",
+        "@graphql-codegen/cli": "^1.4.0",
+        "@graphql-codegen/typescript": "^1.4.0",
+        "@graphql-codegen/typescript-operations": "^1.4.0",
         "@mdx-js/mdx": "^1.1.0",
         "@mdx-js/react": "^1.0.27",
         "@types/react-helmet": "^5.0.8",
