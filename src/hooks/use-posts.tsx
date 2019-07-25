@@ -1,23 +1,18 @@
 import { graphql, useStaticQuery } from 'gatsby';
-import { FluidObject } from 'gatsby-image';
+import { PostDataQuery } from '../graphqlTypes';
+import { IFluidObject } from 'gatsby-background-image';
 
-export interface PostProps {
-    allMdx: {
-        nodes: {
-            frontmatter: {
-                title: string;
-                slug: string;
-                author: string;
-                fluidImage: FluidObject;
-            };
-            excerpt: string;
-        }[];
-    };
+export interface PostData {
+    title: string;
+    author: string;
+    slug: string;
+    image: IFluidObject | null;
+    excerpt: string;
 }
 
 const usePosts = () => {
-    const data: any = useStaticQuery(graphql`
-        query {
+    const data: PostDataQuery = useStaticQuery(graphql`
+        query PostData {
             allMdx {
                 nodes {
                     frontmatter {
@@ -36,18 +31,31 @@ const usePosts = () => {
                             }
                         }
                     }
+                    excerpt
                 }
             }
         }
-    `);
+    `) as PostDataQuery;
 
-    return data.allMdx.nodes.map((post: any) => ({
-        title: post.frontmatter.title,
-        author: post.frontmatter.author,
-        slug: post.frontmatter.slug,
-        image: post.frontmatter.image,
-        excerpt: post.excerpt,
-    }));
+    return (
+        data &&
+        data.allMdx &&
+        data.allMdx.nodes.map(post => {
+            const data: PostData = {
+                title: (post.frontmatter && post.frontmatter.title) || '',
+                author: (post.frontmatter && post.frontmatter.author) || '',
+                slug: (post.frontmatter && post.frontmatter.slug) || '',
+                image:
+                    (post.frontmatter &&
+                        post.frontmatter.image &&
+                        post.frontmatter.image.sharp &&
+                        (post.frontmatter.image.sharp.fluid as IFluidObject)) ||
+                    null,
+                excerpt: post.excerpt,
+            };
+            return data;
+        })
+    );
 };
 
 export default usePosts;

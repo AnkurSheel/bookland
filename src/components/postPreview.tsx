@@ -3,16 +3,13 @@ import React from 'react';
 import { css } from '@emotion/core';
 import ReadLink from './readLink';
 import Image from 'gatsby-image';
+import { PostData } from '../hooks/use-posts';
+import { IFluidObject } from 'gatsby-background-image';
 
-export interface PostPreviewProps {
-    post: {
-        title: string;
-        author: string;
-        slug: string;
-        excerpt: string;
-    };
+interface PostPreviewProps {
+    post: PostData;
 }
-const PostPreview = ({ post }: any) => {
+const PostPreview = ({ post }: PostPreviewProps) => {
     return (
         <article
             css={css`
@@ -34,7 +31,7 @@ const PostPreview = ({ post }: any) => {
                 `}
             >
                 <Image
-                    fluid={post.image.sharp.fluid}
+                    fluid={post.image || undefined}
                     css={css`
                         * {
                             margin: 0;

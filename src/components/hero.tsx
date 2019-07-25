@@ -1,7 +1,8 @@
 import { Link, useStaticQuery, graphql } from 'gatsby';
 import React from 'react';
-import BackgroundImage from 'gatsby-background-image';
+import BackgroundImage, { IFluidObject } from 'gatsby-background-image';
 import styled from '@emotion/styled';
+import { HeroImageQuery } from '../graphqlTypes';
 
 const ImageBackground = styled(BackgroundImage)`
     background-position: top 20% center;
@@ -41,8 +42,8 @@ const TextBox = styled('div')`
     }
 `;
 const Hero = () => {
-    const { image } = useStaticQuery(graphql`
-        query {
+    const data: HeroImageQuery = useStaticQuery(graphql`
+        query HeroImage {
             image: file(relativePath: { eq: "inaki-del-olmo-bookshelf.jpg" }) {
                 sharp: childImageSharp {
                     fluid {
@@ -52,8 +53,9 @@ const Hero = () => {
             }
         }
     `);
+    const fluid = (data.image && data.image.sharp && (data.image.sharp.fluid as IFluidObject)) || undefined;
     return (
-        <ImageBackground Tag="section" fluid={image.sharp.fluid} fadeIn="soft">
+        <ImageBackground Tag="section" fluid={fluid} fadeIn="soft">
             <TextBox>
                 <h1>Home</h1>
                 <p>What a world.</p>

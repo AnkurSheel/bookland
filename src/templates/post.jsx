@@ -5,7 +5,7 @@ import { MDXRenderer } from 'gatsby-plugin-mdx';
 import { graphql } from 'gatsby';
 
 export const query = graphql`
-    query($slug: String!) {
+    query PostTemplate($slug: String!) {
         mdx(frontmatter: { slug: { eq: $slug } }) {
             frontmatter {
                 title

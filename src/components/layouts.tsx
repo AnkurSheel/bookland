@@ -4,13 +4,14 @@ import { css } from '@emotion/core';
 import Header from './header';
 import Helmet from 'react-helmet';
 import useSiteMetaData from '../hooks/useSiteMetadata';
+import { SiteSiteMetadata } from '../graphqlTypes';
 
 interface LayoutProps {
     children: ReactNode;
 }
 
 const Layout = ({ children }: LayoutProps) => {
-    const { title, description } = useSiteMetaData();
+    const { title, description } = useSiteMetaData() as SiteSiteMetadata;
 
     return (
         <>

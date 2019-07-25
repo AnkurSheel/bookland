@@ -1,17 +1,9 @@
 import { graphql, useStaticQuery } from 'gatsby';
-
-interface SiteMetaDataProps {
-    site: {
-        siteMetadata: {
-            title: string;
-            description: string;
-        };
-    };
-}
+import { SiteMetadataQuery, SiteSiteMetadata } from '../graphqlTypes';
 
 const useSiteMetaData = () => {
-    const data: SiteMetaDataProps = useStaticQuery(graphql`
-        query {
+    const { site }: SiteMetadataQuery = useStaticQuery(graphql`
+        query SiteMetadata {
             site {
                 siteMetadata {
                     description
@@ -20,7 +12,8 @@ const useSiteMetaData = () => {
             }
         }
     `);
-    return data.site.siteMetadata;
+
+    return site && site.siteMetadata;
 };
 
 export default useSiteMetaData;

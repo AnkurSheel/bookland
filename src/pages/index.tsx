@@ -17,9 +17,7 @@ const IndexPage = () => {
                 <Link to="/about">&rarr; Learn about me</Link>
 
                 <h2>Read my blog</h2>
-                {posts.map(post => (
-                    <PostPreview key={post.slug} post={post}></PostPreview>
-                ))}
+                {posts && posts.map(post => <PostPreview key={post.slug} post={post}></PostPreview>)}
             </Layout>
         </>
     );
