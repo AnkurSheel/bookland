@@ -11,7 +11,7 @@
         "start": "npm run develop",
         "serve": "gatsby serve",
         "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
-        "lint": "eslint --ignore-path .gitignore . --ext ts --ext tsx --ext js --ext jsx",
+        "lint": "eslint . --ext ts --ext tsx --ext js --ext jsx",
         "lint:fix": "yarn lint --fix",
         "generate-graphql": "graphql-codegen --config codegen.yml"
     },

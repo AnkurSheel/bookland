@@ -4,7 +4,6 @@ import { css } from '@emotion/core';
 import ReadLink from './readLink';
 import Image from 'gatsby-image';
 import { PostData } from '../hooks/use-posts';
-import { IFluidObject } from 'gatsby-background-image';
 
 interface PostPreviewProps {
     post: PostData;
