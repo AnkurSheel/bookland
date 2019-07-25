@@ -6,14 +6,14 @@ export interface PostData {
     title: string;
     author: string;
     slug: string;
-    image: IFluidObject | null;
+    image: IFluidObject | undefined;
     excerpt: string;
 }
 
 const usePosts = () => {
     const data: PostDataQuery = useStaticQuery(graphql`
         query PostData {
-            allMdx {
+            allMdx(sort: { fields: frontmatter___date, order: DESC }) {
                 nodes {
                     frontmatter {
                         author
@@ -50,7 +50,7 @@ const usePosts = () => {
                         post.frontmatter.image &&
                         post.frontmatter.image.sharp &&
                         (post.frontmatter.image.sharp.fluid as IFluidObject)) ||
-                    null,
+                    undefined,
                 excerpt: post.excerpt,
             };
             return data;

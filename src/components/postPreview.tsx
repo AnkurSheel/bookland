@@ -30,7 +30,7 @@ const PostPreview = ({ post }: PostPreviewProps) => {
                 `}
             >
                 <Image
-                    fluid={post.image || undefined}
+                    fluid={post.image}
                     css={css`
                         * {
                             margin: 0;
