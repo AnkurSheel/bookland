@@ -576,6 +576,8 @@ export enum FileFieldsEnum {
     ChildMdxFrontmatterTitle = 'childMdx___frontmatter___title',
     ChildMdxFrontmatterSlug = 'childMdx___frontmatter___slug',
     ChildMdxFrontmatterAuthor = 'childMdx___frontmatter___author',
+    ChildMdxFrontmatterDate = 'childMdx___frontmatter___date',
+    ChildMdxFrontmatterExcerpt = 'childMdx___frontmatter___excerpt',
     ChildMdxFrontmatterImageBirthtime = 'childMdx___frontmatter___image___birthtime',
     ChildMdxFrontmatterImageBirthtimeMs = 'childMdx___frontmatter___image___birthtimeMs',
     ChildMdxFrontmatterImageSourceInstanceName = 'childMdx___frontmatter___image___sourceInstanceName',
@@ -610,6 +612,7 @@ export enum FileFieldsEnum {
     ChildMdxFrontmatterImagePublicUrl = 'childMdx___frontmatter___image___publicURL',
     ChildMdxFrontmatterImageId = 'childMdx___frontmatter___image___id',
     ChildMdxFrontmatterImageChildren = 'childMdx___frontmatter___image___children',
+    ChildMdxFrontmatterTags = 'childMdx___frontmatter___tags',
     ChildMdxBody = 'childMdx___body',
     ChildMdxExcerpt = 'childMdx___excerpt',
     ChildMdxHeadings = 'childMdx___headings',
@@ -1421,6 +1424,8 @@ export enum MdxFieldsEnum {
     FrontmatterTitle = 'frontmatter___title',
     FrontmatterSlug = 'frontmatter___slug',
     FrontmatterAuthor = 'frontmatter___author',
+    FrontmatterDate = 'frontmatter___date',
+    FrontmatterExcerpt = 'frontmatter___excerpt',
     FrontmatterImageBirthtime = 'frontmatter___image___birthtime',
     FrontmatterImageBirthtimeMs = 'frontmatter___image___birthtimeMs',
     FrontmatterImageSourceInstanceName = 'frontmatter___image___sourceInstanceName',
@@ -1480,6 +1485,7 @@ export enum MdxFieldsEnum {
     FrontmatterImageChildMdxChildren = 'frontmatter___image___childMdx___children',
     FrontmatterImageChildImageSharpId = 'frontmatter___image___childImageSharp___id',
     FrontmatterImageChildImageSharpChildren = 'frontmatter___image___childImageSharp___children',
+    FrontmatterTags = 'frontmatter___tags',
     Body = 'body',
     Excerpt = 'excerpt',
     Headings = 'headings',
@@ -1603,14 +1609,27 @@ export type MdxFrontmatter = {
     title: Scalars['String'];
     slug?: Maybe<Scalars['String']>;
     author?: Maybe<Scalars['String']>;
+    date?: Maybe<Scalars['Date']>;
+    excerpt?: Maybe<Scalars['String']>;
     image?: Maybe<File>;
+    tags?: Maybe<Array<Maybe<Scalars['String']>>>;
+};
+
+export type MdxFrontmatterDateArgs = {
+    formatString?: Maybe<Scalars['String']>;
+    fromNow?: Maybe<Scalars['Boolean']>;
+    difference?: Maybe<Scalars['String']>;
+    locale?: Maybe<Scalars['String']>;
 };
 
 export type MdxFrontmatterFilterInput = {
     title?: Maybe<StringQueryOperatorInput>;
     slug?: Maybe<StringQueryOperatorInput>;
     author?: Maybe<StringQueryOperatorInput>;
+    date?: Maybe<DateQueryOperatorInput>;
+    excerpt?: Maybe<StringQueryOperatorInput>;
     image?: Maybe<FileFilterInput>;
+    tags?: Maybe<StringQueryOperatorInput>;
 };
 
 export type MdxGroupConnection = {
@@ -2122,10 +2141,56 @@ export type SitePageConnectionGroupArgs = {
 export type SitePageContext = {
     __typename?: 'SitePageContext';
     slug?: Maybe<Scalars['String']>;
+    previous?: Maybe<SitePageContextPrevious>;
+    next?: Maybe<SitePageContextNext>;
+    tag?: Maybe<Scalars['String']>;
 };
 
 export type SitePageContextFilterInput = {
     slug?: Maybe<StringQueryOperatorInput>;
+    previous?: Maybe<SitePageContextPreviousFilterInput>;
+    next?: Maybe<SitePageContextNextFilterInput>;
+    tag?: Maybe<StringQueryOperatorInput>;
+};
+
+export type SitePageContextNext = {
+    __typename?: 'SitePageContextNext';
+    frontmatter?: Maybe<SitePageContextNextFrontmatter>;
+};
+
+export type SitePageContextNextFilterInput = {
+    frontmatter?: Maybe<SitePageContextNextFrontmatterFilterInput>;
+};
+
+export type SitePageContextNextFrontmatter = {
+    __typename?: 'SitePageContextNextFrontmatter';
+    slug?: Maybe<Scalars['String']>;
+    tags?: Maybe<Array<Maybe<Scalars['String']>>>;
+};
+
+export type SitePageContextNextFrontmatterFilterInput = {
+    slug?: Maybe<StringQueryOperatorInput>;
+    tags?: Maybe<StringQueryOperatorInput>;
+};
+
+export type SitePageContextPrevious = {
+    __typename?: 'SitePageContextPrevious';
+    frontmatter?: Maybe<SitePageContextPreviousFrontmatter>;
+};
+
+export type SitePageContextPreviousFilterInput = {
+    frontmatter?: Maybe<SitePageContextPreviousFrontmatterFilterInput>;
+};
+
+export type SitePageContextPreviousFrontmatter = {
+    __typename?: 'SitePageContextPreviousFrontmatter';
+    slug?: Maybe<Scalars['String']>;
+    tags?: Maybe<Array<Maybe<Scalars['String']>>>;
+};
+
+export type SitePageContextPreviousFrontmatterFilterInput = {
+    slug?: Maybe<StringQueryOperatorInput>;
+    tags?: Maybe<StringQueryOperatorInput>;
 };
 
 export type SitePageEdge = {
@@ -2228,6 +2293,11 @@ export enum SitePageFieldsEnum {
     ComponentChunkName = 'componentChunkName',
     IsCreatedByStatefulCreatePages = 'isCreatedByStatefulCreatePages',
     ContextSlug = 'context___slug',
+    ContextPreviousFrontmatterSlug = 'context___previous___frontmatter___slug',
+    ContextPreviousFrontmatterTags = 'context___previous___frontmatter___tags',
+    ContextNextFrontmatterSlug = 'context___next___frontmatter___slug',
+    ContextNextFrontmatterTags = 'context___next___frontmatter___tags',
+    ContextTag = 'context___tag',
     PluginCreatorId = 'pluginCreator___id',
     PluginCreatorParentId = 'pluginCreator___parent___id',
     PluginCreatorParentParentId = 'pluginCreator___parent___parent___id',
@@ -2269,7 +2339,15 @@ export enum SitePageFieldsEnum {
     PluginCreatorResolve = 'pluginCreator___resolve',
     PluginCreatorName = 'pluginCreator___name',
     PluginCreatorVersion = 'pluginCreator___version',
-    PluginCreatorPluginOptionsDefaultLayouts = 'pluginCreator___pluginOptions___defaultLayouts',
+    PluginCreatorPluginOptionsPlugins = 'pluginCreator___pluginOptions___plugins',
+    PluginCreatorPluginOptionsPluginsResolve = 'pluginCreator___pluginOptions___plugins___resolve',
+    PluginCreatorPluginOptionsPluginsId = 'pluginCreator___pluginOptions___plugins___id',
+    PluginCreatorPluginOptionsPluginsName = 'pluginCreator___pluginOptions___plugins___name',
+    PluginCreatorPluginOptionsPluginsVersion = 'pluginCreator___pluginOptions___plugins___version',
+    PluginCreatorPluginOptionsPluginsBrowserApIs = 'pluginCreator___pluginOptions___plugins___browserAPIs',
+    PluginCreatorPluginOptionsPluginsSsrApIs = 'pluginCreator___pluginOptions___plugins___ssrAPIs',
+    PluginCreatorPluginOptionsPluginsPluginFilepath = 'pluginCreator___pluginOptions___plugins___pluginFilepath',
+    PluginCreatorPluginOptionsGatsbyRemarkPlugins = 'pluginCreator___pluginOptions___gatsbyRemarkPlugins',
     PluginCreatorPluginOptionsName = 'pluginCreator___pluginOptions___name',
     PluginCreatorPluginOptionsPath = 'pluginCreator___pluginOptions___path',
     PluginCreatorPluginOptionsPathCheck = 'pluginCreator___pluginOptions___pathCheck',
@@ -2462,7 +2540,15 @@ export enum SitePluginFieldsEnum {
     Resolve = 'resolve',
     Name = 'name',
     Version = 'version',
-    PluginOptionsDefaultLayouts = 'pluginOptions___defaultLayouts',
+    PluginOptionsPlugins = 'pluginOptions___plugins',
+    PluginOptionsPluginsResolve = 'pluginOptions___plugins___resolve',
+    PluginOptionsPluginsId = 'pluginOptions___plugins___id',
+    PluginOptionsPluginsName = 'pluginOptions___plugins___name',
+    PluginOptionsPluginsVersion = 'pluginOptions___plugins___version',
+    PluginOptionsPluginsBrowserApIs = 'pluginOptions___plugins___browserAPIs',
+    PluginOptionsPluginsSsrApIs = 'pluginOptions___plugins___ssrAPIs',
+    PluginOptionsPluginsPluginFilepath = 'pluginOptions___plugins___pluginFilepath',
+    PluginOptionsGatsbyRemarkPlugins = 'pluginOptions___gatsbyRemarkPlugins',
     PluginOptionsName = 'pluginOptions___name',
     PluginOptionsPath = 'pluginOptions___path',
     PluginOptionsPathCheck = 'pluginOptions___pathCheck',
@@ -2588,17 +2674,44 @@ export type SitePluginPackageJsonPeerDependenciesFilterListInput = {
 
 export type SitePluginPluginOptions = {
     __typename?: 'SitePluginPluginOptions';
-    defaultLayouts?: Maybe<Scalars['String']>;
+    plugins?: Maybe<Array<Maybe<SitePluginPluginOptionsPlugins>>>;
+    gatsbyRemarkPlugins?: Maybe<Array<Maybe<Scalars['String']>>>;
     name?: Maybe<Scalars['String']>;
     path?: Maybe<Scalars['String']>;
     pathCheck?: Maybe<Scalars['Boolean']>;
 };
 
 export type SitePluginPluginOptionsFilterInput = {
-    defaultLayouts?: Maybe<StringQueryOperatorInput>;
+    plugins?: Maybe<SitePluginPluginOptionsPluginsFilterListInput>;
+    gatsbyRemarkPlugins?: Maybe<StringQueryOperatorInput>;
     name?: Maybe<StringQueryOperatorInput>;
     path?: Maybe<StringQueryOperatorInput>;
     pathCheck?: Maybe<BooleanQueryOperatorInput>;
+};
+
+export type SitePluginPluginOptionsPlugins = {
+    __typename?: 'SitePluginPluginOptionsPlugins';
+    resolve?: Maybe<Scalars['String']>;
+    id?: Maybe<Scalars['String']>;
+    name?: Maybe<Scalars['String']>;
+    version?: Maybe<Scalars['String']>;
+    browserAPIs?: Maybe<Array<Maybe<Scalars['String']>>>;
+    ssrAPIs?: Maybe<Array<Maybe<Scalars['String']>>>;
+    pluginFilepath?: Maybe<Scalars['String']>;
+};
+
+export type SitePluginPluginOptionsPluginsFilterInput = {
+    resolve?: Maybe<StringQueryOperatorInput>;
+    id?: Maybe<StringQueryOperatorInput>;
+    name?: Maybe<StringQueryOperatorInput>;
+    version?: Maybe<StringQueryOperatorInput>;
+    browserAPIs?: Maybe<StringQueryOperatorInput>;
+    ssrAPIs?: Maybe<StringQueryOperatorInput>;
+    pluginFilepath?: Maybe<StringQueryOperatorInput>;
+};
+
+export type SitePluginPluginOptionsPluginsFilterListInput = {
+    elemMatch?: Maybe<SitePluginPluginOptionsPluginsFilterInput>;
 };
 
 export type SitePluginSortInput = {
@@ -2699,6 +2812,38 @@ export type SiteMetadataQuery = { __typename?: 'Query' } & {
         { __typename?: 'Site' } & {
             siteMetadata: Maybe<{ __typename?: 'SiteSiteMetadata' } & Pick<SiteSiteMetadata, 'description' | 'title'>>;
         }
+    >;
+};
+
+export type AllTagsQueryVariables = {};
+
+export type AllTagsQuery = { __typename?: 'Query' } & {
+    allMdx: Maybe<
+        { __typename?: 'MdxConnection' } & Pick<MdxConnection, 'totalCount'> & {
+                group: Array<
+                    { __typename?: 'MdxGroupConnection' } & Pick<MdxGroupConnection, 'fieldValue' | 'totalCount'>
+                >;
+            }
+    >;
+};
+
+export type TagQueryVariables = {
+    tag?: Maybe<Scalars['String']>;
+};
+
+export type TagQuery = { __typename?: 'Query' } & {
+    allMdx: Maybe<
+        { __typename?: 'MdxConnection' } & Pick<MdxConnection, 'totalCount'> & {
+                edges: Array<
+                    { __typename?: 'MdxEdge' } & {
+                        node: { __typename?: 'Mdx' } & {
+                            frontmatter: Maybe<
+                                { __typename?: 'MdxFrontmatter' } & Pick<MdxFrontmatter, 'title' | 'slug' | 'tags'>
+                            >;
+                        };
+                    }
+                >;
+            }
     >;
 };
 
