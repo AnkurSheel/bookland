@@ -1,6 +1,6 @@
 import { graphql, useStaticQuery } from 'gatsby';
-import { PostDataQuery } from '../graphqlTypes';
 import { IFluidObject } from 'gatsby-background-image';
+import { PostDataQuery } from '../graphqlTypes';
 
 export interface PostData {
     title: string;
@@ -24,7 +24,6 @@ const usePosts = () => {
                                 fluid(
                                     maxWidth: 100
                                     maxHeight: 100
-                                    duotone: { shadow: "#663399", highlight: "#ddbbff" }
                                 ) {
                                     ...GatsbyImageSharpFluid_withWebp
                                 }
