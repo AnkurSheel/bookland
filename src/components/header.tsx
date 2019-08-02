@@ -1,8 +1,6 @@
-import React from 'react';
-import styled from '@emotion/styled';
-import { Link } from 'gatsby';
 import { css } from '@emotion/core';
-import { FontWeightProperty } from 'csstype';
+import React from 'react';
+import NavLink from './navLink';
 
 const styles = {
     header: css({
@@ -17,43 +15,12 @@ const styles = {
         marginTop: 0,
     }),
 };
-interface NavLinkProps {
-    fontWeight?: FontWeightProperty | FontWeightProperty[];
-}
-
-const NavLinkStyles = (props: NavLinkProps) => {
-    return css({
-        color: '#222',
-        fontsize: '1rem',
-        margin: '0 0.5rem 0 0',
-        textDecoration: 'none',
-        fontWeight: props.fontWeight || 'normal',
-        '&.current-page': {
-            borderBottom: '2px solid #222',
-        },
-
-        ' &:last-of-type': {
-            marginRight: 0,
-        },
-    });
-};
-
-const NavLink = styled(Link)<NavLinkProps>`
-    ${NavLinkStyles}
-`;
 
 const Header = () => (
     <header css={styles.header}>
-        <NavLink to="/" fontWeight="bold">
-            Adventures in Bookland
-        </NavLink>
         <nav css={styles.nav}>
-            <NavLink to="/" activeClassName="current-page">
-                Home
-            </NavLink>
-            <NavLink to="/about" activeClassName="current-page">
-                About
-            </NavLink>
+            <NavLink to="/">Home</NavLink>
+            <NavLink to="/about">About</NavLink>
         </nav>
     </header>
 );
