@@ -10,6 +10,14 @@ interface LayoutProps {
     children: ReactNode;
 }
 
+const styles = {
+    header: css({
+        margin: '2rem auto 4rem',
+        maxWidth: '90vw',
+        width: 550,
+    }),
+};
+
 const Layout = ({ children }: LayoutProps) => {
     const { title, description } = useSiteMetaData() as SiteSiteMetadata;
 
@@ -19,18 +27,10 @@ const Layout = ({ children }: LayoutProps) => {
             <Helmet>
                 <html lang="en"></html>
                 <title>{title}</title>
-                <meta name="description" content={description}></meta>
+                <meta name="description" content={description || ''}></meta>
             </Helmet>
             <Header />
-            <main
-                css={css`
-                    margin: 2rem auto 4rem;
-                    max-width: 90vw;
-                    width: 550px;
-                `}
-            >
-                {children}
-            </main>
+            <main css={styles.header}>{children}</main>
         </>
     );
 };

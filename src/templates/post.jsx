@@ -2,9 +2,16 @@ import React from 'react';
 import Layout from '../components/layouts';
 import ReadLink from '../components/readLink';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
-import { graphql, Link } from 'gatsby';
+import { graphql } from 'gatsby';
 import { css } from '@emotion/core';
 
+const styles = {
+    footerLinks: css({
+        display: 'flex',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+    }),
+};
 export const query = graphql`
     query PostTemplate($slug: String!) {
         mdx(frontmatter: { slug: { eq: $slug } }) {
@@ -28,13 +35,7 @@ const PostTemplate = ({ data, pageContext }) => {
             <h1>{title}</h1>
             <p> Posted by {author}</p>
             <MDXRenderer>{post.body}</MDXRenderer>
-            <div
-                css={css`
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-                `}
-            >
+            <div css={styles.footerLinks}>
                 <ReadLink to="/">&larr; Back to Home</ReadLink>
                 {previous && <ReadLink to={previous.frontmatter.slug}>Previous</ReadLink>}
                 {next && <ReadLink to={next.frontmatter.slug}>Next</ReadLink>}

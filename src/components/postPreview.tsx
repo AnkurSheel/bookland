@@ -5,39 +5,33 @@ import ReadLink from './readLink';
 import Image from 'gatsby-image';
 import { PostData } from '../hooks/use-posts';
 
+const styles = {
+    article: css({
+        display: 'flex',
+        borderBottom: '1px solid #ddd',
+        paddingBottom: '1rem1',
+        marginTop: 0,
+        '&:first-of-type': {
+            marginTop: '1rem',
+        },
+    }),
+    link: css({
+        margin: '1rem 1rem 0 0',
+        width: '100%',
+    }),
+    image: css({
+        margin: 0,
+    }),
+};
+
 interface PostPreviewProps {
     post: PostData;
 }
 const PostPreview = ({ post }: PostPreviewProps) => {
     return (
-        <article
-            css={css`
-                border-bottom: 1px solid #ddd;
-                display: flex;
-                padding-bottom: 1rem;
-                margin-top: 0;
-
-                &:first-of-type {
-                    margin-top: 1rem;
-                }
-            `}
-        >
-            <Link
-                to={post.slug}
-                css={css`
-                    margin: 1rem 1rem 0 0;
-                    width: 100px;
-                `}
-            >
-                <Image
-                    fluid={post.image}
-                    css={css`
-                        * {
-                            margin: 0;
-                        }
-                    `}
-                    alt={post.title}
-                ></Image>
+        <article css={styles.article}>
+            <Link to={post.slug} css={styles.link}>
+                <Image fluid={post.image} css={styles.image} alt={post.title}></Image>
             </Link>
             <div>
                 <h3>
