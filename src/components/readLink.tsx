@@ -5,7 +5,7 @@ import { ReactNode } from 'react';
 const styles = {
     link: css({
         display: 'inline-block',
-        fontsize: '0.875rem',
+        fontSize: '0.875rem',
     }),
 };
 
