@@ -1,11 +1,14 @@
+import { css } from '@emotion/core';
+import { graphql } from 'gatsby';
+import { MDXRenderer } from 'gatsby-plugin-mdx';
 import React from 'react';
 import Layout from '../components/layouts';
 import ReadLink from '../components/readLink';
-import { MDXRenderer } from 'gatsby-plugin-mdx';
-import { graphql } from 'gatsby';
-import { css } from '@emotion/core';
 
 const styles = {
+    header: css({
+        display: 'flex',
+    }),
     footerLinks: css({
         display: 'flex',
         justifyContent: 'space-between',
@@ -18,6 +21,8 @@ export const query = graphql`
             frontmatter {
                 title
                 author
+                date(formatString: "DD MMM YYYY")
+                tags
             }
             body
         }
