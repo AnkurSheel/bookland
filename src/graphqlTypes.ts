@@ -1372,7 +1372,7 @@ export type Mdx = Node & {
     mdxAST?: Maybe<Scalars['JSON']>;
     tableOfContents?: Maybe<Scalars['JSON']>;
     timeToRead?: Maybe<Scalars['Int']>;
-    wordCount?: Maybe<WordCountsMdx>;
+    wordCount?: Maybe<MdxWordCount>;
     id: Scalars['ID'];
     parent?: Maybe<Node>;
     children: Array<Node>;
@@ -1597,7 +1597,7 @@ export type MdxFilterInput = {
     mdxAST?: Maybe<JsonQueryOperatorInput>;
     tableOfContents?: Maybe<JsonQueryOperatorInput>;
     timeToRead?: Maybe<IntQueryOperatorInput>;
-    wordCount?: Maybe<WordCountsMdxFilterInput>;
+    wordCount?: Maybe<MdxWordCountFilterInput>;
     id?: Maybe<StringQueryOperatorInput>;
     parent?: Maybe<NodeFilterInput>;
     children?: Maybe<NodeFilterListInput>;
@@ -1660,6 +1660,19 @@ export type MdxHeadingMdxFilterListInput = {
 export type MdxSortInput = {
     fields?: Maybe<Array<Maybe<MdxFieldsEnum>>>;
     order?: Maybe<Array<Maybe<SortOrderEnum>>>;
+};
+
+export type MdxWordCount = {
+    __typename?: 'MdxWordCount';
+    paragraphs?: Maybe<Scalars['Int']>;
+    sentences?: Maybe<Scalars['Int']>;
+    words?: Maybe<Scalars['Int']>;
+};
+
+export type MdxWordCountFilterInput = {
+    paragraphs?: Maybe<IntQueryOperatorInput>;
+    sentences?: Maybe<IntQueryOperatorInput>;
+    words?: Maybe<IntQueryOperatorInput>;
 };
 
 /** Node Interface */
@@ -1761,7 +1774,7 @@ export type QueryMdxArgs = {
     mdxAST?: Maybe<JsonQueryOperatorInput>;
     tableOfContents?: Maybe<JsonQueryOperatorInput>;
     timeToRead?: Maybe<IntQueryOperatorInput>;
-    wordCount?: Maybe<WordCountsMdxFilterInput>;
+    wordCount?: Maybe<MdxWordCountFilterInput>;
     id?: Maybe<StringQueryOperatorInput>;
     parent?: Maybe<NodeFilterInput>;
     children?: Maybe<NodeFilterListInput>;
@@ -1877,8 +1890,8 @@ export type QuerySiteArgs = {
     siteMetadata?: Maybe<SiteSiteMetadataFilterInput>;
     port?: Maybe<IntQueryOperatorInput>;
     host?: Maybe<StringQueryOperatorInput>;
-    pathPrefix?: Maybe<StringQueryOperatorInput>;
     polyfill?: Maybe<BooleanQueryOperatorInput>;
+    pathPrefix?: Maybe<StringQueryOperatorInput>;
     buildTime?: Maybe<DateQueryOperatorInput>;
 };
 
@@ -1943,8 +1956,8 @@ export type Site = Node & {
     siteMetadata?: Maybe<SiteSiteMetadata>;
     port?: Maybe<Scalars['Int']>;
     host?: Maybe<Scalars['String']>;
-    pathPrefix?: Maybe<Scalars['String']>;
     polyfill?: Maybe<Scalars['Boolean']>;
+    pathPrefix?: Maybe<Scalars['String']>;
     buildTime?: Maybe<Scalars['Date']>;
 };
 
@@ -2073,8 +2086,8 @@ export enum SiteFieldsEnum {
     SiteMetadataDescription = 'siteMetadata___description',
     Port = 'port',
     Host = 'host',
-    PathPrefix = 'pathPrefix',
     Polyfill = 'polyfill',
+    PathPrefix = 'pathPrefix',
     BuildTime = 'buildTime',
 }
 
@@ -2086,8 +2099,8 @@ export type SiteFilterInput = {
     siteMetadata?: Maybe<SiteSiteMetadataFilterInput>;
     port?: Maybe<IntQueryOperatorInput>;
     host?: Maybe<StringQueryOperatorInput>;
-    pathPrefix?: Maybe<StringQueryOperatorInput>;
     polyfill?: Maybe<BooleanQueryOperatorInput>;
+    pathPrefix?: Maybe<StringQueryOperatorInput>;
     buildTime?: Maybe<DateQueryOperatorInput>;
 };
 
@@ -2347,9 +2360,9 @@ export enum SitePageFieldsEnum {
     PluginCreatorPluginOptionsPluginsBrowserApIs = 'pluginCreator___pluginOptions___plugins___browserAPIs',
     PluginCreatorPluginOptionsPluginsSsrApIs = 'pluginCreator___pluginOptions___plugins___ssrAPIs',
     PluginCreatorPluginOptionsPluginsPluginFilepath = 'pluginCreator___pluginOptions___plugins___pluginFilepath',
-    PluginCreatorPluginOptionsGatsbyRemarkPlugins = 'pluginCreator___pluginOptions___gatsbyRemarkPlugins',
     PluginCreatorPluginOptionsName = 'pluginCreator___pluginOptions___name',
     PluginCreatorPluginOptionsPath = 'pluginCreator___pluginOptions___path',
+    PluginCreatorPluginOptionsGatsbyRemarkPlugins = 'pluginCreator___pluginOptions___gatsbyRemarkPlugins',
     PluginCreatorPluginOptionsPathCheck = 'pluginCreator___pluginOptions___pathCheck',
     PluginCreatorNodeApIs = 'pluginCreator___nodeAPIs',
     PluginCreatorBrowserApIs = 'pluginCreator___browserAPIs',
@@ -2548,9 +2561,9 @@ export enum SitePluginFieldsEnum {
     PluginOptionsPluginsBrowserApIs = 'pluginOptions___plugins___browserAPIs',
     PluginOptionsPluginsSsrApIs = 'pluginOptions___plugins___ssrAPIs',
     PluginOptionsPluginsPluginFilepath = 'pluginOptions___plugins___pluginFilepath',
-    PluginOptionsGatsbyRemarkPlugins = 'pluginOptions___gatsbyRemarkPlugins',
     PluginOptionsName = 'pluginOptions___name',
     PluginOptionsPath = 'pluginOptions___path',
+    PluginOptionsGatsbyRemarkPlugins = 'pluginOptions___gatsbyRemarkPlugins',
     PluginOptionsPathCheck = 'pluginOptions___pathCheck',
     NodeApIs = 'nodeAPIs',
     BrowserApIs = 'browserAPIs',
@@ -2675,17 +2688,17 @@ export type SitePluginPackageJsonPeerDependenciesFilterListInput = {
 export type SitePluginPluginOptions = {
     __typename?: 'SitePluginPluginOptions';
     plugins?: Maybe<Array<Maybe<SitePluginPluginOptionsPlugins>>>;
-    gatsbyRemarkPlugins?: Maybe<Array<Maybe<Scalars['String']>>>;
     name?: Maybe<Scalars['String']>;
     path?: Maybe<Scalars['String']>;
+    gatsbyRemarkPlugins?: Maybe<Array<Maybe<Scalars['String']>>>;
     pathCheck?: Maybe<Scalars['Boolean']>;
 };
 
 export type SitePluginPluginOptionsFilterInput = {
     plugins?: Maybe<SitePluginPluginOptionsPluginsFilterListInput>;
-    gatsbyRemarkPlugins?: Maybe<StringQueryOperatorInput>;
     name?: Maybe<StringQueryOperatorInput>;
     path?: Maybe<StringQueryOperatorInput>;
+    gatsbyRemarkPlugins?: Maybe<StringQueryOperatorInput>;
     pathCheck?: Maybe<BooleanQueryOperatorInput>;
 };
 
@@ -2747,19 +2760,6 @@ export type StringQueryOperatorInput = {
     nin?: Maybe<Array<Maybe<Scalars['String']>>>;
     regex?: Maybe<Scalars['String']>;
     glob?: Maybe<Scalars['String']>;
-};
-
-export type WordCountsMdx = {
-    __typename?: 'wordCountsMdx';
-    paragraphs?: Maybe<Scalars['Int']>;
-    sentences?: Maybe<Scalars['Int']>;
-    words?: Maybe<Scalars['Int']>;
-};
-
-export type WordCountsMdxFilterInput = {
-    paragraphs?: Maybe<IntQueryOperatorInput>;
-    sentences?: Maybe<IntQueryOperatorInput>;
-    words?: Maybe<IntQueryOperatorInput>;
 };
 export type HeroImageQueryVariables = {};
 
