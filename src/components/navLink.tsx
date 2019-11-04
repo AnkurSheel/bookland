@@ -5,7 +5,7 @@ import { ReactNode } from 'react';
 const styles = {
     link: css({
         color: '#222',
-        fontsize: '1rem',
+        fontSize: '1rem',
         margin: '0 1rem 0 0',
         textDecoration: 'none',
         fontWeight: 'normal',

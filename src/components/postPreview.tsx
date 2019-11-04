@@ -7,22 +7,27 @@ import ReadLink from './readLink';
 
 const styles = {
     article: css({
-        display: 'flex',
+        display: 'grid',
         alignItems: 'center',
         borderBottom: '1px solid #ddd',
         paddingBottom: '1rem',
-        marginTop: 0,
+        margin: '1rem',
+        gridColumnGap: '1rem',
+        gridTemplateColumns: 'minmax(150px,1fr) minmax(150px, 2fr)',
+        justifyItems: 'center',
     }),
     link: css({
-        margin: '1rem 1rem 0 0',
         width: '100%',
-        height: '100%',
         textDecoration: 'none',
+        maxWidth: '10rem',
     }),
     image: css({
         margin: 0,
         width: '100%',
-        height: '100%',
+    }),
+    text: css({
+        display: 'flex',
+        flexDirection: 'column',
     }),
     title: css({
         textDecoration: 'none',
@@ -38,7 +43,7 @@ const PostPreview = ({ post }: PostPreviewProps) => {
             <Link to={post.slug} css={styles.link}>
                 <Image fluid={post.image} css={styles.image} alt={post.title}></Image>
             </Link>
-            <div css={{ maxWidth: '18rem' }}>
+            <div css={styles.text}>
                 <h3>
                     <Link css={styles.title} to={post.slug}>
                         {post.title}
