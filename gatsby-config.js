@@ -1,41 +1,24 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
+const config = require('./config/gatsby/siteConfig');
+const pluginOptions = require('./config/gatsby/plugins');
 
 module.exports = {
     siteMetadata: {
-        title: 'Adventures in Bookland',
-        description: 'A blog for book reviews',
+        title: config.siteTitle,
+        author: config.authorName,
+        description: config.siteDescription,
+        ...config,
     },
-    /* Your site config here */
     plugins: [
-        `gatsby-plugin-typescript`,
-        `gatsby-plugin-emotion`,
-        `gatsby-plugin-react-helmet`,
-        'gatsby-transformer-sharp',
-        'gatsby-plugin-sharp',
+        '@codinators/gatsby-theme-blog',
+        `gatsby-plugin-offline`,
+        // {
+        //     resolve: `gatsby-plugin-google-tagmanager`,
+        //     options: pluginOptions.analytic,
+        // },
         {
-            resolve: 'gatsby-plugin-mdx',
-            options: {
-                gatsbyRemarkPlugins: [`gatsby-remark-images`],
-                plugins: [`gatsby-remark-images`],
-            },
+            resolve: `gatsby-plugin-manifest`,
+            options: pluginOptions.manifest,
         },
-        {
-            resolve: 'gatsby-source-filesystem',
-            options: {
-                name: 'posts',
-                path: './content/posts',
-            },
-        },
-        {
-            resolve: 'gatsby-source-filesystem',
-            options: {
-                name: 'images',
-                path: './content/images',
-            },
-        },
+        { resolve: `gatsby-plugin-netlify` },
     ],
 };
