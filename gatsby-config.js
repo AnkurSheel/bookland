@@ -11,10 +11,10 @@ module.exports = {
     plugins: [
         '@codinators/gatsby-theme-blog',
         `gatsby-plugin-offline`,
-        // {
-        //     resolve: `gatsby-plugin-google-tagmanager`,
-        //     options: pluginOptions.analytic,
-        // },
+        {
+            resolve: `gatsby-plugin-google-tagmanager`,
+            options: pluginOptions.analytic,
+        },
         {
             resolve: `gatsby-plugin-manifest`,
             options: pluginOptions.manifest,
