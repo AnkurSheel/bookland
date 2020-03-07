@@ -10,10 +10,23 @@ module.exports = {
     icon: 'content/images/inaki-del-olmo-bookshelf.jpg',
     headerTitle: 'Home',
     headerLinksIcon: 'inaki-del-olmo-bookshelf.jpg',
+    buyMeACoffee: {
+        link: 'https://www.buymeacoffee.com/ankursheel',
+        altText: 'Buy Me A Coffee',
+    },
     headerLinks: [
         {
             label: 'Blog',
             url: '/blog',
+        },
+        {
+            label: 'Random Post',
+            url: '/random-post',
+        },
+
+        {
+            label: 'Tags',
+            url: '/tags',
         },
     ],
     footerLinks: [
