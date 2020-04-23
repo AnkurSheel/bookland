@@ -12,16 +12,12 @@ module.exports = {
     headerLinksIcon: 'inaki-del-olmo-bookshelf.jpg',
     buyMeACoffee: {
         link: 'https://www.buymeacoffee.com/ankursheel',
-        altText: 'Buy Me A Coffee',
+        altText: 'Buy Me A Book',
     },
     headerLinks: [
         {
             label: 'Blog',
             url: '/blog',
-        },
-        {
-            label: 'Random Post',
-            url: '/random-post',
         },
 
         {
