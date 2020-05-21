@@ -10,6 +10,7 @@ module.exports = {
     icon: 'content/images/inaki-del-olmo-bookshelf.jpg',
     headerTitle: 'Home',
     headerLinksIcon: 'inaki-del-olmo-bookshelf.jpg',
+    donateText: 'Did you like this summary?',
     buyMeACoffee: {
         link: 'https://www.buymeacoffee.com/ankursheel',
         altText: 'Buy Me A Book',
