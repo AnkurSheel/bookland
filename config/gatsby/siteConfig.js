@@ -15,6 +15,20 @@ module.exports = {
         link: 'https://www.buymeacoffee.com/ankursheel',
         altText: 'Buy Me A Book',
     },
+    socialLinks: {
+        twitter: {
+            url: 'https://twitter.com/ankur_sheel',
+            text: 'Follow me',
+        },
+        github: {
+            url: '',
+            text: '',
+        },
+        linkedin: {
+            url: '',
+            text: '',
+        },
+    },
     headerLinks: [
         {
             label: 'Blog',
