@@ -42,7 +42,7 @@ module.exports = {
     ],
     footerLinks: [
         {
-            sectionName: 'Follow the author',
+            sectionName: 'Follow me',
             links: [
                 {
                     label: 'Twitter',
