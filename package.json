@@ -28,7 +28,7 @@
         "deduplicate": "yarn-deduplicate --list && yarn-deduplicate"
     },
     "dependencies": {
-        "@codinators/gatsby-theme-blog": "^3.0.0",
+        "@codinators/gatsby-theme-blog": "^3.0.1",
         "gatsby": "^2.20.11",
         "gatsby-plugin-google-tagmanager": "^2.1.26",
         "gatsby-plugin-manifest": "^2.2.44",
