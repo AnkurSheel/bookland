@@ -19,7 +19,7 @@ module.exports = {
     socialLinks: {
         twitter: {
             url: 'https://twitter.com/ankur_sheel',
-            text: 'Follow me',
+            text: 'Follow me on Twitter',
         },
         github: {
             url: '',

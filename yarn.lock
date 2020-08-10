@@ -321,10 +321,15 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@babel/parser@^7.0.0", "@babel/parser@^7.10.3", "@babel/parser@^7.10.4", "@babel/parser@^7.10.5", "@babel/parser@^7.11.0", "@babel/parser@^7.11.1", "@babel/parser@^7.7.0":
+"@babel/parser@^7.0.0", "@babel/parser@^7.10.3", "@babel/parser@^7.7.0":
   version "7.11.2"
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.11.2.tgz#0882ab8a455df3065ea2dcb4c753b2460a24bead"
   integrity sha512-Vuj/+7vLo6l1Vi7uuO+1ngCDNeVmNbTngcJFKCR/oEtz8tKz0CJxZEGmPt9KcIloZhOZ3Zit6xbpXT2MDlS9Vw==
+
+"@babel/parser@^7.10.4", "@babel/parser@^7.10.5", "@babel/parser@^7.11.0", "@babel/parser@^7.11.1":
+  version "7.11.3"
+  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.11.3.tgz#9e1eae46738bcd08e23e867bab43e7b95299a8f9"
+  integrity sha512-REo8xv7+sDxkKvoxEywIdsNFiZLybwdI7hcT5uEPyQrSMB4YQ973BfC9OOrD/81MaIjh6UxdulIQXkjmiH3PcA==
 
 "@babel/plugin-proposal-async-generator-functions@^7.10.4":
   version "7.10.5"
@@ -1084,9 +1089,9 @@
     ts-optchain "^0.1.8"
 
 "@codinators/gatsby-theme-blog@^3.0.1":
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/@codinators/gatsby-theme-blog/-/gatsby-theme-blog-3.5.0.tgz#1b406a8272781624e43d496d1837cdbc5f37ea9e"
-  integrity sha512-hePx/d0j2uFX3gTbzwU/G9rWJCymSZ8kOO+Kt46bQbrmoUGo/Y2jE5Ss5Emt7HeY1GZJ9HuY1x7Czj7y5d3V6A==
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/@codinators/gatsby-theme-blog/-/gatsby-theme-blog-3.6.0.tgz#1a631e5be1ab87bf915c0ec8f7aaca113b4fa874"
+  integrity sha512-DS9QEMHXAMIaahE0zlvYR0mAJNlQ3MT0Zta2jbSMAg3L9do3ifh1HWBsXPfAjcU2Qi4roq9/D6lG19tGjgo2yw==
   dependencies:
     "@codinators/gatsby-shared-library" "^1.1.3"
     "@emotion/babel-preset-css-prop" "^10.0.23"
@@ -1106,7 +1111,6 @@
     gatsby-plugin-robots-txt "^1.5.0"
     gatsby-plugin-sharp "^2.5.3"
     gatsby-plugin-sitemap "^2.3.1"
-    gatsby-plugin-twitter "^2.3.2"
     gatsby-plugin-typescript "^2.3.1"
     gatsby-remark-copy-linked-files "^2.2.1"
     gatsby-remark-external-links "^0.0.4"
@@ -6483,9 +6487,9 @@ ee-first@1.1.1:
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
 electron-to-chromium@^1.3.523:
-  version "1.3.525"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.525.tgz#bc74080a3fd651b54627ee1fd94972e7c4d38fa8"
-  integrity sha512-Cni4AhdgdPOH4ZOY0tqgdF+7tF378o4qVRJFq8wxY/asLIVICMAHxfXPfdlivnf6B3Hdg1CI8yuFJ9Wo5kNeSg==
+  version "1.3.526"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.526.tgz#0e004899edf75afc172cce1b8189aac5dca646aa"
+  integrity sha512-HiroW5ZbGwgT8kCnoEO8qnGjoTPzJxduvV/Vv/wH63eo2N6Zj3xT5fmmaSPAPUM05iN9/5fIEkIg3owTtV6QZg==
 
 elf-tools@^1.1.1:
   version "1.1.2"
@@ -8249,13 +8253,6 @@ gatsby-plugin-sitemap@^2.3.1:
     pify "^3.0.0"
     sitemap "^1.13.0"
 
-gatsby-plugin-twitter@^2.3.2:
-  version "2.3.10"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-twitter/-/gatsby-plugin-twitter-2.3.10.tgz#1605b39385c475b234eafc422019cb36a7a14648"
-  integrity sha512-WQzjGpeKCdxujzAWE2yFOKaI494J/Qb6vhDdLvtevOAZVXSaMdTSfwSSUr17jsu8TV5s47fasKox+h/0uRlJUw==
-  dependencies:
-    "@babel/runtime" "^7.10.3"
-
 gatsby-plugin-typescript@^2.3.1, gatsby-plugin-typescript@^2.4.17:
   version "2.4.17"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-typescript/-/gatsby-plugin-typescript-2.4.17.tgz#0d3c1ebe0915ce34cd1066fd9f8a58521b2e8a71"
@@ -8755,10 +8752,17 @@ get-stream@^4.0.0, get-stream@^4.1.0:
   dependencies:
     pump "^3.0.0"
 
-get-stream@^5.0.0, get-stream@^5.1.0:
+get-stream@^5.0.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-5.1.0.tgz#01203cdc92597f9b909067c3e656cc1f4d3c4dc9"
   integrity sha512-EXr1FOzrzTfGeL0gQdeFEvOMm2mzMOglyiOXSTpPC+iAjAKftbr3jpCMWynogwYnM+eSj9sHGc6wjIcDvYiygw==
+  dependencies:
+    pump "^3.0.0"
+
+get-stream@^5.1.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-5.2.0.tgz#4966a1795ee5ace65e706c4b7beb71257d6e22d3"
+  integrity sha512-nBF+F1rAZVCu/p7rjzgA+Yb4lfYXrpl7a6VmJrU8wF9I1CKvP/QwPNZHnOlwbTkY6dvtFIzFMSyQXbLoTQPRpA==
   dependencies:
     pump "^3.0.0"
 
