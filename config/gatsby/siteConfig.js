@@ -11,10 +11,10 @@ module.exports = {
     headerTitle: 'Home',
     headerLinksIcon: 'inaki-del-olmo-bookshelf.jpg',
     webMonetization: '$ilp.uphold.com/FpRgJHkQhkhb',
-    donateText: 'Did you like this summary?',
+    donateText: 'Did you learn something or find this summary interesting?',
     buyMeACoffee: {
         link: 'https://www.buymeacoffee.com/ankursheel',
-        altText: 'Buy Me A Book',
+        altText: 'Show your support',
     },
     socialLinks: {
         twitter: {
