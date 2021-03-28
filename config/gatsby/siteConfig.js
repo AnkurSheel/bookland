@@ -44,6 +44,10 @@ module.exports = {
             label: 'Tags',
             url: '/tags',
         },
+        {
+            label: 'Contact Me',
+            url: '/contact',
+        },
     ],
     footerLinks: [
         {
