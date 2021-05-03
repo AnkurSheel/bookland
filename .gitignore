@@ -70,3 +70,5 @@ yarn-error.log
 .yalc/
 yalc.lock
 /.idea/
+/obj/
+/bin/
