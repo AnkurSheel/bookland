@@ -29,13 +29,13 @@ This book is divided into 3 stages and has actionable steps to create our Brands
 
 ## Key Quote
 
-<Quote quote="If you confuse, you’ll lose" />
+> If you confuse, you’ll lose
 
 ## Key Takeaways
 
 ### What is the importance of a story?
 
-<Quote quote="Where there’s no story, there’s no engagement" />
+> Where there’s no story, there’s no engagement
 
 To connect with customers, we need to have clear messaging and not generate noise. A story is the best way to combat noise because it takes random events and organises them so that people are compelled to listen.
 
@@ -55,15 +55,15 @@ The storybrand framework is based on this and identifies the following 7 princip
 
 ### What are the mistakes that we make with our messaging?
 
-<Quote quote="What we think we are saying to our customers and what our customers hear are two different things. And customers make buying decisions not based on what we say but on what they hear" />
+> What we think we are saying to our customers and what our customers hear are two different things. And customers make buying decisions not based on what we say but on what they hear
 
 There are a few critical mistakes that we make when crafting our offer.
 
-<Quote quote="People will always choose a story that helps them survive and thrive" />
+> People will always choose a story that helps them survive and thrive
 
 We fail to focus on the aspects of our offer that will help people survive and thrive.
 
-<Quote quote="In every line of copy we write, we’re either serving the customer’s story or descending into confusion; we’re either making music or making noise" />
+> In every line of copy we write, we’re either serving the customer’s story or descending into confusion; we’re either making music or making noise
 
 Our offer does not have a single focus. In our desire to cast a wide net, we make the message so vague that potential customers cant understand our offer. This confusion causes our customers to tune us out.
 
@@ -74,7 +74,7 @@ We don't talk about the cost of not doing business with us, and when we do, we m
 
 ### How to create our message?
 
-<Quote quote="Could a caveman look at your website and immediately grunt what you offer?" />
+> Could a caveman look at your website and immediately grunt what you offer?
 
 We need to answer 3 questions and communicate them simply so that the story we are inviting customers into has a definition and direction.
 
@@ -82,7 +82,7 @@ We need to answer 3 questions and communicate them simply so that the story we a
 -   How will it make my life better?
 -   What do I need to do to buy it?
 
-<Quote quote="The more we talk about the problems our customer's experience, the more interest they will have in our brand" />
+> The more we talk about the problems our customer's experience, the more interest they will have in our brand
 
 We must tell customers what life looks like(for them) after they engage with us and how they will feel after their problem is resolved.
 
@@ -92,11 +92,11 @@ We need to address the 3 levels of problems a customer encounters
 -   **Internal problems** are the frustrations that are caused by external problems.
 -   **Philosophical problem** answers the question "Why?" and gives our customers a more profound sense of meaning.
 
-<Quote quote="Brands that don’t warn their customers about what could happen if they don’t buy their products fail to answer the “so what” question every customer is secretly asking" />
+> Brands that don’t warn their customers about what could happen if they don’t buy their products fail to answer the “so what” question every customer is secretly asking
 
 We need to talk about the cost of not doing business with us is. The best way to do this by creating a villain with personified characteristics that our products or services defeat. The villain should be relatable, singular and real.
 
-<Quote quote="We must tell our customers how great their life can look if they buy our products and services." />
+> We must tell our customers how great their life can look if they buy our products and services.
 
 We should see if our brand can promise a resolution for one or more of these desires.
 
@@ -106,7 +106,7 @@ We should see if our brand can promise a resolution for one or more of these des
 
 ### How to position ourselves as a guide?
 
-<Quote quote="Your customer should be the hero of the story, not your brand. This is the secret every phenomenally successful business understands" />
+> Your customer should be the hero of the story, not your brand. This is the secret every phenomenally successful business understands
 
 When we help our customer solve a problem (even for free), we position ourselves as a guide. By positioning our customer as a hero and ourselves as a guide, we become a trusted resource to help them with their problems. The next time they encounter an issue in that area of their lives, they will look to us for help.
 
@@ -114,7 +114,7 @@ To position ourselves as a guide, we must demonstrate empathy and authority.
 
 ### How do we show Empathy?
 
-<Quote quote="Customers won’t know you care until you tell them" />
+> Customers won’t know you care until you tell them
 
 The three things that every human being wants is to be seen, heard and understood. Customers trust brands that understand them.
 
@@ -122,7 +122,7 @@ To express empathy, we simply need to let our customers know that we understand 
 
 ### How do we show Authority, aka Competence?
 
-<Quote quote="The customer simply needs to know that you have something they want and you can be trusted to deliver whatever that is" />
+> The customer simply needs to know that you have something they want and you can be trusted to deliver whatever that is
 
 There are 4 ways to show authority - Testimonials, Statistics, Awards and Logos.
 
@@ -146,7 +146,7 @@ Some of the questions we should ask are
 
 ### How to use plans to encourage customers to do business with us?
 
-<Quote quote="Not having a plan is a guaranteed way to confuse your customers" />
+> Not having a plan is a guaranteed way to confuse your customers
 
 All effective plans either clarify how somebody can do business with us or remove the sense of risk somebody might have about working for us.
 
@@ -170,17 +170,17 @@ We can create an agreement plan by listing all the things (related to our produc
 
 ## What should we have on our website?
 
-<Quote quote="People don’t read websites, they scan them." />
+> People don’t read websites, they scan them.
 
 On a website, the images and text above the fold are the things you see and read before you start scrolling down. The images and text we use above the fold should either promise to solve a problem or promise an aspirational identity.
 
 The easiest way to communicate a sense of satisfaction with our product is by displaying happy customers engaging with the product.
 
-<Quote quote="The fewer words you use, the more likely it is that people will read them" />
+> The fewer words you use, the more likely it is that people will read them
 
 There should be very few words on our website. We should see if we can replace some of our text with images or reduce paragraphs using bullet points or summarise sentences into bite-sized soundbites. If we need a long section of text to explain something, we can place a "Read More" link at the end of the 1st or 2nd sentence so that people can expand it if they like.
 
-<Quote quote="The key to great writing isn’t in what they say; it’s in what they don’t say" />
+> The key to great writing isn’t in what they say; it’s in what they don’t say
 
 We should have a bold and legible one-liner. It is the obvious statement that viewers read and invites potential customers into a story they find interesting.
 
@@ -193,7 +193,7 @@ The transitional call to action should also be obvious, but it should not distra
 
 ### How to create a One-Liner?
 
-<Quote quote="Customers don’t generally care about your story; they care about their own" />
+> Customers don’t generally care about your story; they care about their own
 
 A one-liner is a single statement that answers the question "What do you do?" and helps people realise why they need our product.
 
@@ -208,23 +208,23 @@ A one-liner needs to be tested repeatedly and is not complete until people ask u
 
 ### How to create a Direct Call to Action?
 
-<Quote quote="A call to action involves communicating a clear and direct step our customer can take to overcome their challenge and return to a peaceful life" />
+> A call to action involves communicating a clear and direct step our customer can take to overcome their challenge and return to a peaceful life
 
 A direct call to action is something that leads to a sale, or at least is the first step down a path that leads to a sale. The wording of this action should position our product as a resolution to the external, internal, and philosophical problem that our customer faces.
 
-<Quote quote="The fastest way to grow a company is to make the calls to action clear and then repeat them over and over" />
+> The fastest way to grow a company is to make the calls to action clear and then repeat them over and over
 
 They can be included everywhere to make it very clear what we’d like customers to do: to make a purchase so we can help them solve their problem.
 
 ### How to create Transitional Calls to Action **and Collect E-mail Addresses**?
 
-<Quote quote="Our customers may not need our product today, and they might not need it tomorrow, but on the day they do need it, we want to make sure they remember who we are, what we have, and where they can reach us" />
+> Our customers may not need our product today, and they might not need it tomorrow, but on the day they do need it, we want to make sure they remember who we are, what we have, and where they can reach us
 
 Transitional calls to action usually offer a customer something for free. They can be used to “on-ramp” potential customers to an eventual purchase. An excellent transitional call to action can stake a claim to our territory and create reciprocity.
 
 A lead generator is a resource that magnetically attracts people to our businesses. It invites them to join our mailing list to let them know, directly and authoritatively, how we can help them resolve their problems.
 
-<Quote quote="At the highest level, the most important challenge for business leaders is to define something simple and relevant their customers want and to become known for delivering on that promise. Everything else is a subplot that, after having delivered on the customer’s basic desire, will only serve to delight and surprise them all the more" />
+> At the highest level, the most important challenge for business leaders is to define something simple and relevant their customers want and to become known for delivering on that promise. Everything else is a subplot that, after having delivered on the customer’s basic desire, will only serve to delight and surprise them all the more
 
 A lead generator should offer something more valuable than the vague offer of a newsletter and establish us as an authority in our field. An effective lead generator has an irresistible title.
 
@@ -237,7 +237,7 @@ There are a few ways we can create lead generators.
 
 ### How to create a **nurturing campaign?**
 
-<Quote quote="Like farming a field, building a healthy and engaged e-mail list takes time, but it’s time well spent. Start today. A year from now, you’ll be glad you did" />
+> Like farming a field, building a healthy and engaged e-mail list takes time, but it’s time well spent. Start today. A year from now, you’ll be glad you did
 
 A nurturing campaign is a simple, regular e-mail that offers your subscribers valuable information related to your products or services. The idea is to provide something of great value and then occasionally ask for an order and remind people you have products and services that can improve their lives.
 
@@ -250,7 +250,7 @@ An excellent way to craft each nurturing e-mail
 3. Describe how life can look for the reader once the problem is solved.
 4. Include a postscript or the P.S. Often, the P.S. is the only thing somebody who opens a mass e-mail will read.
 
-<Quote quote="When we try to sell passively, we communicate a lack of belief in our product" />
+> When we try to sell passively, we communicate a lack of belief in our product
 
 About every third or fourth e-mail in a nurturing campaign should offer a product or service to the customer. This e-mail looks a little different.
 
@@ -259,13 +259,13 @@ About every third or fourth e-mail in a nurturing campaign should offer a produc
 3. Describe what life can look like for the reader once the problem is solved.
 4. Call the customer to a direct action leading to a sale
 
-<Quote quote="Content is important, but the point is, there is great power in simply reminding our customers we exist" />
+> Content is important, but the point is, there is great power in simply reminding our customers we exist
 
 Don't worry if the open rates on these e-mails are low. Even if a person sees and deletes the e-mail, the goal has been accomplished. If someone unsubscribes, that's a good thing as they would probably never buy from you anyway, and it reduces the size of your list.
 
 ### **How Much Value Should I Give Away for Free?**
 
-<Quote quote="It’s never cost me to give away valuable, free content. People consume this content on the run and will gladly pay to attend a workshop or hire a facilitator that helps them slow down and learn the information at a custom-created pace." />
+> It’s never cost me to give away valuable, free content. People consume this content on the run and will gladly pay to attend a workshop or hire a facilitator that helps them slow down and learn the information at a custom-created pace.
 
 Don't be worried about giving away too much free information. The more generous a brand is, the more reciprocity they create.
 
@@ -295,18 +295,15 @@ P.S. X Problem can be frustrating. If you’d rather introduce us to your friend
 
 ## Other Quotes
 
-<Quote quote="If nothing can be gained or lost, no one cares." />
+> If nothing can be gained or lost, no one cares.
 
-<Quote
-    quote="There’s a reason most marketing collateral doesn’t work. Their marketing is too complicated. The brain doesn’t know how to process the information."
-    author="Mike McHargue"
-/>
+> There’s a reason most marketing collateral doesn’t work. Their marketing is too complicated. The brain doesn’t know how to process the information.
+> ""Mike McHargue
+> Pretty websites don’t sell things. Words sell things.
 
-<Quote quote="Pretty websites don’t sell things. Words sell things." />
+> Brands that position themselves as heroes unknowingly compete with their potential customers
 
-<Quote quote="Brands that position themselves as heroes unknowingly compete with their potential customers" />
-
-<Quote quote="People don’t buy the best products; they buy the products they can understand the fastest" />
+> People don’t buy the best products; they buy the products they can understand the fastest
 
 ## Recommendation
 

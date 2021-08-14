@@ -34,7 +34,7 @@ A one-page financial plan is different from traditional financial plans because 
 
 ## Key Quote
 
-<Quote quote="Before you can plan, you have to know why you’re planning" />
+> Before you can plan, you have to know why you’re planning
 
 ## Key Takeaways
 
@@ -44,7 +44,7 @@ A good financial plan is a way to get clear on what's important to us and a way 
 
 Although we might think of goals as only being financial, a good plan will not have activities that have a monetary benefit but detract us from the other forms of human capital - energy, time and skill. It can prevent us from making our goals seem unattainable because we have inflated the numbers.
 
-<Quote quote="Life isn’t just about retirement" />
+> Life isn’t just about retirement
 
 A good financial plan should not be set in stone because circumstances change and life doesn't always go as planned. Because a good financial plan is not a plan for the rest of our life, it should be a way of evaluating whether we are on track to meet our goals or if we need to make adjustments. If we are not adjusting our plan, we are probably ignoring issues that might become problems in the future
 
@@ -56,7 +56,7 @@ Before we start making our financial plan, we need to keep a few things in mind.
 -   We need to have the conversation (with our partner) in a neutral place and not in a place that has memories associated with it.
 -   We should not bring up past mistakes
 
-<Quote quote="Knowing your values can make it easy to say no to things that distract us from what’s most important" />
+> Knowing your values can make it easy to say no to things that distract us from what’s most important
 
 The first step of creating a one-page financial plan is to know where we are today and where we want to be. Answering the following questions can help us figure out the 3-4 things that are important to us.
 
@@ -72,7 +72,7 @@ The way we spend our money and time can be a good indicator of what we value. By
 
 The important goals will involve a sacrifice. This sacrifice is always worth it for the right goal so if the goal is right for us, we will be willing to make the sacrifice. If we think the goal is not possible, then it is maybe not the right goal for us.
 
-<Quote quote="Don’t be committed to the guess, be committed to the process of guessing" />
+> Don’t be committed to the guess, be committed to the process of guessing
 
 The next step is to set some specific goals that we want to achieve. It is difficult to have specific goals when we don't know what the future is and are making assumptions. But it is still important to take our best guess at each goal even if we don't get it exactly right. Unfortunately, most people don't guess because they are afraid of making the wrong guess. Along with how much it will cost, we also need to guess that by when we would like to achieve it. We should make sure we set goals for how we want to live in the next year, next 5 years and the next 10 and not just for retirement.
 
@@ -84,7 +84,7 @@ We need to ask ourselves "**If we were to retire today, how much money would we 
 
 ### How to deal with **disappointments**?
 
-<Quote quote=" It wasn’t the story I wanted to tell, but it was the truth" />
+>  It wasn’t the story I wanted to tell, but it was the truth
 
 There are times when life won't go as planned and circumstances can derail our best-laid plans. Remember that problems are never quite as bad as it seems and we can always make some changes to get back on track. By remembering whats important to us and by focusing on things that we can control, we can gain clarity.
 
@@ -92,7 +92,7 @@ We also need to remember that our irrational decisions and bad money calls are n
 
 ### Why do we need to save?
 
-<Quote quote="Save as much as you reasonably can. Spend less than you earn" />
+> Save as much as you reasonably can. Spend less than you earn
 
 One of the biggest reasons that we don't save is our need for instant gratification. There are very very little things that we need to buy right now but we buy it because we want it. To justify our purchase, we look for evidence and omit anything that doesn't support the purchase.
 
@@ -105,7 +105,7 @@ We need to save because if we spend more than we earn, we will eventually end up
 
 ### Budgeting
 
-<Quote quote="You can’t plug holes if you don’t know they exist" />
+> You can’t plug holes if you don’t know they exist
 
 Most of us dislike budgeting is because it requires discipline which is hard and people tend to avoid hard things. Some of us also think that it is about denying ourselves pleasure. But, spending a lot of money on something is not necessarily bad as long as it aligns with our goals and values. This makes budgeting a process of separating what is important(to us) from what isn't.
 
@@ -113,7 +113,7 @@ Budgeting helps us cultivate the awareness to save and spend according to our va
 
 **How do we get started with budgeting?**
 
-<Quote quote="Track everything you spend" />
+> Track everything you spend
 
 The basic rule of budgeting is to track everything we spend because that is the only way to know where our money goes. Nothing will change till we change our behaviour which can only happen if we are aware and take responsibility for all the unnecessary purchases that we make.
 
@@ -125,7 +125,7 @@ Automating any long-term savings goal will remove the question of whether you sh
 
 ### 72 Hour test
 
-<Quote quote="Do no not give into your urge for instant gratification" />
+> Do no not give into your urge for instant gratification
 
 This is a great tool to stop impulse buying, Instead of buying something immediately, we should wait for 72 hours or keep it in our shopping cart if we are buying online. Most of the time, we will forget about it.
 
@@ -133,7 +133,7 @@ It is important to remember that we are not saying "No". We are just not giving 
 
 ### Eliminate Debt
 
-<Quote quote="People who understand interest earn it. People who don’t pay it" />
+> People who understand interest earn it. People who don’t pay it
 
 Getting rid of debt is one of the best investments we can make because it is an investment with a guaranteed return.
 
@@ -141,13 +141,13 @@ Once you have eliminated debt, you should put all one time windfalls into saving
 
 ### Automate Savings
 
-<Quote quote="You could have the best investing strategy in the world, but if you don’t have any money to invest, it won’t help you" />
+> You could have the best investing strategy in the world, but if you don’t have any money to invest, it won’t help you
 
 Automating any long term saving goals that we have decided on will remove the question of whether we should spend or save our money.
 
 ### Investing
 
-<Quote quote="Investing is one of those cool, rare things where we actually get rewarded for being lazy. Once you get it right, the less you do, the better" />
+> Investing is one of those cool, rare things where we actually get rewarded for being lazy. Once you get it right, the less you do, the better
 
 There is a correlation between risk and reward but when it comes to investing, we want to take on **_systematic risk_** which is based on the assumption that regardless of whether the stock market is up or down, it will continue to grow. One way of doing this is by spreading our risk by diversifying our portfolio. After all, any plan needs to account for the reality that markets go down as well as up.
 
@@ -175,7 +175,7 @@ Ideally, it will be a clear stated amount and we will know exactly how much we n
 
 ### Do I need life insurance?
 
-<Quote quote="It's the surprises that cause the heartburn" />
+> It's the surprises that cause the heartburn
 
 Life is full of risks but we should only get insurance for the risks that we want someone else to take care of. If someone else depends on us, we should get a life or preferably term insurance. Term insurance simply means that we lock in the cost for a specified period. Once the period is over the policy lapses and hence we want to get the longest policy that we think we will need based on our age.
 
@@ -183,7 +183,7 @@ Before deciding how much we should insure for, we need to separate the economic 
 
 ### Can I afford to buy a house?
 
-<Quote quote="I never sat down to figure out what it would take to make this work. I just wanted to believe our real estate agent, despite the fact that he was making money on the deal" />
+> I never sat down to figure out what it would take to make this work. I just wanted to believe our real estate agent, despite the fact that he was making money on the deal
 
 We should not assume that we must own a house.
 

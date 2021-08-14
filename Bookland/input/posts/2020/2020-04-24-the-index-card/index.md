@@ -31,7 +31,7 @@ Some of the advice is US-centric but can be applied to other countries as well.
 
 ## Key Quote
 
-<Quote quote="This is your financial life. Take control of it." />
+> This is your financial life. Take control of it.
 
 ## Key Takeaways
 

@@ -1,12 +1,10 @@
----
 published: true
 title: 'About'
-slug: '/'
 ---
 
 I am a huge fan of reading books. Earlier, I would read a lot of fictional books but lately, I have been getting into non-fiction books.
 
-![Books](cover.jpg)Adventures in Bookland
+![Books](./assets/cover.jpg)
 
 ## Why Discoveries in Bookland
 
@@ -14,9 +12,9 @@ I realized that although I was reading a lot of books with a lot of takeaways, I
 
 ## Structure
 
--   The book we read
+-   The book I read
 -   A short summary of the book.
--   Key Takeways
+-   Key Takeaways
 -   A recommendation of whether I thought it was worth my time
 
 ## Join me on the adventure

@@ -29,11 +29,8 @@ Vance strikes a perfect balance between the personal and the professional life o
 
 ## Key Quote
 
-<Quote
-    quote="I think there are probably too many smart people pursuing internet stuff, finance and law. That is part of the reason why we haven't seen as much innovation"
-    author="Elon Musk"
-/>
-
+> I think there are probably too many smart people pursuing internet stuff, finance and law. That is part of the reason why we haven't seen as much innovation
+> ""Elon Musk
 ## Key Takeaways
 
 -   If you believe in your goals, even if they might sound absurd at the moment, you might be able to achieve them.

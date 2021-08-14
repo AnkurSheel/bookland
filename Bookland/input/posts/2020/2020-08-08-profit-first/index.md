@@ -32,7 +32,7 @@ The book starts by giving you a way to assess your business and setting up accou
 
 ## Key Quote
 
-<Quote quote="Revenue is vanity, profit is sanity, and cash is king" />
+> Revenue is vanity, profit is sanity, and cash is king
 
 ## Key Takeaways
 

@@ -30,13 +30,13 @@ The book is divided into 2 distinct parts - a business fable and a practical des
 
 ## Key Quote
 
-<Quote quote="It is at once shocking and understandable that intelligent people cannot see the correlation between failing to take the time to get clarity, closure, and buy-in during a meeting, and the time required to clean up after themselves as a result" />
+> It is at once shocking and understandable that intelligent people cannot see the correlation between failing to take the time to get clarity, closure, and buy-in during a meeting, and the time required to clean up after themselves as a result
 
 ## Key Takeaways
 
 ### Why do we hate meetings?
 
-<Quote quote="Meetings are a puzzling paradox. On one hand, they are critical. Meetings are the activity at the centre of every organization. On the other hand, they are painful. Frustratingly long and seemingly pointless" />
+> Meetings are a puzzling paradox. On one hand, they are critical. Meetings are the activity at the centre of every organization. On the other hand, they are painful. Frustratingly long and seemingly pointless
 
 Most of us hate going to meetings because they are boring and ineffective.
 
@@ -48,7 +48,7 @@ It should come as no surprise that bad meetings lead to bad decisions. But there
 
 ### Good meetings
 
-<Quote quote="Good meetings result in good decisions by extracting the collective wisdom of a team" />
+> Good meetings result in good decisions by extracting the collective wisdom of a team
 
 On the other side of the spectrum, good meetings result in higher morale, faster and better decisions which leads to better results. Although they can seem to be unproductive, they accelerate decision making by eliminating the need to revisit issues again and again.
 
@@ -56,21 +56,21 @@ On the other side of the spectrum, good meetings result in higher morale, faster
 
 There is a simple formula to make meetings interesting - Get people hooked in the 1st 10 minutes, then mine for ideological conflict and drive it to a conclusion.
 
-<Quote quote="There has to be something ultimately at stake." />
+> There has to be something ultimately at stake.
 
 We have to get peoples attention at the beginning. Luckily, this isn't too hard. People are generally used to be being bored at meetings. In the 1st 10 minutes of a meeting, the participants need to understand and appreciate what is at stake. People are looking for a reason to care and the leader's job is to give them that reason.
 
-<Quote quote="When a group of intelligent people come together to talk about issues that matter, it is both natural and productive for disagreement to occur." />
+> When a group of intelligent people come together to talk about issues that matter, it is both natural and productive for disagreement to occur.
 
 To make meetings less boring, leaders need to provoke relevant and constructive ideological conflict. This leads to more passionate and provocative discussions which keep the people engaged. Leaders need to look for places where people have different opinions and then force them to communicate what they are thinking until they have said all there is to be said. They can minimize the discomfort by reminding the participants that what they are doing is good.
 
-<Quote quote="A consensus is usually not achievable" />
+> A consensus is usually not achievable
 
 Once the leader decides that all of the information has been aired, its time to make a decision. The leader takes the final decision only if no has been able to make a compelling enough argument for making a decision. Everyone needs to understand that once a decision has been made everyone has to support it regardless of their original position.
 
 ### How to make a meeting effective?
 
-<Quote quote="When properly utilized, meetings are actually time savers" />
+> When properly utilized, meetings are actually time savers
 
 Contrary to what we might think, the length of a meeting has nothing to do with its effectiveness. We need to have multiple types of meetings which each have their purpose, format and timing.
 
@@ -84,7 +84,7 @@ There are 5 types of meetings that we should have
 
 ### Daily Check-in
 
-<Quote quote="We have to do what we have to do" />
+> We have to do what we have to do
 
 This is a 5-10 minute meeting every morning. There is no agenda because everyone juts reports on their activities for the day.
 
@@ -96,7 +96,7 @@ If we are just getting started with this type of meeting, it is important not to
 
 ### **Weekly Tactical**
 
-<Quote quote="What do we need to talk about today so that we can make as much progress as possible this week?" />
+> What do we need to talk about today so that we can make as much progress as possible this week?
 
 This is a weekly meeting to focus on tactical issues that must be addressed for short term success. It runs for 45-90 minutes. The agenda is decided during the meeting and is based on what everyone is working on. To ensure that we know where to focus, the agenda should be based on both our activities as well as the metrics.
 
@@ -116,7 +116,7 @@ If someone raises an issue that is too big, put it on the list for the next mont
 
 ### Monthly Strategic
 
-<Quote quote="Complex topics deserve enough time for brainstorming, analysis, even preparation" />
+> Complex topics deserve enough time for brainstorming, analysis, even preparation
 
 This is a monthly meeting to focus on strategic issues. Agendas are critical for these meetings so that people can think about the topics beforehand. We can pick between 1-3 topics as long as we pick the right ones. There is no set time for this meeting but we should schedule about 2 hours per topic.
 
@@ -144,7 +144,7 @@ We need to know how to identify the rare strategic issues that deserve immediate
 
 ### Quarterly off-site review
 
-<Quote quote="Effective off-sites provide executives an opportunity to regularly step away from the daily, weekly, even monthly issues that occupy their attention, so they can review the business in a more holistic, long-term manner" />
+> Effective off-sites provide executives an opportunity to regularly step away from the daily, weekly, even monthly issues that occupy their attention, so they can review the business in a more holistic, long-term manner
 
 A quarterly off-site review is a chance to get away from the grind and review things from a distance. It should be scheduled for 2 days.
 
@@ -168,13 +168,13 @@ Many offsite meetings contribute little lasting benefit to an organization. We h
 
 ## Other Quotes
 
-<Quote quote="The company’s culture would come to mirror those meetings" />
+> The company’s culture would come to mirror those meetings
 
-<Quote quote="Bad meetings start with the attitudes and approaches of the people who lead and take part in them" />
+> Bad meetings start with the attitudes and approaches of the people who lead and take part in them
 
-<Quote quote="The only thing more painful than confronting an uncomfortable topic is pretending it doesn’t exist" />
+> The only thing more painful than confronting an uncomfortable topic is pretending it doesn’t exist
 
-<Quote quote="Bad meetings at the executive level usually indicated a huge gap between performance and potential" />
+> Bad meetings at the executive level usually indicated a huge gap between performance and potential
 
 ## Recommendation
 

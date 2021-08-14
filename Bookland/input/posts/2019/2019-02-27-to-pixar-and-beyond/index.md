@@ -27,7 +27,7 @@ This is a very well written book and gives an extremely good insight into Pixar'
 
 ## Key Quote
 
-<Quote quote="There is nothing you can do about where the pieces are. It's only your next move that matters." />
+> There is nothing you can do about where the pieces are. It's only your next move that matters.
 
 ## Key Takeaways
 

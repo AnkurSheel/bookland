@@ -31,11 +31,8 @@ Its an extremely interesting and well written book.
 
 ## Key Quote
 
-<Quote
-    quote="This is what happens when you work to change things. First they think you're crazy, then they fight you, and then all of a sudden you change the world."
-    author="Elizabeth Holmes"
-/>
-
+> This is what happens when you work to change things. First they think you're crazy, then they fight you, and then all of a sudden you change the world.
+> ""Elizabeth Holmes""
 ## Key Takeaways
 
 -   Don't buy expensive things early in anticipation of when they will be used but closer to when you actually need them.
