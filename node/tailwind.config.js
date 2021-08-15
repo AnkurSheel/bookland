@@ -12,10 +12,19 @@ module.exports = {
             fontFamily: {
                 sans: ['Inter', ...defaultTheme.fontFamily.sans],
             },
+            typography: (theme) => ({
+                DEFAULT: {
+                    css: {
+                        fontFamily: `${theme('fontFamily.sans')}`,
+                        letterSpacing: theme('letterSpacing.wide'),
+                        lineHeight: theme('lineHeight.relaxed'),
+                    },
+                },
+            }),
         },
     },
     variants: {
         extend: {},
     },
-    plugins: [],
+    plugins: [require('@tailwindcss/typography')],
 };
