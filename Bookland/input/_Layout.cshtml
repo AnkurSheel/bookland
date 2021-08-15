@@ -1,15 +1,19 @@
 ﻿@inherits StatiqRazorPage<IDocument>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="min-h-screen">
 <head>
     <title>@Document.GetString("title")</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="/assets/styles.css" rel="stylesheet"/>
 </head>
-<body>
-@RenderBody()
+<body class="font-sans font-normal leading-relaxed font-base text-gray-800 min-h-screen">
+<main class="mx-auto prose-lg max-w-prose">
+    <h1 class="text-center">@Document.GetString("title")</h1>
+    <article>
+        @RenderBody()
+    </article>
+</main>
 </body>
-
 </html>
