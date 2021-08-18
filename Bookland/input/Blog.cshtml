@@ -1,0 +1,18 @@
+﻿@inherits StatiqRazorPage<IDocument>
+
+<ul>
+
+    @{
+        var filteredPages = OutputPages.GetDescendantsOf("index.html").Where(x => x.Destination.ToString().StartsWith("posts/")).OrderBy(x => x.GetInt(Keys.Order));
+
+        @foreach (var doc in filteredPages)
+        {
+            <li>
+                @Html.DocumentLink(doc, new Dictionary<object, object>
+                {
+                    { "class", "nav-link" }
+                })
+            </li>
+        }
+    }
+</ul>
