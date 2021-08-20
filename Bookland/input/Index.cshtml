@@ -1,1 +1,7 @@
+@model BaseModel
+@{
+    var viewData = (ViewData["StatiqExecutionContext"] as IExecutionContext)!;
+    var outputPages = viewData.OutputPages;
+}
+
 <p> Some text here </p>
