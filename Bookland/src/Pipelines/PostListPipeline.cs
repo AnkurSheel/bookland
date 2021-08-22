@@ -13,31 +13,27 @@ namespace Bookland.Pipelines
     {
         public PostListPipeline()
         {
+            Dependencies.Add(nameof(PostPipeline));
+
             InputModules = new ModuleList
             {
-                new ReadFiles("posts/**/*.md")
+                new ReadFiles("Blog.cshtml")
             };
 
             ProcessModules = new ModuleList
             {
-                new ReplaceDocuments(
-                    Config.FromContext(
-                        context =>
-                        {
-                            return (IEnumerable<IDocument>)new[] { context.CreateDocument(new NormalizedPath("blog.html"), new[] { new KeyValuePair<string, object>(Keys.Children, context.Inputs) }) };
-                        })),
+                new SetDestination("blog.html"),
                 new SetMetadata("Title", "All Summaries")
             };
 
             PostProcessModules = new ModuleList
             {
-                new MergeContent(new ReadFiles("Blog.cshtml")),
                 new RenderRazor().WithModel(
                     Config.FromDocument(
                         (document, context) =>
                         {
-                            var postDocuments = document.GetChildren();
-                            var posts = postDocuments.Select(
+                            var posts = context.Outputs.FromPipeline(nameof(PostPipeline))
+                                .Select(
                                     postDocument =>
                                     {
                                         var postDetailsFromPath = postDocument.GetPostDetailsFromPath();
