@@ -1,4 +1,5 @@
 ﻿using Bookland.Extensions;
+using Bookland.Models;
 using Statiq.Common;
 using Statiq.Core;
 using Statiq.Markdown;
@@ -19,6 +20,11 @@ namespace Bookland.Pipelines
             ProcessModules = new ModuleList
             {
                 new ExtractFrontMatter(new ParseYaml()),
+                new ReplaceInContent(@"!\[(?<alt>.*)\]\(./(?<imagePath>.*)\)", Config.FromDocument((document, context) =>
+                {
+                    var postDetailsFromPath = document.GetPostDetailsFromPath();
+                    return $"![$1](../assets/{postDetailsFromPath["slug"]}/$2)";
+                })).IsRegex(),
                 new RenderMarkdown().UseExtensions(),
                 new OptimizeFileName(),
                 new SetDestination(
