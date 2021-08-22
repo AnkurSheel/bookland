@@ -1,4 +1,5 @@
-﻿using System.Text.RegularExpressions;
+﻿using System.Linq;
+using System.Text.RegularExpressions;
 using Bookland.Models;
 using Statiq.Common;
 using Statiq.Web;
@@ -16,17 +17,23 @@ namespace Bookland.Extensions
 
         public static Post AsPost(this IDocument document, IExecutionContext context)
         {
-            var title = document.GetString("Title");
-            var slug = document.GetString("slug");
-            var publishedDate = document.GetDateTime("publishedDate").ToString("dd-MMM-yyyy");
-            var updatedDate = document.GetPublishedDate().ToString("dd-MMM-yyyy");
+            var authorDocuments = document.GetDocumentList("authors");
+            var authors = authorDocuments.Select(authorDocument => new Author(authorDocument.GetString("name"), authorDocument.GetString("link"))).ToList();
+
             return new Post(
-                title,
-                slug,
-                publishedDate,
-                updatedDate,
                 document,
-                context);
+                context,
+                document.GetString("Title"),
+                document.GetString("slug"),
+                document.GetDateTime("publishedDate").ToString("dd-MMM-yyyy"),
+                document.GetPublishedDate().ToString("dd-MMM-yyyy"),
+                document.GetString("bookTitle"),
+                document.GetString("amazonLink"),
+                document.GetInt("pages"),
+                authors,
+                document.GetString("coverImage"),
+                document.GetInt("rating"),
+                document.GetList<string>("tags"));
         }
     }
 }

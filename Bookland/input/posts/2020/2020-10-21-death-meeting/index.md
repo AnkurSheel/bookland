@@ -1,26 +1,19 @@
 ---
 title: 'Death by Meeting'
 excerpt: 'Meetings are critical for making decisions. But we dread meetings because most of them are bad. In "Death by Meeting", Patrick Lencioni shows us how we can change the bad meeting culture and make our meetings both interesting and effective.'
-featuredImage: ./cover.jpg
+coverImage: ./cover.jpg
 featuredImagePosition: 'top 25% center'
 tags:
     - leadership
     - business
+bookTitle: 'Death by Meeting: A Leadership Fable...About Solving the Most Painful Problem in Business'
+amazonLink: 'https://www.amazon.com/Death-Meeting-Leadership-Solving-Business/dp/0787968056'
+authors:
+    - name: 'Patrick M. Lencioni' 
+      link: 'https://www.tablegroup.com/'
+pages: 260
+rating: 5
 ---
-
-<!-- markdownlint-disable-file MD036 -->
-
-## What I read
-
-Death by Meeting: A Leadership Fable...About Solving the Most Painful Problem in Business
-
-[Buy it on Amazon](https://www.amazon.com/Death-Meeting-Leadership-Solving-Business/dp/0787968056)
-
-260 pages
-
-Author: [Patrick M. Lencioni](https://www.tablegroup.com/)
-
-![Book Cover](./cover.jpg)
 
 ## Summary
 

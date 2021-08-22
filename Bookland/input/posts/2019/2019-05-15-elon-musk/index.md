@@ -1,25 +1,20 @@
 ---
 title: 'Elon Musk'
 excerpt: 'This book gives a great insight into Elon Musk as a person as well as into his companies. It reveals the work ethic, the drive and the ruthlessness that exists within Elon that helps him achieve his goals. '
-featuredImage: ./cover.jpg
+coverImage: ./cover.jpg
 tags:
     - 'elon musk'
     - 'paypal'
     - 'spacex'
     - 'tesla'
+bookTitle: 'Elon Musk: How the Billionaire CEO of SpaceX and Tesla is Shaping our Future'
+amazonLink: 'https://www.amazon.com/Elon-Musk-Billionaire-SpaceX-Shaping-ebook/dp/B00SIDCSWY'
+authors:
+    - name: 'Ashlee Vance'
+      link: 'http://www.ashleevance.com/'
+pages: 400
+rating: 2 
 ---
-
-## What I read
-
-Elon Musk: How the Billionaire CEO of SpaceX and Tesla is Shaping our Future
-
-[Buy it on Amazon](https://www.amazon.com/Elon-Musk-Billionaire-SpaceX-Shaping-ebook/dp/B00SIDCSWY)
-
-Author: [Ashlee Vance](http://www.ashleevance.com/)
-
-400 pages
-
-![Book Cover](./cover.jpg)
 
 ## Summary
 

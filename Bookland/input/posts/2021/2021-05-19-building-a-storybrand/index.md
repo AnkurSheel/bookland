@@ -5,21 +5,16 @@ tags:
     - 'business'
     - 'marketing'
     - 'copywriting'
-featuredImage: ./cover.jpg
+coverImage: ./cover.jpg
 featuredImagePosition: 'top 37% center'
+bookTitle: 'Building a StoryBrand: Clarify Your Message So Customers Will Listen'
+amazonLink:  'https://www.amazon.com/Building-StoryBrand-Clarify-Message-Customers/dp/0718033329'
+authors:
+    - name: 'Donald Miller'
+      link: 'https://storybrand.com/'
+pages: 240
+rating: 5
 ---
-
-## What I read
-
-Building a StoryBrand: Clarify Your Message So Customers Will Listen
-
-[Buy it on Amazon](https://www.amazon.com/Building-StoryBrand-Clarify-Message-Customers/dp/0718033329)
-
-240 pages
-
-Author: [Donald Miller](https://storybrand.com/)
-
-![Book Cover](./cover.jpg)
 
 ## Summary
 

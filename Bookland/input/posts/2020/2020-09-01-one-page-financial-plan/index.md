@@ -1,7 +1,7 @@
 ---
 title: 'The One Page Financial Plan'
 excerpt: 'A one-page financial plan represents only 3-4 things that are most important to us along with some action items to achieve our goals.In his book The One Page Financial Plan, Carl Richards shares the steps to make a good one-page financial plan that is customised for us.'
-featuredImage: ./cover.jpg
+coverImage: ./cover.jpg
 featuredImagePosition: 'top 25% center'
 tags:
     - budgeting
@@ -10,19 +10,14 @@ tags:
     - investing
     - saving
     - finance
+bookTitle: 'The One-Page Financial Plan: A Simple Way to Be Smart About Your Money'
+amazonLink: 'https://www.amazon.com/One-Page-Financial-Plan-Simple-Smart/dp/1591847559'
+authors:
+    - name: 'Carl Richards' 
+      link: 'https://behaviorgap.com/'
+pages: 224
+rating: 4
 ---
-
-## What I read
-
-The One-Page Financial Plan: A Simple Way to Be Smart About Your Money
-
-[Buy it on Amazon](https://www.amazon.com/One-Page-Financial-Plan-Simple-Smart/dp/1591847559)
-
-224 pages
-
-Author: [Carl Richards](https://behaviorgap.com/)
-
-![Book Cover](./cover.jpg)
 
 ## Summary
 

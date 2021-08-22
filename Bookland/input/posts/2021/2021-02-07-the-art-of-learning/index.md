@@ -1,7 +1,7 @@
 ---
 title: 'The Art of Learning'
 excerpt: 'The Art Of Learning is Josh Waitzkin’s autobiography dealing with his rise to the top of the chess and martial arts world. It gives an insight into the mindset and training of a world champion.'
-featuredImage: ./cover.jpg
+coverImage: ./cover.jpg
 featuredImagePosition: 'top 60% center'
 tags:
     - 'parenting'
@@ -9,21 +9,14 @@ tags:
     - 'learning'
     - 'autobiography'
     - 'self improvement'
+bookTitle: 'The Art of Learning: An Inner Journey to Optimal Performance'
+amazonLink: 'https://www.amazon.com/The-Art-Learning-Journey-Performance/dp/0743277465/'
+authors:
+    - name: 'Josh Waitzkin'
+      link: 'https://www.joshwaitzkin.com/'
+pages: 288
+rating: 1
 ---
-
-<!-- markdownlint-disable MD036 -->
-
-## What I read
-
-The Art of Learning: An Inner Journey to Optimal Performance
-
-[Buy it on Amazon](https://www.amazon.com/The-Art-Learning-Journey-Performance/dp/0743277465/)
-
-288 pages
-
-Author: [Josh Waitzkin](https://www.joshwaitzkin.com/)
-
-![Book Cover](./cover.jpg)
 
 ## Summary
 

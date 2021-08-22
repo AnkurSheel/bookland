@@ -1,28 +1,21 @@
 ---
 title: 'The Motive'
 excerpt: 'What is your motive to take a leadership position? Is it because it’s the next step on the organisational ladder or is it to get the opportunity to serve?  This book challenges us to look at our motivations for leading.'
-featuredImage: ./cover.jpg
+coverImage: ./cover.jpg
 featuredImagePosition: 'top 37% center'
 tags:
     - 'leadership'
     - 'coaching'
     - 'business'
     - 'economics'
+bookTitle: 'The Motive: Why So Many Leaders Abdicate Their Most Important Responsibilities'
+amazonLink: 'https://www.amazon.com/Motive-Leaders-Abdicate-Important-Responsibilities/dp/1119600456'
+authors:
+    - name: 'Patrick M. Lencioni'
+      link: https://www.tablegroup.com/
+pages: 192
+rating: 4
 ---
-
-<!-- markdownlint-disable MD036 -->
-
-## What I read
-
-The Motive: Why So Many Leaders Abdicate Their Most Important Responsibilities
-
-![Book Cover](./cover.jpg)
-
-[Buy it on Amazon](https://www.amazon.com/Motive-Leaders-Abdicate-Important-Responsibilities/dp/1119600456)
-
-192 pages
-
-Author: [Patrick M. Lencioni](https://www.tablegroup.com/)
 
 ## Summary
 

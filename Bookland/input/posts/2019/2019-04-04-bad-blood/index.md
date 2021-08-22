@@ -1,25 +1,20 @@
 ---
 title: 'Bad Blood'
 excerpt: The book is about the inner workings at Theranos,  a  startup making medical devices to enable the testing of blood using just a pinprick.
-featuredImage: ./cover.jpg
+coverImage: ./cover.jpg
 tags:
     - 'health care'
     - 'medical'
     - 'startup'
     - 'theranos'
+bookTitle: 'Bad Blood: Secrets and Lies in a Silicon Valley Startup'
+amazonLink: 'https://www.amazon.com/Bad-Blood-Secrets-Silicon-Startup/dp/152473165X'
+authors:
+    - name: 'John Carreyrou'
+      link: 'https://en.wikipedia.org/wiki/John_Carreyrou'
+pages: 352
+rating: 4
 ---
-
-## What I read
-
-Bad Blood: Secrets and Lies in a Silicon Valley Startup
-
-[Buy it on Amazon](https://www.amazon.com/Bad-Blood-Secrets-Silicon-Startup/dp/152473165X)
-
-Author: [John Carreyrou](https://en.wikipedia.org/wiki/John_Carreyrou)
-
-352 pages
-
-![Book Cover Image](./cover.jpg)
 
 ## Summary
 

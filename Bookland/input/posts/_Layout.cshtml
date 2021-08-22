@@ -2,9 +2,32 @@
 @{
     Layout = "../_Layout.cshtml";
 }
+<p>
+    <i>Published Date: @Model.PublishedDate</i>
+    <i>Last Updated Date: @Model.UpdatedDate</i>
+</p>
 
-<h2>@Model.Slug</h2>
-<i> Published Date: @Model.PublishedDate</i>
-<i>Last Updated Date: @Model.UpdatedDate</i>
+<h2>What I read</h2>
+
+<p>@Model.BookTitle</p>
+
+<p>
+    <a href="@Model.AmazonLink">Buy it on Amazon</a>
+</p>
+
+<p>@Model.Pages pages</p>
+
+<p>
+    Authors:
+    @foreach (var author in Model.Authors)
+    {
+        <a href="@author.Link">@author.Name</a>
+    }
+</p>
+
+<p>
+    <img src="@Model.CoverImageLink" alt="Book Cover"></img>
+</p>
+
 
 @RenderBody()

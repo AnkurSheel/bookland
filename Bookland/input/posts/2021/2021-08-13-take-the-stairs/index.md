@@ -3,21 +3,16 @@ title: 'Take the Stairs'
 excerpt: "Take the Stairs drives home the reality that self-discipline is necessary to achieve success and that there is no easy path to success. As the author says, it's about taking the stairs instead of the escalator."
 tags:
     - 'self improvement'
-featuredImage: ./cover.jpg
+coverImage: ./cover.jpg
 featuredImagePosition: 'top 22% center'
+bookTitle: 'Take the Stairs: 7 Steps to Achieving True Success' 
+amazonLink: 'https://www.amazon.com/Take-Stairs-Steps-Achieving-Success/dp/0399537767'
+authors:
+    - name: Rory Vaden 
+      link: https://www.roryvaden.com/
+pages: 224
+rating: 2
 ---
-
-## What I read
-
-Take the Stairs: 7 Steps to Achieving True Success
-
-[Buy it on Amazon](https://www.amazon.com/Take-Stairs-Steps-Achieving-Success/dp/0399537767)
-
-224 pages
-
-Author: [Rory Vaden](https://www.roryvaden.com/)
-
-![Book Cover](./cover.jpg)
 
 ## Summary
 

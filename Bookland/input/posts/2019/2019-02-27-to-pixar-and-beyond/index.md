@@ -1,25 +1,20 @@
 ---
 title: 'To Pixar and Beyond'
 excerpt: This is a very well written book and gives an extremely good insight into Pixar's struggle to become a blockbuster factory.
-featuredImage: ./cover.jpg
+coverImage: ./cover.jpg
 tags:
     - 'animation'
     - 'movie'
     - 'pixar'
     - 'steve jobs'
+bookTitle: 'To Pixar and Beyond: My Unlikely Journey with Steve Jobs to Make Entertainment History'
+amazonLink: 'https://www.amazon.com/Pixar-Beyond-Unlikely-Journey-Entertainment-ebook/dp/B01912OSA0'
+authors:
+    - name: 'Lawrence Levy'
+      link: 'http://lawrencelevy.com/'
+pages: 272
+rating: 5
 ---
-
-## What I read
-
-To Pixar and Beyond: My Unlikely Journey with Steve Jobs to Make Entertainment History
-
-[Buy it on Amazon](https://www.amazon.com/Pixar-Beyond-Unlikely-Journey-Entertainment-ebook/dp/B01912OSA0)
-
-Author: [Lawrence Levy](http://lawrencelevy.com/)
-
-272 pages
-
-![Book Cover Image](./cover.jpg)
 
 ## Summary
 
