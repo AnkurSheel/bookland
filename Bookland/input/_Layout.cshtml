@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en" class="min-h-screen">
 <head>
-    <title>@Model.Document.GetString("Title")</title>
+    <title>@Model.Title</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="/assets/styles.css" rel="stylesheet"/>
@@ -13,7 +13,7 @@
     @await Html.PartialAsync("partials/_Navigation.cshtml")
 </header>
 <main class="mx-auto max-w-prose p-8 prose prose-xl" >
-    <h1 class="text-center py-4">@Model.Document.GetString("Title")</h1>
+    <h1 class="text-center py-4">@Model.Title</h1>
     <div class="flex flex-col min-h-screen">
         <article>
             @RenderBody()

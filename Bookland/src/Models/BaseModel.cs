@@ -1,4 +1,6 @@
-﻿using Statiq.Common;
+﻿using System.Collections.Generic;
+using System.Linq;
+using Statiq.Common;
 
 namespace Bookland.Models
 {
@@ -6,12 +8,15 @@ namespace Bookland.Models
     {
         public BaseModel(IDocument document, IExecutionContext context)
         {
-            Document = document;
-            Context = context;
+            Title = document.GetString("Title");
+            NavigationLinks = context.OutputPages.GetChildrenOf("index.html").Where(x => x.Destination != "index.html").ToList();
+            Script = context.GetLink("/assets/js/blog.js");
         }
 
-        public IDocument Document { get; }
+        public string Title { get; }
 
-        public IExecutionContext Context { get; }
+        public IReadOnlyList<IDocument> NavigationLinks { get; }
+
+        public string Script { get; }
     }
 }
