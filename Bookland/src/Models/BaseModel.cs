@@ -8,15 +8,18 @@ namespace Bookland.Models
     {
         public BaseModel(IDocument document, IExecutionContext context)
         {
-            Title = document.GetString("Title");
+            PageTitle = document.GetString("Title");
             NavigationLinks = context.OutputPages.GetChildrenOf("index.html").Where(x => x.Destination != "index.html").ToList();
             Script = context.GetLink("/assets/js/blog.js");
+            SiteTitle = context.GetString("SiteTitle");
         }
 
-        public string Title { get; }
+        public string PageTitle { get; }
 
         public IReadOnlyList<IDocument> NavigationLinks { get; }
 
         public string Script { get; }
+
+        public string SiteTitle { get; }
     }
 }
