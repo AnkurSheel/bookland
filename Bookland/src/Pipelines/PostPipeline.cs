@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Globalization;
 using Bookland.Extensions;
-using Bookland.Models;
 using Statiq.Common;
 using Statiq.Core;
 using Statiq.Markdown;
@@ -22,38 +21,32 @@ namespace Bookland.Pipelines
             ProcessModules = new ModuleList
             {
                 new ExtractFrontMatter(new ParseYaml()),
-                new ReplaceInContent(@"!\[(?<alt>.*)\]\(./(?<imagePath>.*)\)", Config.FromDocument((document, context) =>
-                {
-                    var postDetailsFromPath = document.GetPostDetailsFromPath();
-                    return $"![$1](../assets/{postDetailsFromPath["slug"]}/$2)";
-                })).IsRegex(),
-                new RenderMarkdown().UseExtensions(),
-                new OptimizeFileName(),
-                new SetDestination(
+                new SetMetadata(
+                    "publishedDate",
                     Config.FromDocument(
-                        (doc, ctx) =>
+                        doc =>
                         {
                             var postDetailsFromPath = doc.GetPostDetailsFromPath();
-                            return new NormalizedPath("blog").Combine($"{postDetailsFromPath["slug"]}.html");
+                            var date = $"{postDetailsFromPath["year"].Value}-{postDetailsFromPath["month"].Value}-{postDetailsFromPath["date"].Value}";
+                            return DateTime.ParseExact(date, "yyyy-MM-dd", CultureInfo.InvariantCulture);
                         })),
+                new SetMetadata(
+                    "slug",
+                    Config.FromDocument(
+                        doc =>
+                        {
+                            var postDetailsFromPath = doc.GetPostDetailsFromPath();
+                            return postDetailsFromPath["slug"].Value;
+                        })),
+                new ReplaceInContent(@"!\[(?<alt>.*)\]\(./(?<imagePath>.*)\)", Config.FromDocument((document, context) => $"![$1](../assets/{document.GetString("slug")}/$2)")).IsRegex(),
+                new RenderMarkdown().UseExtensions(),
+                new OptimizeFileName(),
+                new SetDestination(Config.FromDocument((doc, ctx) => new NormalizedPath("blog").Combine($"{doc.GetString("slug")}.html"))),
             };
 
             PostProcessModules = new ModuleList
             {
-                new RenderRazor().WithModel(
-                    Config.FromDocument(
-                        (document, context) =>
-                        {
-                            var postDetailsFromPath = document.GetPostDetailsFromPath();
-
-                            var title = document.GetString("Title");
-                            var slug = new NormalizedPath("blog").Combine($"{postDetailsFromPath["slug"]}.html").ToString();
-                            return new Post(
-                                title,
-                                slug,
-                                document,
-                                context);
-                        })),
+                new RenderRazor().WithModel(Config.FromDocument((document, context) => document.AsPost(context))),
             };
 
             OutputModules = new ModuleList

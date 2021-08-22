@@ -32,19 +32,7 @@ namespace Bookland.Pipelines
                     Config.FromDocument(
                         (document, context) =>
                         {
-                            var posts = context.Outputs.FromPipeline(nameof(PostPipeline))
-                                .Select(
-                                    postDocument =>
-                                    {
-                                        var postDetailsFromPath = postDocument.GetPostDetailsFromPath();
-                                        var title = postDocument.GetString("Title");
-                                        return new Post(
-                                            title,
-                                            postDetailsFromPath["slug"].Value,
-                                            document,
-                                            context);
-                                    })
-                                .ToList();
+                            var posts = context.Outputs.FromPipeline(nameof(PostPipeline)).Select(postDocument => postDocument.AsPost(context)).ToList();
 
                             return new Posts(posts, document, context);
                         })),
