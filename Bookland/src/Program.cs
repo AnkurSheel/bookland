@@ -7,7 +7,7 @@ namespace Bookland
     internal class Program
     {
         public static async Task<int> Main(string[] args)
-            => await Bootstrapper.Factory.CreateWeb(args).DisablePipelines()
+            => await Bootstrapper.Factory.CreateWeb(args).RemovePipelines()
                 .AddNpmProcesses()
                 .RunAsync();
     }

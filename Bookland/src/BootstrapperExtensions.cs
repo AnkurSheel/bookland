@@ -1,4 +1,5 @@
 ﻿using System.IO;
+using Bookland.Pipelines;
 using Statiq.App;
 using Statiq.Common;
 using Statiq.Core;
@@ -39,26 +40,32 @@ namespace Bookland
             return bootstrapper;
         }
 
-        public static Bootstrapper DisablePipelines(this Bootstrapper bootstrapper)
+        public static Bootstrapper RemovePipelines(this Bootstrapper bootstrapper)
         {
-            bootstrapper.ModifyPipeline(
-                nameof(Inputs),
-                pipeline =>
+            bootstrapper.ConfigureEngine(
+                engine =>
                 {
-                    pipeline.WithInputModules(new FilterDocuments(false));
+                    engine.Pipelines.Remove(nameof(Assets));
+                    engine.Pipelines.Add(nameof(Assets), new Pipeline());
+                    engine.Pipelines.Remove(nameof(Content));
+                    engine.Pipelines.Add(nameof(Content), new Pipeline());
+                    engine.Pipelines.Remove(nameof(AnalyzeContent));
+                    engine.Pipelines.Add(
+                        nameof(AnalyzeContent),
+                        new Pipeline
+                        {
+                            Deployment = true,
+                            ExecutionPolicy = ExecutionPolicy.Normal,
+                            InputModules =
+                            {
+                                new ReplaceDocuments(
+                                    nameof(PostPipeline),
+                                    nameof(Content),
+                                    nameof(Archives),
+                                    nameof(Assets))
+                            }
+                        });
                 });
-            // bootstrapper.ModifyPipeline(
-            //         nameof(Content),
-            //         pipeline =>
-            //         {
-            //             pipeline.WithProcessModules(new FilterDocuments(false));
-            //         })
-            //     .ModifyPipeline(
-            //         nameof(Assets),
-            //         pipeline =>
-            //         {
-            //             pipeline.WithProcessModules(new FilterDocuments(false));
-            //         })
 
             return bootstrapper;
         }
