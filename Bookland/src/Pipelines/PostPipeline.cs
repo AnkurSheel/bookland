@@ -1,4 +1,6 @@
-﻿using Bookland.Extensions;
+﻿using System;
+using System.Globalization;
+using Bookland.Extensions;
 using Bookland.Models;
 using Statiq.Common;
 using Statiq.Core;
@@ -38,7 +40,20 @@ namespace Bookland.Pipelines
 
             PostProcessModules = new ModuleList
             {
-                new RenderRazor().WithBaseModel()
+                new RenderRazor().WithModel(
+                    Config.FromDocument(
+                        (document, context) =>
+                        {
+                            var postDetailsFromPath = document.GetPostDetailsFromPath();
+
+                            var title = document.GetString("Title");
+                            var slug = new NormalizedPath("blog").Combine($"{postDetailsFromPath["slug"]}.html").ToString();
+                            return new Post(
+                                title,
+                                slug,
+                                document,
+                                context);
+                        })),
             };
 
             OutputModules = new ModuleList
