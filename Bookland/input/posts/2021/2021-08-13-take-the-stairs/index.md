@@ -40,6 +40,7 @@ There are only 2 types of activities.
 The majority of people make decisions based on emotions and impulses. However, making decisions based on what feels good in the short term requires more work in the end.
 
 > Successful people form the habit of doing things that failures don't like doing" 
+>
 > ""Albert Gray""
 
 Self-discipline is the ability to take action regardless of our emotional, physical or financial state.
@@ -103,6 +104,7 @@ We should have **"harvest periods"** in some primary areas of our lives.
 ### Focus and Procrastination
 
 > In the absence of disciplined focus, we become strangely loyal to performing daily acts of trivia
+>
 > ""Anonymous""
 />
 
@@ -133,6 +135,7 @@ People who are struggling with procrastination have one of the following attitud
 -   We don't take on a challenging task because at least we know we won't fail. So we wait for the perfect plan, the perfect time, and the perfect resources, aka **Perfectionism**.
 
 > The Law of E. F. Hutton — when the real leader speaks, people listen
+>
 > ""John Maxwell""
 
 There are three ways to get people to take action.
@@ -197,6 +200,7 @@ The word _"But "_ is a (subconscious) trigger to the listener that everything th
 One of the most damaging times to use the word "but" is when giving feedback or compliments. We might think that we are softening our criticism, but it weakens our praise and our word in general.
 
 > Tell people everything they need to know, and not a word more
+>
 > ""David Brooks""
 
 The consequences of gossip are not limited to just the instigator or the subject.
@@ -220,16 +224,19 @@ We can harness the power of our word with the following guidelines.
 ## Other Quotes
 
 > Winning is a habit; unfortunately so is losing
+>
 > ""Vince Lombardi""
 
 > Being successful doesn't happen by falling into the most desirable situation possible and somehow magically being discovered for some special uniqueness we have that no one else does
 
 > That which is recognized is repeated
+>
 > ""Christine Roland""
 
 > Ignore the noise. Conquer the critical. Manage the minutiae
 
 > Discipline creates freedom, but timing is everything
+>
 > ""Randy Gage""
 
 ## Recommendation

@@ -132,6 +132,7 @@ Building an organisation starts by changing the behaviour of the leaders, which 
 > No reasonable human being has ever left a company because management communicated too much
 
 > [The] plan was the plan, and his job was to keep his company focused on it, not to move from one flavour of the month to another
+>
 > ""Alan Mulally""
 ## Recommendation
 
