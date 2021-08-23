@@ -22,18 +22,14 @@
     }
 
     blockquote > p:first-of-type:before {
-        @apply text-7xl absolute top-6 leading-none text-yellow-500;
-        margin-inline-start: -0.5em;
-        content: '\201C';
+        @apply text-yellow-500;
     }
 
-    blockquote p:last-of-type::after {
-        @apply hidden;
+    blockquote > p:first-of-type:after {
+        @apply text-yellow-500;
     }
+
     blockquote cite {
         @apply flex justify-end text-purple-500;
-    }
-    blockquote cite:before {
-        content: '-- ';
     }
 }
