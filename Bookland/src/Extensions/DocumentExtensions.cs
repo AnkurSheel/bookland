@@ -34,5 +34,12 @@ namespace Bookland.Extensions
                 document.GetInt("rating"),
                 document.GetList<string>("tags"));
         }
+
+        public static Tag AsTag(this IDocument document, IExecutionContext context)
+        {
+            var posts = document.GetChildren().Select(x => x.AsPost(context)).OrderByDescending(x => x.PublishedDate).ToList();
+
+            return new Tag(document, context, document.GetString("Name"), posts);
+        }
     }
 }

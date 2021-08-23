@@ -6,13 +6,14 @@
     <p>
         <i>Published Date: @Model.PublishedDate</i>
         <i>Last Updated Date: @Model.UpdatedDate</i>
-        <p>
-            Tags:
+        <div class="flex flex-row flex-wrap gap-1 place-content-center">
             @foreach (var tag in Model.Tags)
             {
-                <p>@tag</p>
+                <div class="flex-initial border-2 border-black p-2 m-2 border rounded-xl">
+                    <a role="button" href="/tags/@tag" class="badge text-black bg-grey-light no-underline"> @tag</a>
+                </div>
             }
-        </p>
+        </div>
     </p>
 </div>
 
