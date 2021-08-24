@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
+using System.Linq;
 using System.Text.RegularExpressions;
 using Bookland.Models;
 using Statiq.Common;
@@ -25,8 +26,8 @@ namespace Bookland.Extensions
                 context,
                 document.GetString("excerpt"),
                 document.GetString("slug"),
-                document.GetDateTime("publishedDate").ToString("dd-MMM-yyyy"),
-                document.GetPublishedDate().ToString("dd-MMM-yyyy"),
+                document.GetDateTime("publishedDate"),
+                document.GetPublishedDate(),
                 document.GetString("bookTitle"),
                 document.GetString("amazonLink"),
                 document.GetInt("pages"),
@@ -40,7 +41,14 @@ namespace Bookland.Extensions
         {
             var posts = document.GetChildren().Select(x => x.AsPost(context)).OrderByDescending(x => x.PublishedDate).ToList();
 
-            return new Tag(document, context, document.GetString("Name"), posts);
+            return new Tag(
+                document,
+                context,
+                document.GetString("Name"),
+                posts);
         }
+
+        public static HomeModel AsHomeModel(this IDocument document, IExecutionContext context, IReadOnlyList<Post> posts)
+            => new HomeModel(document, context, posts);
     }
 }

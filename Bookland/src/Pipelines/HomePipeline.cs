@@ -1,4 +1,6 @@
-﻿using Bookland.Extensions;
+﻿using System.Linq;
+using Bookland.Extensions;
+using Bookland.Models;
 using Statiq.Common;
 using Statiq.Core;
 using Statiq.Razor;
@@ -10,6 +12,7 @@ namespace Bookland.Pipelines
     {
         public HomePipeline()
         {
+            Dependencies.AddRange(nameof(PostPipeline));
             InputModules = new ModuleList
             {
                 new ReadFiles("Index.cshtml")
@@ -17,14 +20,18 @@ namespace Bookland.Pipelines
 
             ProcessModules = new ModuleList
             {
-                new ExtractFrontMatter(new ParseYaml()),
                 new OptimizeFileName(),
+                new SetMetadata("Title", Config.FromContext(context => context.GetString("SiteTitle"))),
                 new SetDestination(".html"),
             };
 
             PostProcessModules = new ModuleList
             {
-                new RenderRazor().WithBaseModel()
+                new RenderRazor().WithModel(Config.FromDocument(((document, context) =>
+                {
+                    var posts = context.Outputs.FromPipeline(nameof(PostPipeline)).Select(x => x.AsPost(context)).ToList();
+                    return document.AsHomeModel(context, posts);
+                })))
             };
 
             OutputModules = new ModuleList

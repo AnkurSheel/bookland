@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Statiq.Common;
 
 namespace Bookland.Models
@@ -10,8 +11,8 @@ namespace Bookland.Models
             IExecutionContext context,
             string excerpt,
             string slug,
-            string publishedDate,
-            string updatedDate,
+            DateTime publishedDate,
+            DateTime updatedDate,
             string bookTitle,
             string amazonLink,
             int pages,
@@ -35,9 +36,9 @@ namespace Bookland.Models
 
         public string Slug { get; }
 
-        public string PublishedDate { get; }
+        public DateTime PublishedDate { get; }
 
-        public string UpdatedDate { get; }
+        public DateTime UpdatedDate { get; }
 
         public string BookTitle { get; }
 

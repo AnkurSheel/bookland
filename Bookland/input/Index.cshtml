@@ -1,3 +1,36 @@
-@model BaseModel
+@model HomeModel
+@{
+    const int numberOfSummaries = 5;
+}
+<p>
+    With so many books to read, how do you decide which ones to read? What were the critical points in the book?
+</p>
+<p>
+    I read the books and write my takeaways so that you can decide if you want to spend your valuable time reading the whole book or not?
+</p>
 
-<p> Some text here </p>
+<h2>Top Rated Books</h2>
+<div class="flex flex-col gap-1 flex-auto">
+    @{
+        var topRatedPosts = Model.Posts.OrderByDescending(x => x.Rating).ThenBy(x => x.PageTitle).Take(numberOfSummaries);
+        foreach (var post in topRatedPosts)
+        {
+            <div>
+                <a href="/blog/@post.Slug">@post.PageTitle (@post.Rating)</a>
+            </div>
+        }
+    }
+</div>
+
+<h2>Latest summaries</h2>
+<div class="flex flex-col gap-1 flex-auto">
+    @{
+        var latestPosts = Model.Posts.OrderByDescending(x => x.PublishedDate).Take(numberOfSummaries);
+        foreach (var post in latestPosts)
+        {
+            <div>
+                <a href="/blog/@post.Slug">@post.PageTitle</a>
+            </div>
+        }
+    }
+</div>

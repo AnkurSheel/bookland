@@ -4,8 +4,8 @@
 }
 <div class="prose-sm">
     <p>
-        <i>Published Date: @Model.PublishedDate</i>
-        <i>Last Updated Date: @Model.UpdatedDate</i>
+        <i>Published Date: @Model.PublishedDate.ToString("dd-MMM-yyyy")</i>
+        <i>Last Updated Date: @Model.UpdatedDate.ToString("dd-MMM-yyyy")</i>
         <div class="flex flex-row flex-wrap gap-1 place-content-center">
             @foreach (var tag in Model.Tags)
             {
