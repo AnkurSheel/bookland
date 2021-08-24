@@ -29,14 +29,14 @@ namespace Bookland.Extensions
                 document,
                 context,
                 document.GetString("excerpt"),
-                $"blog/{slug}",
+                $"/blog/{slug}",
                 document.GetDateTime("publishedDate"),
                 document.GetPublishedDate(),
                 document.GetString("bookTitle"),
                 document.GetString("amazonLink"),
                 document.GetInt("pages"),
                 authors,
-                $"../assets/{slug}/{coverImagePath}",
+                $"/assets/{slug}/{coverImagePath}",
                 document.GetInt("rating"),
                 document.GetList<string>("tags"));
         }
@@ -45,10 +45,12 @@ namespace Bookland.Extensions
         {
             var posts = document.GetChildren().Select(x => x.AsPost(context)).OrderByDescending(x => x.PublishedDate).ToList();
 
+            var name = document.GetString("Name");
             return new Tag(
                 document,
                 context,
-                document.GetString("Name"),
+                name,
+                new NormalizedPath($"/tags/{name}").OptimizeFileName().ToString(),
                 posts);
         }
 
