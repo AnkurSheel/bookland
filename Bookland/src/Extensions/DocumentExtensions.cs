@@ -23,6 +23,7 @@ namespace Bookland.Extensions
             return new Post(
                 document,
                 context,
+                document.GetString("excerpt"),
                 document.GetString("slug"),
                 document.GetDateTime("publishedDate").ToString("dd-MMM-yyyy"),
                 document.GetPublishedDate().ToString("dd-MMM-yyyy"),

@@ -16,7 +16,10 @@ namespace Bookland.Models
                 .ToList();
             Script = context.GetLink("/assets/js/blog.js");
             SiteTitle = context.GetString("SiteTitle");
+            Description = context.GetString("SiteDescription");
         }
+
+        public string Description { get; set; }
 
         public string PageTitle { get; }
 

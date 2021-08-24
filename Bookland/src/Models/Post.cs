@@ -8,6 +8,7 @@ namespace Bookland.Models
         public Post(
             IDocument document,
             IExecutionContext context,
+            string excerpt,
             string slug,
             string publishedDate,
             string updatedDate,
@@ -19,6 +20,7 @@ namespace Bookland.Models
             int rating,
             IReadOnlyList<string> tags) : base(document, context)
         {
+            Description = excerpt;
             Slug = slug;
             PublishedDate = publishedDate;
             UpdatedDate = updatedDate;
