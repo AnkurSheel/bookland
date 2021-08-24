@@ -15,9 +15,7 @@
         var topRatedPosts = Model.Posts.OrderByDescending(x => x.Rating).ThenBy(x => x.PageTitle).Take(numberOfSummaries);
         foreach (var post in topRatedPosts)
         {
-            <div>
-                <a href="/blog/@post.Slug">@post.PageTitle (@post.Rating)</a>
-            </div>
+            @await Html.PartialAsync("partials/_Card.cshtml", post)
         }
     }
 </div>
@@ -28,9 +26,7 @@
         var latestPosts = Model.Posts.OrderByDescending(x => x.PublishedDate).Take(numberOfSummaries);
         foreach (var post in latestPosts)
         {
-            <div>
-                <a href="/blog/@post.Slug">@post.PageTitle</a>
-            </div>
+            @await Html.PartialAsync("partials/_Card.cshtml", post)
         }
     }
 </div>

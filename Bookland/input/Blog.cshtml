@@ -1,17 +1,11 @@
 ﻿@model Posts
-<ul>
 
-    @{
-        @foreach (var (key, posts) in Model.AllPosts)
-        {
-            <h2>@key</h2>
+@foreach (var (key, posts) in Model.AllPosts)
+{
+    <h2>@key</h2>
 
-            @foreach (var post in posts)
-            {
-                <li>
-                    <a href="blog/@post.Slug">@post.PageTitle</a>
-                </li>
-            }
-        }
+    @foreach (var post in posts)
+    {
+        @await Html.PartialAsync("partials/_Card.cshtml", post)
     }
-</ul>
+}

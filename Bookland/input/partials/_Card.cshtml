@@ -1,0 +1,11 @@
+﻿@model Post
+
+<div class="flex flex-nowrap items-center gap-x-4 shadow-md m-6">
+    <img src="@Model.CoverImageLink" alt="Book Cover" class="w-40"/>
+    <div class="flex flex-col">
+        <a href="blog/@Model.Slug" class="self-center">@Model.PageTitle</a>
+        <div class="font-semibold">Author(s): @string.Join(" and", Model.Authors.Select(x => x.Name))</div>
+        <div class="font-semibold">Rating: @Model.Rating / 5 </div>
+        <p class="pr-2">@Model.Description</p>
+    </div>
+</div>
