@@ -1,0 +1,8 @@
+{
+    "tailwindCSS.emmetCompletions": true,
+    "vsicons.presets.jsOfficial": true,
+    "tailwindCSS.includeLanguages": {
+        "chtml": "cshtml",
+        "css": "css"
+    }
+}
