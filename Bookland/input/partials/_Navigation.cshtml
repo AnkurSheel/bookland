@@ -16,10 +16,10 @@
                     </a>
                 </div>
                 <ul class="hidden md:flex items-center space-x-1">
-                    @foreach (var doc in Model.NavigationLinks)
+                    @foreach (var link in Model.NavigationLinks)
                     {
                         <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">
-                            @Html.DocumentLink(doc)
+                            <a href="@link.RelativeUrl">@link.Title</a>
                         </li>
                     }
                 </ul>
@@ -45,14 +45,11 @@
         </div>
         <div class="hidden mobile-menu">
             <ul class="flex flex-col">
-                @foreach (var doc in Model.NavigationLinks)
+                @foreach (var link in Model.NavigationLinks)
                 {
                     // Don't add the home page to the nav bar
                     <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
-                        @Html.DocumentLink(doc, new Dictionary<object, object>
-                        {
-                            { "class", "block" }
-                        })
+                        <a href="@link.RelativeUrl" class="block">@link.Title</a>
                     </li>
                 }
             </ul>
