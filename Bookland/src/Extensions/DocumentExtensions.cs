@@ -29,7 +29,7 @@ namespace Bookland.Extensions
                 document,
                 context,
                 document.GetString("excerpt"),
-                slug,
+                $"blog/{slug}",
                 document.GetDateTime("publishedDate"),
                 document.GetPublishedDate(),
                 document.GetString("bookTitle"),

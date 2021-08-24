@@ -12,7 +12,7 @@ namespace Bookland.Models
             IDocument document,
             IExecutionContext context,
             string excerpt,
-            string slug,
+            string url,
             DateTime publishedDate,
             DateTime updatedDate,
             string bookTitle,
@@ -24,7 +24,7 @@ namespace Bookland.Models
             IReadOnlyList<string> tags) : base(document, context)
         {
             Description = excerpt;
-            Slug = slug;
+            Url = url;
             PublishedDate = publishedDate;
             UpdatedDate = updatedDate;
             BookTitle = bookTitle;
@@ -36,7 +36,7 @@ namespace Bookland.Models
             Tags = tags;
         }
 
-        public string Slug { get; }
+        public string Url { get; }
 
         public DateTime PublishedDate { get; }
 
