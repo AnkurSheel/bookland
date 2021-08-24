@@ -1,11 +1,9 @@
-﻿using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using Bookland.Extensions;
 using Bookland.Models;
 using Statiq.Common;
 using Statiq.Core;
 using Statiq.Razor;
-using Statiq.Yaml;
 
 namespace Bookland.Pipelines
 {
@@ -33,11 +31,10 @@ namespace Bookland.Pipelines
                         (document, context) =>
                         {
                             var postGroupedByYear = context.Outputs.FromPipeline(nameof(PostPipeline))
-                                .GroupBy(x => x.GetDateTime("publishedDate").Year)
+                                .Select(postDocument => postDocument.AsPost(context))
+                                .GroupBy(x => x.PublishedDate.Year)
                                 .OrderByDescending(x => x.Key)
-                                .ToDictionary(
-                                    grouping => grouping.Key,
-                                    grouping => grouping.OrderByDescending(x => x.GetDateTime("publishedDate")).Select(postDocument => postDocument.AsPost(context)).ToList());
+                                .ToDictionary(grouping => grouping.Key, grouping => grouping.OrderByDescending(x => x.PublishedDate).ToList());
                             return new Posts(postGroupedByYear, document, context);
                         })),
             };
