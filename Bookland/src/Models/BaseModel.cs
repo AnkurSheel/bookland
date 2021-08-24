@@ -17,7 +17,11 @@ namespace Bookland.Models
             Script = context.GetLink("/assets/js/blog.js");
             SiteTitle = context.GetString("SiteTitle");
             Description = context.GetString("SiteDescription");
+            PageUrl = $"{context.GetString("SiteUrl")}{document.GetLink()}";
+            CanonicalUrl = context.GetString("canonicalUrl") ?? PageUrl;
         }
+
+        public string PageUrl { get; set; }
 
         public string Description { get; set; }
 
@@ -28,5 +32,7 @@ namespace Bookland.Models
         public string Script { get; }
 
         public string SiteTitle { get; }
+
+        public string CanonicalUrl { get; }
     }
 }
