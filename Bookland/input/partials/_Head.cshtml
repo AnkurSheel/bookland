@@ -1,0 +1,38 @@
+﻿@model BaseModel
+@{
+    var type = Model.PageUrl.StartsWith("/blog/")
+        ? "article"
+        : "website";
+}
+
+<title>@Model.SiteTitle - @Model.PageTitle</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link href="/assets/styles.css" rel="stylesheet"/>
+<meta name="description" content="@Model.Description"/>
+<link rel="canonical" href="@Model.CanonicalUrl"/>
+
+@* Google / Search Engine Tags *@
+<meta itemProp="name" content="@Model.PageTitle"/>
+<meta itemProp="description" content="@Model.Description"/>
+@* <meta itemProp="image" content={imageFacebook} /> *@
+
+@* OpenGraph tags *@
+<meta property="og:url" content="@Model.PageUrl"/>
+<meta property="og:type" content="@type"/>
+<meta property="og:title" content="@Model.PageTitle"/>
+<meta property="og:description" content="@Model.Description"/>
+@* {imageFacebook && <meta property="og:image" content={imageFacebook}/>} *@
+@* {imageFacebook && imageFacebook.indexOf('https') > -1 && ( *@
+@* <meta property="og:image:secure_url" content={imageFacebook}/> *@
+@* )} *@
+@* *@
+@* Twitter Card tags  *@
+<meta name="twitter:card" content="summary_large_image"/>
+@* <meta name="twitter:creator" content={twitterUsername}/> *@
+<meta name="twitter:title" content="@Model.PageTitle"/>
+<meta name="twitter:description" content="@Model.Description"/>
+@* {imageTwitter && <meta name="twitter:image" content={imageTwitter}/>} *@
+@* {imageTwitter && imageTwitter.indexOf('https') > -1 && ( *@
+@* <meta name="twitter:image:secure_url" content={imageTwitter}/> *@
+@* )} *@
