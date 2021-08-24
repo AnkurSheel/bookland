@@ -32,8 +32,13 @@
 
         <p>
             Authors:
-            @foreach (var author in Model.Authors)
+            @for (var index = 0; index < Model.Authors.Count; index++)
             {
+                var author = Model.Authors[index];
+                if (index > 0)
+                {
+                    <span>and</span>
+                }
                 <a href="@author.Link">@author.Name</a>
             }
         </p>
