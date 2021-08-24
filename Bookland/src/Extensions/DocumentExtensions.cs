@@ -21,18 +21,22 @@ namespace Bookland.Extensions
             var authorDocuments = document.GetDocumentList("authors");
             var authors = authorDocuments.Select(authorDocument => new Author(authorDocument.GetString("name"), authorDocument.GetString("link"))).ToList();
 
+            var slug = document.GetString("slug");
+
+            var coverImagePath = document.GetString("coverImage").TrimStart('.', '/');
+
             return new Post(
                 document,
                 context,
                 document.GetString("excerpt"),
-                document.GetString("slug"),
+                slug,
                 document.GetDateTime("publishedDate"),
                 document.GetPublishedDate(),
                 document.GetString("bookTitle"),
                 document.GetString("amazonLink"),
                 document.GetInt("pages"),
                 authors,
-                document.GetString("coverImage"),
+                $"../assets/{slug}/{coverImagePath}",
                 document.GetInt("rating"),
                 document.GetList<string>("tags"));
         }

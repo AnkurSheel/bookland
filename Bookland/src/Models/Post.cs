@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using Microsoft.AspNetCore.Html;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Statiq.Common;
 
 namespace Bookland.Models
@@ -29,7 +31,7 @@ namespace Bookland.Models
             AmazonLink = amazonLink;
             Pages = pages;
             Authors = authors;
-            CoverImageLink = $"../assets/{slug}/{coverImageLink.TrimStart('.', '/')}";
+            CoverImageLink = coverImageLink;
             Rating = rating;
             Tags = tags;
         }
