@@ -91,7 +91,7 @@ We need to address the 3 levels of problems a customer encounters
 
 We need to talk about the cost of not doing business with us is. The best way to do this by creating a villain with personified characteristics that our products or services defeat. The villain should be relatable, singular and real.
 
-> We must tell our customers how great their life can look if they buy our products and services.
+> We must tell our customers how great their life can look if they buy our products and services
 
 We should see if our brand can promise a resolution for one or more of these desires.
 
@@ -165,7 +165,7 @@ We can create an agreement plan by listing all the things (related to our produc
 
 ## What should we have on our website?
 
-> People don’t read websites, they scan them.
+> People don’t read websites, they scan them
 
 On a website, the images and text above the fold are the things you see and read before you start scrolling down. The images and text we use above the fold should either promise to solve a problem or promise an aspirational identity.
 
@@ -260,7 +260,7 @@ Don't worry if the open rates on these e-mails are low. Even if a person sees an
 
 ### **How Much Value Should I Give Away for Free?**
 
-> It’s never cost me to give away valuable, free content. People consume this content on the run and will gladly pay to attend a workshop or hire a facilitator that helps them slow down and learn the information at a custom-created pace.
+> It’s never cost me to give away valuable, free content. People consume this content on the run and will gladly pay to attend a workshop or hire a facilitator that helps them slow down and learn the information at a custom-created pace
 
 Don't be worried about giving away too much free information. The more generous a brand is, the more reciprocity they create.
 
@@ -290,12 +290,13 @@ P.S. X Problem can be frustrating. If you’d rather introduce us to your friend
 
 ## Other Quotes
 
-> If nothing can be gained or lost, no one cares.
+> If nothing can be gained or lost, no one cares
 
-> There’s a reason most marketing collateral doesn’t work. Their marketing is too complicated. The brain doesn’t know how to process the information.
+> There’s a reason most marketing collateral doesn’t work. Their marketing is too complicated. The brain doesn’t know how to process the information
 >
-> ""Mike McHargue
-> Pretty websites don’t sell things. Words sell things.
+> ""Mike McHargue""
+
+> Pretty websites don’t sell things. Words sell things
 
 > Brands that position themselves as heroes unknowingly compete with their potential customers
 

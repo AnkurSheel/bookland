@@ -50,7 +50,7 @@ As a parent, we also need to choose the right teacher for our child especially s
 
 It is important to get to know the student and build a rapport. Once we have gained their trust, we should let them express themself and not suppress their natural voice by forcing them into cookie-cutter moulds.
 
-> Confidence is critical for a great competitor, but overconfidence is brittle.
+> Confidence is critical for a great competitor, but overconfidence is brittle
 
 Even though we might want to praise all the decisions made by a student (especially if they are young) to build confidence, we need to remember that it discourages objectivity, encourages self-indulgence and creates a dishonest relationship.
 
@@ -76,7 +76,7 @@ We need to begin with the fundamentals and get a solid foundation of the princip
 
 If it's a physical discipline, we can slowly and incrementally condense our movements. The key is to take small steps to refine our timing and precision so that the body can barely feel the condensing practice and repeating each step over and over again.
 
-> Growth comes at the expense of previous comfort or safety.
+> Growth comes at the expense of previous comfort or safety
 
 We grow by pushing ourselves and finding what lies at the outer reaches of our abilities.
 
@@ -94,7 +94,7 @@ It is important to learn how to dictate the tone of battle and that involves kno
 
 We need to learn how to use emotion to our advantage. If we take on the mentality of a victim then half the battle is already lost.
 
-> The unconscious mind is a powerful tool, and learning how to relax under pressure is a key first step to tapping into its potential.
+> The unconscious mind is a powerful tool, and learning how to relax under pressure is a key first step to tapping into its potential
 
 An error can trigger fear or confusion that muddies the decision-making process. But, we need to remember that its the not the first mistake but the subsequent mistakes that prove disastrous. Being able to regain presence and clarity of mind after making an error can turn losses into wins.
 
@@ -124,13 +124,13 @@ To always be prepared for exertion by being nourished without having a full stom
 
 ## Other Quotes
 
-> We should not expect the rest of the world to understand what it takes to become the best that we can become.
+> We should not expect the rest of the world to understand what it takes to become the best that we can become
 
 > The road to success is not easy or else everyone would be the greatest at what they do
 
-> Great ones are willing to get burned time and again as they sharpen their swords in the fire.
+> Great ones are willing to get burned time and again as they sharpen their swords in the fire
 
-> If your goal is to be mediocre, then you have a considerable margin for error.
+> If your goal is to be mediocre, then you have a considerable margin for error
 
 > To win, to be right, to have everything under control. This ultimately cripples growth
 

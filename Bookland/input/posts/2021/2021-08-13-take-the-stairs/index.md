@@ -53,11 +53,11 @@ Instead of spending our time trying to make the right decisions, we should inste
 
 In other words, we should be asking _"How"_ instead of _"Should "_. We should make a list of all the things in our life that are "should-do's" and identify which ones are important enough to be converted into "How will I do's?"
 
-> A challenge in respect to today is a big problem. A challenge in respect to our life span is a small problem. A challenge in respect to eternity is no problem.
+> A challenge in respect to today is a big problem. A challenge in respect to our life span is a small problem. A challenge in respect to eternity is no problem
 
 Having a long term perspective allows us to make better decisions. It empowers us with the conviction of knowing that things will work out if we put in the work.
 
-> Faith, therefore, is also choosing to believe that all that is happening today — good or bad — is part of an ultimately greater plan.
+> Faith, therefore, is also choosing to believe that all that is happening today — good or bad — is part of an ultimately greater plan
 
 When we do everything that we can, and things still don't work out the way we had hoped for, then we can be sure that they were definitely supposed to go the way they did.
 
@@ -73,7 +73,7 @@ With so many options, deciding how best to spend our time is a significant cause
 
 By offloading the thought process of deciding what activities we should or shouldn't spend time on when we are in a logical state, we can avoid spending the time and energy on figuring out what to do next.
 
-> Take pride in controlling the activities that are within your power and to let go of the worry and fear attached to the results that are not.
+> Take pride in controlling the activities that are within your power and to let go of the worry and fear attached to the results that are not
 
 Our natural instinct is to want to see the results right away, but there is a gap between the work we put in from being on schedule and when the results start to show up. This delay explains why people often have a hard time sticking to their schedules.
 

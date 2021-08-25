@@ -49,11 +49,11 @@ On the other side of the spectrum, good meetings result in higher morale, faster
 
 There is a simple formula to make meetings interesting - Get people hooked in the 1st 10 minutes, then mine for ideological conflict and drive it to a conclusion.
 
-> There has to be something ultimately at stake.
+> There has to be something ultimately at stake
 
 We have to get peoples attention at the beginning. Luckily, this isn't too hard. People are generally used to be being bored at meetings. In the 1st 10 minutes of a meeting, the participants need to understand and appreciate what is at stake. People are looking for a reason to care and the leader's job is to give them that reason.
 
-> When a group of intelligent people come together to talk about issues that matter, it is both natural and productive for disagreement to occur.
+> When a group of intelligent people come together to talk about issues that matter, it is both natural and productive for disagreement to occur
 
 To make meetings less boring, leaders need to provoke relevant and constructive ideological conflict. This leads to more passionate and provocative discussions which keep the people engaged. Leaders need to look for places where people have different opinions and then force them to communicate what they are thinking until they have said all there is to be said. They can minimize the discomfort by reminding the participants that what they are doing is good.
 
