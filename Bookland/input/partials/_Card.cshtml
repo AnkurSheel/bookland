@@ -1,11 +1,11 @@
 ﻿@model Post
 
-<div class="grid grid-cols-2 shadow-md m-8">
-    <a href="@Model.Url">
+<div class="grid grid-cols-2 shadow-md mb-10">
+    <a href="@Model.Url" class="ml-4 mr-4">
         <img src="@Model.CoverImageLink" alt="Book Cover" class="w-72 max-w-xs"/>
     </a>
 
-    <div class="pl-4">
+    <div class="ml-4 mr-4">
 
         <a href="@Model.Url" class="self-center">@Model.PageTitle</a>
         <div class="font-semibold">Author(s): @string.Join(" and", Model.Authors.Select(x => x.Name))</div>
