@@ -1,0 +1,11 @@
+﻿@model Posts
+
+@foreach (var (key, posts) in Model.AllPosts)
+{
+    <h2>Rating @key / 5 </h2>
+
+    @foreach (var post in posts)
+    {
+        @await Html.PartialAsync("partials/_Card.cshtml", post)
+    }
+}

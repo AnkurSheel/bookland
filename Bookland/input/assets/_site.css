@@ -1,0 +1,35 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    img {
+        @apply rounded border-4 border-gray-600 border-double;
+    }
+
+    p {
+        @apply slashed-zero diagonal-fractions;
+    }
+
+    blockquote {
+        @apply relative p-2 italic border-l-4 text-2xl bg-green-100 border-pink-500 bg-opacity-25 shadow-lg;
+    }
+
+    blockquote > p {
+        @apply text-blue-500 mx-10;
+    }
+
+    blockquote > p:first-of-type:before {
+        @apply text-yellow-500;
+    }
+
+    blockquote > p:first-of-type:after {
+        @apply text-yellow-500;
+    }
+
+    blockquote cite {
+        @apply flex justify-end text-purple-500;
+    }
+}
