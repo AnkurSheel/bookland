@@ -32,7 +32,7 @@ namespace Bookland.Pipelines
                         {
                             var postGroupedByYear = context.Outputs.FromPipeline(nameof(PostPipeline))
                                 .Select(postDocument => postDocument.AsPost(context))
-                                .GroupBy(x => x.PublishedDate.Year)
+                                .GroupBy(x => x.Rating)
                                 .OrderByDescending(x => x.Key)
                                 .ToDictionary(grouping => grouping.Key, grouping => grouping.OrderByDescending(x => x.PublishedDate).ToList());
                             return new Posts(postGroupedByYear, document, context);
