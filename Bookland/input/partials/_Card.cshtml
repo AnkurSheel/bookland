@@ -1,15 +1,15 @@
 ﻿@model Post
 
-<div class="grid grid-cols-2 shadow-md mb-10 items-center bg-gray-200">
+<div class="md:grid md:grid-cols-2 flex flex-col shadow-md mb-10 items-center bg-gray-200 rounded-t-3xl">
     <a href="@Model.Url" class="ml-4 mr-4">
-        <img src="@Model.CoverImageLink" alt="Book Cover" class="w-72 max-w-xs"/>
+        <img src="@Model.CoverImageLink" alt="Book Cover" class="w-72 max-w-xs rounded-t-lg"/>
     </a>
 
     <div class="ml-4 mr-2 flex flex-col">
         <a href="@Model.Url" class="text-center">@Model.PageTitle</a>
         <div class="font-semibold">Author(s): @string.Join(" and ", Model.Authors.Select(x => x.Name))</div>
         <div class="font-semibold">Rating: @Model.Rating / 5 </div>
-        <p class="pr-2">
+        <p>
             @Model.Description
         </p>
         <p>

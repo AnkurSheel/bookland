@@ -19,8 +19,8 @@
     </p>
 </div>
 
-<div class="grid grid-cols-2">
-    <h2 class="col-span-2">What I read</h2>
+<div class="grid md:grid-cols-2 grid-cols-1">
+    <h2 class="md:col-span-2">What I read</h2>
     <img src="@Model.CoverImageLink" alt="Book Cover"></img>
     <div class="pl-4">
 
@@ -47,7 +47,7 @@
 
         <p>Rating: @Model.Rating / 5</p>
     </div>
-    <div class="col-span-2">
+    <div class="md:col-span-2">
         @RenderBody()
     </div>
 </div>
