@@ -6,7 +6,7 @@ using Statiq.Core;
 using Statiq.Web;
 using Statiq.Web.Pipelines;
 
-namespace Bookland
+namespace Bookland.Extensions
 {
     public static class BootstrapperExtensions
     {
