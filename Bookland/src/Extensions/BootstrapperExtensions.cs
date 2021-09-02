@@ -46,7 +46,6 @@ namespace Bookland.Extensions
                 engine =>
                 {
                     engine.Pipelines.Remove(nameof(Assets));
-                    engine.Pipelines.Add(nameof(Assets), new Pipeline());
                     engine.Pipelines.Remove(nameof(Content));
                     engine.Pipelines.Remove(nameof(Sitemap));
                     engine.Pipelines.Add(nameof(Content), new Pipeline());
@@ -60,10 +59,14 @@ namespace Bookland.Extensions
                             InputModules =
                             {
                                 new ReplaceDocuments(
+                                    nameof(AssetsPipeline),
+                                    nameof(HomePipeline),
+                                    nameof(PagesPipeline),
+                                    nameof(PostListPipeline),
                                     nameof(PostPipeline),
-                                    nameof(Content),
-                                    nameof(Archives),
-                                    nameof(Assets))
+                                    nameof(TagsListPipeline),
+                                    nameof(TagsPipeline),
+                                    nameof(SitemapPipeline))
                             }
                         });
                 });
