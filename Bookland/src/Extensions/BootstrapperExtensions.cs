@@ -48,6 +48,7 @@ namespace Bookland.Extensions
                     engine.Pipelines.Remove(nameof(Assets));
                     engine.Pipelines.Add(nameof(Assets), new Pipeline());
                     engine.Pipelines.Remove(nameof(Content));
+                    engine.Pipelines.Remove(nameof(Sitemap));
                     engine.Pipelines.Add(nameof(Content), new Pipeline());
                     engine.Pipelines.Remove(nameof(AnalyzeContent));
                     engine.Pipelines.Add(
