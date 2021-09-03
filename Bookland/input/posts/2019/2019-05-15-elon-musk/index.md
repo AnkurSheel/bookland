@@ -3,17 +3,15 @@ title: 'Elon Musk'
 excerpt: 'This book gives a great insight into Elon Musk as a person as well as into his companies. It reveals the work ethic, the drive and the ruthlessness that exists within Elon that helps him achieve his goals. '
 coverImage: ./cover.jpg
 tags:
-    - 'elon musk'
-    - 'paypal'
-    - 'spacex'
-    - 'tesla'
+    - 'Biography'
+    - 'Company Journey'
 bookTitle: 'Elon Musk: How the Billionaire CEO of SpaceX and Tesla is Shaping our Future'
 amazonLink: 'https://www.amazon.com/Elon-Musk-Billionaire-SpaceX-Shaping-ebook/dp/B00SIDCSWY'
 authors:
     - name: 'Ashlee Vance'
       link: 'http://www.ashleevance.com/'
 pages: 400
-rating: 2 
+rating: 2
 ---
 
 ## Summary
@@ -27,6 +25,7 @@ Vance strikes a perfect balance between the personal and the professional life o
 > I think there are probably too many smart people pursuing internet stuff, finance and law. That is part of the reason why we haven't seen as much innovation
 >
 > ""Elon Musk
+
 ## Key Takeaways
 
 -   If you believe in your goals, even if they might sound absurd at the moment, you might be able to achieve them.

@@ -4,11 +4,8 @@ excerpt: 'The Art Of Learning is Josh Waitzkin’s autobiography dealing with hi
 coverImage: ./cover.jpg
 featuredImagePosition: 'top 60% center'
 tags:
-    - 'parenting'
-    - 'coaching'
-    - 'learning'
-    - 'autobiography'
-    - 'self improvement'
+    - 'Autobiography'
+    - 'Personal Development — Inspirational'
 bookTitle: 'The Art of Learning: An Inner Journey to Optimal Performance'
 amazonLink: 'https://www.amazon.com/The-Art-Learning-Journey-Performance/dp/0743277465/'
 authors:

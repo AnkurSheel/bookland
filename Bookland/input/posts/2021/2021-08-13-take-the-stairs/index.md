@@ -2,13 +2,13 @@
 title: 'Take the Stairs'
 excerpt: "Take the Stairs drives home the reality that self-discipline is necessary to achieve success and that there is no easy path to success. As the author says, it's about taking the stairs instead of the escalator."
 tags:
-    - 'self improvement'
+    - 'Personal Development — Inspirational'
 coverImage: ./cover.jpg
 featuredImagePosition: 'top 22% center'
-bookTitle: 'Take the Stairs: 7 Steps to Achieving True Success' 
+bookTitle: 'Take the Stairs: 7 Steps to Achieving True Success'
 amazonLink: 'https://www.amazon.com/Take-Stairs-Steps-Achieving-Success/dp/0399537767'
 authors:
-    - name: Rory Vaden 
+    - name: Rory Vaden
       link: https://www.roryvaden.com/
 pages: 224
 rating: 2
@@ -39,7 +39,7 @@ There are only 2 types of activities.
 
 The majority of people make decisions based on emotions and impulses. However, making decisions based on what feels good in the short term requires more work in the end.
 
-> Successful people form the habit of doing things that failures don't like doing" 
+> Successful people form the habit of doing things that failures don't like doing"
 >
 > ""Albert Gray""
 
@@ -106,7 +106,6 @@ We should have **"harvest periods"** in some primary areas of our lives.
 > In the absence of disciplined focus, we become strangely loyal to performing daily acts of trivia
 >
 > ""Anonymous""
-/>
 
 Focus is minimizing the amount of distraction. To achieve focus, we need to manage our thoughts, our words and our behaviour.
 

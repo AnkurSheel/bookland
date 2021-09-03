@@ -3,16 +3,11 @@ title: 'The Index card'
 excerpt: 'This is a well written albeit basic book based on the premise that all the financial advice you need to know can fit on an index card.'
 coverImage: ./cover.jpg
 tags:
-    - budgeting
-    - saving
-    - financial advice
-    - investing
-    - housing
-    - insurance
+    - 'Personal Finance'
 bookTitle: 'The Index Card: Why Personal Finance Doesn’t have to be complicated'
 amazonLink: 'https://www.amazon.com/Index-Card-Personal-Finance-Complicated/dp/1591847680'
 authors:
-    - name: 'Helaine Ole' 
+    - name: 'Helaine Ole'
       link: 'http://helaineolen.com/'
     - name: 'Harold Pollack'
       links: 'https://twitter.com/haroldpollack'

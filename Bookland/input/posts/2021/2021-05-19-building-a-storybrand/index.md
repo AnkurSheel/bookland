@@ -2,13 +2,12 @@
 title: 'Building a Storybrand'
 excerpt: 'How can we use key elements that make a compelling story to create effective marketing messages? This book gives us actionable steps to stop bombarding our prospective customers with noise.'
 tags:
-    - 'business'
-    - 'marketing'
-    - 'copywriting'
+    - 'Business'
+    - 'Communication'
 coverImage: ./cover.jpg
 featuredImagePosition: 'top 37% center'
 bookTitle: 'Building a StoryBrand: Clarify Your Message So Customers Will Listen'
-amazonLink:  'https://www.amazon.com/Building-StoryBrand-Clarify-Message-Customers/dp/0718033329'
+amazonLink: 'https://www.amazon.com/Building-StoryBrand-Clarify-Message-Customers/dp/0718033329'
 authors:
     - name: 'Donald Miller'
       link: 'https://storybrand.com/'

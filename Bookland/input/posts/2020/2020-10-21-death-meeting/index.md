@@ -4,12 +4,13 @@ excerpt: 'Meetings are critical for making decisions. But we dread meetings beca
 coverImage: ./cover.jpg
 featuredImagePosition: 'top 25% center'
 tags:
-    - leadership
-    - business
+    - 'Leadership'
+    - 'Business'
+    - 'Company Building'
 bookTitle: 'Death by Meeting: A Leadership Fable...About Solving the Most Painful Problem in Business'
 amazonLink: 'https://www.amazon.com/Death-Meeting-Leadership-Solving-Business/dp/0787968056'
 authors:
-    - name: 'Patrick M. Lencioni' 
+    - name: 'Patrick M. Lencioni'
       link: 'https://www.tablegroup.com/'
 pages: 260
 rating: 5

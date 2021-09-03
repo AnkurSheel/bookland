@@ -4,16 +4,11 @@ excerpt: 'A one-page financial plan represents only 3-4 things that are most imp
 coverImage: ./cover.jpg
 featuredImagePosition: 'top 25% center'
 tags:
-    - budgeting
-    - financial advice
-    - insurance
-    - investing
-    - saving
-    - finance
+    - 'Personal Finance'
 bookTitle: 'The One-Page Financial Plan: A Simple Way to Be Smart About Your Money'
 amazonLink: 'https://www.amazon.com/One-Page-Financial-Plan-Simple-Smart/dp/1591847559'
 authors:
-    - name: 'Carl Richards' 
+    - name: 'Carl Richards'
       link: 'https://behaviorgap.com/'
 pages: 224
 rating: 4
@@ -79,7 +74,7 @@ We need to ask ourselves "**If we were to retire today, how much money would we 
 
 ### How to deal with **disappointments**?
 
->  It wasn’t the story I wanted to tell, but it was the truth
+> It wasn’t the story I wanted to tell, but it was the truth
 
 There are times when life won't go as planned and circumstances can derail our best-laid plans. Remember that problems are never quite as bad as it seems and we can always make some changes to get back on track. By remembering whats important to us and by focusing on things that we can control, we can gain clarity.
 

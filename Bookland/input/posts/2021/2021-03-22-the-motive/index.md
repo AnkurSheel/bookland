@@ -4,10 +4,9 @@ excerpt: 'What is your motive to take a leadership position? Is it because it’
 coverImage: ./cover.jpg
 featuredImagePosition: 'top 37% center'
 tags:
-    - 'leadership'
-    - 'coaching'
-    - 'business'
-    - 'economics'
+    - 'Business'
+    - 'Leadership'
+    - 'Communication'
 bookTitle: 'The Motive: Why So Many Leaders Abdicate Their Most Important Responsibilities'
 amazonLink: 'https://www.amazon.com/Motive-Leaders-Abdicate-Important-Responsibilities/dp/1119600456'
 authors:
@@ -134,6 +133,7 @@ Building an organisation starts by changing the behaviour of the leaders, which 
 > [The] plan was the plan, and his job was to keep his company focused on it, not to move from one flavour of the month to another
 >
 > ""Alan Mulally""
+
 ## Recommendation
 
 The book is exceptionally well written. Even though it is short, the leadership lesson is powerful. I think everyone who is either a leader or looking to move to a leadership position should read this book. It challenges us to look at our motivations for leading.

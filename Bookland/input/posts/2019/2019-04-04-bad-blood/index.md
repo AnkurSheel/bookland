@@ -3,10 +3,9 @@ title: 'Bad Blood'
 excerpt: The book is about the inner workings at Theranos,  a  startup making medical devices to enable the testing of blood using just a pinprick.
 coverImage: ./cover.jpg
 tags:
-    - 'health care'
-    - 'medical'
-    - 'startup'
-    - 'theranos'
+    - 'Biography'
+    - 'Company Journey'
+    - 'Company Building'
 bookTitle: 'Bad Blood: Secrets and Lies in a Silicon Valley Startup'
 amazonLink: 'https://www.amazon.com/Bad-Blood-Secrets-Silicon-Startup/dp/152473165X'
 authors:
@@ -29,6 +28,7 @@ Its an extremely interesting and well written book.
 > This is what happens when you work to change things. First they think you're crazy, then they fight you, and then all of a sudden you change the world
 >
 > ""Elizabeth Holmes""
+
 ## Key Takeaways
 
 -   Don't buy expensive things early in anticipation of when they will be used but closer to when you actually need them.

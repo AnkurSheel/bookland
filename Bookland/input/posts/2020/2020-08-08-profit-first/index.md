@@ -3,18 +3,14 @@ title: 'Profit First'
 excerpt: 'This book is a step by step guide to implement the profit first technique - a strategy to divide your income into different buckets and taking a profit before paying your expenses to run an efficient and profitable business'
 coverImage: ./cover.jpg
 tags:
-    - business
-    - growth
-    - profitability
-    - saving
-    - revenue
-    - startup
-    - finance
+    - 'Business'
+    - 'Company Building'
+    - 'Business Finance'
 bookTitle: 'Profit First: Transform Your Business from a Cash-Eating Monster to a Money-Making Machine'
 amazonLink: 'https://www.amazon.com/Profit-First-Transform-Cash-Eating-Money-Making-ebook/dp/B01HCGYTH4'
 authors:
-    - name: 'Mike Michalowicz' 
-      link: 'https://mikemichalowicz.com/' 
+    - name: 'Mike Michalowicz'
+      link: 'https://mikemichalowicz.com/'
 pages: 224
 rating: 5
 ---

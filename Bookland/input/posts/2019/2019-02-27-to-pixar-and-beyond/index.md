@@ -3,10 +3,9 @@ title: 'To Pixar and Beyond'
 excerpt: This is a very well written book and gives an extremely good insight into Pixar's struggle to become a blockbuster factory.
 coverImage: ./cover.jpg
 tags:
-    - 'animation'
-    - 'movie'
-    - 'pixar'
-    - 'steve jobs'
+    - 'Company Journey'
+    - 'Biography'
+    - 'Company Building'
 bookTitle: 'To Pixar and Beyond: My Unlikely Journey with Steve Jobs to Make Entertainment History'
 amazonLink: 'https://www.amazon.com/Pixar-Beyond-Unlikely-Journey-Entertainment-ebook/dp/B01912OSA0'
 authors:
