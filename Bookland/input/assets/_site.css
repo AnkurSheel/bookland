@@ -5,8 +5,12 @@
 @tailwind utilities;
 
 @layer base {
-    img {
+    article img {
         @apply rounded border-4 border-gray-600 border-double;
+    }
+
+    a {
+        @apply transition-all transform hover:scale-110;
     }
 
     p {

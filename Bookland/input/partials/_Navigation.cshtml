@@ -8,8 +8,8 @@
             <div class="flex space-x-7 items-center">
                 <!-- Website Logo -->
                 <div>
-                    <a href="/" class="flex items-center py-4 px-2">
-                        <span class="font-semibold text-gray-500 text-lg">
+                    <a href="/" class="flex items-center py-4 px-2 ">
+                        <span class="font-semibold text-gray-500 text-lg hover:text-green-500">
                             @Model.SiteTitle
                         </span
                         >
@@ -18,7 +18,7 @@
                 <ul class="hidden md:flex items-center space-x-1">
                     @foreach (var link in Model.NavigationLinks)
                     {
-                        <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">
+                        <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
                             <a href="@link.RelativeUrl">@link.Title</a>
                         </li>
                     }
