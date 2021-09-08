@@ -4,6 +4,7 @@ excerpt: 'How can we use key elements that make a compelling story to create eff
 tags:
     - 'Business'
     - 'Communication'
+    - 'Marketing'
 coverImage: ./cover.jpg
 featuredImagePosition: 'top 37% center'
 bookTitle: 'Building a StoryBrand: Clarify Your Message So Customers Will Listen'
