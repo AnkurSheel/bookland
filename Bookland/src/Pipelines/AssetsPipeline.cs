@@ -1,4 +1,5 @@
-﻿using Bookland.Extensions;
+﻿using System.Threading.Tasks;
+using Bookland.Extensions;
 using Statiq.Common;
 using Statiq.Core;
 
@@ -11,6 +12,7 @@ namespace Bookland.Pipelines
             InputModules = new ModuleList
             {
                 new CopyFiles("assets/**/*.{*,!scss,!css}"),
+                new CopyFiles("assets/js/sw.js").To(file => Task.FromResult(new NormalizedPath("./sw.js"))),
                 new ReadFiles("posts/**/*.{jpg,png}")
             };
 
