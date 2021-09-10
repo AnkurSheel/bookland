@@ -1,5 +1,5 @@
 [build]
-  command = "dotnet run --project ./Bookland/"
+  command = "dotnet run --project ./Bookland/ -l Debug"
   publish = "./Bookland/output"
 
 [build.environment]
