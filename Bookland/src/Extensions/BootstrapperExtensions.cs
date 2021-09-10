@@ -3,6 +3,7 @@ using Bookland.Pipelines;
 using Statiq.App;
 using Statiq.Common;
 using Statiq.Core;
+using Statiq.Feeds.Syndication;
 using Statiq.Web;
 using Statiq.Web.Pipelines;
 
@@ -45,10 +46,15 @@ namespace Bookland.Extensions
             bootstrapper.ConfigureEngine(
                 engine =>
                 {
+                    engine.Pipelines.Remove(nameof(Inputs));
                     engine.Pipelines.Remove(nameof(Assets));
                     engine.Pipelines.Remove(nameof(Content));
                     engine.Pipelines.Remove(nameof(Sitemap));
-                    engine.Pipelines.Add(nameof(Content), new Pipeline());
+                    engine.Pipelines.Remove(nameof(Archives));
+                    engine.Pipelines.Remove(nameof(Feeds));
+                    engine.Pipelines.Remove(nameof(Data));
+                    engine.Pipelines.Remove(nameof(Redirects));
+                    engine.Pipelines.Remove(nameof(SearchIndex));
                     engine.Pipelines.Remove(nameof(AnalyzeContent));
                     engine.Pipelines.Add(
                         nameof(AnalyzeContent),
@@ -59,7 +65,8 @@ namespace Bookland.Extensions
                             InputModules =
                             {
                                 new ReplaceDocuments(
-                                    nameof(AssetsPipeline),
+                                    nameof(ImagesPipeline),
+                                    nameof(ScriptsPipeline),
                                     nameof(HomePipeline),
                                     nameof(PagesPipeline),
                                     nameof(PostListPipeline),
