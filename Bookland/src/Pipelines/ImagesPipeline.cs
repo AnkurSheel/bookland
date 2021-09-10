@@ -1,19 +1,16 @@
-﻿using System.Threading.Tasks;
-using Bookland.Extensions;
+﻿using Bookland.Extensions;
 using Statiq.Common;
 using Statiq.Core;
 
 namespace Bookland.Pipelines
 {
-    public class AssetsPipeline : Pipeline
+    public class ImagesPipeline : Pipeline
     {
-        public AssetsPipeline()
+        public ImagesPipeline()
         {
             InputModules = new ModuleList
             {
-                new CopyFiles("assets/**/*.{*,!scss,!css}"),
-                new CopyFiles("assets/js/sw.js").To(file => Task.FromResult(new NormalizedPath("./sw.js"))),
-                new ReadFiles("posts/**/*.{jpg,png}")
+                new ReadFiles("**/*.{jpg,png,svg,ico}")
             };
 
             ProcessModules = new ModuleList
