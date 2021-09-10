@@ -10,7 +10,7 @@ namespace Bookland.Pipelines
         {
             InputModules = new ModuleList
             {
-                new ReadFiles("assets/**/{*,!_site}.css")
+                new ReadFiles("assets/**/{*,!_*}.css")
             };
 
             ProcessModules = new ModuleList
