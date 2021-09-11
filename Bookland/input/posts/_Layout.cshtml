@@ -2,21 +2,24 @@
 @{
     Layout = "../_Layout.cshtml";
 }
-<div class="prose-sm">
-    <p>
+<div class="prose-sm italic ">
+    <div class="flex justify-evenly items-center">
         <i>Published Date: @Model.PublishedDate.ToString("dd-MMM-yyyy")</i>
-        <i>Last Updated Date: @Model.UpdatedDate.ToString("dd-MMM-yyyy")</i>
-        <div class="flex flex-row flex-wrap gap-1 place-content-center">
-            @foreach (var tag in Model.Tags)
-            {
-                var path = new NormalizedPath($"/tags/{tag}").OptimizeFileName().ToString();
+        <i class="font-bold">
+            Reading Time: @Model.ReadingTimeData.Minutes minutes @Model.ReadingTimeData.Seconds seconds
+        </i>
+    </div>
 
-                <div class="flex-initial border-2 border-black p-2 m-2 border rounded-xl">
-                    <a role="button" href="@path" class="badge text-black bg-grey-light no-underline">@tag</a>
-                </div>
-            }
-        </div>
-    </p>
+    <div class="flex flex-row flex-wrap gap-1 place-content-center">
+        @foreach (var tag in Model.Tags)
+        {
+            var path = new NormalizedPath($"/tags/{tag}").OptimizeFileName().ToString();
+
+            <div class="flex-initial border-2 border-black p-2 m-2 border rounded-xl">
+                <a role="button" href="@path" class="badge text-black bg-grey-light no-underline">@tag</a>
+            </div>
+        }
+    </div>
 </div>
 
 <div class="grid md:grid-cols-2 grid-cols-1">

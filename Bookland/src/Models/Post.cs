@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Bookland.Modules;
 using Microsoft.AspNetCore.Html;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Statiq.Common;
@@ -21,7 +22,8 @@ namespace Bookland.Models
             IReadOnlyList<Author> authors,
             string coverImageLink,
             int rating,
-            IReadOnlyList<string> tags) : base(document, context)
+            IReadOnlyList<string> tags,
+            ReadingTimeData readingTimeData) : base(document, context)
         {
             Description = excerpt;
             Url = url;
@@ -34,6 +36,7 @@ namespace Bookland.Models
             CoverImageLink = coverImageLink;
             Rating = rating;
             Tags = tags;
+            ReadingTimeData = readingTimeData;
         }
 
         public string Url { get; }
@@ -55,6 +58,8 @@ namespace Bookland.Models
         public int Rating { get; }
 
         public IReadOnlyList<string> Tags { get; }
+
+        public ReadingTimeData ReadingTimeData { get; }
     }
 
     public class Author

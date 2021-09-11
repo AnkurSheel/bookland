@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using Bookland.Modules;
 using Statiq.Common;
 
 namespace Bookland.Models
@@ -8,7 +9,7 @@ namespace Bookland.Models
     {
         public BaseModel(IDocument document, IExecutionContext context)
         {
-            PageTitle = document.GetString("Title");
+            PageTitle = document.GetString(MetaDataKeys.Title);
             NavigationLinks = context.OutputPages.GetChildrenOf("index.html")
                 .Where(x => x.Destination != "index.html")
                 .Select(x => new NavigationLink(x.GetString("title"), $"/{x.Destination.FileNameWithoutExtension.ToString()}"))
