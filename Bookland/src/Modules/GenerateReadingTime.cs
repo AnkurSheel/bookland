@@ -7,16 +7,16 @@ namespace Bookland.Modules
 {
     public record ReadingTimeData(int Minutes, int Seconds, int Words);
 
-    public class ReadingTime : ParallelModule
+    public class GenerateReadingTime : ParallelModule
     {
         private static readonly Regex SpacesRegex = new Regex(@"\S+", RegexOptions.Multiline);
         private readonly int _wordsPerMinute;
 
-        public ReadingTime() : this(200)
+        public GenerateReadingTime() : this(200)
         {
         }
 
-        public ReadingTime(int wordsPerMinute)
+        public GenerateReadingTime(int wordsPerMinute)
         {
             _wordsPerMinute = wordsPerMinute;
         }

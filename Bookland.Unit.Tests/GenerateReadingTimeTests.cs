@@ -7,7 +7,7 @@ using Xunit;
 
 namespace Bookland.Unit.Tests
 {
-    public class ReadingTimeTests : BaseFixture
+    public class GenerateReadingTimeTests : BaseFixture
     {
         [Theory]
         [InlineData(100, 0, 30)]
@@ -19,7 +19,7 @@ namespace Bookland.Unit.Tests
             string input = string.Concat(Enumerable.Repeat("a ", numberOfWords));
 
             TestDocument document = new TestDocument(input);
-            ReadingTime readingTime = new ReadingTime();
+            GenerateReadingTime readingTime = new GenerateReadingTime();
 
             TestDocument result = await ExecuteAsync(document, readingTime).SingleAsync();
 
@@ -36,7 +36,7 @@ namespace Bookland.Unit.Tests
             string input = string.Concat(Enumerable.Repeat("a ", numberOfWords));
 
             TestDocument document = new TestDocument(input);
-            ReadingTime readingTime = new ReadingTime(wordsPerMinute);
+            GenerateReadingTime readingTime = new GenerateReadingTime(wordsPerMinute);
 
             TestDocument result = await ExecuteAsync(document, readingTime).SingleAsync();
 
