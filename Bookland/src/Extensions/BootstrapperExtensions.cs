@@ -26,7 +26,7 @@ namespace Bookland.Extensions
                         WorkingDirectory = nodeDirectory
                     })
                 .AddProcess(
-                    ProcessTiming.BeforeExecution,
+                    ProcessTiming.Initialization,
                     _ => new ProcessLauncher(
                         "npx",
                         "tailwind",
