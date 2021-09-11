@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Text.RegularExpressions;
 using Bookland.Models;
+using Bookland.Modules;
 using Statiq.Common;
 using Statiq.Web;
 
@@ -38,7 +39,8 @@ namespace Bookland.Extensions
                 authors,
                 $"/assets/{slug}/{coverImagePath}",
                 document.GetInt("rating"),
-                document.GetList<string>("tags"));
+                document.GetList<string>("tags"),
+                document.Get<ReadingTimeData>(MetaDataKeys.ReadingTime));
         }
 
         public static Tag AsTag(this IDocument document, IExecutionContext context)

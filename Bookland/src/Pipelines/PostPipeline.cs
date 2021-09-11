@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Globalization;
 using Bookland.Extensions;
+using Bookland.Modules;
 using Statiq.Common;
 using Statiq.Core;
 using Statiq.Markdown;
@@ -39,6 +40,7 @@ namespace Bookland.Pipelines
                             return postDetailsFromPath["slug"].Value;
                         })),
                 new ReplaceInContent(@"!\[(?<alt>.*)\]\(./(?<imagePath>.*)\)", Config.FromDocument((document, context) => $"![$1](../assets/{document.GetString("slug")}/$2)")).IsRegex(),
+                new ReadingTime(),
                 new RenderMarkdown().UseExtensions(),
                 new OptimizeFileName(),
                 new SetDestination(Config.FromDocument((doc, ctx) => new NormalizedPath("blog").Combine($"{doc.GetString("slug")}.html"))),
