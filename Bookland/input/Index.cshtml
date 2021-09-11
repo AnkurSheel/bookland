@@ -9,24 +9,29 @@
     I read the books and write my takeaways so that you can decide if you want to spend your valuable time reading the whole book or not?
 </p>
 
-<h2>Top Rated Books</h2>
-<div class="flex flex-col gap-1 flex-auto">
-    @{
-        var topRatedPosts = Model.Posts.OrderByDescending(x => x.Rating).ThenBy(x => x.PageTitle).Take(numberOfSummaries);
-        foreach (var post in topRatedPosts)
-        {
-            @await Html.PartialAsync("partials/_Card.cshtml", post)
-        }
-    }
-</div>
-
-<h2>Latest summaries</h2>
-<div class="flex flex-col gap-1 flex-auto">
-    @{
-        var latestPosts = Model.Posts.OrderByDescending(x => x.PublishedDate).Take(numberOfSummaries);
-        foreach (var post in latestPosts)
-        {
-            @await Html.PartialAsync("partials/_Card.cshtml", post)
-        }
-    }
+<div class="flex justify-between">
+    <div class="bg-gray-200 rounded-3xl px-4">
+        <h2>Top Rated Books</h2>
+        <div class="flex flex-col gap-1 flex-auto">
+            @{
+                var topRatedPosts = Model.Posts.OrderByDescending(x => x.Rating).ThenByDescending(x => x.PageTitle).Take(numberOfSummaries);
+                foreach (var post in topRatedPosts)
+                {
+                    <a href="@post.Url" class="text-center prose-2xl mb-4">@post.PageTitle</a>
+                }
+            }
+        </div>
+    </div>
+    <div class="bg-gray-200 rounded-3xl px-4">
+        <h2>Latest Summaries</h2>
+        <div class="flex flex-col gap-1 flex-auto">
+            @{
+                var latestPosts = Model.Posts.OrderByDescending(x => x.PublishedDate).Take(numberOfSummaries);
+                foreach (var post in latestPosts)
+                {
+                    <a href="@post.Url" class="text-center prose-2xl mb-4">@post.PageTitle</a>
+                }
+            }
+        </div>
+    </div>
 </div>
