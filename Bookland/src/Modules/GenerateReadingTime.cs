@@ -27,7 +27,7 @@ namespace Bookland.Modules
             return input.Clone(
                     new MetadataItems
                     {
-                        { "ReadingTime", GetReadingTime(content) }
+                        { MetaDataKeys.ReadingTime, GetReadingTime(content) }
                     })
                 .Yield();
         }

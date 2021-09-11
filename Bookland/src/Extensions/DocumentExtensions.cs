@@ -19,27 +19,27 @@ namespace Bookland.Extensions
 
         public static Post AsPost(this IDocument document, IExecutionContext context)
         {
-            var authorDocuments = document.GetDocumentList("authors");
+            var authorDocuments = document.GetDocumentList(MetaDataKeys.Authors);
             var authors = authorDocuments.Select(authorDocument => new Author(authorDocument.GetString("name"), authorDocument.GetString("link"))).ToList();
 
-            var slug = document.GetString("slug");
+            var slug = document.GetString(MetaDataKeys.Slug);
 
-            var coverImagePath = document.GetString("coverImage").TrimStart('.', '/');
+            var coverImagePath = document.GetString(MetaDataKeys.CoverImage).TrimStart('.', '/');
 
             return new Post(
                 document,
                 context,
-                document.GetString("excerpt"),
+                document.GetString(MetaDataKeys.Excerpt),
                 $"/blog/{slug}",
-                document.GetDateTime("publishedDate"),
+                document.GetDateTime(MetaDataKeys.PublishedDate),
                 document.GetPublishedDate(),
-                document.GetString("bookTitle"),
-                document.GetString("amazonLink"),
-                document.GetInt("pages"),
+                document.GetString(MetaDataKeys.BookTitle),
+                document.GetString(MetaDataKeys.AmazonLink),
+                document.GetInt(MetaDataKeys.Pages),
                 authors,
                 $"/assets/{slug}/{coverImagePath}",
-                document.GetInt("rating"),
-                document.GetList<string>("tags"),
+                document.GetInt(MetaDataKeys.Rating),
+                document.GetList<string>(MetaDataKeys.Tags),
                 document.Get<ReadingTimeData>(MetaDataKeys.ReadingTime));
         }
 
@@ -47,13 +47,8 @@ namespace Bookland.Extensions
         {
             var posts = document.GetChildren().Select(x => x.AsPost(context)).OrderByDescending(x => x.PublishedDate).ToList();
 
-            var name = document.GetString("Name");
-            return new Tag(
-                document,
-                context,
-                name,
-                new NormalizedPath($"/tags/{name}").OptimizeFileName().ToString(),
-                posts);
+            var name = document.GetString(MetaDataKeys.Name);
+            return new Tag(document, context, name, new NormalizedPath($"/tags/{name}").OptimizeFileName().ToString(), posts);
         }
 
         public static HomeModel AsHomeModel(this IDocument document, IExecutionContext context, IReadOnlyList<Post> posts)
