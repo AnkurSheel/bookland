@@ -35,5 +35,10 @@ namespace Bookland.Models
         public string SiteTitle { get; }
 
         public string CanonicalUrl { get; }
+
+        public string? ImageTwitter { get; protected set; }
+
+        public string? ImageFacebook { get; protected set; }
+
     }
 }

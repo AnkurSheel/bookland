@@ -15,5 +15,7 @@
         public const string ReadingTime = nameof(ReadingTime);
         public const string Title = nameof(Title);
         public const string Name = nameof(Name);
+        public const string ImageFacebook = nameof(ImageFacebook);
+        public const string ImageTwitter = nameof(ImageTwitter);
     }
 }

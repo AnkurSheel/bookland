@@ -37,6 +37,8 @@ namespace Bookland.Models
             ReadingTimeData = readingTimeData;
             Url = $"/blog/{slug}";
             CoverImageLink = $"/assets/{slug}/{coverImagePath}";
+            ImageFacebook = $"{context.GetString("SiteUrl")}/assets/social/{slug}-facebook.png";
+            ImageTwitter = $"{context.GetString("SiteUrl")}/assets/social/{slug}-twitter.png";
         }
 
         public string Url { get; }
