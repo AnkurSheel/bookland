@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Logging;
 using Statiq.Common;
 
 namespace Bookland.Modules
@@ -23,6 +24,8 @@ namespace Bookland.Modules
 
         protected override async Task<IEnumerable<IDocument>> ExecuteInputAsync(IDocument input, IExecutionContext context)
         {
+            context.LogDebug($"Read file {input.Source}");
+
             var content = await input.GetContentStringAsync();
             return input.Clone(
                     new MetadataItems

@@ -4,6 +4,7 @@ using System.IO;
 using System.Threading.Tasks;
 using Bookland.Extensions;
 using Bookland.Models;
+using Microsoft.Extensions.Logging;
 using SixLabors.Fonts;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.Drawing;
@@ -25,6 +26,7 @@ namespace Bookland.Modules
 
         protected override async Task<IEnumerable<IDocument>> ExecuteInputAsync(IDocument input, IExecutionContext context)
         {
+            context.LogDebug($"Read file {input.Source}");
             var post = input.AsPost(context);
 
             var facebookDoc = await CreateImageDocument(
@@ -34,6 +36,9 @@ namespace Bookland.Modules
                 630,
                 post,
                 "facebook");
+
+            context.LogDebug($"Created {facebookDoc.Destination}");
+
             var twitterDoc = await CreateImageDocument(
                 input,
                 context,
@@ -42,7 +47,10 @@ namespace Bookland.Modules
                 post,
                 "twitter");
 
+            context.LogDebug($"Created {twitterDoc.Destination}");
+
             return new[] { facebookDoc, twitterDoc };
+
         }
 
         private async Task<IDocument> CreateImageDocument(
@@ -60,7 +68,7 @@ namespace Bookland.Modules
                 imageContext =>
                 {
                     imageContext.SetGraphicsOptions(
-                        new GraphicsOptions()
+                        new GraphicsOptions
                         {
                             Antialias = true
                         });
