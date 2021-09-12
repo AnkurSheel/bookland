@@ -89,7 +89,7 @@ namespace Bookland.Modules
 
             await template.SaveAsPngAsync(output);
 
-            var destination = $"./assets/social/{input.Destination.FileNameWithoutExtension}-{suffix}.png";
+            var destination = $"./assets/images/social/{input.Destination.FileNameWithoutExtension}-{suffix}.png";
 
             var doc = context.CreateDocument(input.Source, destination, context.GetContentProvider(output));
             return doc;
