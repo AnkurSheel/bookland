@@ -22,22 +22,19 @@ namespace Bookland.Extensions
             var authorDocuments = document.GetDocumentList(MetaDataKeys.Authors);
             var authors = authorDocuments.Select(authorDocument => new Author(authorDocument.GetString("name"), authorDocument.GetString("link"))).ToList();
 
-            var slug = document.GetString(MetaDataKeys.Slug);
-
-            var coverImagePath = document.GetString(MetaDataKeys.CoverImage).TrimStart('.', '/');
-
             return new Post(
                 document,
                 context,
                 document.GetString(MetaDataKeys.Excerpt),
-                $"/blog/{slug}",
+                document.GetString(MetaDataKeys.Slug),
                 document.GetDateTime(MetaDataKeys.PublishedDate),
                 document.GetPublishedDate(),
                 document.GetString(MetaDataKeys.BookTitle),
                 document.GetString(MetaDataKeys.AmazonLink),
                 document.GetInt(MetaDataKeys.Pages),
                 authors,
-                $"/assets/{slug}/{coverImagePath}",
+                document.GetString(MetaDataKeys.CoverImage).TrimStart('.', '/'),
+
                 document.GetInt(MetaDataKeys.Rating),
                 document.GetList<string>(MetaDataKeys.Tags),
                 document.Get<ReadingTimeData>(MetaDataKeys.ReadingTime));
