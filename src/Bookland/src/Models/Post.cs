@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using Bookland.Modules;
-using Microsoft.AspNetCore.Html;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Statiq.Common;
 
 namespace Bookland.Models
@@ -13,33 +11,39 @@ namespace Bookland.Models
             IDocument document,
             IExecutionContext context,
             string excerpt,
-            string url,
+            string slug,
             DateTime publishedDate,
             DateTime updatedDate,
             string bookTitle,
             string amazonLink,
             int pages,
             IReadOnlyList<Author> authors,
-            string coverImageLink,
+            string coverImagePath,
             int rating,
             IReadOnlyList<string> tags,
             ReadingTimeData readingTimeData) : base(document, context)
         {
             Description = excerpt;
-            Url = url;
+            Slug = slug;
             PublishedDate = publishedDate;
             UpdatedDate = updatedDate;
             BookTitle = bookTitle;
             AmazonLink = amazonLink;
             Pages = pages;
             Authors = authors;
-            CoverImageLink = coverImageLink;
+            CoverImagePath = coverImagePath;
             Rating = rating;
             Tags = tags;
             ReadingTimeData = readingTimeData;
+            Url = $"/blog/{slug}";
+            CoverImageLink = $"/assets/{slug}/{coverImagePath}";
+            ImageFacebook = $"{context.GetString("SiteUrl")}/assets/social/{slug}-facebook.png";
+            ImageTwitter = $"{context.GetString("SiteUrl")}/assets/social/{slug}-twitter.png";
         }
 
         public string Url { get; }
+
+        public string Slug { get; }
 
         public DateTime PublishedDate { get; }
 
@@ -52,6 +56,8 @@ namespace Bookland.Models
         public int Pages { get; }
 
         public IReadOnlyList<Author> Authors { get; }
+
+        public string CoverImagePath { get; }
 
         public string CoverImageLink { get; }
 

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <WarningsAsErrors>nullable</WarningsAsErrors>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="SixLabors.ImageSharp" Version="1.0.3"/>
+        <PackageReference Include="SixLabors.ImageSharp.Drawing" Version="1.0.0-beta13"/>
+        <PackageReference Include="Statiq.Html" Version="1.0.0-beta.48"/>
+        <PackageReference Include="Statiq.Web" Version="1.0.0-beta.33"/>
+    </ItemGroup>
+
+</Project>

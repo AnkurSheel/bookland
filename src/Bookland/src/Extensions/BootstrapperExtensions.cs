@@ -14,7 +14,7 @@ namespace Bookland.Extensions
         public static Bootstrapper AddNpmProcesses(this Bootstrapper bootstrapper)
         {
             var currentDirectory = Directory.GetCurrentDirectory();
-            var nodeDirectory = Path.Combine(currentDirectory, "..", "node");
+            var nodeDirectory = Path.Combine(currentDirectory, "..", "..", "node");
             Directory.CreateDirectory(nodeDirectory);
 
             var inputDirectory = Path.Combine(currentDirectory, "input");

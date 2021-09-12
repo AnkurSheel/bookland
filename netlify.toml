@@ -1,6 +1,6 @@
 [build]
-  command = "dotnet run --project ./Bookland/ -l Debug"
-  publish = "./Bookland/output"
+  command = "dotnet run --project ./src/Bookland/ -l Debug"
+  publish = "./output"
 
 [build.environment]
   TZ = "Pacific/Auckland"

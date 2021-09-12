@@ -15,24 +15,28 @@
 @* Google / Search Engine Tags *@
 <meta itemProp="name" content="@Model.PageTitle"/>
 <meta itemProp="description" content="@Model.Description"/>
-@* <meta itemProp="image" content={imageFacebook} /> *@
-
+@if (Model.ImageFacebook != null)
+{
+    <meta itemProp="image" content="@Model.ImageFacebook"/>
+}
 @* OpenGraph tags *@
 <meta property="og:url" content="@Model.PageUrl"/>
 <meta property="og:type" content="@type"/>
 <meta property="og:title" content="@Model.PageTitle"/>
 <meta property="og:description" content="@Model.Description"/>
-@* {imageFacebook && <meta property="og:image" content={imageFacebook}/>} *@
-@* {imageFacebook && imageFacebook.indexOf('https') > -1 && ( *@
-@* <meta property="og:image:secure_url" content={imageFacebook}/> *@
-@* )} *@
-@* *@
+@if (Model.ImageFacebook != null)
+{
+    <meta property="og:image" content="@Model.ImageFacebook"/>
+    <meta property="og:image:secure_url" content="@Model.ImageFacebook"/>
+}
+
 @* Twitter Card tags  *@
 <meta name="twitter:card" content="summary_large_image"/>
 @* <meta name="twitter:creator" content={twitterUsername}/> *@
 <meta name="twitter:title" content="@Model.PageTitle"/>
 <meta name="twitter:description" content="@Model.Description"/>
-@* {imageTwitter && <meta name="twitter:image" content={imageTwitter}/>} *@
-@* {imageTwitter && imageTwitter.indexOf('https') > -1 && ( *@
-@* <meta name="twitter:image:secure_url" content={imageTwitter}/> *@
-@* )} *@
+@if (Model.ImageTwitter != null)
+{
+    <meta name="twitter:image" content="@Model.ImageTwitter"/>
+    <meta name="twitter:image:secure_url" content="@Model.ImageTwitter"/>
+}
