@@ -16,6 +16,13 @@ namespace Bookland.Modules
 {
     public class GenerateSocialImages : ParallelModule
     {
+        private readonly FontFamily _fonts;
+
+        public GenerateSocialImages()
+        {
+            _fonts = new FontCollection().Install("./input/assets/fonts/Inter-VariableFont.ttf");
+        }
+
         protected override async Task<IEnumerable<IDocument>> ExecuteInputAsync(IDocument input, IExecutionContext context)
         {
             var post = input.AsPost(context);
@@ -110,7 +117,7 @@ namespace Bookland.Modules
         private void AddCenterText(IImageProcessingContext imageContext, int imageWidth, int imageHeight, Post post)
         {
             var fontSize = imageHeight / 10;
-            var titleFont = SystemFonts.CreateFont("Arial", fontSize, FontStyle.Bold);
+            var titleFont = new Font(_fonts, fontSize, FontStyle.Bold);
 
             var xPadding = imageWidth / 30;
             var drawingOptions = new DrawingOptions
@@ -150,7 +157,7 @@ namespace Bookland.Modules
 
             var fontSize = imageHeight / 20;
             var xPadding = imageWidth / 30;
-            var font = SystemFonts.CreateFont("Arial", fontSize, FontStyle.Regular);
+            var font = new Font(_fonts, fontSize, FontStyle.Regular);
 
             var height = fontSize * 2;
             var rectangularPolygon = new RectangularPolygon(0, imageHeight - height, imageWidth, height);
