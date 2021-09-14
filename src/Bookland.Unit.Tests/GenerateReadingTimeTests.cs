@@ -1,29 +1,29 @@
 using System.Linq;
 using System.Threading.Tasks;
-using Bookland.Modules;
-using Statiq.Common;
-using Statiq.Testing;
+using Bookland.Services;
 using Xunit;
 
 namespace Bookland.Unit.Tests
 {
-    public class GenerateReadingTimeTests : BaseFixture
+    public class ReadingTimeServiceTests
     {
+        private readonly IReadingTimeService _readingTimeService;
+
+        public ReadingTimeServiceTests()
+        {
+            _readingTimeService = new ReadingTimeService();
+        }
+
         [Theory]
         [InlineData(100, 0, 30)]
         [InlineData(200, 1, 0)]
         [InlineData(300, 1, 30)]
         [InlineData(400, 2, 0)]
-        public async Task If_WPM_is_not_overridden_readingTime_MetaData_is_added_using_200WPM(int numberOfWords, int expectedMinutes, int expectedSeconds)
+        public void If_WPM_is_not_overridden_readingTime_MetaData_is_added_using_200WPM(int numberOfWords, int expectedMinutes, int expectedSeconds)
         {
             string input = string.Concat(Enumerable.Repeat("a ", numberOfWords));
 
-            TestDocument document = new TestDocument(input);
-            GenerateReadingTime readingTime = new GenerateReadingTime();
-
-            TestDocument result = await ExecuteAsync(document, readingTime).SingleAsync();
-
-            var readingTimeData = result.Get<ReadingTimeData>(MetaDataKeys.ReadingTime);
+            var readingTimeData = _readingTimeService.GetReadingTime(input, 200);
 
             Assert.Equal(new ReadingTimeData(expectedMinutes, expectedSeconds, numberOfWords), readingTimeData);
         }
@@ -31,16 +31,11 @@ namespace Bookland.Unit.Tests
         [Theory]
         [InlineData(400, 200, 0, 30)]
         [InlineData(300, 300, 1, 0)]
-        public async Task ReadingTime_MetaData_is_added_correctly_when_WPM_is_overriden(int wordsPerMinute, int numberOfWords, int expectedMinutes, int expectedSeconds)
+        public void  ReadingTime_MetaData_is_added_correctly_when_WPM_is_overriden(int wordsPerMinute, int numberOfWords, int expectedMinutes, int expectedSeconds)
         {
             string input = string.Concat(Enumerable.Repeat("a ", numberOfWords));
 
-            TestDocument document = new TestDocument(input);
-            GenerateReadingTime readingTime = new GenerateReadingTime(wordsPerMinute);
-
-            TestDocument result = await ExecuteAsync(document, readingTime).SingleAsync();
-
-            var readingTimeData = result.Get<ReadingTimeData>(MetaDataKeys.ReadingTime);
+            var readingTimeData = _readingTimeService.GetReadingTime(input, wordsPerMinute);
 
             Assert.Equal(new ReadingTimeData(expectedMinutes, expectedSeconds, numberOfWords), readingTimeData);
         }

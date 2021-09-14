@@ -2,6 +2,7 @@
 using System.Globalization;
 using Bookland.Extensions;
 using Bookland.Modules;
+using Bookland.Services;
 using Statiq.Common;
 using Statiq.Core;
 using Statiq.Markdown;
@@ -12,7 +13,7 @@ namespace Bookland.Pipelines
 {
     public class PostPipeline : Pipeline
     {
-        public PostPipeline()
+        public PostPipeline(IReadingTimeService readingTimeService)
         {
             InputModules = new ModuleList
             {
@@ -40,7 +41,7 @@ namespace Bookland.Pipelines
                             return postDetailsFromPath["slug"].Value;
                         })),
                 new ReplaceInContent(@"!\[(?<alt>.*)\]\(./(?<imagePath>.*)\)", Config.FromDocument((document, context) => $"![$1](../assets/{document.GetString(MetaDataKeys.Slug)}/$2)")).IsRegex(),
-                new GenerateReadingTime(),
+                new GenerateReadingTime(readingTimeService),
                 new RenderMarkdown().UseExtensions(),
                 new OptimizeFileName(),
                 new SetDestination(Config.FromDocument((doc, ctx) => new NormalizedPath("blog").Combine($"{doc.GetString("slug")}.html"))),

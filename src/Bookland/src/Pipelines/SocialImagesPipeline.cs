@@ -1,25 +1,24 @@
-﻿using System;
-using System.Globalization;
-using System.Linq;
-using Bookland.Extensions;
+﻿using System.Linq;
 using Bookland.Modules;
+using Bookland.Services;
 using Statiq.Common;
 using Statiq.Core;
-using Statiq.Web;
-using Statiq.Web.Modules;
 
 namespace Bookland.Pipelines
 {
     public class SocialImagesPipeline : Pipeline
     {
-        public SocialImagesPipeline()
+        private readonly IImageService _imageService;
+
+        public SocialImagesPipeline(IImageService imageService)
         {
+            _imageService = imageService;
             Dependencies.AddRange(nameof(PostPipeline));
 
             ProcessModules = new ModuleList
             {
                 new ConcatDocuments(Dependencies.ToArray()),
-                new GenerateSocialImages()
+                new GenerateSocialImages(_imageService)
             };
 
             OutputModules = new ModuleList

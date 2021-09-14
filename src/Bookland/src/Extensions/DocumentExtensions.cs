@@ -3,6 +3,7 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using Bookland.Models;
 using Bookland.Modules;
+using Bookland.Services;
 using Statiq.Common;
 using Statiq.Web;
 
@@ -34,7 +35,6 @@ namespace Bookland.Extensions
                 document.GetInt(MetaDataKeys.Pages),
                 authors,
                 document.GetString(MetaDataKeys.CoverImage).TrimStart('.', '/'),
-
                 document.GetInt(MetaDataKeys.Rating),
                 document.GetList<string>(MetaDataKeys.Tags),
                 document.Get<ReadingTimeData>(MetaDataKeys.ReadingTime));

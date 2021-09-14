@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Bookland.Modules;
+using Bookland.Services;
 using Statiq.Common;
 
 namespace Bookland.Models
