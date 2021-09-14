@@ -20,6 +20,7 @@ namespace Bookland.Models
             Description = context.GetString("SiteDescription");
             PageUrl = $"{context.GetString("SiteUrl")}{document.GetLink()}";
             CanonicalUrl = context.GetString("canonicalUrl") ?? PageUrl;
+            TwitterUserName = context.GetString("TwitterUsername");
         }
 
         public string PageUrl { get; set; }
@@ -40,5 +41,6 @@ namespace Bookland.Models
 
         public string? ImageFacebook { get; protected set; }
 
+        public string TwitterUserName { get; set; }
     }
 }
