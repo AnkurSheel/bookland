@@ -8,12 +8,10 @@ namespace Bookland.Modules
 {
     public class GenerateReadingTime : ParallelModule
     {
-        private readonly int _wordsPerMinute;
         private readonly IReadingTimeService _readingTimeService;
 
-        public GenerateReadingTime(IReadingTimeService readingTimeService, int wordsPerMinute = 200)
+        public GenerateReadingTime(IReadingTimeService readingTimeService)
         {
-            _wordsPerMinute = wordsPerMinute;
             _readingTimeService = readingTimeService;
         }
 
@@ -27,7 +25,7 @@ namespace Bookland.Modules
             return input.Clone(
                     new MetadataItems
                     {
-                        { MetaDataKeys.ReadingTime, _readingTimeService.GetReadingTime(content, _wordsPerMinute) }
+                        { MetaDataKeys.ReadingTime, _readingTimeService.GetReadingTime(content, context.GetInt("ReadingTimeWordsPerMinute", 200)) }
                     })
                 .Yield();
         }

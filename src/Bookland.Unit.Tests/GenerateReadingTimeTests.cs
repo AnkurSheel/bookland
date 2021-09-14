@@ -1,7 +1,7 @@
 using System.Linq;
-using System.Threading.Tasks;
 using Bookland.Services;
 using Xunit;
+using xUnitHelpers;
 
 namespace Bookland.Unit.Tests
 {
@@ -15,29 +15,33 @@ namespace Bookland.Unit.Tests
         }
 
         [Theory]
-        [InlineData(100, 0, 30)]
-        [InlineData(200, 1, 0)]
-        [InlineData(300, 1, 30)]
-        [InlineData(400, 2, 0)]
-        public void If_WPM_is_not_overridden_readingTime_MetaData_is_added_using_200WPM(int numberOfWords, int expectedMinutes, int expectedSeconds)
-        {
-            string input = string.Concat(Enumerable.Repeat("a ", numberOfWords));
-
-            var readingTimeData = _readingTimeService.GetReadingTime(input, 200);
-
-            Assert.Equal(new ReadingTimeData(expectedMinutes, expectedSeconds, numberOfWords), readingTimeData);
-        }
-
-        [Theory]
-        [InlineData(400, 200, 0, 30)]
-        [InlineData(300, 300, 1, 0)]
-        public void  ReadingTime_MetaData_is_added_correctly_when_WPM_is_overriden(int wordsPerMinute, int numberOfWords, int expectedMinutes, int expectedSeconds)
+        [InlineData(100, 200, 0, 30)]
+        [InlineData(200, 200, 1, 0)]
+        [InlineData(300, 200, 1, 30)]
+        [InlineData(400, 200, 2, 0)]
+        public void ReadingTime_is_calculated_correctly(int numberOfWords, int wordsPerMinute, int expectedMinutes, int expectedSeconds)
         {
             string input = string.Concat(Enumerable.Repeat("a ", numberOfWords));
 
             var readingTimeData = _readingTimeService.GetReadingTime(input, wordsPerMinute);
 
-            Assert.Equal(new ReadingTimeData(expectedMinutes, expectedSeconds, numberOfWords), readingTimeData);
+            AssertHelper.AssertMultiple(
+                () => Assert.Equal(expectedMinutes, readingTimeData.Minutes),
+                () => Assert.Equal(expectedSeconds, readingTimeData.Seconds),
+                () => Assert.Equal(numberOfWords, readingTimeData.Words));
+        }
+
+        [Theory]
+        [InlineData(29, 0)]
+        [InlineData(30, 1)]
+        [InlineData(31, 1)]
+        public void RoundedMinutes_is_calculated_correctly(int numberOfWords, int expectedRoundedMinutes)
+        {
+            string input = string.Concat(Enumerable.Repeat("a ", numberOfWords));
+
+            var readingTimeData = _readingTimeService.GetReadingTime(input, 60);
+
+            Assert.Equal(expectedRoundedMinutes, readingTimeData.RoundedMinutes);
         }
     }
 }

@@ -6,7 +6,7 @@
     <div class="flex justify-evenly items-center">
         <i>Published Date: @Model.PublishedDate.ToString("dd-MMM-yyyy")</i>
         <i class="font-bold">
-            Reading Time: @Model.ReadingTimeData.Minutes minutes @Model.ReadingTimeData.Seconds seconds
+            Reading Time: @Model.ReadingTimeData.RoundedMinutes min
         </i>
     </div>
 
