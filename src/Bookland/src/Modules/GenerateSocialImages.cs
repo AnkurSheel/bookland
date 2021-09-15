@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using Bookland.Extensions;
 using Bookland.Services;
@@ -21,29 +22,18 @@ namespace Bookland.Modules
             context.LogDebug($"Read file {input.Source}");
             var post = input.AsPost(context);
 
+            var centerText = $"{post.PageTitle.ToUpper()}{Environment.NewLine}{post.ReadingTimeData.RoundedMinutes} min";
             var coverImagePath = $"{input.Source.Parent.FullPath}/{post.CoverImagePath}";
 
-            var stream = await _imageService.CreateImageDocument(
-                1200,
-                630,
-                coverImagePath,
-                post.PageTitle,
-                post.ReadingTimeData,
-                post.SiteTitle);
+            var stream = await _imageService.CreateImageDocument(1200, 630, coverImagePath, post.SiteTitle, centerText);
 
-            var facebookDoc = context.CreateDocument(input.Source, $"./assets/images/social/{input.Destination.FileNameWithoutExtension}-facebook.png", context.GetContentProvider(stream));
+            var facebookDoc = context.CreateDocument(input.Source, $"./{Constants.SocialImagesDirectory}/{input.Destination.FileNameWithoutExtension}-facebook.png", context.GetContentProvider(stream));
 
             context.LogDebug($"Created {facebookDoc.Destination}");
 
-            stream = await _imageService.CreateImageDocument(
-                440,
-                220,
-                coverImagePath,
-                post.PageTitle,
-                post.ReadingTimeData,
-                post.SiteTitle);
+            stream = await _imageService.CreateImageDocument(440, 220, coverImagePath, post.SiteTitle, centerText);
 
-            var twitterDoc = context.CreateDocument(input.Source, $"./assets/images/social/{input.Destination.FileNameWithoutExtension}-twitter.png", context.GetContentProvider(stream));
+            var twitterDoc = context.CreateDocument(input.Source, $"./{Constants.SocialImagesDirectory}/{input.Destination.FileNameWithoutExtension}-twitter.png", context.GetContentProvider(stream));
 
             context.LogDebug($"Created {twitterDoc.Destination}");
 

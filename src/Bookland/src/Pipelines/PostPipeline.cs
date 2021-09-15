@@ -40,7 +40,7 @@ namespace Bookland.Pipelines
                             var postDetailsFromPath = doc.GetPostDetailsFromPath();
                             return postDetailsFromPath["slug"].Value;
                         })),
-                new ReplaceInContent(@"!\[(?<alt>.*)\]\(./(?<imagePath>.*)\)", Config.FromDocument((document, context) => $"![$1](../assets/{document.GetString(MetaDataKeys.Slug)}/$2)")).IsRegex(),
+                new ReplaceInContent(@"!\[(?<alt>.*)\]\(./(?<imagePath>.*)\)", Config.FromDocument((document, context) => $"![$1](../{Constants.PostImagesDirectory}/{document.GetString(MetaDataKeys.Slug)}/$2)")).IsRegex(),
                 new GenerateReadingTime(readingTimeService),
                 new RenderMarkdown().UseExtensions(),
                 new OptimizeFileName(),

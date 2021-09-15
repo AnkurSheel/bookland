@@ -15,7 +15,7 @@ namespace Bookland.Pipelines
 
             ProcessModules = new ModuleList
             {
-                new SetDestination(Config.FromDocument(document => new NormalizedPath($"assets/fonts/{document.Source.FileName}"))),
+                new SetDestination(Config.FromDocument(document => new NormalizedPath($"{Constants.FontsDirectory}/{document.Source.FileName}"))),
             };
 
             OutputModules = new ModuleList

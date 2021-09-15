@@ -25,9 +25,10 @@ namespace Bookland.Pipelines
                                 doc =>
                                 {
                                     var postDetailsFromPath = doc.GetPostDetailsFromPath();
-                                    return new NormalizedPath("assets").Combine("images").Combine(postDetailsFromPath["slug"].ToString()).Combine(doc.Source.FileName);
+                                    var slug = postDetailsFromPath["slug"];
+                                    return new NormalizedPath($"{Constants.PostImagesDirectory}/{slug}/{doc.Source.FileName}");
                                 })))
-                    .Else(new SetDestination(Config.FromDocument(document => new NormalizedPath("assets").Combine("images").Combine(document.Source.FileName))))
+                    .Else(new SetDestination(Config.FromDocument(document => new NormalizedPath(Constants.ImagesDirectory).Combine(document.Source.FileName))))
             };
 
             OutputModules = new ModuleList

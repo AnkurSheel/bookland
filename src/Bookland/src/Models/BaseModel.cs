@@ -15,7 +15,7 @@ namespace Bookland.Models
                 .Select(x => new NavigationLink(x.GetString("title"), $"/{x.Destination.FileNameWithoutExtension.ToString()}"))
                 .OrderBy(x => x.Title)
                 .ToList();
-            Script = context.GetLink("/assets/js/blog.js");
+            Script = context.GetLink($"/{Constants.JsDirectory}/blog.js");
             SiteTitle = context.GetString("SiteTitle");
             Description = context.GetString("SiteDescription");
             PageUrl = $"{context.GetString("SiteUrl")}{document.GetLink()}";
