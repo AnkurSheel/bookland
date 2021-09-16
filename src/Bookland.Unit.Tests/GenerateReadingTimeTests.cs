@@ -19,6 +19,7 @@ namespace Bookland.Unit.Tests
         [InlineData(200, 200, 1, 0)]
         [InlineData(300, 200, 1, 30)]
         [InlineData(400, 200, 2, 0)]
+        [InlineData(568, 200, 2, 0)]
         public void ReadingTime_is_calculated_correctly(int numberOfWords, int wordsPerMinute, int expectedMinutes, int expectedSeconds)
         {
             string input = string.Concat(Enumerable.Repeat("a ", numberOfWords));
