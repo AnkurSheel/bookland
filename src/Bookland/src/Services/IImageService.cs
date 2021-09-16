@@ -11,8 +11,7 @@ namespace Bookland.Services
             int width,
             int height,
             string coverImagePath,
-            string pageTitle,
-            ReadingTimeData readingTimeData,
-            string siteTitle);
+            string siteTitle,
+            string centerText);
     }
 }

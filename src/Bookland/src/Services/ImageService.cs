@@ -1,5 +1,4 @@
-﻿using System;
-using System.IO;
+﻿using System.IO;
 using System.Threading.Tasks;
 using SixLabors.Fonts;
 using SixLabors.ImageSharp;
@@ -19,13 +18,7 @@ namespace Bookland.Services
             _fonts = new FontCollection().Install("./input/assets/fonts/Inter-VariableFont.ttf");
         }
 
-        public async Task<Stream> CreateImageDocument(
-            int width,
-            int height,
-            string coverImagePath,
-            string pageTitle,
-            ReadingTimeData readingTimeData,
-            string siteTitle)
+        public async Task<Stream> CreateImageDocument(int width, int height, string coverImagePath, string siteTitle, string centerText)
         {
             using Image template = new Image<Rgb24>(width, height);
             using Image thumbnail = await Image.LoadAsync(coverImagePath);
@@ -47,7 +40,7 @@ namespace Bookland.Services
                 {
                     AddGradient(width, height, imageContext);
                     imageContext.DrawImage(thumbnail, new Point(0, 0), 1f);
-                    AddCenterText(imageContext, width, height, pageTitle.ToUpper(), readingTimeData);
+                    AddCenterText(imageContext, width, height, centerText);
                     AddBrand(imageContext, width, height, siteTitle);
                 });
 
@@ -85,7 +78,7 @@ namespace Bookland.Services
                 });
         }
 
-        private void AddCenterText(IImageProcessingContext imageContext, int imageWidth, int imageHeight, string pageTitle, ReadingTimeData readingTimeData)
+        private void AddCenterText(IImageProcessingContext imageContext, int imageWidth, int imageHeight, string centerText)
         {
             var fontSize = imageHeight / 10;
             var titleFont = new Font(_fonts, fontSize, FontStyle.Bold);
@@ -106,9 +99,8 @@ namespace Bookland.Services
             };
 
             var verticalCenter = (imageHeight - titleFont.Size) / 2;
-            var text = $"{pageTitle}{Environment.NewLine}{readingTimeData.Minutes} min {readingTimeData.Seconds} sec";
-            imageContext.DrawText(drawingOptions, text, titleFont, Color.MediumPurple, new PointF(xPadding + 3, verticalCenter + 3));
-            imageContext.DrawText(drawingOptions, text, titleFont, Color.White, new PointF(xPadding, verticalCenter));
+            imageContext.DrawText(drawingOptions, centerText, titleFont, Color.MediumPurple, new PointF(xPadding + 3, verticalCenter + 3));
+            imageContext.DrawText(drawingOptions, centerText, titleFont, Color.White, new PointF(xPadding, verticalCenter));
         }
 
         private void AddBrand(IImageProcessingContext imageProcessingContext, int imageWidth, int imageHeight, string siteTitle)
