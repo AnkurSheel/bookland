@@ -11,11 +11,11 @@ namespace Bookland.Services
 {
     public class ImageService : IImageService
     {
-        private readonly FontFamily _fonts;
+        private readonly FontFamily _cookieFont;
 
         public ImageService()
         {
-            _fonts = new FontCollection().Install("./input/assets/fonts/Inter-VariableFont.ttf");
+            _cookieFont = new FontCollection().Install("./input/assets/fonts/Cookie-Regular.ttf");
         }
 
         public async Task<Stream> CreateImageDocument(int width, int height, string coverImagePath, string siteTitle, string centerText)
@@ -81,7 +81,7 @@ namespace Bookland.Services
         private void AddCenterText(IImageProcessingContext imageContext, int imageWidth, int imageHeight, string centerText)
         {
             var fontSize = imageHeight / 10;
-            var titleFont = new Font(_fonts, fontSize, FontStyle.Bold);
+            var titleFont = new Font(_cookieFont, fontSize, FontStyle.Bold);
 
             var xPadding = imageWidth / 30;
             var drawingOptions = new DrawingOptions
@@ -99,7 +99,7 @@ namespace Bookland.Services
             };
 
             var verticalCenter = (imageHeight - titleFont.Size) / 2;
-            imageContext.DrawText(drawingOptions, centerText, titleFont, Color.MediumPurple, new PointF(xPadding + 3, verticalCenter + 3));
+            imageContext.DrawText(drawingOptions, centerText, titleFont, Color.MediumPurple, new PointF(xPadding + 2, verticalCenter + 2));
             imageContext.DrawText(drawingOptions, centerText, titleFont, Color.White, new PointF(xPadding, verticalCenter));
         }
 
@@ -120,7 +120,7 @@ namespace Bookland.Services
 
             var fontSize = imageHeight / 20;
             var xPadding = imageWidth / 30;
-            var font = new Font(_fonts, fontSize, FontStyle.Regular);
+            var font = new Font(_cookieFont, fontSize, FontStyle.Regular);
 
             var height = fontSize * 2;
             var rectangularPolygon = new RectangularPolygon(0, imageHeight - height, imageWidth, height);
