@@ -38,8 +38,8 @@ namespace Bookland.Models
             ReadingTimeData = readingTimeData;
             Url = $"/blog/{slug}";
             CoverImageLink = $"/{Constants.PostImagesDirectory}/{slug}/{coverImagePath}";
-            ImageFacebook = $"{context.GetString("SiteUrl")}/{Constants.SocialImagesDirectory}/{slug}-facebook.png";
-            ImageTwitter = $"{context.GetString("SiteUrl")}/{Constants.SocialImagesDirectory}/{slug}-twitter.png";
+            ImageFacebook = IExecutionContext.Current.GetLink($"{Constants.SocialImagesDirectory}/{slug}-facebook.png", true);
+            ImageTwitter = IExecutionContext.Current.GetLink($"{Constants.SocialImagesDirectory}/{slug}-twitter.png", true);
         }
 
         public string Url { get; }

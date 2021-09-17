@@ -1,6 +1,7 @@
-SiteTitle: 'Discoveries in Bookland'
-SiteDescription: 'A blog for book reviews'
-SiteUrl: 'https://www.discoveriesinbookland.com'
+Title: 'Discoveries in Bookland'
+Description: 'A blog for book reviews'
+Host: 'www.discoveriesinbookland.com'
+LinksUseHttps: true
 TwitterUsername: 'ankur_sheel'
 ReadingTimeWordsPerMinute: 238
 #

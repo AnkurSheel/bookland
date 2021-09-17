@@ -23,23 +23,8 @@ namespace Bookland.Pipelines
             ProcessModules = new ModuleList
             {
                 new ExtractFrontMatter(new ParseYaml()),
-                new SetMetadata(
-                    "publishedDate",
-                    Config.FromDocument(
-                        doc =>
-                        {
-                            var postDetailsFromPath = doc.GetPostDetailsFromPath();
-                            var date = $"{postDetailsFromPath["year"].Value}-{postDetailsFromPath["month"].Value}-{postDetailsFromPath["date"].Value}";
-                            return DateTime.ParseExact(date, "yyyy-MM-dd", CultureInfo.InvariantCulture);
-                        })),
-                new SetMetadata(
-                    "slug",
-                    Config.FromDocument(
-                        doc =>
-                        {
-                            var postDetailsFromPath = doc.GetPostDetailsFromPath();
-                            return postDetailsFromPath["slug"].Value;
-                        })),
+                new GeneratePostDetailsFromPath(),
+                new GenerateRssMetaData(),
                 new ReplaceInContent(@"!\[(?<alt>.*)\]\(./(?<imagePath>.*)\)", Config.FromDocument((document, context) => $"![$1](../{Constants.PostImagesDirectory}/{document.GetString(MetaDataKeys.Slug)}/$2)")).IsRegex(),
                 new GenerateReadingTime(readingTimeService),
                 new RenderMarkdown().UseExtensions(),
