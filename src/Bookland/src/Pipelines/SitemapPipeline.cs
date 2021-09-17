@@ -21,7 +21,7 @@ namespace Bookland.Pipelines
                     Config.FromDocument(
                         (document, context) =>
                         {
-                            var sitemapItem = new SitemapItem($"{context.GetString("SiteUrl")}{document.GetLink()}");
+                            var sitemapItem = new SitemapItem(document.GetLink(true));
 
                             if (document.ContainsKey(MetaDataKeys.PublishedDate))
                             {

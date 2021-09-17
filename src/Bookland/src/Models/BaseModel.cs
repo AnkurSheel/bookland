@@ -2,6 +2,7 @@
 using System.Linq;
 using Bookland.Modules;
 using Statiq.Common;
+using Statiq.Web;
 
 namespace Bookland.Models
 {
@@ -16,9 +17,9 @@ namespace Bookland.Models
                 .OrderBy(x => x.Title)
                 .ToList();
             Script = context.GetLink($"/{Constants.JsDirectory}/blog.js");
-            SiteTitle = context.GetString("SiteTitle");
-            Description = context.GetString("SiteDescription");
-            PageUrl = $"{context.GetString("SiteUrl")}{document.GetLink()}";
+            SiteTitle = context.GetString(Keys.Title);
+            Description = context.GetString(WebKeys.Description);
+            PageUrl = document.GetLink(true);
             CanonicalUrl = context.GetString("canonicalUrl") ?? PageUrl;
             TwitterUserName = context.GetString("TwitterUsername");
         }

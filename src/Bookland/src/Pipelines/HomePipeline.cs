@@ -21,7 +21,6 @@ namespace Bookland.Pipelines
             ProcessModules = new ModuleList
             {
                 new OptimizeFileName(),
-                new SetMetadata("Title", Config.FromContext(context => context.GetString("SiteTitle"))),
                 new SetDestination(".html"),
             };
 
