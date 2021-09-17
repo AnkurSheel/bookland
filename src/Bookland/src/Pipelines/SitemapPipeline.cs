@@ -1,7 +1,7 @@
 ﻿using System;
-using System.Globalization;
 using System.Linq;
 using Bookland.Extensions;
+using Bookland.Modules;
 using Statiq.Common;
 using Statiq.Core;
 using Statiq.Web;
@@ -21,14 +21,11 @@ namespace Bookland.Pipelines
                     Config.FromDocument(
                         (document, context) =>
                         {
-                            var postDetailsFromPath = document.GetPostDetailsFromPath();
-
                             var sitemapItem = new SitemapItem($"{context.GetString("SiteUrl")}{document.GetLink()}");
 
-                            if (postDetailsFromPath.Count > 1)
+                            if (document.ContainsKey(MetaDataKeys.PublishedDate))
                             {
-                                var date = $"{postDetailsFromPath["year"].Value}-{postDetailsFromPath["month"].Value}-{postDetailsFromPath["date"].Value}";
-                                var originalDate = DateTime.ParseExact(date, "yyyy-MM-dd", CultureInfo.InvariantCulture);
+                                var originalDate = document.GetDateTime(MetaDataKeys.PublishedDate);
                                 var publishedDate = document.GetPublishedDate();
 
                                 if (originalDate.Date <= publishedDate.Date)
