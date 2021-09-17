@@ -8,6 +8,11 @@
         src: url(fonts/Inter-VariableFont.ttf);
     }
 
+    @font-face {
+        font-family: 'Cookie';
+        src: url(fonts/Cookie-Regular.ttf);
+    }
+
     article img {
         @apply rounded border-4 border-gray-600 border-double;
     }

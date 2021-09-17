@@ -11,6 +11,7 @@ module.exports = {
         extend: {
             fontFamily: {
                 sans: ['Inter', ...defaultTheme.fontFamily.sans],
+                cookie: ['Cookie', 'Inter', ...defaultTheme.fontFamily.sans],
             },
             typography: (theme) => ({
                 DEFAULT: {
