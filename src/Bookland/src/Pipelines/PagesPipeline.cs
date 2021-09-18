@@ -1,5 +1,5 @@
-﻿using Bookland.Extensions;
-using Bookland.Models;
+﻿using System.Linq;
+using Bookland.Extensions;
 using Statiq.Common;
 using Statiq.Core;
 using Statiq.Markdown;
@@ -14,21 +14,28 @@ namespace Bookland.Pipelines
         {
             InputModules = new ModuleList
             {
-                new ReadFiles("pages/**/*.md")
+                new ReadFiles("pages/**/*.{md,cshtml}")
             };
 
             ProcessModules = new ModuleList
             {
                 new ExtractFrontMatter(new ParseYaml()),
-                new RenderMarkdown().UseExtensions(),
+                new ExecuteIf(Config.FromDocument(doc => doc.Source.MediaType == MediaTypes.Markdown), new RenderMarkdown().UseExtensions()),
                 new OptimizeFileName(),
-                new SetDestination(Config.FromDocument(
-                    (doc, ctx) => doc.Destination.FileName.ChangeExtension(".html"))),
+                new SetDestination(".html"),
             };
 
             PostProcessModules = new ModuleList
             {
-                new RenderRazor().WithBaseModel()
+                new ExecuteIf(Config.FromDocument(doc => doc.Source.MediaType == MediaTypes.Markdown), new RenderRazor().WithBaseModel()).ElseIf(
+                    Config.FromDocument(doc => doc.Source.MediaType == MediaTypes.Razor),
+                    new RenderRazor().WithModel(
+                        Config.FromDocument(
+                            (document, context) =>
+                            {
+                                var posts = context.Outputs.FromPipeline(nameof(PostPipeline)).Select(x => x.AsPost(context)).ToList();
+                                return document.AsPagesModel(context, posts);
+                            })))
             };
 
             OutputModules = new ModuleList
@@ -36,7 +43,5 @@ namespace Bookland.Pipelines
                 new WriteFiles()
             };
         }
-
-
     }
 }

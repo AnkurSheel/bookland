@@ -1,4 +1,4 @@
-@model HomeModel
+@model PageModel
 @{
     const int numberOfSummaries = 5;
 }
@@ -9,25 +9,25 @@
     I read the books and write the takeaways so that you can spend your valuable time doing other things that you love.
 </p>
 
-<div class="flex justify-between">
-    <div class="bg-gray-200 rounded-3xl px-4">
-        <h2>Top Rated Books</h2>
+<div class="flex flex-col gap-10 lg:flex-row lg:justify-between">
+    <div class="bg-gray-200 rounded-3xl px-4 my-8">
+        <h2>Latest Summaries</h2>
         <div class="flex flex-col gap-1 flex-auto">
             @{
-                var topRatedPosts = Model.Posts.OrderByDescending(x => x.Rating).ThenByDescending(x => x.PageTitle).Take(numberOfSummaries);
-                foreach (var post in topRatedPosts)
+                var latestPosts = Model.Posts.OrderByDescending(x => x.PublishedDate).Take(numberOfSummaries);
+                foreach (var post in latestPosts)
                 {
                     <a href="@post.Url" class="text-center prose-2xl mb-4">@post.PageTitle</a>
                 }
             }
         </div>
     </div>
-    <div class="bg-gray-200 rounded-3xl px-4">
-        <h2>Latest Summaries</h2>
+    <div class="bg-gray-200 rounded-3xl px-4 my-8">
+        <h2>Top Rated Books</h2>
         <div class="flex flex-col gap-1 flex-auto">
             @{
-                var latestPosts = Model.Posts.OrderByDescending(x => x.PublishedDate).Take(numberOfSummaries);
-                foreach (var post in latestPosts)
+                var topRatedPosts = Model.Posts.OrderByDescending(x => x.Rating).ThenByDescending(x => x.PageTitle).Take(numberOfSummaries);
+                foreach (var post in topRatedPosts)
                 {
                     <a href="@post.Url" class="text-center prose-2xl mb-4">@post.PageTitle</a>
                 }

@@ -48,7 +48,7 @@ namespace Bookland.Extensions
             return new Tag(document, context, name, new NormalizedPath($"/tags/{name}").OptimizeFileName().ToString(), posts);
         }
 
-        public static HomeModel AsHomeModel(this IDocument document, IExecutionContext context, IReadOnlyList<Post> posts)
-            => new HomeModel(document, context, posts);
+        public static PageModel AsPagesModel(this IDocument document, IExecutionContext context, IReadOnlyList<Post> posts)
+            => new PageModel(document, context, posts);
     }
 }
