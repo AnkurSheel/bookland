@@ -4,9 +4,17 @@ Host: 'www.discoveriesinbookland.com'
 LinksUseHttps: true
 TwitterUsername: 'ankur_sheel'
 ReadingTimeWordsPerMinute: 238
+HeaderLinks:
+  - Title: About
+    Url: /pages/about
+  - Title: All Summaries
+    Url: /blog
+  - Title: All Tags
+    Url: /tags
+  - Title: Contact
+    Url: /pages/contact
 #
 #
-#twitterUsername: 'ankur_sheel',
 #googleTagManagerId: 'GTM-MQGJF8W',
 #icon: 'content/images/inaki-del-olmo-bookshelf.jpg',
 #headerTitle: 'Home',
@@ -35,21 +43,6 @@ ReadingTimeWordsPerMinute: 238
 #    text: 'Subsribe on RSS',
 #  },
 #},
-#headerLinks: [
-#  {
-#    label: 'Blog',
-#    url: '/blog',
-#  },
-#
-#  {
-#    label: 'Tags',
-#    url: '/tags',
-#  },
-#  {
-#    label: 'Contact Me',
-#    url: '/contact',
-#  },
-#],
 #footerLinks: [
 #  {
 #    sectionName: 'Follow me',

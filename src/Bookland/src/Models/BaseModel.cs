@@ -10,12 +10,10 @@ namespace Bookland.Models
     {
         public BaseModel(IDocument document, IExecutionContext context)
         {
+            var navigationDocuments = document.GetDocumentList("HeaderLinks");
+
             PageTitle = document.GetString(MetaDataKeys.Title);
-            NavigationLinks = context.OutputPages.GetChildrenOf("index.html")
-                .Where(x => x.Destination != "index.html")
-                .Select(x => new NavigationLink(x.GetString("title"), $"/{x.Destination.FileNameWithoutExtension.ToString()}"))
-                .OrderBy(x => x.Title)
-                .ToList();
+            NavigationLinks = navigationDocuments.Select(x => new NavigationLink(x.GetString("Title"), x.GetString("Url"))).ToList();
             Script = context.GetLink($"/{Constants.JsDirectory}/blog.js");
             SiteTitle = context.GetString(Keys.Title);
             Description = context.GetString(WebKeys.Description);
