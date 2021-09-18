@@ -22,7 +22,7 @@ module.exports = {
                         a: {
                             textDecoration: 'none',
                             '&:hover': {
-                                textDecoration: `underline`,
+                                textDecoration: `underline wavy`,
                             },
                         },
                         'blockquote > p:first-of-type': {
