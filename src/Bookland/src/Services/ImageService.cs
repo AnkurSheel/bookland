@@ -1,5 +1,9 @@
-﻿using System.IO;
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Threading.Tasks;
+using ByteSizeLib;
+using Microsoft.Extensions.Logging;
 using SixLabors.Fonts;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.Drawing;
@@ -12,9 +16,11 @@ namespace Bookland.Services
     public class ImageService : IImageService
     {
         private readonly FontFamily _cookieFont;
+        private readonly ILogger<ImageService> _logger;
 
-        public ImageService()
+        public ImageService(ILogger<ImageService> logger)
         {
+            _logger = logger;
             _cookieFont = new FontCollection().Install("./input/assets/fonts/Cookie-Regular.ttf");
         }
 
@@ -31,7 +37,14 @@ namespace Bookland.Services
                         {
                             Antialias = true
                         });
-                    ResizeImage(width, height, imageContext);
+
+                    imageContext.Resize(
+                        new ResizeOptions
+                        {
+                            Position = AnchorPositionMode.Center,
+                            Size = new Size(width, height),
+                            Mode = ResizeMode.Pad,
+                        });
                     DarkenImage(imageContext);
                 });
 
@@ -51,6 +64,46 @@ namespace Bookland.Services
             return output;
         }
 
+        public async Task ResizeImages(IReadOnlyList<string> imagePaths, int newWidth, int newHeight)
+        {
+            var totalPre = 0l;
+            var totalPost = 0l;
+
+            foreach (var imagePath in imagePaths)
+            {
+                var preSize = new FileInfo(imagePath).Length;
+                totalPre += preSize;
+
+                var image = await Image.LoadAsync(imagePath);
+
+                var originalSize = image.Size();
+                var resizeOptions = new ResizeOptions
+                {
+                    Size = new Size(newWidth, newHeight),
+                    Compand = true
+                };
+
+                image.Mutate(imageContext => imageContext.Resize(resizeOptions));
+
+                await image.SaveAsJpegAsync(imagePath);
+                var postSize = new FileInfo(imagePath).Length;
+                totalPost += postSize;
+
+                var percentChanged =  Math.Abs(postSize - preSize) / (decimal)preSize;
+
+                _logger.Log(
+                    LogLevel.Information,
+                    "Resized {Path} with {Size}. Changed from {PreSize} to {PostSize} ({PercentChanged:P})",
+                    imagePath,
+                    originalSize,
+                    ByteSize.FromBytes(preSize).ToString(),
+                    ByteSize.FromBytes(postSize).ToString(),
+                    percentChanged);
+            }
+
+            _logger.Log(LogLevel.Information, "Resizing complete. Updated Size from {PreSize} to {PostSize}", ByteSize.FromBytes(totalPre).ToString(), ByteSize.FromBytes(totalPost).ToString());
+        }
+
         private void AddGradient(int width, int height, IImageProcessingContext imageContext)
         {
             imageContext.Fill(
@@ -65,17 +118,6 @@ namespace Bookland.Services
         private void DarkenImage(IImageProcessingContext imageContext)
         {
             imageContext.Lightness(0.5f);
-        }
-
-        private void ResizeImage(int width, int height, IImageProcessingContext imageContext)
-        {
-            imageContext.Resize(
-                new ResizeOptions
-                {
-                    Position = AnchorPositionMode.Center,
-                    Size = new Size(width, height),
-                    Mode = ResizeMode.Pad,
-                });
         }
 
         private void AddCenterText(IImageProcessingContext imageContext, int imageWidth, int imageHeight, string centerText)

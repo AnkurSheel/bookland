@@ -6,11 +6,13 @@
     @font-face {
         font-family: 'Inter';
         src: url(fonts/Inter-VariableFont.ttf);
+        font-display: swap;
     }
 
     @font-face {
         font-family: 'Cookie';
         src: url(fonts/Cookie-Regular.ttf);
+        font-display: swap;
     }
 
     article img {
