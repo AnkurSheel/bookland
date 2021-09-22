@@ -11,25 +11,25 @@
 
 <div class="flex flex-col gap-10 lg:flex-row lg:justify-between">
     <div class="bg-gray-200 rounded-3xl px-4 my-8">
+        <div class="flex flex-col gap-1 flex-auto text-center">
         <h2>Latest Summaries</h2>
-        <div class="flex flex-col gap-1 flex-auto">
             @{
                 var latestPosts = Model.Posts.OrderByDescending(x => x.GetPublishedDate()).Take(numberOfSummaries);
                 foreach (var post in latestPosts)
                 {
-                    <a href="@post.GetPageUrl()" class="text-center prose-2xl mb-4">@post.GetTitle()</a>
+                    <a href="@post.GetPageUrl()" class="prose-2xl mb-4">@post.GetTitle()</a>
                 }
             }
         </div>
     </div>
     <div class="bg-gray-200 rounded-3xl px-4 my-8">
-        <h2>Top Rated Books</h2>
-        <div class="flex flex-col gap-1 flex-auto">
+        <div class="flex flex-col gap-1 flex-auto text-center">
+        <h2 class=>Top Rated Books</h2>
             @{
                 var topRatedPosts = Model.Posts.OrderByDescending(x => x.GetRating()).ThenByDescending(x => x.GetTitle()).Take(numberOfSummaries);
                 foreach (var post in topRatedPosts)
                 {
-                    <a href="@post.GetPageUrl()" class="text-center prose-2xl mb-4">@post.GetTitle()</a>
+                    <a href="@post.GetPageUrl()" class="prose-2xl mb-4">@post.GetTitle()</a>
                 }
             }
         </div>
