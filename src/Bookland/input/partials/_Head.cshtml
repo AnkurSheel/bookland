@@ -1,43 +1,44 @@
 ﻿@model BaseModel
+
 @{
-    var type = Model.PageUrl.StartsWith("/blog/")
+    var type = Model.Document.GetPageUrl().StartsWith("/blog/")
         ? "article"
         : "website";
 }
 
-<title>@Model.SiteTitle - @Model.PageTitle</title>
+<title>@Model.Context.GetSiteTitle() - @Model.Document.GetTitle()</title>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <link href="/@Constants.AssetsDirectory/styles.css" rel="stylesheet"/>
-<meta name="description" content="@Model.Description"/>
-<link rel="canonical" href="@Model.CanonicalUrl"/>
+<meta name="description" content="@Model.Document.GetExcerpt()"/>
+<link rel="canonical" href="@Model.Context.GetCanonicalUrl(Model.Document)"/>
 
 @* Google / Search Engine Tags *@
-<meta itemProp="name" content="@Model.PageTitle"/>
-<meta itemProp="description" content="@Model.Description"/>
-@if (Model.ImageFacebook != null)
+<meta itemProp="name" content="@Model.Document.GetTitle()"/>
+<meta itemProp="description" content="@Model.Document.GetExcerpt()"/>
+@if (Model.Document.GetImageFacebook() != null)
 {
-    <meta itemProp="image" content="@Model.ImageFacebook"/>
+    <meta itemProp="image" content="@Model.Document.GetImageFacebook()"/>
 }
 @* OpenGraph tags *@
-<meta property="og:url" content="@Model.PageUrl"/>
+<meta property="og:url" content="@Model.Document.GetPageUrl()"/>
 <meta property="og:type" content="@type"/>
-<meta property="og:title" content="@Model.PageTitle"/>
-<meta property="og:description" content="@Model.Description"/>
-@if (Model.ImageFacebook != null)
+<meta property="og:title" content="@Model.Document.GetTitle()"/>
+<meta property="og:description" content="@Model.Document.GetExcerpt()"/>
+@if (Model.Document.GetImageFacebook() != null)
 {
-    <meta property="og:image" content="@Model.ImageFacebook"/>
-    <meta property="og:image:secure_url" content="@Model.ImageFacebook"/>
+    <meta property="og:image" content="@Model.Document.GetImageFacebook()"/>
+    <meta property="og:image:secure_url" content="@Model.Document.GetImageFacebook()"/>
 }
 
 @* Twitter Card tags  *@
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:site" content=@Model.TwitterUserName/>
-<meta name="twitter:creator" content=@Model.TwitterUserName/>
-<meta name="twitter:title" content="@Model.PageTitle"/>
-<meta name="twitter:description" content="@Model.Description"/>
-@if (Model.ImageTwitter != null)
+<meta name="twitter:site" content="@Model.Context.GetTwitterUserName()"/>
+<meta name="twitter:creator" content="@Model.Context.GetTwitterUserName()"/>
+<meta name="twitter:title" content="@Model.Document.GetTitle()"/>
+<meta name="twitter:description" content="@Model.Document.GetExcerpt()"/>
+@if (Model.Document.GetImageTwitter() != null)
 {
-    <meta name="twitter:image" content="@Model.ImageTwitter"/>
-    <meta name="twitter:image:secure_url" content="@Model.ImageTwitter"/>
+    <meta name="twitter:image" content="@Model.Document.GetImageTwitter()"/>
+    <meta name="twitter:image:secure_url" content="@Model.Document.GetImageTwitter()"/>
 }

@@ -1,3 +1,4 @@
+
 @model BaseModel
 
 <!-- https://www.section.io/engineering-education/creating-a-responsive-navigation-bar-using-tailwind-css-and-javascript/ -->
@@ -10,13 +11,13 @@
                 <div>
                     <a href="/" class="flex items-center py-4 px-2 ">
                         <span class="font-semibold text-gray-500 text-lg hover:text-green-500">
-                            @Model.SiteTitle
+                            @Model.Context.GetSiteTitle()
                         </span
                         >
                     </a>
                 </div>
                 <ul class="hidden lg:flex items-center space-x-1">
-                    @foreach (var link in Model.NavigationLinks)
+                    @foreach (var link in Model.Context.GetNavigationLinks())
                     {
                         <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
                             <a href="@link.RelativeUrl">@link.Title</a>
@@ -51,7 +52,7 @@
         </div>
         <div class="hidden mobile-menu">
             <ul class="flex flex-col">
-                @foreach (var link in Model.NavigationLinks)
+                @foreach (var link in Model.Context.GetNavigationLinks())
                 {
                     // Don't add the home page to the nav bar
                     <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">

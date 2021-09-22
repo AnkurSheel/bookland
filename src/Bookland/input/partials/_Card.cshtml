@@ -1,20 +1,20 @@
-﻿@model Post
+﻿@model BaseModel
 
 <div class="md:grid md:grid-cols-2 flex flex-col shadow-md mb-10 items-center bg-gray-200 rounded-3xl">
-    <a href="@Model.Url" class="ml-4 mr-4">
-        <img src="@Model.CoverImageLink" alt="Book Cover" class="max-w-xs rounded-lg w-full"/>
+    <a href="@Model.Document.GetPageUrl()" class="ml-4 mr-4">
+        <img src="@Model.Document.GetCoverImageLink()" alt="Book Cover" class="max-w-xs rounded-lg w-full"/>
     </a>
 
     <div class="mx-4 flex flex-col my-4">
-        <a href="@Model.Url" class="text-center prose-2xl mb-4">@Model.PageTitle</a>
-        <div class="font-semibold">Author(s): @string.Join(" and ", Model.Authors.Select(x => x.Name))</div>
-        <div class="font-semibold">Rating: @Model.Rating / 5 </div>
+        <a href="@Model.Document.GetPageUrl()" class="text-center prose-2xl mb-4">@Model.Document.GetTitle()</a>
+        <div class="font-semibold">Author(s): @string.Join(" and ", Model.Document.GetAuthors().Select(x => x.Name))</div>
+        <div class="font-semibold">Rating: @Model.Document.GetRating() / 5 </div>
         <p>
-            @Model.Description
+            @Model.Document.GetExcerpt()
         </p>
         <p>
-            <a href="@Model.Url">Read the Summary, Takeaways and Recommendation</a>
+            <a href="@Model.Document.GetPageUrl()">Read the Summary, Takeaways and Recommendation</a>
         </p>
-        <div class="font-semibold">@Model.ReadingTimeData.Minutes min @Model.ReadingTimeData.Seconds sec reading time</div>
+        <div class="font-semibold">@Model.Document.GetReadingTime().RoundedMinutes min</div>
     </div>
 </div>
