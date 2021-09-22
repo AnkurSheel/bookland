@@ -28,7 +28,7 @@ namespace Bookland.Pipelines
             {
                 new RenderRazor().WithModel(Config.FromDocument(((document, context) =>
                 {
-                    var posts = context.Outputs.FromPipeline(nameof(PostPipeline)).Select(x => x.AsPost(context)).ToList();
+                    var posts = context.Outputs.FromPipeline(nameof(PostPipeline)).ToList();
                     return document.AsPagesModel(context, posts);
                 })))
             };

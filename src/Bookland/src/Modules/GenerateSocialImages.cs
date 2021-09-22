@@ -20,18 +20,17 @@ namespace Bookland.Modules
         protected override async Task<IEnumerable<IDocument>> ExecuteInputAsync(IDocument input, IExecutionContext context)
         {
             context.LogDebug($"Read file {input.Source}");
-            var post = input.AsPost(context);
 
-            var centerText = $"{post.PageTitle.ToUpper()}{Environment.NewLine}{post.ReadingTimeData.RoundedMinutes} min";
-            var coverImagePath = $"{input.Source.Parent.FullPath}/{post.CoverImagePath}";
+            var centerText = $"{input.GetTitle().ToUpper()}{Environment.NewLine}{input.GetReadingTime().RoundedMinutes} min";
+            var coverImagePath = $"{input.Source.Parent.FullPath}/{input.GetCoverImagePath()}";
 
-            var stream = await _imageService.CreateImageDocument(1200, 630, coverImagePath, post.SiteTitle, centerText);
+            var stream = await _imageService.CreateImageDocument(1200, 630, coverImagePath, context.GetSiteTitle(), centerText);
 
             var facebookDoc = context.CreateDocument(input.Source, $"./{Constants.SocialImagesDirectory}/{input.Destination.FileNameWithoutExtension}-facebook.png", context.GetContentProvider(stream));
 
             context.LogDebug($"Created {facebookDoc.Destination}");
 
-            stream = await _imageService.CreateImageDocument(440, 220, coverImagePath, post.SiteTitle, centerText);
+            stream = await _imageService.CreateImageDocument(440, 220, coverImagePath, context.GetSiteTitle(), centerText);
 
             var twitterDoc = context.CreateDocument(input.Source, $"./{Constants.SocialImagesDirectory}/{input.Destination.FileNameWithoutExtension}-twitter.png", context.GetContentProvider(stream));
 

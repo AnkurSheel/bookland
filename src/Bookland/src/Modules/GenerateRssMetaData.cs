@@ -13,15 +13,13 @@ namespace Bookland.Modules
         {
             context.LogDebug($"Read file {input.Source}");
 
-            var post = input.AsPost(context);
-
             return Task.FromResult(
                 input.Clone(
                         new MetadataItems
                         {
-                            { FeedKeys.Description, post.Description },
-                            { FeedKeys.Published, post.PublishedDate },
-                            { FeedKeys.Image, post.CoverImageLink }
+                            { FeedKeys.Description, input.GetExcerpt() },
+                            { FeedKeys.Published, input.GetPublishedDate() },
+                            { FeedKeys.Image, input.GetCoverImagePath() }
                         })
                     .Yield());
         }

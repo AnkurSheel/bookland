@@ -5,11 +5,11 @@ namespace Bookland.Models
 {
     public record PageModel : BaseModel
     {
-        public PageModel(IDocument document, IExecutionContext context, IReadOnlyList<Post> posts) : base(document, context)
+        public PageModel(IDocument document, IExecutionContext context, IReadOnlyList<IDocument> posts) : base(document, context)
         {
             Posts = posts;
         }
 
-        public IReadOnlyList<Post> Posts { get; }
+        public IReadOnlyList<IDocument> Posts { get; }
     }
 }
