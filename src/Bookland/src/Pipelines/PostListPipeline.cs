@@ -31,10 +31,9 @@ namespace Bookland.Pipelines
                         (document, context) =>
                         {
                             var postGroupedByYear = context.Outputs.FromPipeline(nameof(PostPipeline))
-                                .Select(postDocument => postDocument.AsPost(context))
-                                .GroupBy(x => x.Rating)
+                                .GroupBy(x => x.GetRating())
                                 .OrderByDescending(x => x.Key)
-                                .ToDictionary(grouping => grouping.Key, grouping => grouping.OrderByDescending(x => x.PublishedDate).ToList());
+                                .ToDictionary(grouping => grouping.Key, grouping => grouping.OrderByDescending(x => x.GetPublishedDate()).Select(x => x.AsBaseModel(context)).ToList());
                             return new Posts(postGroupedByYear, document, context);
                         })),
             };

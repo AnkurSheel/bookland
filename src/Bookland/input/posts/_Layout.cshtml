@@ -1,17 +1,18 @@
-﻿@model Post
+﻿@model BaseModel
+
 @{
     Layout = "../_Layout.cshtml";
 }
 <div class="prose-sm italic ">
     <div class="flex justify-evenly items-center">
-        <i>Published Date: @Model.PublishedDate.ToString("dd-MMM-yyyy")</i>
+        <i>Published Date: @Model.Document.GetPublishedDate().ToString("dd-MMM-yyyy")</i>
         <i class="font-bold">
-            Reading Time: @Model.ReadingTimeData.RoundedMinutes min
+            Reading Time: @Model.Document.GetReadingTime().RoundedMinutes min
         </i>
     </div>
 
     <div class="flex flex-row flex-wrap gap-1 place-content-center">
-        @foreach (var tag in Model.Tags)
+        @foreach (var tag in Model.Document.GetTags())
         {
             var path = new NormalizedPath($"/tags/{tag}").OptimizeFileName().ToString();
 
@@ -24,22 +25,22 @@
 
 <div class="grid md:grid-cols-2 grid-cols-1">
     <h2 class="md:col-span-2">What I read</h2>
-    <img src="@Model.CoverImageLink" alt="Book Cover"></img>
+    <img src="@Model.Document.GetCoverImageLink()" alt="Book Cover"></img>
     <div class="pl-4">
 
-        <p>@Model.BookTitle</p>
+        <p>@Model.Document.GetBookTitle()</p>
 
         <p>
-            <a href="@Model.AmazonLink">Buy it on Amazon</a>
+            <a href="@Model.Document.GetAmazonLink()">Buy it on Amazon</a>
         </p>
 
-        <p>@Model.Pages pages</p>
+        <p>@Model.Document.GetNumberOfPages() pages</p>
 
         <p>
             Authors:
-            @for (var index = 0; index < Model.Authors.Count; index++)
+            @for (var index = 0; index < Model.Document.GetAuthors().Count; index++)
             {
-                var author = Model.Authors[index];
+                var author = Model.Document.GetAuthors()[index];
                 if (index > 0)
                 {
                     <span>and</span>
@@ -48,7 +49,7 @@
             }
         </p>
 
-        <p>Rating: @Model.Rating / 5</p>
+        <p>Rating: @Model.Document.GetRating() / 5</p>
     </div>
     <div class="md:col-span-2">
         @RenderBody()

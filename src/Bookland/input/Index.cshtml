@@ -14,10 +14,10 @@
         <h2>Latest Summaries</h2>
         <div class="flex flex-col gap-1 flex-auto">
             @{
-                var latestPosts = Model.Posts.OrderByDescending(x => x.PublishedDate).Take(numberOfSummaries);
+                var latestPosts = Model.Posts.OrderByDescending(x => x.GetPublishedDate()).Take(numberOfSummaries);
                 foreach (var post in latestPosts)
                 {
-                    <a href="@post.Url" class="text-center prose-2xl mb-4">@post.PageTitle</a>
+                    <a href="@post.GetPageUrl()" class="text-center prose-2xl mb-4">@post.GetTitle()</a>
                 }
             }
         </div>
@@ -26,10 +26,10 @@
         <h2>Top Rated Books</h2>
         <div class="flex flex-col gap-1 flex-auto">
             @{
-                var topRatedPosts = Model.Posts.OrderByDescending(x => x.Rating).ThenByDescending(x => x.PageTitle).Take(numberOfSummaries);
+                var topRatedPosts = Model.Posts.OrderByDescending(x => x.GetRating()).ThenByDescending(x => x.GetTitle()).Take(numberOfSummaries);
                 foreach (var post in topRatedPosts)
                 {
-                    <a href="@post.Url" class="text-center prose-2xl mb-4">@post.PageTitle</a>
+                    <a href="@post.GetPageUrl()" class="text-center prose-2xl mb-4">@post.GetTitle()</a>
                 }
             }
         </div>

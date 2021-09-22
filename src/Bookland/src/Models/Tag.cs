@@ -5,12 +5,7 @@ namespace Bookland.Models
 {
     public record Tag : BaseModel
     {
-        public Tag(
-            IDocument document,
-            IExecutionContext context,
-            string name,
-            string url,
-            IReadOnlyList<Post> posts) : base(document, context)
+        public Tag(IDocument document, IExecutionContext context, string name, string url, IReadOnlyList<BaseModel> posts) : base(document, context)
         {
             Name = name;
             Url = url;
@@ -21,6 +16,6 @@ namespace Bookland.Models
 
         public string Url { get; }
 
-        public IReadOnlyList<Post> Posts { get; }
+        public IReadOnlyList<BaseModel> Posts { get; }
     }
 }

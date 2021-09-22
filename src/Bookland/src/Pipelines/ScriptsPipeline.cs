@@ -1,6 +1,4 @@
-﻿using System.Threading.Tasks;
-using Bookland.Extensions;
-using Statiq.Common;
+﻿using Statiq.Common;
 using Statiq.Core;
 using Statiq.Minification;
 

@@ -5,7 +5,7 @@ namespace Bookland.Models
 {
     public record Tags : BaseModel
     {
-        public Tags(IReadOnlyList<Tag> tags, IDocument document, IExecutionContext context) : base(document, context)
+        public Tags(IDocument document, IExecutionContext context, IReadOnlyList<Tag> tags) : base(document, context)
         {
             AllTags = tags;
         }

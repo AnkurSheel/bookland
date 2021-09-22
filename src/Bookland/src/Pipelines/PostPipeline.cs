@@ -34,7 +34,7 @@ namespace Bookland.Pipelines
 
             PostProcessModules = new ModuleList
             {
-                new RenderRazor().WithModel(Config.FromDocument((document, context) => document.AsPost(context))),
+                new RenderRazor().WithBaseModel()
             };
 
             OutputModules = new ModuleList

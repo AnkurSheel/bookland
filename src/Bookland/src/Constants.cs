@@ -8,5 +8,6 @@
         public static readonly string PostImagesDirectory = $"{ImagesDirectory}/posts";
         public static readonly string SocialImagesDirectory = $"{ImagesDirectory}/social";
         public static readonly string FontsDirectory = $"{AssetsDirectory}/fonts";
+        public static readonly string BlogPath = $"/blog";
     }
 }
