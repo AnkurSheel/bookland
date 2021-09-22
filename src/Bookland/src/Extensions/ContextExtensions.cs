@@ -12,11 +12,7 @@ namespace Bookland.Extensions
             => context.GetString(Keys.Title);
 
         public static IReadOnlyList<NavigationLink> GetNavigationLinks(this IExecutionContext context)
-            => context.OutputPages.GetChildrenOf("index.html")
-                .Where(x => x.Destination != "index.html")
-                .Select(x => new NavigationLink(x.GetString("title"), $"/{x.Destination.FileNameWithoutExtension.ToString()}"))
-                .OrderBy(x => x.Title)
-                .ToList();
+            => context.GetDocumentList("HeaderLinks").Select(x => new NavigationLink(x.GetString("Title"), x.GetString("Url"))).ToList();
 
         public static string GetScript(this IExecutionContext context)
             => context.GetLink($"/{Constants.JsDirectory}/blog.js");
