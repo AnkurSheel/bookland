@@ -42,8 +42,8 @@ namespace Bookland.Extensions
         public static string GetCoverImagePath(this IDocument document)
             => document.GetString(MetaDataKeys.CoverImage).TrimStart('.', '/');
 
-        public static string GetPageUrl(this IDocument document)
-            => document.GetLink(true);
+        public static string GetPageUrl(this IDocument document, bool relative = true)
+            => document.GetLink(!relative);
 
         public static string GetCoverImageLink(this IDocument document)
             => $"/{Constants.PostImagesDirectory}/{document.GetSlug()}/{document.GetCoverImagePath()}";

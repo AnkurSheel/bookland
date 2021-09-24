@@ -21,7 +21,7 @@ namespace Bookland.Extensions
             => context.GetString(WebKeys.Description);
 
         public static string GetCanonicalUrl(this IExecutionContext context, IDocument document)
-            => context.GetString("canonicalUrl") ?? document.GetPageUrl();
+            => context.GetString("canonicalUrl") ?? document.GetPageUrl(false);
 
         public static string GetTwitterUserName(this IExecutionContext context)
             => context.GetString("TwitterUsername");
