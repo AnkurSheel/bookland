@@ -1,5 +1,5 @@
 ---
-title: 'The One Page Financial Plan'
+title: 'One Page Financial Plan'
 excerpt: 'A one-page financial plan represents only 3-4 things that are most important to us along with some action items to achieve our goals.In his book The One Page Financial Plan, Carl Richards shares the steps to make a good one-page financial plan that is customised for us.'
 coverImage: ./cover.jpg
 featuredImagePosition: 'top 25% center'

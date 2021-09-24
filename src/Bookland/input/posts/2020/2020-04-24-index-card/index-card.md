@@ -1,5 +1,5 @@
 ---
-title: 'The Index card'
+title: 'Index card'
 excerpt: 'This is a well written albeit basic book based on the premise that all the financial advice you need to know can fit on an index card.'
 coverImage: ./cover.jpg
 tags:

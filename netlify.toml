@@ -4,3 +4,21 @@
 
 [build.environment]
   TZ = "Pacific/Auckland"
+
+[[redirects]]
+from = "/blog/the-index-card"
+to = "/blog/index-card"
+status = 301
+force = false
+
+[[redirects]]
+from = "/blog/the-art-of-learning"
+to = "/blog/art-of-learning"
+status = 301
+force = false
+
+[[redirects]]
+from = "/blog/the-motive"
+to = "/blog/motive"
+status = 301
+force = false

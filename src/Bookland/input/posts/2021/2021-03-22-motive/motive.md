@@ -1,5 +1,5 @@
 ---
-title: 'The Motive'
+title: 'Motive'
 excerpt: 'What is your motive to take a leadership position? Is it because it’s the next step on the organisational ladder or is it to get the opportunity to serve?  This book challenges us to look at our motivations for leading.'
 coverImage: ./cover.jpg
 featuredImagePosition: 'top 37% center'
