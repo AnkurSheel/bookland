@@ -26,7 +26,7 @@
         <div class="flex flex-col gap-1 flex-auto text-center">
             <h2 class="">Top Rated Books</h2>
             @{
-                var topRatedPosts = Model.Posts.OrderByDescending(x => x.GetRating()).ThenByDescending(x => x.GetTitle()).Take(numberOfSummaries);
+                var topRatedPosts = Model.Posts.OrderByDescending(x => x.GetRating()).ThenBy(x => x.GetTitle()).Take(numberOfSummaries);
                 foreach (var post in topRatedPosts)
                 {
                     <a href="@post.GetPageUrl()" class="prose-2xl mb-4">@post.GetTitle()</a>
