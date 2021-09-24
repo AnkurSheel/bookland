@@ -24,7 +24,7 @@
     </div>
     <div class="bg-gray-200 rounded-3xl px-4 my-8">
         <div class="flex flex-col gap-1 flex-auto text-center">
-        <h2 class=>Top Rated Books</h2>
+            <h2 class="">Top Rated Books</h2>
             @{
                 var topRatedPosts = Model.Posts.OrderByDescending(x => x.GetRating()).ThenByDescending(x => x.GetTitle()).Take(numberOfSummaries);
                 foreach (var post in topRatedPosts)
