@@ -19,7 +19,7 @@ namespace Bookland.Modules
                         {
                             { FeedKeys.Description, input.GetExcerpt() },
                             { FeedKeys.Published, input.GetPublishedDate() },
-                            { FeedKeys.Image, input.GetCoverImagePath() }
+                            { FeedKeys.Image, input.GetCoverImageLink() }
                         })
                     .Yield());
         }
