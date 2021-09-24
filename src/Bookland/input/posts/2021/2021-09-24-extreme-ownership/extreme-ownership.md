@@ -2,7 +2,6 @@
 title: 'Extreme Ownership'
 excerpt: 'Extreme Ownership mandates that a leader set aside ego, accept responsibility for failures and consistently works to build a better and more effective team'
 tags:
-    - 'Biography'
     - 'Leadership'
     - 'Professional Development — Practical'
 coverImage: ./cover.jpg
