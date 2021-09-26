@@ -1,7 +1,7 @@
 ﻿@model BaseModel
 
 @{
-    var type = Model.Document.GetPageUrl().StartsWith("/blog/")
+    var type = Model.Document.GetPageUrl().StartsWith($"/{Constants.BlogPath}/")
         ? "article"
         : "website";
 }
