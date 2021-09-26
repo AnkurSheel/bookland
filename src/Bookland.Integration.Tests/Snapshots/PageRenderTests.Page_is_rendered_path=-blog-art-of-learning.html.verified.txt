@@ -1,0 +1,304 @@
+﻿{
+  Version: 1.1,
+  Content: {
+    Headers: {
+      Content-Length: 18201,
+      Content-Type: text/html,
+      Last-Modified: DateTime_1
+    },
+    Value:
+
+<!DOCTYPE html>
+<html lang="en" class="min-h-screen">
+<head>
+    
+
+<title>Discoveries in Bookland - Art of Learning</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link href="/assets/styles.css" rel="stylesheet"/>
+<meta name="description" content="The Art Of Learning is Josh Waitzkin&#x2019;s autobiography dealing with his rise to the top of the chess and martial arts world. It gives an insight into the mindset and training of a world champion."/>
+<link rel="canonical" href="https://www.discoveriesinbookland.com/blog/art-of-learning"/>
+
+<meta itemProp="name" content="Art of Learning"/>
+<meta itemProp="description" content="The Art Of Learning is Josh Waitzkin&#x2019;s autobiography dealing with his rise to the top of the chess and martial arts world. It gives an insight into the mindset and training of a world champion."/>
+    <meta itemProp="image" content="https://www.discoveriesinbookland.com/assets/images/social/art-of-learning-facebook.png"/>
+<meta property="og:url" content="/blog/art-of-learning"/>
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="Art of Learning"/>
+<meta property="og:description" content="The Art Of Learning is Josh Waitzkin&#x2019;s autobiography dealing with his rise to the top of the chess and martial arts world. It gives an insight into the mindset and training of a world champion."/>
+    <meta property="og:image" content="https://www.discoveriesinbookland.com/assets/images/social/art-of-learning-facebook.png"/>
+    <meta property="og:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/art-of-learning-facebook.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="ankur_sheel"/>
+<meta name="twitter:creator" content="ankur_sheel"/>
+<meta name="twitter:title" content="Art of Learning"/>
+<meta name="twitter:description" content="The Art Of Learning is Josh Waitzkin&#x2019;s autobiography dealing with his rise to the top of the chess and martial arts world. It gives an insight into the mindset and training of a world champion."/>
+    <meta name="twitter:image" content="https://www.discoveriesinbookland.com/assets/images/social/art-of-learning-twitter.png"/>
+    <meta name="twitter:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/art-of-learning-twitter.png"/>
+
+</head>
+<body class="font-sans font-normal leading-relaxed font-base text-gray-800 min-h-screen bg-gray-100">
+<header class="sticky top-0 bg-white shadow-lg z-10">
+    
+
+<!-- https://www.section.io/engineering-education/creating-a-responsive-navigation-bar-using-tailwind-css-and-javascript/ -->
+
+<nav>
+    <div class="max-w-6xl mx-auto px-4">
+        <div class="flex justify-between">
+            <div class="flex space-x-7 items-center">
+                <!-- Website Logo -->
+                <div>
+                    <a href="/" class="flex items-center py-4 px-2 ">
+                        <span class="font-semibold text-gray-500 text-lg hover:text-green-500">
+                            Discoveries in Bookland
+                        </span
+                        >
+                    </a>
+                </div>
+                <ul class="hidden lg:flex items-center space-x-1">
+                        <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
+                            <a href="/pages/about">About</a>
+                        </li>
+                        <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
+                            <a href="/blog">All Summaries</a>
+                        </li>
+                        <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
+                            <a href="/tags">All Tags</a>
+                        </li>
+                        <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
+                            <a href="/pages/contact">Contact</a>
+                        </li>
+                </ul>
+            </div>
+
+            <ul class="hidden lg:flex items-center space-x-3">
+                <li>
+                    <a role="button" class="" target="_blank" rel="noopener noreferrer" href="/rss.xml" title="RSS">
+                        <img class="h-8 mr-2 border-none" src="/assets/images/rss.svg" alt="RSS">
+                    </a>
+                </li>
+                <li>
+                    <a role="button" class="inline-flex items-center bg-green-400 text-white p-2 rounded-md text-2xl drop-shadow-lg hover:bg-green-800" target="_blank" rel="noopener noreferrer" href="https://www.buymeacoffee.com/ankursheel" title="Did you learn something or find this summary interesting?">
+                        <img class="h-8 mr-2 border-none" src="/assets/images/bmc-logo.svg" alt="Buy Me A Coffee">
+                        <p class="font-cookie">Buy me a book</p>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="lg:hidden flex items-center">
+                <button class="outline-none mobile-menu-button" aria-label="Mobile Menu">
+                    <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+                        <path fill-rule="evenodd"
+                              d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
+                    </svg>
+                </button>
+            </div>
+
+        </div>
+        <div class="hidden mobile-menu">
+            <ul class="flex flex-col">
+                    <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
+                        <a href="/pages/about" class="block">About</a>
+                    </li>
+                    <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
+                        <a href="/blog" class="block">All Summaries</a>
+                    </li>
+                    <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
+                        <a href="/tags" class="block">All Tags</a>
+                    </li>
+                    <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
+                        <a href="/pages/contact" class="block">Contact</a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+</header>
+<main class="mx-auto max-w-prose p-8 prose prose-xl prose-purple" >
+    <h1 class="text-center">Art of Learning</h1>
+    <div class="flex flex-col min-h-screen">
+        <article>
+            
+<div class="prose-sm italic ">
+    <div class="flex justify-evenly items-center">
+        <i>Published Date: 07-Feb-2021</i>
+        <i class="font-bold">
+            Reading Time: 6 min
+        </i>
+    </div>
+
+    <div class="flex flex-row flex-wrap gap-1 place-content-center">
+            <div class="flex-initial border-2 border-black p-2 m-2 border rounded-xl">
+                <a role="button" href="/tags/autobiography" class="badge text-black bg-grey-light no-underline">Autobiography</a>
+            </div>
+            <div class="flex-initial border-2 border-black p-2 m-2 border rounded-xl">
+                <a role="button" href="/tags/personal-development-&#x2014;-inspirational" class="badge text-black bg-grey-light no-underline">Personal Development &#x2014; Inspirational</a>
+            </div>
+    </div>
+</div>
+
+<div class="grid md:grid-cols-2 grid-cols-1">
+    <h2 class="md:col-span-2">What I read</h2>
+    <img src="/assets/images/posts/art-of-learning/cover.jpg" alt="Book Cover"></img>
+    <div class="pl-4">
+
+        <p>The Art of Learning: An Inner Journey to Optimal Performance</p>
+
+        <p>
+            <a href="https://www.amazon.com/The-Art-Learning-Journey-Performance/dp/0743277465/">Buy it on Amazon</a>
+        </p>
+
+        <p>288 pages</p>
+
+        <p>
+            Authors:
+                <a href="https://www.joshwaitzkin.com/">Josh Waitzkin</a>
+        </p>
+
+        <p>Rating: 1 / 5</p>
+    </div>
+    <div class="md:col-span-2">
+        <h2 id="summary">Summary</h2>
+<p>The Art Of Learning is Josh Waitzkin’s autobiography dealing with his rise to the top of the chess and the martial arts world. It gives an insight into the mindset and training of a world champion. Not only does it talk about learning (as implied by the title) but also other topics such as parenting, coaching, dealing with chaos and unfair situations.</p>
+<h2 id="key-quote">Key Quote</h2>
+<blockquote>
+<p>There are clear distinctions between what it takes to be decent, what it takes to be good, what it takes to be great, and what it takes to be among the best</p>
+</blockquote>
+<h2 id="key-takeaways">Key Takeaways</h2>
+<h3 id="what-are-the-different-theories-of-intelligence">What are the different theories of intelligence?</h3>
+<blockquote>
+<p>Every loss is an opportunity for growth</p>
+</blockquote>
+<p>There are 2 theories of intelligence</p>
+<p><strong>Entity Theorists</strong></p>
+<p>Entity theorists see their overall intelligence as a fixed entity. As children, they tend to have been told that they did well when they succeeded and that they weren't good at something when they failed. As a result, they are more prone to quit</p>
+<p><strong>Incremental / learning Theorists</strong></p>
+<p>Incremental theorists believe that they can become good at anything with hard work. As children, they have been given process-oriented feedback and have learnt to associate effort with success. As a result, they are more likely to rise to the challenge.</p>
+<h3 id="what-can-we-do-as-parentscoach">What can we do as parents/coach?</h3>
+<p>It is important for a parent to be empathetic and inspiring and to make sure that their child knows that they would be loved regardless of the outcomes.</p>
+<p>As a parent, we also need to choose the right teacher for our child especially since a lot of teachers are incentivised for short term wins over a long term approach.</p>
+<p>It is important to get to know the student and build a rapport. Once we have gained their trust, we should let them express themself and not suppress their natural voice by forcing them into cookie-cutter moulds.</p>
+<blockquote>
+<p>Confidence is critical for a great competitor, but overconfidence is brittle</p>
+</blockquote>
+<p>Even though we might want to praise all the decisions made by a student (especially if they are young) to build confidence, we need to remember that it discourages objectivity, encourages self-indulgence and creates a dishonest relationship.</p>
+<p>Rather than feeding them information, we should let them make important decisions and ask them to explain their thought process regardless of whether the outcome was good or bad. The introspective thinking can result in a healthy coping mechanism.</p>
+<p>Short term goals can be useful as long as they are balanced with a long term philosophy. But, the regular feedback should respond to effort over results. When the student loses, we shouldn't say &quot;it doesn't matter&quot; but instead show empathy. Focusing only on wins can make a child terrified of shattering the facade of perfection. However, remember that it is important to enjoy a win.</p>
+<p>We need to make the relationship to the game about learning and passion rather than the competition.</p>
+<h3 id="how-can-we-pursue-excellence">How can we pursue excellence?</h3>
+<p>It is rarely a mysterious technique that results in success but a mastery of a basic skill set.</p>
+<blockquote>
+<p>The intuition makes uncanny connections</p>
+</blockquote>
+<p>It is critical to integrate new ideas, experiments and knowledge in a manner that is in sync with our personality. The effects of moving away from our natural voice can be disturbing.</p>
+<blockquote>
+<p>A common error is to take on too much at once</p>
+</blockquote>
+<p>We need to begin with the fundamentals and get a solid foundation of the principles of our discipline. Once we are comfortable with the fundamentals we can add more complicated manoeuvres in a step by step manner so that we can maintain the sense of ease.</p>
+<blockquote>
+<p>We have to be able to do something slowly before we can have any hope of doing it correctly with speed</p>
+</blockquote>
+<p>If it's a physical discipline, we can slowly and incrementally condense our movements. The key is to take small steps to refine our timing and precision so that the body can barely feel the condensing practice and repeating each step over and over again.</p>
+<blockquote>
+<p>Growth comes at the expense of previous comfort or safety</p>
+</blockquote>
+<p>We grow by pushing ourselves and finding what lies at the outer reaches of our abilities.</p>
+<blockquote>
+<p>Tactics come easy once principles are in the blood</p>
+</blockquote>
+<p>It is important to take breaks from competitive intensity and allow protected periods of cultivation. There are 2 reasons for this. First, we need time to internalize new skills before we can improve. Secondly, players who can relax in brief moments of inactivity can handle the pressure much better.</p>
+<h3 id="how-can-we-respond-to-chaos">How can we respond to chaos?</h3>
+<blockquote>
+<p>No matter how much preparation we do, in the real tests of our lives, we’ll be in unfamiliar terrain</p>
+</blockquote>
+<p>It is important to learn how to dictate the tone of battle and that involves knowing how to avoid being distracted by random unexpected events.</p>
+<blockquote>
+<p>Good competitors tend to rise to the level of the opposition</p>
+</blockquote>
+<p>We need to learn how to use emotion to our advantage. If we take on the mentality of a victim then half the battle is already lost.</p>
+<blockquote>
+<p>The unconscious mind is a powerful tool, and learning how to relax under pressure is a key first step to tapping into its potential</p>
+</blockquote>
+<p>An error can trigger fear or confusion that muddies the decision-making process. But, we need to remember that its the not the first mistake but the subsequent mistakes that prove disastrous. Being able to regain presence and clarity of mind after making an error can turn losses into wins.</p>
+<blockquote>
+<p>If we rely on having no nerves then when the pressure is high enough, or when the pain is too piercing to ignore, our ideal state will shatter</p>
+</blockquote>
+<p>There are 3 critical steps in learning how to respond to chaotic situations</p>
+<ol>
+<li>We have to learn how to be at peace with imperfections.</li>
+<li>Use that imperfection to our advantage.</li>
+<li>Create little jolts in our consciousness so that we are constantly inspired whether or not external conditions are inspiring.</li>
+</ol>
+<h3 id="how-can-we-achieve-incremental-growth-by-relaxation">How can we achieve incremental growth by relaxation?</h3>
+<p>We need to start by creating a natural routine that is relatively portable and makes us feel positive. Once we have fully internalised the routine, we can do it before important events.</p>
+<p>The next step is to gradually alter the routine so that it is similar enough to have the same effect but slightly different so that the trigger is both lower maintenance and flexible. Again the key is to make the changes incrementally so that the body can barely feel the difference from the last version of the routine.</p>
+<h3 id="misc">Misc</h3>
+<blockquote>
+<p>It’s amazing how much you can learn about someone when they get caught in the rain</p>
+</blockquote>
+<p>People can reveal nuances in their character in the more mundane moments</p>
+<p>If both players are aware of a tell, then it will be neutralized, made ineffective, and others will have to be unearthed and exploited.</p>
+<p>To always be prepared for exertion by being nourished without having a full stomach(and thereby dull our) senses, we can eat five almonds every forty-five minutes</p>
+<h2 id="other-quotes">Other Quotes</h2>
+<blockquote>
+<p>We should not expect the rest of the world to understand what it takes to become the best that we can become</p>
+</blockquote>
+<blockquote>
+<p>The road to success is not easy or else everyone would be the greatest at what they do</p>
+</blockquote>
+<blockquote>
+<p>Great ones are willing to get burned time and again as they sharpen their swords in the fire</p>
+</blockquote>
+<blockquote>
+<p>If your goal is to be mediocre, then you have a considerable margin for error</p>
+</blockquote>
+<blockquote>
+<p>To win, to be right, to have everything under control. This ultimately cripples growth</p>
+</blockquote>
+<blockquote>
+<p>Once you know what good feels like, you can zero in on it, search it out regardless of the pursuit</p>
+</blockquote>
+<h2 id="recommendation">Recommendation</h2>
+<p>I am not a big fan of the book. As an autobiography, its a fine read with a moderately compelling story. It shows how he has tackled and solved many problems that he faced to reach the top.</p>
+<p>Although different principles appear in the book it is a little light on tips and it isn't always clear how they can be applied. I also felt that most of them do not apply to other disciplines that don't have rigid rules and where it might be better to collaborate rather than compete.</p>
+<p>I would give it a miss unless you are interested in the world of chess or martial arts and how Josh became the best in those 2 fields.</p>
+
+    </div>
+</div>
+
+
+        </article>
+    </div>
+</main>
+
+
+<script src="/assets/js/blog.js"></script>
+
+
+
+    <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="ankursheel" data-description="Support me on Buy me a coffee!" data-message="Did you learn something or find this summary interesting? Buy me a coffee" data-color="#40DCA5" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+
+
+</body>
+</html>
+
+  },
+  StatusCode: OK,
+  ReasonPhrase: OK,
+  Headers: {
+    Accept-Ranges: bytes,
+  },
+  TrailingHeaders: {},
+  RequestMessage: {
+    Version: 1.1,
+    Method: {
+      Method: GET
+    },
+    RequestUri: http://localhost:6789/blog/art-of-learning.html,
+    Headers: {}
+  },
+  IsSuccessStatusCode: true
+}

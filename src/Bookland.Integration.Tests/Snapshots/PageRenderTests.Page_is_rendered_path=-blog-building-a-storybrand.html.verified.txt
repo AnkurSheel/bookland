@@ -1,0 +1,448 @@
+﻿{
+  Version: 1.1,
+  Content: {
+    Headers: {
+      Content-Length: 29326,
+      Content-Type: text/html,
+      Last-Modified: DateTime_1
+    },
+    Value:
+
+<!DOCTYPE html>
+<html lang="en" class="min-h-screen">
+<head>
+    
+
+<title>Discoveries in Bookland - Building a Storybrand</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link href="/assets/styles.css" rel="stylesheet"/>
+<meta name="description" content="How can we use key elements that make a compelling story to create effective marketing messages? This book gives us actionable steps to stop bombarding our prospective customers with noise."/>
+<link rel="canonical" href="https://www.discoveriesinbookland.com/blog/building-a-storybrand"/>
+
+<meta itemProp="name" content="Building a Storybrand"/>
+<meta itemProp="description" content="How can we use key elements that make a compelling story to create effective marketing messages? This book gives us actionable steps to stop bombarding our prospective customers with noise."/>
+    <meta itemProp="image" content="https://www.discoveriesinbookland.com/assets/images/social/building-a-storybrand-facebook.png"/>
+<meta property="og:url" content="/blog/building-a-storybrand"/>
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="Building a Storybrand"/>
+<meta property="og:description" content="How can we use key elements that make a compelling story to create effective marketing messages? This book gives us actionable steps to stop bombarding our prospective customers with noise."/>
+    <meta property="og:image" content="https://www.discoveriesinbookland.com/assets/images/social/building-a-storybrand-facebook.png"/>
+    <meta property="og:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/building-a-storybrand-facebook.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="ankur_sheel"/>
+<meta name="twitter:creator" content="ankur_sheel"/>
+<meta name="twitter:title" content="Building a Storybrand"/>
+<meta name="twitter:description" content="How can we use key elements that make a compelling story to create effective marketing messages? This book gives us actionable steps to stop bombarding our prospective customers with noise."/>
+    <meta name="twitter:image" content="https://www.discoveriesinbookland.com/assets/images/social/building-a-storybrand-twitter.png"/>
+    <meta name="twitter:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/building-a-storybrand-twitter.png"/>
+
+</head>
+<body class="font-sans font-normal leading-relaxed font-base text-gray-800 min-h-screen bg-gray-100">
+<header class="sticky top-0 bg-white shadow-lg z-10">
+    
+
+<!-- https://www.section.io/engineering-education/creating-a-responsive-navigation-bar-using-tailwind-css-and-javascript/ -->
+
+<nav>
+    <div class="max-w-6xl mx-auto px-4">
+        <div class="flex justify-between">
+            <div class="flex space-x-7 items-center">
+                <!-- Website Logo -->
+                <div>
+                    <a href="/" class="flex items-center py-4 px-2 ">
+                        <span class="font-semibold text-gray-500 text-lg hover:text-green-500">
+                            Discoveries in Bookland
+                        </span
+                        >
+                    </a>
+                </div>
+                <ul class="hidden lg:flex items-center space-x-1">
+                        <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
+                            <a href="/pages/about">About</a>
+                        </li>
+                        <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
+                            <a href="/blog">All Summaries</a>
+                        </li>
+                        <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
+                            <a href="/tags">All Tags</a>
+                        </li>
+                        <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
+                            <a href="/pages/contact">Contact</a>
+                        </li>
+                </ul>
+            </div>
+
+            <ul class="hidden lg:flex items-center space-x-3">
+                <li>
+                    <a role="button" class="" target="_blank" rel="noopener noreferrer" href="/rss.xml" title="RSS">
+                        <img class="h-8 mr-2 border-none" src="/assets/images/rss.svg" alt="RSS">
+                    </a>
+                </li>
+                <li>
+                    <a role="button" class="inline-flex items-center bg-green-400 text-white p-2 rounded-md text-2xl drop-shadow-lg hover:bg-green-800" target="_blank" rel="noopener noreferrer" href="https://www.buymeacoffee.com/ankursheel" title="Did you learn something or find this summary interesting?">
+                        <img class="h-8 mr-2 border-none" src="/assets/images/bmc-logo.svg" alt="Buy Me A Coffee">
+                        <p class="font-cookie">Buy me a book</p>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="lg:hidden flex items-center">
+                <button class="outline-none mobile-menu-button" aria-label="Mobile Menu">
+                    <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+                        <path fill-rule="evenodd"
+                              d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
+                    </svg>
+                </button>
+            </div>
+
+        </div>
+        <div class="hidden mobile-menu">
+            <ul class="flex flex-col">
+                    <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
+                        <a href="/pages/about" class="block">About</a>
+                    </li>
+                    <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
+                        <a href="/blog" class="block">All Summaries</a>
+                    </li>
+                    <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
+                        <a href="/tags" class="block">All Tags</a>
+                    </li>
+                    <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
+                        <a href="/pages/contact" class="block">Contact</a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+</header>
+<main class="mx-auto max-w-prose p-8 prose prose-xl prose-purple" >
+    <h1 class="text-center">Building a Storybrand</h1>
+    <div class="flex flex-col min-h-screen">
+        <article>
+            
+<div class="prose-sm italic ">
+    <div class="flex justify-evenly items-center">
+        <i>Published Date: 19-May-2021</i>
+        <i class="font-bold">
+            Reading Time: 13 min
+        </i>
+    </div>
+
+    <div class="flex flex-row flex-wrap gap-1 place-content-center">
+            <div class="flex-initial border-2 border-black p-2 m-2 border rounded-xl">
+                <a role="button" href="/tags/business" class="badge text-black bg-grey-light no-underline">Business</a>
+            </div>
+            <div class="flex-initial border-2 border-black p-2 m-2 border rounded-xl">
+                <a role="button" href="/tags/communication" class="badge text-black bg-grey-light no-underline">Communication</a>
+            </div>
+            <div class="flex-initial border-2 border-black p-2 m-2 border rounded-xl">
+                <a role="button" href="/tags/marketing" class="badge text-black bg-grey-light no-underline">Marketing</a>
+            </div>
+    </div>
+</div>
+
+<div class="grid md:grid-cols-2 grid-cols-1">
+    <h2 class="md:col-span-2">What I read</h2>
+    <img src="/assets/images/posts/building-a-storybrand/cover.jpg" alt="Book Cover"></img>
+    <div class="pl-4">
+
+        <p>Building a StoryBrand: Clarify Your Message So Customers Will Listen</p>
+
+        <p>
+            <a href="https://www.amazon.com/Building-StoryBrand-Clarify-Message-Customers/dp/0718033329">Buy it on Amazon</a>
+        </p>
+
+        <p>240 pages</p>
+
+        <p>
+            Authors:
+                <a href="https://storybrand.com/">Donald Miller</a>
+        </p>
+
+        <p>Rating: 5 / 5</p>
+    </div>
+    <div class="md:col-span-2">
+        <h2 id="summary">Summary</h2>
+<p>Building a Storybrand is a guide for creating effective marketing messages. The book discusses how we can use critical elements that make a compelling story to stop bombarding our prospective customers with marketing noise that doesn't resonate.</p>
+<p>This book is divided into 3 stages and has actionable steps to create our Brandscript</p>
+<h2 id="key-quote">Key Quote</h2>
+<blockquote>
+<p>If you confuse, you’ll lose</p>
+</blockquote>
+<h2 id="key-takeaways">Key Takeaways</h2>
+<h3 id="what-is-the-importance-of-a-story">What is the importance of a story?</h3>
+<blockquote>
+<p>Where there’s no story, there’s no engagement</p>
+</blockquote>
+<p>To connect with customers, we need to have clear messaging and not generate noise. A story is the best way to combat noise because it takes random events and organises them so that people are compelled to listen.</p>
+<h3 id="what-is-the-storybrand-framework">What is the Storybrand framework?</h3>
+<p>In every great story, a <strong>Hero</strong> encounters a <strong>Problem.</strong> At the peak of their despair, they meet a <strong>Guide</strong> who gives them a <strong>Plan</strong> and <strong>Calls them to Action.</strong> That action helps them avoid <strong>Failure</strong> and ends in <strong>Success.</strong></p>
+<p>The storybrand framework is based on this and identifies the following 7 principles for communicating a clear message.</p>
+<ol>
+<li>The customer is the hero, not your brand</li>
+<li>Companies tend to sell solutions to external problems, but customers buy solutions to internal problems.</li>
+<li>Customers aren’t looking for another hero; they’re looking for a guide</li>
+<li>Customers trust a guide who has a plan.</li>
+<li>Customers do not take action unless they are challenged to take action</li>
+<li>Every human being is trying to avoid a tragic ending.</li>
+<li>Never assume people understand how your brand can change their lives. Tell them.</li>
+</ol>
+<h3 id="what-are-the-mistakes-that-we-make-with-our-messaging">What are the mistakes that we make with our messaging?</h3>
+<blockquote>
+<p>What we think we are saying to our customers and what our customers hear are two different things. And customers make buying decisions not based on what we say but on what they hear</p>
+</blockquote>
+<p>There are a few critical mistakes that we make when crafting our offer.</p>
+<blockquote>
+<p>People will always choose a story that helps them survive and thrive</p>
+</blockquote>
+<p>We fail to focus on the aspects of our offer that will help people survive and thrive.</p>
+<blockquote>
+<p>In every line of copy we write, we’re either serving the customer’s story or descending into confusion; we’re either making music or making noise</p>
+</blockquote>
+<p>Our offer does not have a single focus. In our desire to cast a wide net, we make the message so vague that potential customers cant understand our offer. This confusion causes our customers to tune us out.</p>
+<p>We don't talk about the cost of not doing business with us, and when we do, we make 2 mistakes.</p>
+<ul>
+<li>We have too many warnings about imminent doom, which causes the customers to resist us.</li>
+<li>We have too few reasons, and the customers don't know why our product matters.</li>
+</ul>
+<h3 id="how-to-create-our-message">How to create our message?</h3>
+<blockquote>
+<p>Could a caveman look at your website and immediately grunt what you offer?</p>
+</blockquote>
+<p>We need to answer 3 questions and communicate them simply so that the story we are inviting customers into has a definition and direction.</p>
+<ul>
+<li>What do you offer?</li>
+<li>How will it make my life better?</li>
+<li>What do I need to do to buy it?</li>
+</ul>
+<blockquote>
+<p>The more we talk about the problems our customer's experience, the more interest they will have in our brand</p>
+</blockquote>
+<p>We must tell customers what life looks like(for them) after they engage with us and how they will feel after their problem is resolved.</p>
+<p>We need to address the 3 levels of problems a customer encounters</p>
+<ul>
+<li><strong>External problems</strong> is the physical/tangible problem</li>
+<li><strong>Internal problems</strong> are the frustrations that are caused by external problems.</li>
+<li><strong>Philosophical problem</strong> answers the question &quot;Why?&quot; and gives our customers a more profound sense of meaning.</li>
+</ul>
+<blockquote>
+<p>Brands that don’t warn their customers about what could happen if they don’t buy their products fail to answer the “so what” question every customer is secretly asking</p>
+</blockquote>
+<p>We need to talk about the cost of not doing business with us is. The best way to do this by creating a villain with personified characteristics that our products or services defeat. The villain should be relatable, singular and real.</p>
+<blockquote>
+<p>We must tell our customers how great their life can look if they buy our products and services</p>
+</blockquote>
+<p>We should see if our brand can promise a resolution for one or more of these desires.</p>
+<ul>
+<li><strong>The Need for Status</strong> by making our customers more esteemed, respected, and appealing in a social context</li>
+<li><strong>The Need for Something External to Create Completeness</strong> by reducing stress or providing a tool that they are missing</li>
+<li><strong>The Need to Reach Our Potential</strong> by inviting customers to participate in a more significant movement or helping them accept themselves as they are</li>
+</ul>
+<h3 id="how-to-position-ourselves-as-a-guide">How to position ourselves as a guide?</h3>
+<blockquote>
+<p>Your customer should be the hero of the story, not your brand. This is the secret every phenomenally successful business understands</p>
+</blockquote>
+<p>When we help our customer solve a problem (even for free), we position ourselves as a guide. By positioning our customer as a hero and ourselves as a guide, we become a trusted resource to help them with their problems. The next time they encounter an issue in that area of their lives, they will look to us for help.</p>
+<p>To position ourselves as a guide, we must demonstrate empathy and authority.</p>
+<h3 id="how-do-we-show-empathy">How do we show Empathy?</h3>
+<blockquote>
+<p>Customers won’t know you care until you tell them</p>
+</blockquote>
+<p>The three things that every human being wants is to be seen, heard and understood. Customers trust brands that understand them.</p>
+<p>To express empathy, we simply need to let our customers know that we understand their problem and would like to help them find a solution.</p>
+<h3 id="how-do-we-show-authority-aka-competence">How do we show Authority, aka Competence?</h3>
+<blockquote>
+<p>The customer simply needs to know that you have something they want and you can be trusted to deliver whatever that is</p>
+</blockquote>
+<p>There are 4 ways to show authority - Testimonials, Statistics, Awards and Logos.</p>
+<p>Customer testimonials are one of the best ways to illustrate how we help our customers transform. Testimonials should be brief and should avoid endless praise. We also don't need more than three testimonials.</p>
+<p>Awards help in earning a customers trust even if they have never heard of the award.</p>
+<p>Logos of other customers that we have helped can help provide social proof that we can help them.</p>
+<h3 id="what-questions-can-we-ask-for-a-compelling-testimonial">What questions can we ask for a compelling testimonial?</h3>
+<p>For a compelling testimonial, we need to ask the right questions.</p>
+<p>Some of the questions we should ask are</p>
+<ol>
+<li>What was the problem you were having before you discovered our product?</li>
+<li>What did the frustration feel like as you tried to solve that problem?</li>
+<li>What was different about our product?</li>
+<li>Take us to the moment when you realised our product was working to solve your problem.</li>
+<li>Tell us what life looks like now that your problem is solved or being solved</li>
+</ol>
+<h3 id="how-to-use-plans-to-encourage-customers-to-do-business-with-us">How to use plans to encourage customers to do business with us?</h3>
+<blockquote>
+<p>Not having a plan is a guaranteed way to confuse your customers</p>
+</blockquote>
+<p>All effective plans either clarify how somebody can do business with us or remove the sense of risk somebody might have about working for us.</p>
+<p>We should give our plans a title that increases the perceived value of our product.</p>
+<p>There are 2 types of plans we can use - Process plans and Agreement plans.</p>
+<h3 id="what-is-a-process-plan">What is a Process Plan?</h3>
+<p>Process plans help to alleviate confusion by describing the steps that a customer needs to take to buy our product.</p>
+<p>If our customers might have trouble imagining how they would use our product after buying it, we can create a post-purchase plan.</p>
+<p>A process/post-purchase plan should have between 3 to 6 steps. If there are more than 6 steps, we should break down the steps into stages and describe them.</p>
+<h3 id="what-is-an-agreement-plan">What is an Agreement Plan?</h3>
+<p>Agreement plans help customers overcome the fear they might have about doing business with us. An agreement plan clarifies the shared values between our customer and us. It can increase the perceived value of a service we promise to provide.</p>
+<p>We can create an agreement plan by listing all the things (related to our product) our customer and then counter that list with agreements to alleviate their fears.</p>
+<h2 id="what-should-we-have-on-our-website">What should we have on our website?</h2>
+<blockquote>
+<p>People don’t read websites, they scan them</p>
+</blockquote>
+<p>On a website, the images and text above the fold are the things you see and read before you start scrolling down. The images and text we use above the fold should either promise to solve a problem or promise an aspirational identity.</p>
+<p>The easiest way to communicate a sense of satisfaction with our product is by displaying happy customers engaging with the product.</p>
+<blockquote>
+<p>The fewer words you use, the more likely it is that people will read them</p>
+</blockquote>
+<p>There should be very few words on our website. We should see if we can replace some of our text with images or reduce paragraphs using bullet points or summarise sentences into bite-sized soundbites. If we need a long section of text to explain something, we can place a &quot;Read More&quot; link at the end of the 1st or 2nd sentence so that people can expand it if they like.</p>
+<blockquote>
+<p>The key to great writing isn’t in what they say; it’s in what they don’t say</p>
+</blockquote>
+<p>We should have a bold and legible one-liner. It is the obvious statement that viewers read and invites potential customers into a story they find interesting.</p>
+<p>There should be one prominent button to press, and it should be the direct call to action. This does not mean that there should be only 1 button but rather 1 button that stands out by being a different colour (preferably brighter). This button should be placed in 2 prominent places on the website.</p>
+<ol>
+<li>the top right corner of the website and it shouldn't be cluttered with other buttons; and</li>
+<li>the centre of the screen above the fold and should be repeated as people scroll down the page.</li>
+</ol>
+<p>The transitional call to action should also be obvious, but it should not distract from the direct call to action. It can be a less-bright button next to the call to action.</p>
+<h3 id="how-to-create-a-one-liner">How to create a One-Liner?</h3>
+<blockquote>
+<p>Customers don’t generally care about your story; they care about their own</p>
+</blockquote>
+<p>A one-liner is a single statement that answers the question &quot;What do you do?&quot; and helps people realise why they need our product.</p>
+<p>It needs to answer the following questions.</p>
+<ol>
+<li>Who is your customer?</li>
+<li>What is their problem?</li>
+<li>What is your plan to help them</li>
+<li>What will their life look like after you do?</li>
+</ol>
+<p>A one-liner needs to be tested repeatedly and is not complete until people ask us for more information.</p>
+<h3 id="how-to-create-a-direct-call-to-action">How to create a Direct Call to Action?</h3>
+<blockquote>
+<p>A call to action involves communicating a clear and direct step our customer can take to overcome their challenge and return to a peaceful life</p>
+</blockquote>
+<p>A direct call to action is something that leads to a sale, or at least is the first step down a path that leads to a sale. The wording of this action should position our product as a resolution to the external, internal, and philosophical problem that our customer faces.</p>
+<blockquote>
+<p>The fastest way to grow a company is to make the calls to action clear and then repeat them over and over</p>
+</blockquote>
+<p>They can be included everywhere to make it very clear what we’d like customers to do: to make a purchase so we can help them solve their problem.</p>
+<h3 id="how-to-create-transitional-calls-to-action-and-collect-e-mail-addresses">How to create Transitional Calls to Action <strong>and Collect E-mail Addresses</strong>?</h3>
+<blockquote>
+<p>Our customers may not need our product today, and they might not need it tomorrow, but on the day they do need it, we want to make sure they remember who we are, what we have, and where they can reach us</p>
+</blockquote>
+<p>Transitional calls to action usually offer a customer something for free. They can be used to “on-ramp” potential customers to an eventual purchase. An excellent transitional call to action can stake a claim to our territory and create reciprocity.</p>
+<p>A lead generator is a resource that magnetically attracts people to our businesses. It invites them to join our mailing list to let them know, directly and authoritatively, how we can help them resolve their problems.</p>
+<blockquote>
+<p>At the highest level, the most important challenge for business leaders is to define something simple and relevant their customers want and to become known for delivering on that promise. Everything else is a subplot that, after having delivered on the customer’s basic desire, will only serve to delight and surprise them all the more</p>
+</blockquote>
+<p>A lead generator should offer something more valuable than the vague offer of a newsletter and establish us as an authority in our field. An effective lead generator has an irresistible title.</p>
+<p>There are a few ways we can create lead generators.</p>
+<ul>
+<li>A free PDF of a maximum of 3 pages educating customers about our field of expertise.</li>
+<li>Online Course or Webinar</li>
+<li>Free Samples of our product</li>
+<li>A limited-time free trial</li>
+</ul>
+<h3 id="how-to-create-a-nurturing-campaign">How to create a <strong>nurturing campaign?</strong></h3>
+<blockquote>
+<p>Like farming a field, building a healthy and engaged e-mail list takes time, but it’s time well spent. Start today. A year from now, you’ll be glad you did</p>
+</blockquote>
+<p>A nurturing campaign is a simple, regular e-mail that offers your subscribers valuable information related to your products or services. The idea is to provide something of great value and then occasionally ask for an order and remind people you have products and services that can improve their lives.</p>
+<p>A typical nurturing campaign may have an e-mail going out once each week. So it's recommended to create a few months worth of material and then adding to it as we get time.</p>
+<p>An excellent way to craft each nurturing e-mail</p>
+<ol>
+<li>Talk about a problem.</li>
+<li>Explain a plan to solve the problem.</li>
+<li>Describe how life can look for the reader once the problem is solved.</li>
+<li>Include a postscript or the P.S. Often, the P.S. is the only thing somebody who opens a mass e-mail will read.</li>
+</ol>
+<blockquote>
+<p>When we try to sell passively, we communicate a lack of belief in our product</p>
+</blockquote>
+<p>About every third or fourth e-mail in a nurturing campaign should offer a product or service to the customer. This e-mail looks a little different.</p>
+<ol>
+<li>Talk about a problem.</li>
+<li>Describe a product you offer that solves this problem.</li>
+<li>Describe what life can look like for the reader once the problem is solved.</li>
+<li>Call the customer to a direct action leading to a sale</li>
+</ol>
+<blockquote>
+<p>Content is important, but the point is, there is great power in simply reminding our customers we exist</p>
+</blockquote>
+<p>Don't worry if the open rates on these e-mails are low. Even if a person sees and deletes the e-mail, the goal has been accomplished. If someone unsubscribes, that's a good thing as they would probably never buy from you anyway, and it reduces the size of your list.</p>
+<h3 id="how-much-value-should-i-give-away-for-free"><strong>How Much Value Should I Give Away for Free?</strong></h3>
+<blockquote>
+<p>It’s never cost me to give away valuable, free content. People consume this content on the run and will gladly pay to attend a workshop or hire a facilitator that helps them slow down and learn the information at a custom-created pace</p>
+</blockquote>
+<p>Don't be worried about giving away too much free information. The more generous a brand is, the more reciprocity they create.</p>
+<h3 id="how-to-create-a-system-that-generates-referrals">How to create a system that generates referrals?</h3>
+<p>To generate referrals, we need to create a system that invites and incentivises customers to spread the word.</p>
+<p>The steps to create an effective referral system</p>
+<ul>
+<li>Identify our existing ideal customer</li>
+<li>Give our customers a reason to spread the word by creating a PDF or video that we automatically send.</li>
+<li>Offer a reward to existing clients who refer their friends or an affiliate program with a 10% commission</li>
+</ul>
+<h3 id="a-template-e-mail-to-send-to-customers-with-the-pdfvideo">A template e-mail to send to customers with the PDF/video</h3>
+<p>Dear Friend,</p>
+<p>Thanks for doing business with us. A number of our clients have wanted to tell their friends about how we help customers, but they aren’t sure how to do so. We’ve put together a little video that will help your friends solve X problem. If you have any friends with X problem, feel free to send it along.</p>
+<p>We’d be happy to follow up with any of them, and we’ll be sure to let you know whether we could help. We know you value your relationships, and so do we. If your friends are experiencing a problem we’ve helped you solve, we’d love to help them too. If there’s anything else we can do, please let us know.</p>
+<p>Sincerely,</p>
+<p>Name</p>
+<p>P.S. X Problem can be frustrating. If you’d rather introduce us to your friend in person, just let us know. We are more than happy to meet with them in their place of business or at our office.</p>
+<h2 id="other-quotes">Other Quotes</h2>
+<blockquote>
+<p>If nothing can be gained or lost, no one cares</p>
+</blockquote>
+<blockquote>
+<p>There’s a reason most marketing collateral doesn’t work. Their marketing is too complicated. The brain doesn’t know how to process the information</p>
+<p><cite>Mike McHargue</cite></p>
+</blockquote>
+<blockquote>
+<p>Pretty websites don’t sell things. Words sell things</p>
+</blockquote>
+<blockquote>
+<p>Brands that position themselves as heroes unknowingly compete with their potential customers</p>
+</blockquote>
+<blockquote>
+<p>People don’t buy the best products; they buy the products they can understand the fastest</p>
+</blockquote>
+<h2 id="recommendation">Recommendation</h2>
+<p>Considering this book is about marketing and crafting a compelling message, it is no surprise that it is exceptionally well written. It is organised in a very easy to follow way. This book is not only for marketers and copywriters. It is a must-read for anyone else that wants to help people connect with their brand more effectively. It can help clarify our message, organise our thoughts and simplify our marketing.</p>
+
+    </div>
+</div>
+
+
+        </article>
+    </div>
+</main>
+
+
+<script src="/assets/js/blog.js"></script>
+
+
+
+    <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="ankursheel" data-description="Support me on Buy me a coffee!" data-message="Did you learn something or find this summary interesting? Buy me a coffee" data-color="#40DCA5" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+
+
+</body>
+</html>
+
+  },
+  StatusCode: OK,
+  ReasonPhrase: OK,
+  Headers: {
+    Accept-Ranges: bytes,
+  },
+  TrailingHeaders: {},
+  RequestMessage: {
+    Version: 1.1,
+    Method: {
+      Method: GET
+    },
+    RequestUri: http://localhost:6789/blog/building-a-storybrand.html,
+    Headers: {}
+  },
+  IsSuccessStatusCode: true
+}

@@ -74,3 +74,4 @@ cache/
 /node/package-lock.json
 /src/Bookland/input/assets/styles.css
 *.sln.DotSettings.user
+*.received.*

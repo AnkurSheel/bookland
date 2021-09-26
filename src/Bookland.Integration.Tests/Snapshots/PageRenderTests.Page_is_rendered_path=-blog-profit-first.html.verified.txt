@@ -1,0 +1,303 @@
+﻿{
+  Version: 1.1,
+  Content: {
+    Headers: {
+      Content-Length: 16110,
+      Content-Type: text/html,
+      Last-Modified: DateTime_1
+    },
+    Value:
+
+<!DOCTYPE html>
+<html lang="en" class="min-h-screen">
+<head>
+    
+
+<title>Discoveries in Bookland - Profit First</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link href="/assets/styles.css" rel="stylesheet"/>
+<meta name="description" content="This book is a step by step guide to implement the profit first technique - a strategy to divide your income into different buckets and taking a profit before paying your expenses to run an efficient and profitable business"/>
+<link rel="canonical" href="https://www.discoveriesinbookland.com/blog/profit-first"/>
+
+<meta itemProp="name" content="Profit First"/>
+<meta itemProp="description" content="This book is a step by step guide to implement the profit first technique - a strategy to divide your income into different buckets and taking a profit before paying your expenses to run an efficient and profitable business"/>
+    <meta itemProp="image" content="https://www.discoveriesinbookland.com/assets/images/social/profit-first-facebook.png"/>
+<meta property="og:url" content="/blog/profit-first"/>
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="Profit First"/>
+<meta property="og:description" content="This book is a step by step guide to implement the profit first technique - a strategy to divide your income into different buckets and taking a profit before paying your expenses to run an efficient and profitable business"/>
+    <meta property="og:image" content="https://www.discoveriesinbookland.com/assets/images/social/profit-first-facebook.png"/>
+    <meta property="og:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/profit-first-facebook.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="ankur_sheel"/>
+<meta name="twitter:creator" content="ankur_sheel"/>
+<meta name="twitter:title" content="Profit First"/>
+<meta name="twitter:description" content="This book is a step by step guide to implement the profit first technique - a strategy to divide your income into different buckets and taking a profit before paying your expenses to run an efficient and profitable business"/>
+    <meta name="twitter:image" content="https://www.discoveriesinbookland.com/assets/images/social/profit-first-twitter.png"/>
+    <meta name="twitter:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/profit-first-twitter.png"/>
+
+</head>
+<body class="font-sans font-normal leading-relaxed font-base text-gray-800 min-h-screen bg-gray-100">
+<header class="sticky top-0 bg-white shadow-lg z-10">
+    
+
+<!-- https://www.section.io/engineering-education/creating-a-responsive-navigation-bar-using-tailwind-css-and-javascript/ -->
+
+<nav>
+    <div class="max-w-6xl mx-auto px-4">
+        <div class="flex justify-between">
+            <div class="flex space-x-7 items-center">
+                <!-- Website Logo -->
+                <div>
+                    <a href="/" class="flex items-center py-4 px-2 ">
+                        <span class="font-semibold text-gray-500 text-lg hover:text-green-500">
+                            Discoveries in Bookland
+                        </span
+                        >
+                    </a>
+                </div>
+                <ul class="hidden lg:flex items-center space-x-1">
+                        <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
+                            <a href="/pages/about">About</a>
+                        </li>
+                        <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
+                            <a href="/blog">All Summaries</a>
+                        </li>
+                        <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
+                            <a href="/tags">All Tags</a>
+                        </li>
+                        <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
+                            <a href="/pages/contact">Contact</a>
+                        </li>
+                </ul>
+            </div>
+
+            <ul class="hidden lg:flex items-center space-x-3">
+                <li>
+                    <a role="button" class="" target="_blank" rel="noopener noreferrer" href="/rss.xml" title="RSS">
+                        <img class="h-8 mr-2 border-none" src="/assets/images/rss.svg" alt="RSS">
+                    </a>
+                </li>
+                <li>
+                    <a role="button" class="inline-flex items-center bg-green-400 text-white p-2 rounded-md text-2xl drop-shadow-lg hover:bg-green-800" target="_blank" rel="noopener noreferrer" href="https://www.buymeacoffee.com/ankursheel" title="Did you learn something or find this summary interesting?">
+                        <img class="h-8 mr-2 border-none" src="/assets/images/bmc-logo.svg" alt="Buy Me A Coffee">
+                        <p class="font-cookie">Buy me a book</p>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="lg:hidden flex items-center">
+                <button class="outline-none mobile-menu-button" aria-label="Mobile Menu">
+                    <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+                        <path fill-rule="evenodd"
+                              d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
+                    </svg>
+                </button>
+            </div>
+
+        </div>
+        <div class="hidden mobile-menu">
+            <ul class="flex flex-col">
+                    <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
+                        <a href="/pages/about" class="block">About</a>
+                    </li>
+                    <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
+                        <a href="/blog" class="block">All Summaries</a>
+                    </li>
+                    <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
+                        <a href="/tags" class="block">All Tags</a>
+                    </li>
+                    <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
+                        <a href="/pages/contact" class="block">Contact</a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+</header>
+<main class="mx-auto max-w-prose p-8 prose prose-xl prose-purple" >
+    <h1 class="text-center">Profit First</h1>
+    <div class="flex flex-col min-h-screen">
+        <article>
+            
+<div class="prose-sm italic ">
+    <div class="flex justify-evenly items-center">
+        <i>Published Date: 08-Aug-2020</i>
+        <i class="font-bold">
+            Reading Time: 5 min
+        </i>
+    </div>
+
+    <div class="flex flex-row flex-wrap gap-1 place-content-center">
+            <div class="flex-initial border-2 border-black p-2 m-2 border rounded-xl">
+                <a role="button" href="/tags/business" class="badge text-black bg-grey-light no-underline">Business</a>
+            </div>
+            <div class="flex-initial border-2 border-black p-2 m-2 border rounded-xl">
+                <a role="button" href="/tags/company-building" class="badge text-black bg-grey-light no-underline">Company Building</a>
+            </div>
+            <div class="flex-initial border-2 border-black p-2 m-2 border rounded-xl">
+                <a role="button" href="/tags/business-finance" class="badge text-black bg-grey-light no-underline">Business Finance</a>
+            </div>
+    </div>
+</div>
+
+<div class="grid md:grid-cols-2 grid-cols-1">
+    <h2 class="md:col-span-2">What I read</h2>
+    <img src="/assets/images/posts/profit-first/cover.jpg" alt="Book Cover"></img>
+    <div class="pl-4">
+
+        <p>Profit First: Transform Your Business from a Cash-Eating Monster to a Money-Making Machine</p>
+
+        <p>
+            <a href="https://www.amazon.com/Profit-First-Transform-Cash-Eating-Money-Making-ebook/dp/B01HCGYTH4">Buy it on Amazon</a>
+        </p>
+
+        <p>224 pages</p>
+
+        <p>
+            Authors:
+                <a href="https://mikemichalowicz.com/">Mike Michalowicz</a>
+        </p>
+
+        <p>Rating: 5 / 5</p>
+    </div>
+    <div class="md:col-span-2">
+        <h2 id="summary">Summary</h2>
+<p>The book is based on the premise that to grow an efficient and profitable business, you need to take the profit before paying expenses. This approach works for both new and existing businesses. At the end of each chapter, Mike suggests some actions that you can take to achieve a profitable business. He shares many examples of entrepreneurs who have applied the Profit First methodology scenarios as well as examples of how to apply the system. For some of the techniques, he also gives some advanced strategies.</p>
+<p>The book starts by giving you a way to assess your business and setting up accounts to get started with the Profit First Technique. It then gives a roadmap to continuously apply the profit first technique on a regular cadence. The book also shares some tips on reducing expenses, personal finance, handling layoffs and finance for kids.</p>
+<h2 id="key-quote">Key Quote</h2>
+<blockquote>
+<p>Revenue is vanity, profit is sanity, and cash is king</p>
+</blockquote>
+<h2 id="key-takeaways">Key Takeaways</h2>
+<ul>
+<li>A business is made up of 5 components
+<ul>
+<li>Income
+<ul>
+<li>The total revenue of the business</li>
+</ul>
+</li>
+<li>Profit
+<ul>
+<li>Profit distributions to all the equity owners</li>
+</ul>
+</li>
+<li>Owners Compensation
+<ul>
+<li>The amount all the equity owners take as pay</li>
+</ul>
+</li>
+<li>Tax
+<ul>
+<li>The direct tax liabilities of the business and the personal income taxes of the owners</li>
+</ul>
+</li>
+<li>Operating Expenses
+<ul>
+<li>All other expenses required to run the business</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Most businesses fail because of lack of profitability.</li>
+<li>Real Revenue is the money that your company makes after paying for material and subcontractors.</li>
+<li>For each full-time employee, your company should generate a Real Revenue of $150K-$250K</li>
+<li>For a tech business, real revenue should be 2.5 times the labour cost</li>
+<li>For a cheap labour field business, Real revenue should be 4 times the labour cost</li>
+<li>Growth is only half the equation. It is an important half but still only a half</li>
+<li>The perfect size of your business will happen naturally.</li>
+<li>You want at least a 5% profit allocation to have a minimum buffer to keep your business afloat.</li>
+<li>A higher (current) profit allocation percentage implies higher efficiency in running the business which means less in operating expenses. eg
+<ul>
+<li>5% profit allocation = 3 weeks of operating cash</li>
+<li>12% profit allocation = 2 months of operating cash</li>
+<li>24% profit allocation = 5 months of operating cash</li>
+</ul>
+</li>
+<li>The goal of every business is health and that is achieved through efficiency not by cutting owners compensation</li>
+<li>Have at least a 3-month reserve</li>
+<li>Figure out how to consistently be profitable and then do everything to grow that.</li>
+<li>Assess your business by comparing your Current Allocation Percentages(CAP) against the Target Allocation Percentages(TAP)</li>
+<li>Cancel whatever you don't need to run your business efficiently or to keep your customers happy</li>
+<li>Negotiate every expense except payroll</li>
+<li>Challenge yourself to go just 1 more day without the item that you need to purchase. Sometimes, you will discover that you no longer need the item.</li>
+<li><strong>Parkinson's Law</strong>: The demand for something expand to match its supply. It triggers 2 behaviours when supply is scant
+<ul>
+<li>You become frugal</li>
+<li>You become innovative and find ways to get maximum value.</li>
+</ul>
+</li>
+<li>Thinking that something good will happen just because we work harder, longer or better does not work in real life. It just happens in the movies.</li>
+<li>Try to become the best at one thing i.e. mastering the process of delivering perfectly and efficiently rather than trying to do a large variety of things.</li>
+<li>To grow the biggest, you need to determine what you are best at and do it even better.</li>
+<li>If you believe that achieving a number is possible, you will achieve it.</li>
+<li>You must pay yourself first even if you are in debt</li>
+<li>Get rid of bad clients who want your least profitable products and services because you are losing money.</li>
+<li>Every time your income increases, set aside at least half of the increase as savings and you can use the rest for lifestyle upgrades.</li>
+<li>Remember to celebrate.</li>
+<li>More revenue does not mean that you are more successful, what matter is Profit</li>
+<li>Maximize Profit regardless of the current size of your business.</li>
+<li>Accountants define Profit as a number at the bottom of an accounting report. We just need to define it as <strong>Cash in the bank</strong>.</li>
+<li>To keep big margins, you have to make the most of it when you have them and keep innovating to increase profitability by becoming efficient.</li>
+<li>Efficiency (getting more things done with fewer resources) is directly related to profitability.</li>
+<li>If you have to layoff people, its better to let 1 more person go than asking the remaining people to take a pay cut.</li>
+<li>Have only 1 round of layoffs and assure the rest of the team that everyone remaining is to stay after explaining the reason of the layoff.</li>
+<li>Instead of giving kids an allowance, give them job list with corresponding pay rates that they can choose from.</li>
+</ul>
+<h2 id="other-quotes">Other Quotes</h2>
+<ul>
+<li>Failed entrepreneurs are, in fact, the lucky ones! The majority of the businesses that survive are racking up debt, and their leaders are perpetually stressed.</li>
+<li>When you hit rock bottom, sometimes you get dragged along the bottom, scraping your face on every one of those rocks until you are battered, bruised and bloodied</li>
+<li>A financially healthy company is a result of small daily financial wins, not one big moment.</li>
+<li>Profitability isn't an event; its a habit</li>
+<li>If you think you can or think you can't, you're right. - Henry Ford</li>
+<li>Well-dressed poverty is still poverty</li>
+<li>Effort is financial cost and time cost</li>
+<li>Small questions lead only small answers</li>
+<li>Money can always be found through streamlining and innovation, and that begins with asking the big questions</li>
+<li>Innovation occurs in small steps, big leaps and everywhere in between</li>
+<li>When you make enough money, you don't have to budget</li>
+<li>Cash is cash. Either you have it or you don't</li>
+</ul>
+<h2 id="recommendation">Recommendation</h2>
+<p>There are a few topics like Personal Finance, Layoffs and Finance for kids that I think other books are better suited for and could have been avoided. However, the core of the book is a must-read for anyone wanting to own a profitable business. The step by step guide with examples make it very easy to understand the concepts and to apply it to your business.</p>
+
+    </div>
+</div>
+
+
+        </article>
+    </div>
+</main>
+
+
+<script src="/assets/js/blog.js"></script>
+
+
+
+    <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="ankursheel" data-description="Support me on Buy me a coffee!" data-message="Did you learn something or find this summary interesting? Buy me a coffee" data-color="#40DCA5" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+
+
+</body>
+</html>
+
+  },
+  StatusCode: OK,
+  ReasonPhrase: OK,
+  Headers: {
+    Accept-Ranges: bytes,
+  },
+  TrailingHeaders: {},
+  RequestMessage: {
+    Version: 1.1,
+    Method: {
+      Method: GET
+    },
+    RequestUri: http://localhost:6789/blog/profit-first.html,
+    Headers: {}
+  },
+  IsSuccessStatusCode: true
+}
