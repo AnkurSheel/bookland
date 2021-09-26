@@ -1,0 +1,326 @@
+﻿{
+  Version: 1.1,
+  Content: {
+    Headers: {
+      Content-Length: 20985,
+      Content-Type: text/html,
+      Last-Modified: DateTime_1
+    },
+    Value:
+
+<!DOCTYPE html>
+<html lang="en" class="min-h-screen">
+<head>
+    
+
+<title>Discoveries in Bookland - Death by Meeting</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link href="/assets/styles.css" rel="stylesheet"/>
+<meta name="description" content="Meetings are critical for making decisions. But we dread meetings because most of them are bad. In &quot;Death by Meeting&quot;, Patrick Lencioni shows us how we can change the bad meeting culture and make our meetings both interesting and effective."/>
+<link rel="canonical" href="https://www.discoveriesinbookland.com/blog/death-meeting"/>
+
+<meta itemProp="name" content="Death by Meeting"/>
+<meta itemProp="description" content="Meetings are critical for making decisions. But we dread meetings because most of them are bad. In &quot;Death by Meeting&quot;, Patrick Lencioni shows us how we can change the bad meeting culture and make our meetings both interesting and effective."/>
+    <meta itemProp="image" content="https://www.discoveriesinbookland.com/assets/images/social/death-meeting-facebook.png"/>
+<meta property="og:url" content="/blog/death-meeting"/>
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="Death by Meeting"/>
+<meta property="og:description" content="Meetings are critical for making decisions. But we dread meetings because most of them are bad. In &quot;Death by Meeting&quot;, Patrick Lencioni shows us how we can change the bad meeting culture and make our meetings both interesting and effective."/>
+    <meta property="og:image" content="https://www.discoveriesinbookland.com/assets/images/social/death-meeting-facebook.png"/>
+    <meta property="og:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/death-meeting-facebook.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="ankur_sheel"/>
+<meta name="twitter:creator" content="ankur_sheel"/>
+<meta name="twitter:title" content="Death by Meeting"/>
+<meta name="twitter:description" content="Meetings are critical for making decisions. But we dread meetings because most of them are bad. In &quot;Death by Meeting&quot;, Patrick Lencioni shows us how we can change the bad meeting culture and make our meetings both interesting and effective."/>
+    <meta name="twitter:image" content="https://www.discoveriesinbookland.com/assets/images/social/death-meeting-twitter.png"/>
+    <meta name="twitter:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/death-meeting-twitter.png"/>
+
+</head>
+<body class="font-sans font-normal leading-relaxed font-base text-gray-800 min-h-screen bg-gray-100">
+<header class="sticky top-0 bg-white shadow-lg z-10">
+    
+
+<!-- https://www.section.io/engineering-education/creating-a-responsive-navigation-bar-using-tailwind-css-and-javascript/ -->
+
+<nav>
+    <div class="max-w-6xl mx-auto px-4">
+        <div class="flex justify-between">
+            <div class="flex space-x-7 items-center">
+                <!-- Website Logo -->
+                <div>
+                    <a href="/" class="flex items-center py-4 px-2 ">
+                        <span class="font-semibold text-gray-500 text-lg hover:text-green-500">
+                            Discoveries in Bookland
+                        </span
+                        >
+                    </a>
+                </div>
+                <ul class="hidden lg:flex items-center space-x-1">
+                        <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
+                            <a href="/pages/about">About</a>
+                        </li>
+                        <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
+                            <a href="/blog">All Summaries</a>
+                        </li>
+                        <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
+                            <a href="/tags">All Tags</a>
+                        </li>
+                        <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
+                            <a href="/pages/contact">Contact</a>
+                        </li>
+                </ul>
+            </div>
+
+            <ul class="hidden lg:flex items-center space-x-3">
+                <li>
+                    <a role="button" class="" target="_blank" rel="noopener noreferrer" href="/rss.xml" title="RSS">
+                        <img class="h-8 mr-2 border-none" src="/assets/images/rss.svg" alt="RSS">
+                    </a>
+                </li>
+                <li>
+                    <a role="button" class="inline-flex items-center bg-green-400 text-white p-2 rounded-md text-2xl drop-shadow-lg hover:bg-green-800" target="_blank" rel="noopener noreferrer" href="https://www.buymeacoffee.com/ankursheel" title="Did you learn something or find this summary interesting?">
+                        <img class="h-8 mr-2 border-none" src="/assets/images/bmc-logo.svg" alt="Buy Me A Coffee">
+                        <p class="font-cookie">Buy me a book</p>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="lg:hidden flex items-center">
+                <button class="outline-none mobile-menu-button" aria-label="Mobile Menu">
+                    <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+                        <path fill-rule="evenodd"
+                              d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
+                    </svg>
+                </button>
+            </div>
+
+        </div>
+        <div class="hidden mobile-menu">
+            <ul class="flex flex-col">
+                    <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
+                        <a href="/pages/about" class="block">About</a>
+                    </li>
+                    <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
+                        <a href="/blog" class="block">All Summaries</a>
+                    </li>
+                    <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
+                        <a href="/tags" class="block">All Tags</a>
+                    </li>
+                    <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
+                        <a href="/pages/contact" class="block">Contact</a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+</header>
+<main class="mx-auto max-w-prose p-8 prose prose-xl prose-purple" >
+    <h1 class="text-center">Death by Meeting</h1>
+    <div class="flex flex-col min-h-screen">
+        <article>
+            
+<div class="prose-sm italic ">
+    <div class="flex justify-evenly items-center">
+        <i>Published Date: 21-Oct-2020</i>
+        <i class="font-bold">
+            Reading Time: 7 min
+        </i>
+    </div>
+
+    <div class="flex flex-row flex-wrap gap-1 place-content-center">
+            <div class="flex-initial border-2 border-black p-2 m-2 border rounded-xl">
+                <a role="button" href="/tags/leadership" class="badge text-black bg-grey-light no-underline">Leadership</a>
+            </div>
+            <div class="flex-initial border-2 border-black p-2 m-2 border rounded-xl">
+                <a role="button" href="/tags/business" class="badge text-black bg-grey-light no-underline">Business</a>
+            </div>
+            <div class="flex-initial border-2 border-black p-2 m-2 border rounded-xl">
+                <a role="button" href="/tags/company-building" class="badge text-black bg-grey-light no-underline">Company Building</a>
+            </div>
+    </div>
+</div>
+
+<div class="grid md:grid-cols-2 grid-cols-1">
+    <h2 class="md:col-span-2">What I read</h2>
+    <img src="/assets/images/posts/death-meeting/cover.jpg" alt="Book Cover"></img>
+    <div class="pl-4">
+
+        <p>Death by Meeting: A Leadership Fable...About Solving the Most Painful Problem in Business</p>
+
+        <p>
+            <a href="https://www.amazon.com/Death-Meeting-Leadership-Solving-Business/dp/0787968056">Buy it on Amazon</a>
+        </p>
+
+        <p>260 pages</p>
+
+        <p>
+            Authors:
+                <a href="https://www.tablegroup.com/">Patrick M. Lencioni</a>
+        </p>
+
+        <p>Rating: 5 / 5</p>
+    </div>
+    <div class="md:col-span-2">
+        <h2 id="summary">Summary</h2>
+<p>Meetings are critical for making decisions. But we dread meetings because most of them are bad. In &quot;Death by Meeting&quot;, Patrick Lencioni shows us how we can change the bad meeting culture. He draws a comparison between meetings and movies and how it's surprising that even though meetings have more potential to be more interesting, they are not. He offers practical advice to make our meetings more interesting and effective.</p>
+<p>The book is divided into 2 distinct parts - a business fable and a practical description of the model. Most of the book is the fictional story which presents common scenarios with meetings at the workplace along with the solutions in an easy to digest framework. The model extracts the lessons and drive the point home,</p>
+<h2 id="key-quote">Key Quote</h2>
+<blockquote>
+<p>It is at once shocking and understandable that intelligent people cannot see the correlation between failing to take the time to get clarity, closure, and buy-in during a meeting, and the time required to clean up after themselves as a result</p>
+</blockquote>
+<h2 id="key-takeaways">Key Takeaways</h2>
+<h3 id="why-do-we-hate-meetings">Why do we hate meetings?</h3>
+<blockquote>
+<p>Meetings are a puzzling paradox. On one hand, they are critical. Meetings are the activity at the centre of every organization. On the other hand, they are painful. Frustratingly long and seemingly pointless</p>
+</blockquote>
+<p>Most of us hate going to meetings because they are boring and ineffective.</p>
+<p>Meetings are boring because they lack drama or conflict. Most leaders think that they are helping by avoiding tension and ending meetings on time but they are the root cause of bad meetings. Not only does this reduce employee interest but also ensures that the unresolved issues will result in unproductive personal conflicts or dare I say politics.</p>
+<p>Meetings are ineffective because they lack structure and most of them don't allow for the participants to engage in productive debates.</p>
+<p>It should come as no surprise that bad meetings lead to bad decisions. But there is a more intangible cost which manifests itself in the form of anger, lethargy or cynicism.</p>
+<h3 id="good-meetings">Good meetings</h3>
+<blockquote>
+<p>Good meetings result in good decisions by extracting the collective wisdom of a team</p>
+</blockquote>
+<p>On the other side of the spectrum, good meetings result in higher morale, faster and better decisions which leads to better results. Although they can seem to be unproductive, they accelerate decision making by eliminating the need to revisit issues again and again.</p>
+<h3 id="how-to-make-a-meeting-interesting">How to make a meeting interesting?</h3>
+<p>There is a simple formula to make meetings interesting - Get people hooked in the 1st 10 minutes, then mine for ideological conflict and drive it to a conclusion.</p>
+<blockquote>
+<p>There has to be something ultimately at stake</p>
+</blockquote>
+<p>We have to get peoples attention at the beginning. Luckily, this isn't too hard. People are generally used to be being bored at meetings. In the 1st 10 minutes of a meeting, the participants need to understand and appreciate what is at stake. People are looking for a reason to care and the leader's job is to give them that reason.</p>
+<blockquote>
+<p>When a group of intelligent people come together to talk about issues that matter, it is both natural and productive for disagreement to occur</p>
+</blockquote>
+<p>To make meetings less boring, leaders need to provoke relevant and constructive ideological conflict. This leads to more passionate and provocative discussions which keep the people engaged. Leaders need to look for places where people have different opinions and then force them to communicate what they are thinking until they have said all there is to be said. They can minimize the discomfort by reminding the participants that what they are doing is good.</p>
+<blockquote>
+<p>A consensus is usually not achievable</p>
+</blockquote>
+<p>Once the leader decides that all of the information has been aired, its time to make a decision. The leader takes the final decision only if no has been able to make a compelling enough argument for making a decision. Everyone needs to understand that once a decision has been made everyone has to support it regardless of their original position.</p>
+<h3 id="how-to-make-a-meeting-effective">How to make a meeting effective?</h3>
+<blockquote>
+<p>When properly utilized, meetings are actually time savers</p>
+</blockquote>
+<p>Contrary to what we might think, the length of a meeting has nothing to do with its effectiveness. We need to have multiple types of meetings which each have their purpose, format and timing.</p>
+<p>There are 5 types of meetings that we should have</p>
+<ul>
+<li>Daily Check-in</li>
+<li>Weekly Tactical meeting</li>
+<li>Monthly Strategic</li>
+<li>Ad-hoc Strategic</li>
+<li>Quarterly off-site review</li>
+</ul>
+<h3 id="daily-check-in">Daily Check-in</h3>
+<blockquote>
+<p>We have to do what we have to do</p>
+</blockquote>
+<p>This is a 5-10 minute meeting every morning. There is no agenda because everyone juts reports on their activities for the day.</p>
+<p>It clarifies how the priorities are translated into action on a daily basis. But, more importantly, it is a quick forum to ensure that nothing falls through the cracks on a given day and people are not stepping on each other's toes.</p>
+<p><strong>Challenges</strong></p>
+<p>If we are just getting started with this type of meeting, it is important not to cancel any, even if some members are missing. We should also commit to doing them for 2 months before evaluating whether they are working or not.</p>
+<h3 id="weekly-tactical"><strong>Weekly Tactical</strong></h3>
+<blockquote>
+<p>What do we need to talk about today so that we can make as much progress as possible this week?</p>
+</blockquote>
+<p>This is a weekly meeting to focus on tactical issues that must be addressed for short term success. It runs for 45-90 minutes. The agenda is decided during the meeting and is based on what everyone is working on. To ensure that we know where to focus, the agenda should be based on both our activities as well as the metrics.</p>
+<p>The main goal of this meeting is to identify and remove any obstacles and make sure everyone needs to be on the same page.</p>
+<p><strong>How to come up with a real-time agenda?</strong></p>
+<ul>
+<li>A sixty-second report by each participant on the three primary activities. We want to keep it short because too much information would be distracting.</li>
+<li>A 5-minute report of any critical information and the key metrics for success.</li>
+<li>Based on the above, set the real-time agenda.</li>
+</ul>
+<p><strong>Challenges</strong></p>
+<p>We need to limit the conversation to issues that have an impact on tactical issues and goals. Trying to deal with the strategic issues in a weekly meeting just results in distractions. Its almost impossible for people to shift from a tactical mindset to a strategic one. What it means is that we won't deal with any of the short term issues that need to be resolved to keep the business moving.</p>
+<p>If someone raises an issue that is too big, put it on the list for the next monthly meeting. Complex issues need time and there is just not enough time in this meeting to dive into a big issue and have a complete and satisfying conversation.</p>
+<h3 id="monthly-strategic">Monthly Strategic</h3>
+<blockquote>
+<p>Complex topics deserve enough time for brainstorming, analysis, even preparation</p>
+</blockquote>
+<p>This is a monthly meeting to focus on strategic issues. Agendas are critical for these meetings so that people can think about the topics beforehand. We can pick between 1-3 topics as long as we pick the right ones. There is no set time for this meeting but we should schedule about 2 hours per topic.</p>
+<p><strong>How to pick a topic?</strong></p>
+<p>The most important topics should be obvious. But, if they are not, we can follow these steps in a prior meeting</p>
+<ul>
+<li>Everyone writes down 1 issue that they think would be good to discuss and gives a 60-second pitch of why their idea should make the cut.</li>
+<li>Everyone gets 2 votes which can be used on 1 idea or split between 2. But, we can't vote for our idea.</li>
+<li>Appoint someone to be in charge of organizing the research for each topic.</li>
+</ul>
+<p><strong>Challenges</strong></p>
+<p>We shouldn't put too many items on the agenda. Sometimes only 1 topic matters and we need to have the discipline to limit ourself to it.</p>
+<p>We need to learn to distinguish between topics that can be addressed by a subset of the team and those that are critical to the entire team.</p>
+<h3 id="ad-hoc-strategic"><strong>Ad Hoc Strategic</strong></h3>
+<p>This is similar to a monthly strategic but it is only for a critical issue raised in a weekly tactical that cannot wait for the next Monthly Strategic.</p>
+<p><strong>Challenges</strong></p>
+<p>We need to know how to identify the rare strategic issues that deserve immediate attention and not have an ad-hoc meeting for every issue that comes up.</p>
+<h3 id="quarterly-off-site-review">Quarterly off-site review</h3>
+<blockquote>
+<p>Effective off-sites provide executives an opportunity to regularly step away from the daily, weekly, even monthly issues that occupy their attention, so they can review the business in a more holistic, long-term manner</p>
+</blockquote>
+<p>A quarterly off-site review is a chance to get away from the grind and review things from a distance. It should be scheduled for 2 days.</p>
+<p>The main purpose is to reflect on and discuss the state of the organization.</p>
+<p><strong>Examples of Topics</strong></p>
+<ul>
+<li>Anything that has a long-term impact that cannot be discussed in the weekly or monthly meetings</li>
+<li>Giving each other feedback</li>
+<li>See if our strategy still makes sense</li>
+<li>Figuring out who our best people are and how to manage the stragglers.</li>
+<li>Competitive and Industry Review</li>
+</ul>
+<p><strong>Should we get a facilitator?</strong></p>
+<p>The advantage of getting a facilitator is that it allows the leader to participate in the discussions without having to play a more supporting role. But we need to find someone who is a good fit. Someone who takes the time to learn the business and helps without trying to prove how smart they are.</p>
+<p><strong>Challenges</strong></p>
+<p>Many offsite meetings contribute little lasting benefit to an organization. We have to remember that the purpose is not to entertain the attendees but to allow them to step back from the daily distractions. We should also be careful to not over-structure the meetings and provide the attendees with presentations and white papers.</p>
+<h2 id="other-quotes">Other Quotes</h2>
+<blockquote>
+<p>The company’s culture would come to mirror those meetings</p>
+</blockquote>
+<blockquote>
+<p>Bad meetings start with the attitudes and approaches of the people who lead and take part in them</p>
+</blockquote>
+<blockquote>
+<p>The only thing more painful than confronting an uncomfortable topic is pretending it doesn’t exist</p>
+</blockquote>
+<blockquote>
+<p>Bad meetings at the executive level usually indicated a huge gap between performance and potential</p>
+</blockquote>
+<h2 id="recommendation">Recommendation</h2>
+<p>This book was a compelling read and read more like a fictional story. I think everyone who is frustrated with meetings should read this book. It provides simple and realistic steps to make meetings more interesting.</p>
+
+    </div>
+</div>
+
+
+        </article>
+    </div>
+</main>
+
+
+<script src="/assets/js/blog.js"></script>
+
+
+
+    <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="ankursheel" data-description="Support me on Buy me a coffee!" data-message="Did you learn something or find this summary interesting? Buy me a coffee" data-color="#40DCA5" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+
+
+</body>
+</html>
+
+  },
+  StatusCode: OK,
+  ReasonPhrase: OK,
+  Headers: {
+    Accept-Ranges: bytes,
+  },
+  TrailingHeaders: {},
+  RequestMessage: {
+    Version: 1.1,
+    Method: {
+      Method: GET
+    },
+    RequestUri: http://localhost:6789/blog/death-meeting.html,
+    Headers: {}
+  },
+  IsSuccessStatusCode: true
+}

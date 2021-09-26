@@ -8,12 +8,15 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="ByteSize" Version="2.1.0" />
-        <PackageReference Include="LibGit2Sharp" Version="0.26.2" />
-        <PackageReference Include="SixLabors.ImageSharp" Version="1.0.3" />
-        <PackageReference Include="SixLabors.ImageSharp.Drawing" Version="1.0.0-beta13" />
         <PackageReference Include="Statiq.Html" Version="1.0.0-beta.48" />
         <PackageReference Include="Statiq.Web" Version="1.0.0-beta.33" />
     </ItemGroup>
 
+    <ItemGroup Condition="'$(Configuration)'=='Debug'">
+        <ProjectReference Include="..\..\..\StatiqHelpers\src\StatiqHelpers\StatiqHelpers.csproj" />
+    </ItemGroup>
+
+    <ItemGroup Condition="'$(Configuration)'=='Release'">
+        <PackageReference Include="Codinators.StatiqHelpers" Version="0.1.0" />
+    </ItemGroup>
 </Project>

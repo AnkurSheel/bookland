@@ -1,11 +1,10 @@
 ﻿using System.IO;
-using Bookland.Pipelines;
 using Statiq.App;
 using Statiq.Common;
 using Statiq.Core;
-using Statiq.Feeds.Syndication;
 using Statiq.Web;
 using Statiq.Web.Pipelines;
+using StatiqHelpers.Pipelines;
 
 namespace Bookland.Extensions
 {
@@ -41,6 +40,24 @@ namespace Bookland.Extensions
             return bootstrapper;
         }
 
+        public static Bootstrapper AddPipelines(this Bootstrapper bootstrapper)
+        {
+            bootstrapper.AddPipeline<PostPipeline>()
+                .AddPipeline<PagesPipeline>()
+                .AddPipeline<ImagesPipeline>()
+                .AddPipeline<CssPipeline>()
+                .AddPipeline<FontsPipeline>()
+                .AddPipeline<ScriptsPipeline>()
+                .AddPipeline<RssPipeline>()
+                .AddPipeline<HomePipeline>()
+                .AddPipeline<SocialImagesPipeline>()
+                .AddPipeline<PostListPipeline>()
+                .AddPipeline<TagsListPipeline>()
+                .AddPipeline<TagsPipeline>()
+                .AddPipeline<SitemapPipeline>();
+            return bootstrapper;
+        }
+
         public static Bootstrapper RemovePipelines(this Bootstrapper bootstrapper)
         {
             bootstrapper.ConfigureEngine(
@@ -73,7 +90,8 @@ namespace Bookland.Extensions
                                     nameof(PostPipeline),
                                     nameof(TagsListPipeline),
                                     nameof(TagsPipeline),
-                                    nameof(SitemapPipeline))
+                                    nameof(SitemapPipeline),
+                                    nameof(RssPipeline)),
                             }
                         });
                 });

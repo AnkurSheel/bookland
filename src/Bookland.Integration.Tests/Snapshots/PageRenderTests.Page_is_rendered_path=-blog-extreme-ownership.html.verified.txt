@@ -1,0 +1,518 @@
+﻿{
+  Version: 1.1,
+  Content: {
+    Headers: {
+      Content-Length: 34849,
+      Content-Type: text/html,
+      Last-Modified: DateTime_1
+    },
+    Value:
+
+<!DOCTYPE html>
+<html lang="en" class="min-h-screen">
+<head>
+    
+
+<title>Discoveries in Bookland - Extreme Ownership</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link href="/assets/styles.css" rel="stylesheet"/>
+<meta name="description" content="Extreme Ownership mandates that a leader set aside ego, accept responsibility for failures and consistently works to build a better and more effective team"/>
+<link rel="canonical" href="https://www.discoveriesinbookland.com/blog/extreme-ownership"/>
+
+<meta itemProp="name" content="Extreme Ownership"/>
+<meta itemProp="description" content="Extreme Ownership mandates that a leader set aside ego, accept responsibility for failures and consistently works to build a better and more effective team"/>
+    <meta itemProp="image" content="https://www.discoveriesinbookland.com/assets/images/social/extreme-ownership-facebook.png"/>
+<meta property="og:url" content="/blog/extreme-ownership"/>
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="Extreme Ownership"/>
+<meta property="og:description" content="Extreme Ownership mandates that a leader set aside ego, accept responsibility for failures and consistently works to build a better and more effective team"/>
+    <meta property="og:image" content="https://www.discoveriesinbookland.com/assets/images/social/extreme-ownership-facebook.png"/>
+    <meta property="og:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/extreme-ownership-facebook.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="ankur_sheel"/>
+<meta name="twitter:creator" content="ankur_sheel"/>
+<meta name="twitter:title" content="Extreme Ownership"/>
+<meta name="twitter:description" content="Extreme Ownership mandates that a leader set aside ego, accept responsibility for failures and consistently works to build a better and more effective team"/>
+    <meta name="twitter:image" content="https://www.discoveriesinbookland.com/assets/images/social/extreme-ownership-twitter.png"/>
+    <meta name="twitter:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/extreme-ownership-twitter.png"/>
+
+</head>
+<body class="font-sans font-normal leading-relaxed font-base text-gray-800 min-h-screen bg-gray-100">
+<header class="sticky top-0 bg-white shadow-lg z-10">
+    
+
+<!-- https://www.section.io/engineering-education/creating-a-responsive-navigation-bar-using-tailwind-css-and-javascript/ -->
+
+<nav>
+    <div class="max-w-6xl mx-auto px-4">
+        <div class="flex justify-between">
+            <div class="flex space-x-7 items-center">
+                <!-- Website Logo -->
+                <div>
+                    <a href="/" class="flex items-center py-4 px-2 ">
+                        <span class="font-semibold text-gray-500 text-lg hover:text-green-500">
+                            Discoveries in Bookland
+                        </span
+                        >
+                    </a>
+                </div>
+                <ul class="hidden lg:flex items-center space-x-1">
+                        <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
+                            <a href="/pages/about">About</a>
+                        </li>
+                        <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
+                            <a href="/blog">All Summaries</a>
+                        </li>
+                        <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
+                            <a href="/tags">All Tags</a>
+                        </li>
+                        <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
+                            <a href="/pages/contact">Contact</a>
+                        </li>
+                </ul>
+            </div>
+
+            <ul class="hidden lg:flex items-center space-x-3">
+                <li>
+                    <a role="button" class="" target="_blank" rel="noopener noreferrer" href="/rss.xml" title="RSS">
+                        <img class="h-8 mr-2 border-none" src="/assets/images/rss.svg" alt="RSS">
+                    </a>
+                </li>
+                <li>
+                    <a role="button" class="inline-flex items-center bg-green-400 text-white p-2 rounded-md text-2xl drop-shadow-lg hover:bg-green-800" target="_blank" rel="noopener noreferrer" href="https://www.buymeacoffee.com/ankursheel" title="Did you learn something or find this summary interesting?">
+                        <img class="h-8 mr-2 border-none" src="/assets/images/bmc-logo.svg" alt="Buy Me A Coffee">
+                        <p class="font-cookie">Buy me a book</p>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="lg:hidden flex items-center">
+                <button class="outline-none mobile-menu-button" aria-label="Mobile Menu">
+                    <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+                        <path fill-rule="evenodd"
+                              d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
+                    </svg>
+                </button>
+            </div>
+
+        </div>
+        <div class="hidden mobile-menu">
+            <ul class="flex flex-col">
+                    <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
+                        <a href="/pages/about" class="block">About</a>
+                    </li>
+                    <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
+                        <a href="/blog" class="block">All Summaries</a>
+                    </li>
+                    <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
+                        <a href="/tags" class="block">All Tags</a>
+                    </li>
+                    <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
+                        <a href="/pages/contact" class="block">Contact</a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+</header>
+<main class="mx-auto max-w-prose p-8 prose prose-xl prose-purple" >
+    <h1 class="text-center">Extreme Ownership</h1>
+    <div class="flex flex-col min-h-screen">
+        <article>
+            
+<div class="prose-sm italic ">
+    <div class="flex justify-evenly items-center">
+        <i>Published Date: 24-Sep-2021</i>
+        <i class="font-bold">
+            Reading Time: 16 min
+        </i>
+    </div>
+
+    <div class="flex flex-row flex-wrap gap-1 place-content-center">
+            <div class="flex-initial border-2 border-black p-2 m-2 border rounded-xl">
+                <a role="button" href="/tags/leadership" class="badge text-black bg-grey-light no-underline">Leadership</a>
+            </div>
+            <div class="flex-initial border-2 border-black p-2 m-2 border rounded-xl">
+                <a role="button" href="/tags/professional-development-&#x2014;-practical" class="badge text-black bg-grey-light no-underline">Professional Development &#x2014; Practical</a>
+            </div>
+    </div>
+</div>
+
+<div class="grid md:grid-cols-2 grid-cols-1">
+    <h2 class="md:col-span-2">What I read</h2>
+    <img src="/assets/images/posts/extreme-ownership/cover.jpg" alt="Book Cover"></img>
+    <div class="pl-4">
+
+        <p>Extreme Ownership: How U.S. Navy SEALs Lead and Win</p>
+
+        <p>
+            <a href="https://www.amazon.com/Extreme-Ownership-U-S-Navy-SEALs-dp-1250183863/dp/1250183863/">Buy it on Amazon</a>
+        </p>
+
+        <p>384 pages</p>
+
+        <p>
+            Authors:
+                <a href="https://echelonfront.com/jocko-willink/">Jocko Willink</a>
+                    <span>and</span>
+                <a>Leif Babin</a>
+        </p>
+
+        <p>Rating: 4 / 5</p>
+    </div>
+    <div class="md:col-span-2">
+        <h2 id="summary">Summary</h2>
+<p>This book explains the leadership concepts that have enabled SEAL leaders to achieve extraordinary results and translates them into lessons for business.</p>
+<p>Each chapter in the book begins with a scene from the war in Iraq. The stories demonstrate the core principle to learn from the event. They then explain how the lesson learned is applied to a real-world business case.</p>
+<p>There are 4 Laws of Combat - the proper understanding and execution of which enable us to dominate the enemy and win.</p>
+<ul>
+<li>Simple</li>
+<li>Cover &amp; Move</li>
+<li>Prioritize And Execute</li>
+<li>Decentralized Command</li>
+</ul>
+<h2 id="key-quote">Key Quote</h2>
+<blockquote>
+<p>Taking ownership for mistakes and failures is hard. But doing so is key to learning, to developing solutions, and, ultimately, to victory</p>
+</blockquote>
+<h2 id="key-takeaways">Key Takeaways</h2>
+<h3 id="the-dichotomy-of-leadership">The Dichotomy of Leadership</h3>
+<p>A leader has nothing to prove but everything to prove.</p>
+<blockquote>
+<p>Strive to be confident but not cocky</p>
+</blockquote>
+<p>A leader must be confident but not cocky. While confidence is an excellent attribute for a leader, overconfidence causes complacency and arrogance.</p>
+<blockquote>
+<p>Those who will not risk cannot win</p>
+<p><cite>John Paul Jones</cite></p>
+</blockquote>
+<p>A leader must be willing to accept risk but must not be reckless.</p>
+<p>A leader must have a competitive spirit but also be a gracious loser.</p>
+<p>A leader must be attentive to details but not be obsessed with them.</p>
+<p>A leader must be humble but not passive. They should stand up for the team and respectfully push back against a decision that could negatively impact success.</p>
+<blockquote>
+<p>Leaders who lose their temper also lose respect</p>
+</blockquote>
+<p>A leader must show a sense of anger, sadness or frustration, but they must control their temper.</p>
+<blockquote>
+<p>Leaders must never get so close that the team forgets who is in charge</p>
+</blockquote>
+<p>A leader should understand the motivations of their team members and know their people. But a leader must never grow so close to subordinates that one team member becomes more important than another or more important than the mission itself.</p>
+<p>A leader must have the physical and mental endurance to perform at the highest level for the long term. But they must recognize limitations and know to pace themselves and their team to maintain a solid performance indefinitely.</p>
+<h3 id="characteristics-of-leaders-implementing-extreme-ownership">Characteristics of Leaders implementing Extreme Ownership</h3>
+<blockquote>
+<p>If the team is successful, then recognition will come for those in charge, but a leader should not seek that recognition</p>
+</blockquote>
+<p>Leaders must act with professionalism and recognize others for their contributions. They should not take credit for the team's successes but bestow that honour upon the subordinate leaders and team members.</p>
+<blockquote>
+<p>A good leader does not gloat or revel in his or her position</p>
+</blockquote>
+<p>Leaders must post possess humility and the ability to control their ego. They must be confident enough to listen to others and follow someone else when the situation calls for it.</p>
+<p>They must admit mistakes and failures and figure out a way to prevent them from happening again.</p>
+<blockquote>
+<p>People generally take the path of least resistance</p>
+</blockquote>
+<p>When subordinates aren't doing what they should, leaders should not blame them. They should instead determine what they can do better to enable this.</p>
+<h3 id="the-importance-of-ownership">The importance of Ownership</h3>
+<blockquote>
+<p>I had to take ownership of everything that went wrong. Despite the tremendous blow to my reputation and to my ego, it was the right thing to do - the only thing to do</p>
+</blockquote>
+<p>A leader has to take complete ownership of what went wrong, even if it means getting fired.</p>
+<blockquote>
+<p>Subordinates or direct reports don’t expect their bosses to be perfect</p>
+</blockquote>
+<p>Taking complete ownership of the situation (even when things go wrong) will increase the trust with superiors. It will also increase the respect that direct reports have for us by proving that we possess the humility to admit and own mistakes and, most importantly, to learn from them.</p>
+<h3 id="the-importance-of-planning">The importance of Planning</h3>
+<blockquote>
+<p>The true test for a good brief is not whether the senior officers are impressed. It’s whether or not the troops that are going to execute the operation actually understand it</p>
+</blockquote>
+<p>A broad and ambiguous mission results in a lack of focus, ineffective execution, and mission creep. When plans are too complicated, people may not understand them. And when things go wrong, complexity compounds issues that spiral out of control into a total disaster.</p>
+<p>The mission must be carefully refined and simplified so that it is explicitly clear. It should be specifically focused to achieve the greater strategic vision for which that mission is a part. The mission brief must explain the overall purpose and desired result of the operation.</p>
+<blockquote>
+<p>Establishing an effective and repeatable planning process is critical to the success of any team</p>
+</blockquote>
+<p>While businesses can have their planning process, it must be a standard process so that other departments and supporting assets outside the company can understand and use the same format and terminology. It must be repeatable and guide users with a checklist of all the essential things they need to think about</p>
+<p>As part of the planning process, we should explore how best to accomplish the mission with the available resources.</p>
+<p>The plan must mitigate identified risks where possible, and there should be a plan for likely contingencies through each phase of the operation. We cannot reduce some risks, and we must focus on those risks that we can control.</p>
+<p>A leader’s checklist for planning should include the following:</p>
+<ul>
+<li>Analyze the mission.</li>
+<li>Decentralize the planning process</li>
+<li>Conduct post-operational debrief after execution.</li>
+</ul>
+<h3 id="decentralize-the-planning-process">Decentralize the planning process</h3>
+<blockquote>
+<p>Team participation - even from the most junior personnel - is critical in developing bold, innovative solutions to problem sets</p>
+</blockquote>
+<p>It is critical to utilize all assets and lean on the expertise of those in the best position to provide the most accurate and up-to-date information to facilitate the development of a thorough plan.</p>
+<p>Team members never have as clear an understanding of the strategic picture as the senior leaders. Those senior leaders must impart a general understanding of that strategic knowledge(the why) to their troops.</p>
+<blockquote>
+<p>If frontline troops are unclear about the plan and yet are too intimidated to ask questions, the team’s ability to effectively execute the plan radically decreases</p>
+</blockquote>
+<p>The leaders must encourage interaction during the planning process and ask questions to ensure their teams understand the plan. They should take the time to explain and answer the questions of subordinates so that they too can understand why and believe.</p>
+<p>Subordinates might not feel comfortable questioning leaders even though they are not worried about losing their jobs because they asked a question. But they can be concerned about looking bad in front of The Boss.</p>
+<p>Giving all members ownership of even a tiny piece of the plan gives them buy-in and enables them to believe in the mission, which translates to far more effective execution.</p>
+<h3 id="simple-plans">Simple plans</h3>
+<blockquote>
+<p>If your team doesn’t get it, you have not kept things simple, and you have failed</p>
+</blockquote>
+<p>Once we develop the detailed plan, we must then brief the entire team in a simple, clear, and concise manner.</p>
+<blockquote>
+<p>You must brief to ensure the lowest common denominator on the team understands</p>
+</blockquote>
+<p>Leaders must carefully prioritize the information to be presented in as simple, clear, and concise a format as possible so that participants do not experience information overload. One way to accomplish this is by ending the briefing with the three most important things we want the team to remember and keep first and foremost in their minds.</p>
+<blockquote>
+<p>It is paramount that senior leaders explain to their junior leaders and troops executing the mission how their role contributes to big picture success.</p>
+</blockquote>
+<p>Everyone who is part of the mission must know and understand their role in the mission and what to do in likely contingencies.</p>
+<blockquote>
+<p>As a leader, it doesn't matter how well you feel you have presented the information or communicated an order, plan, tactic, or strategy.</p>
+</blockquote>
+<p>Even when leaders think the team understands the bigger picture, the team members are rightly focused on their specific jobs and often have difficulty connecting the tactical mission and the greater strategy.</p>
+<h3 id="cover-move-aka-teamwork">Cover &amp; Move aka Teamwork</h3>
+<blockquote>
+<p>If the overall team fails, everyone fails, even if a specific member or an element within the team did their job successfully</p>
+</blockquote>
+<p>Cover and Move means teamwork, and it is the most fundamental tactic. Each team member is critical to success, though the leader must identify the main and supporting efforts.</p>
+<p>Departments and groups within the team must break down silos, depend on each other and understand who depends on them.</p>
+<h3 id="prioritize-and-execute">Prioritize And Execute</h3>
+<blockquote>
+<p>Of all the pressing tasks at hand, if we don't address the most important one, nothing else will matter</p>
+</blockquote>
+<p>It is crucial for leaders to &quot;pull themselves off the firing line&quot;, step back, and maintain the strategic picture so that they can help correctly prioritize for the team.</p>
+<blockquote>
+<p>A leader cannot allow themselves to be overwhelmed. They have to relax and make a call.</p>
+</blockquote>
+<p>Even the most competent of leaders can be overwhelmed when confronted with the enormity of operational plans or try to tackle multiple problems simultaneously.</p>
+<blockquote>
+<p>In order to succeed, leaders must be comfortable under pressure and act on logic, not emotion</p>
+</blockquote>
+<p>When things go sideways, a leader should remain calm, step back from their immediate emotional reaction, and determine the greatest priority for the team. Then, they should direct the team to attack that priority. Once the team is engaged in that highest priority effort, they can then determine the next priority. Rinse and repeat.</p>
+<p>A particularly effective strategy is to stay at least a step or two ahead of real-time problems.</p>
+<blockquote>
+<p>Intelligence gathering and research are important, but they must be employed with realistic expectations and must not impede swift decision</p>
+</blockquote>
+<p>Waiting for the 100 per cent right and certain solution leads to delay, indecision, and an inability to execute. Leaders must be prepared to make an educated guess based on previous experience, knowledge of how the enemy operates, likely outcomes, and whatever intelligence is available in the immediate moment.</p>
+<blockquote>
+<p>Regardless of how you think an operation is going to unfold, the enemy gets their say as well—and they are going to do something to disrupt it.</p>
+</blockquote>
+<p>Teams must maintain the ability to see other problems developing and recognize when the highest priority task shifts to something else.</p>
+<h3 id="decentralized-command">Decentralized Command</h3>
+<blockquote>
+<p>In chaotic, dynamic, and rapidly changing environments, leaders at all levels must be empowered to make decisions</p>
+</blockquote>
+<p>Decentralize command means trusting team members to analyze possible courses of action and make adjustments and adapt the plan to unforeseen circumstances.</p>
+<blockquote>
+<p>A true leader is not intimidated when others step up and take charge. Leaders that lack confidence in themselves fear being outshined by someone else.</p>
+</blockquote>
+<p>As a leader, if we are down in the weeds planning the details with our guys, we will have the same perspective, which adds little value. But if we let them plan the details, it allows us to stand back and see everything from a different perspective, which adds tremendous value. We can then see the plan from a greater distance, and as a result, we will tighten up the plan by catching mistakes. This enables us to look like a tactical genius, just because we have a broader view.”</p>
+<p>Decentralized Command does not mean that team members operate on their own program; that results in chaos. Instead, they must fully understand what is within their decision-making authority. Additionally, they must communicate with senior leaders to recommend decisions outside their authority and pass critical information up the chain so the senior leadership can make informed strategic decisions.</p>
+<p><strong>How to practice decentralized command?</strong></p>
+<ol>
+<li>Brief the plan to all participants and supporting assets</li>
+<li>Delegate portions of the plan and brief to key junior leaders</li>
+<li>Continually check and question the plan against emerging information to ensure it still fits the situation.</li>
+</ol>
+<h3 id="how-to-empower-junior-leaders">How to empower Junior Leaders?</h3>
+<p>Senior leaders must constantly communicate and push information to their subordinate leaders. They must be heavily engaged in training and mentoring their junior leaders to prepare them to step up and assume greater responsibilities. They should not micromanage them but instead, give them clear guidance about what the expectations are.</p>
+<blockquote>
+<p>Sometimes, you need to walk away from a problem and let junior leaders solve it, even if you know you might solve it more efficiently. It is more important that the junior leaders can make decisions and backed up even if they don’t make them correctly.</p>
+</blockquote>
+<p>Junior leaders must have implicit trust that the boss will back them up even if they make a decision that may not result in the best outcome, as long as they made a decision in an effort to achieve the strategic objective. Without this trust, junior leaders cannot confidently execute.</p>
+<h3 id="post-operational-debrief">Post Operational Debrief</h3>
+<p>A post-operational debrief examines all phases of an operation, from planning through execution, in a concise format.</p>
+<p>It addresses the following for the combat mission just completed:</p>
+<ul>
+<li>What went right?</li>
+<li>What went wrong?</li>
+<li>How can we adapt our tactics to make us even more effective and increase our advantage over the enemy?</li>
+</ul>
+<p>Such self-examination teams to reevaluate, enhance, and refine what worked and what didn't to constantly improve and adapt their methods and implement lessons learned for future missions.</p>
+<p>Often business teams claim there isn't time for such analysis. But one must make time.</p>
+<h3 id="team-performance">Team Performance</h3>
+<blockquote>
+<p>There are no bad teams, only bad leaders</p>
+</blockquote>
+<p>We must make teams of manageable elements of four to five operators, with a designated leader.</p>
+<p>Leaders need to provide the forcing function that teams need to get the different members working together to accomplish a mission.</p>
+<p>When a teams performance is low, we should</p>
+<ul>
+<li>recognize and accept that the team's performance is terrible and has to get better.</li>
+<li>not blame anyone or make excuses to justify poor performance.</li>
+<li>not wait for others to solve the team's problems.</li>
+<li>believe that winning is possible</li>
+</ul>
+<blockquote>
+<p>When it comes to standards, as a leader, it’s not what you preach; it’s what you tolerate</p>
+</blockquote>
+<p>When setting expectations, no matter what has been said or written, if substandard performance is accepted and no one is held accountable, that poor performance becomes the new standard.</p>
+<h3 id="leading-up-the-chain">Leading up the chain</h3>
+<blockquote>
+<p>Leading up the chain takes much more savvy and skill than leading down the chain</p>
+</blockquote>
+<p>When leading up the chain of command, we cannot fall back on our positional authority. Instead, we need to exercise caution and respect. We must use influence, experience, knowledge, communication and maintain the highest professionalism.</p>
+<blockquote>
+<p>Don't ask your leader what you should do; tell them what you are going to do</p>
+</blockquote>
+<p>As junior leaders, we must be proactive rather than reactive. We should tell higher authority what we plan to do, rather than ask, “What do you want me to do?</p>
+<p>For missions that need a superiors approval/support, we must push the necessary information up the chain so that the superior is comfortable and gives us approval. If they still have significant questions, we are not doing a good enough job of getting the information. We must push situational awareness up the chain to their senior leaders to keep them informed, particularly of crucial information that affects strategic decision making.</p>
+<blockquote>
+<p>Leaders must support their own boss</p>
+</blockquote>
+<p>We must also realize that our boss must allocate limited assets and make decisions with the bigger picture in mind. Our team may not represent the priority effort at that particular time, or perhaps the senior leadership has chosen a different direction.</p>
+<p>If our boss isn't deciding on time or providing necessary support, we shouldn't blame the boss but ourselves. We should see what we can do to convey the critical information better and better clarify, educate, influence, or convince that person to give us what we need.</p>
+<p>If we do the small things without complaining, we build trust with our superiors. This gives us credibility to push back on the stuff that matters and to get whatever we need.</p>
+<h3 id="dealing-with-micromanagement">Dealing with Micromanagement</h3>
+<blockquote>
+<p>To take charge of minute details just to demonstrate and reinforce to the team a leader’s authority is the mark of poor, inexperienced leadership lacking in confidence</p>
+</blockquote>
+<p>Some people micromanage because of their egos. They want to do one of two things.</p>
+<ul>
+<li>they want to exercise their power over a person</li>
+<li>they want to show off their knowledge.</li>
+</ul>
+<p>To get them to stop micromanaging us, we need to put them at ease. We can put the micromanagers at ease by</p>
+<ul>
+<li>Working hard</li>
+<li>Showing them how responsible we are.</li>
+<li>Showing them what a good handle we have on the situation.</li>
+<li>Not only giving them all the information they want but sending them more information than they could ever want</li>
+<li>Getting better at the job so that they trust us and move on.</li>
+</ul>
+<h3 id="stepping-into-a-leadership-role">Stepping into a leadership role</h3>
+<p>To lead people, we need to build relationships with them. We can do that by</p>
+<ul>
+<li>being humble.</li>
+<li>treating everybody with respect</li>
+<li>listening to others and then making a good decision.</li>
+<li>By having integrity and telling people the truth.</li>
+<li>passing the reward and the credit on to our team. when things do go right,</li>
+</ul>
+<blockquote>
+<p>It is the insecure leader that you need to watch out for. The insecure leader is always worried about looking bad</p>
+</blockquote>
+<p>When we step up to lead, it can be very intimidating for the person above us, and that is the last thing we should want. We can avoid this by for example, if we develop a plan, we can let them think it is theirs by appearing to seek guidance or approval.</p>
+<p>We should make sure that we aren't stealing our superiors limelight. Instead, we want them to get all the credit.</p>
+<h3 id="dealing-with-doubts">Dealing with doubts</h3>
+<blockquote>
+<p>If a leader does not believe, he or she will not take the risks required to overcome the inevitable challenges necessary to win</p>
+</blockquote>
+<p>A leaders actions and mindset carried great weight among subordinates. To lead, i.e. convince and inspire others to follow, we cannot share doubts with subordinates because they will question their own belief in the mission.</p>
+<blockquote>
+<p>In any chain of command, the leadership must always present a united front to the troops</p>
+</blockquote>
+<p>Leaders in any chain of command will not always agree. But once the debate is over and the boss has made a decision - even if that decision is one you argued against - we must execute the plan as if it were our own</p>
+<blockquote>
+<p>Good leaders don’t make excuses. Instead, they figure out a way to get it done and win</p>
+</blockquote>
+<p>If we ever get a mission that we don’t believe in, we should not just sit back and accept it. We must take a step back, deconstruct the situation, analyze the strategic picture, and then conclude. If we still don't understand or believe in the decisions coming down from our leadership, we should ask questions up the chain of command until we understand why so that we can believe in what we are doing.</p>
+<p>We can ask the questions.</p>
+<ul>
+<li>Why? Why are we being asked to do this?</li>
+<li>What is winning</li>
+</ul>
+<h3 id="asking-good-questions-as-a-leader">Asking good questions as a leader</h3>
+<blockquote>
+<p>It’s actually a sign of insecurity if you can’t ask when you need help with something</p>
+</blockquote>
+<p>We don’t need to know everything. What we need to do is go in and ask good questions. This is not an excuse to not know anything at all.</p>
+<blockquote>
+<p>If you’re secure in your leadership, you’re fine to ask some questions. It’s not that big of a deal</p>
+</blockquote>
+<p>Go and say, “I’ve never done this procedure before,” or, “I’ve never done work with this piece of equipment before. Can you show me how to use it? Because I want to make sure I understand. I want to make sure I get it.”</p>
+<h3 id="discipline">Discipline</h3>
+<p>Discipline starts with the little things: With that, the more important things fall into place.</p>
+<blockquote>
+<p>When you have the discipline to get up early, you are rewarded with more free time</p>
+</blockquote>
+<p>If we want extra time, we need to make that time. One way to make time is to get up early.</p>
+<h3 id="trust">Trust</h3>
+<blockquote>
+<p>Trust is not blindly given. It must be built over time</p>
+</blockquote>
+<p>We can build trust by</p>
+<ul>
+<li>having open conversations.</li>
+<li>Overcoming stress and challenging environments.</li>
+<li>Working through emergencies and seeing how people react.</li>
+</ul>
+<p>Leaders should demonstrate that they will take care of the team and look out for their long-term interests and well-being.</p>
+<h3 id="ego">Ego</h3>
+<blockquote>
+<p>A person’s biggest strength can be his greatest weakness when he doesn’t know how to balance it</p>
+</blockquote>
+<p>Everyone has an ego. Ego drives the most successful people in life. They want to win, to be the best. That is good.</p>
+<p>When ego clouds our judgment, then ego becomes destructive. It can prevent us from conducting an honest, realistic assessment of our performance. Ego or personal agendas does not drive the best leaders. They focus on the mission and how best to accomplish it.</p>
+<h3 id="dealing-with-other-leaders">Dealing with other Leaders</h3>
+<p>If we approach another leader as if they did something wrong, need to fix something, and are at fault, it becomes a clash of egos, and we two will be at odds.</p>
+<p>But, if we put our ego in check, meaning we take the blame, that will allow them to see the problem without their vision clouded by ego. Then we both can make sure that our team’s standard operating procedures—when to communicate, what is and isn’t within their decision-making authority—are clearly understood.</p>
+<h2 id="other-quotes">Other Quotes</h2>
+<blockquote>
+<p>Leadership decisions are inherently challenging and take practice. Not every decision will be a good one: all leaders make mistakes</p>
+</blockquote>
+<blockquote>
+<p>The only meaningful measure for a leader is whether the team succeeds or fails</p>
+</blockquote>
+<blockquote>
+<p>The goal of all leaders should be to work themselves out of a job</p>
+</blockquote>
+<blockquote>
+<p>The deep meaning of responsibility: the leader is truly and ultimately responsible for everything</p>
+</blockquote>
+<blockquote>
+<p>If you aren’t winning, then you aren’t making the right decisions</p>
+</blockquote>
+<blockquote>
+<p>As a leader, you want to be seen - you need to be seen—as decisive and willing to make tough choices</p>
+</blockquote>
+<blockquote>
+<p>Leadership is simple but not easy. Likewise, leadership is both art and science</p>
+</blockquote>
+<blockquote>
+<p>Effective leaders lead successful teams that accomplish their mission and win. Ineffective leaders do not</p>
+</blockquote>
+<blockquote>
+<p>Give them what they need and try to help them if you can, but it sounds like they will make their own bed</p>
+</blockquote>
+<h2 id="recommendation">Recommendation</h2>
+<p>This is a solid book and has some good insights, especially within the narrative of war stories. If that is not your cup of tea, you can probably give some sections of the book a miss. Other leadership books cover some of the evident management principles, but they take on a different meaning when viewed through the lens of Extreme Ownership.</p>
+<p>Extreme Ownership is an excellent read for leaders at all levels.</p>
+
+    </div>
+</div>
+
+
+        </article>
+    </div>
+</main>
+
+
+<script src="/assets/js/blog.js"></script>
+
+
+
+    <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="ankursheel" data-description="Support me on Buy me a coffee!" data-message="Did you learn something or find this summary interesting? Buy me a coffee" data-color="#40DCA5" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+
+
+</body>
+</html>
+
+  },
+  StatusCode: OK,
+  ReasonPhrase: OK,
+  Headers: {
+    Accept-Ranges: bytes,
+  },
+  TrailingHeaders: {},
+  RequestMessage: {
+    Version: 1.1,
+    Method: {
+      Method: GET
+    },
+    RequestUri: http://localhost:6789/blog/extreme-ownership.html,
+    Headers: {}
+  },
+  IsSuccessStatusCode: true
+}

@@ -1,0 +1,285 @@
+﻿{
+  Version: 1.1,
+  Content: {
+    Headers: {
+      Content-Length: 14711,
+      Content-Type: text/html,
+      Last-Modified: DateTime_1
+    },
+    Value:
+
+<!DOCTYPE html>
+<html lang="en" class="min-h-screen">
+<head>
+    
+
+<title>Discoveries in Bookland - Index card</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link href="/assets/styles.css" rel="stylesheet"/>
+<meta name="description" content="This is a well written albeit basic book based on the premise that all the financial advice you need to know can fit on an index card."/>
+<link rel="canonical" href="https://www.discoveriesinbookland.com/blog/index-card"/>
+
+<meta itemProp="name" content="Index card"/>
+<meta itemProp="description" content="This is a well written albeit basic book based on the premise that all the financial advice you need to know can fit on an index card."/>
+    <meta itemProp="image" content="https://www.discoveriesinbookland.com/assets/images/social/index-card-facebook.png"/>
+<meta property="og:url" content="/blog/index-card"/>
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="Index card"/>
+<meta property="og:description" content="This is a well written albeit basic book based on the premise that all the financial advice you need to know can fit on an index card."/>
+    <meta property="og:image" content="https://www.discoveriesinbookland.com/assets/images/social/index-card-facebook.png"/>
+    <meta property="og:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/index-card-facebook.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="ankur_sheel"/>
+<meta name="twitter:creator" content="ankur_sheel"/>
+<meta name="twitter:title" content="Index card"/>
+<meta name="twitter:description" content="This is a well written albeit basic book based on the premise that all the financial advice you need to know can fit on an index card."/>
+    <meta name="twitter:image" content="https://www.discoveriesinbookland.com/assets/images/social/index-card-twitter.png"/>
+    <meta name="twitter:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/index-card-twitter.png"/>
+
+</head>
+<body class="font-sans font-normal leading-relaxed font-base text-gray-800 min-h-screen bg-gray-100">
+<header class="sticky top-0 bg-white shadow-lg z-10">
+    
+
+<!-- https://www.section.io/engineering-education/creating-a-responsive-navigation-bar-using-tailwind-css-and-javascript/ -->
+
+<nav>
+    <div class="max-w-6xl mx-auto px-4">
+        <div class="flex justify-between">
+            <div class="flex space-x-7 items-center">
+                <!-- Website Logo -->
+                <div>
+                    <a href="/" class="flex items-center py-4 px-2 ">
+                        <span class="font-semibold text-gray-500 text-lg hover:text-green-500">
+                            Discoveries in Bookland
+                        </span
+                        >
+                    </a>
+                </div>
+                <ul class="hidden lg:flex items-center space-x-1">
+                        <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
+                            <a href="/pages/about">About</a>
+                        </li>
+                        <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
+                            <a href="/blog">All Summaries</a>
+                        </li>
+                        <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
+                            <a href="/tags">All Tags</a>
+                        </li>
+                        <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
+                            <a href="/pages/contact">Contact</a>
+                        </li>
+                </ul>
+            </div>
+
+            <ul class="hidden lg:flex items-center space-x-3">
+                <li>
+                    <a role="button" class="" target="_blank" rel="noopener noreferrer" href="/rss.xml" title="RSS">
+                        <img class="h-8 mr-2 border-none" src="/assets/images/rss.svg" alt="RSS">
+                    </a>
+                </li>
+                <li>
+                    <a role="button" class="inline-flex items-center bg-green-400 text-white p-2 rounded-md text-2xl drop-shadow-lg hover:bg-green-800" target="_blank" rel="noopener noreferrer" href="https://www.buymeacoffee.com/ankursheel" title="Did you learn something or find this summary interesting?">
+                        <img class="h-8 mr-2 border-none" src="/assets/images/bmc-logo.svg" alt="Buy Me A Coffee">
+                        <p class="font-cookie">Buy me a book</p>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="lg:hidden flex items-center">
+                <button class="outline-none mobile-menu-button" aria-label="Mobile Menu">
+                    <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+                        <path fill-rule="evenodd"
+                              d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
+                    </svg>
+                </button>
+            </div>
+
+        </div>
+        <div class="hidden mobile-menu">
+            <ul class="flex flex-col">
+                    <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
+                        <a href="/pages/about" class="block">About</a>
+                    </li>
+                    <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
+                        <a href="/blog" class="block">All Summaries</a>
+                    </li>
+                    <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
+                        <a href="/tags" class="block">All Tags</a>
+                    </li>
+                    <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
+                        <a href="/pages/contact" class="block">Contact</a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+</header>
+<main class="mx-auto max-w-prose p-8 prose prose-xl prose-purple" >
+    <h1 class="text-center">Index card</h1>
+    <div class="flex flex-col min-h-screen">
+        <article>
+            
+<div class="prose-sm italic ">
+    <div class="flex justify-evenly items-center">
+        <i>Published Date: 24-Apr-2020</i>
+        <i class="font-bold">
+            Reading Time: 4 min
+        </i>
+    </div>
+
+    <div class="flex flex-row flex-wrap gap-1 place-content-center">
+            <div class="flex-initial border-2 border-black p-2 m-2 border rounded-xl">
+                <a role="button" href="/tags/personal-finance" class="badge text-black bg-grey-light no-underline">Personal Finance</a>
+            </div>
+    </div>
+</div>
+
+<div class="grid md:grid-cols-2 grid-cols-1">
+    <h2 class="md:col-span-2">What I read</h2>
+    <img src="/assets/images/posts/index-card/cover.jpg" alt="Book Cover"></img>
+    <div class="pl-4">
+
+        <p>The Index Card: Why Personal Finance Doesn&#x2019;t have to be complicated</p>
+
+        <p>
+            <a href="https://www.amazon.com/Index-Card-Personal-Finance-Complicated/dp/1591847680">Buy it on Amazon</a>
+        </p>
+
+        <p>256 pages</p>
+
+        <p>
+            Authors:
+                <a href="http://helaineolen.com/">Helaine Ole</a>
+                    <span>and</span>
+                <a>Harold Pollack</a>
+        </p>
+
+        <p>Rating: 2 / 5</p>
+    </div>
+    <div class="md:col-span-2">
+        <h2 id="summary">Summary</h2>
+<p>The book is based on the premise that all the financial advice you need to know can fit on an index card. The book is broken down into 9 chapters each of which corresponds to a rule on the index card. Each chapter explains how the rule works accompanied with detailed stories and examples. It is a good book to read if you are just starting to get your financial life in order.</p>
+<p>Some of the advice is US-centric but can be applied to other countries as well.</p>
+<h2 id="key-quote">Key Quote</h2>
+<blockquote>
+<p>This is your financial life. Take control of it</p>
+</blockquote>
+<h2 id="key-takeaways">Key Takeaways</h2>
+<h3 id="budgeting">Budgeting</h3>
+<ul>
+<li>If you are always worried about your immediate cash flow, you will make mistakes.</li>
+<li>Do not wait for more than a week to assign expenses to proper categories in your budget.</li>
+<li>Dividing every expense into categories allows you to see the big picture.</li>
+</ul>
+<h3 id="saving">Saving</h3>
+<ul>
+<li>An emergency fund is a basic foundation for having stability.</li>
+<li>To gain control over your financial life, pay down the bill with the highest interest rate while paying the required minimum on the rest.</li>
+<li>Save for retirement after funding your emergency fund.</li>
+<li>Take full advantage of the retirement account match offered by your employer. It is free money.</li>
+</ul>
+<h3 id="financial-advice">Financial Advice</h3>
+<ul>
+<li>Most financial advisors are salespersons or brokers even if their official title is different.</li>
+<li>Your neighbourhood brokerage or bank is not the place to get unconflicted financial advice. If you want unconflicted financial advice, you almost certainly have to pay for it.</li>
+<li>A fiduciary is a financial advisor who has a legal and regulatory duty to put your interests ahead of his or her own. They are also known as a certified financial planner (CFP), registered investment advisor (RIA) or fee-only advisor.</li>
+<li>You want to seek out an advisor who works on a fee-only basis. This means the advisor is paid by you and only by you. Never assume someone is a fiduciary. Always ask. You need to ask and ask quite specifically: Do you work to the fiduciary standard at all times? This last part, “at all times” is important.</li>
+</ul>
+<h3 id="investing">Investing</h3>
+<ul>
+<li><p>Don't fall for stories that you can invest in more funds or that it will be easier to monitor your money if it's all in one place.</p>
+</li>
+<li><p>Warren Buffet is an excellent stock picker but he also gets benefits from getting access to deals not available to mere run-of-the-mill investors like the rest of us.</p>
+</li>
+<li><p>“Alternative investments” is a nice way of saying “This is a risky investment”</p>
+</li>
+<li><p>Diversify so that not everything in your investment portfolio rises and falls by the same amount at the same time.</p>
+</li>
+<li><p>If you put money only in supersafe assets that earn low returns you will lose money relative to inflation and increase your risk of outliving your money.</p>
+</li>
+<li><p>Formula to decide how much money to put in stock market funds:</p>
+<ul>
+<li><strong>Percentage of your assets invested in stocks = 100 - your current age</strong></li>
+</ul>
+</li>
+<li><p>Stock investment Breakdown</p>
+<ul>
+<li>70%: A good S &amp; P 500 index fund for assured quick diversification.</li>
+<li>15%: A small-cap index fund because they have generally outperformed large-cap funds but have a greater risk.</li>
+<li>15%: A broad-based international fund. Make sure that you choose an international fund and not a global fund.</li>
+<li><strong>[Optional]</strong> (5-10%): If you don't own property, a real estate investment trust index fund.</li>
+</ul>
+</li>
+</ul>
+<h3 id="housing">Housing</h3>
+<ul>
+<li>You should spend no more than a third of your take-home pay on housing.</li>
+<li>Finance your emergency fund. Then think about purchasing a home.</li>
+<li>Get your mortgage pre-approved by a bank before you look at the first house.</li>
+<li>Your house is your home. It is not a speculative investment.</li>
+<li>There are practical benefits to owning your residence but it is almost always a highly leveraged aka risky investment.</li>
+<li>If your interest rate drops by less than one percentage point or if you are planning to move soon, it's not worth refinancing.</li>
+</ul>
+<h3 id="insurance">Insurance</h3>
+<ul>
+<li>Insurance is a complicated but necessary evil.</li>
+<li>Get a thirty-year level term life policy.</li>
+<li>Understand exactly what kind of coverage is contained in the policy you are buying. You need to pose worst-case scenarios to the person selling the policy and then make sure to get their answers in writing.</li>
+<li>Go for the high-deductible options when buying insurance.</li>
+<li>Adequate liability insurance is at least twice the amount of your net worth.</li>
+<li>If you have a high net worth get umbrella insurance which covers the amount of your potential responsibility if you exhaust your liability insurance.</li>
+</ul>
+<h2 id="other-quotes">Other quotes</h2>
+<ul>
+<li>Simplicity takes work and insight to achieve.</li>
+<li>One of the most important biases is the overconfidence that comes with expertise.</li>
+<li>Starvation budgets work no better than starvation diets.</li>
+<li>It's better to save 1 per cent consistently than try and fail over and over again to save 10 to 20 per cent.</li>
+<li>If it’s free, you are the product.</li>
+<li>If you sit down for cards, and you don’t know who the sucker is it's you.</li>
+<li>Popular advice is if we just give up a $5 small luxury a day, we can retire millionaires. But if that were all it took, most of us would be millionaires already.</li>
+<li>That's the thing about bubbles and great market runs - Anyone can make money. Until times change or the bubble bursts.</li>
+<li>The three most important things in a real estate purchase are location, location, and location.</li>
+</ul>
+<h2 id="recommendation">Recommendation</h2>
+<p>This book is great if you are just getting started with sorting out your financial life. It explains the different concepts in a very easy to understand way. But for people who are in control of their financial life, this book does not offer anything new.</p>
+
+    </div>
+</div>
+
+
+        </article>
+    </div>
+</main>
+
+
+<script src="/assets/js/blog.js"></script>
+
+
+
+    <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="ankursheel" data-description="Support me on Buy me a coffee!" data-message="Did you learn something or find this summary interesting? Buy me a coffee" data-color="#40DCA5" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+
+
+</body>
+</html>
+
+  },
+  StatusCode: OK,
+  ReasonPhrase: OK,
+  Headers: {
+    Accept-Ranges: bytes,
+  },
+  TrailingHeaders: {},
+  RequestMessage: {
+    Version: 1.1,
+    Method: {
+      Method: GET
+    },
+    RequestUri: http://localhost:6789/blog/index-card.html,
+    Headers: {}
+  },
+  IsSuccessStatusCode: true
+}

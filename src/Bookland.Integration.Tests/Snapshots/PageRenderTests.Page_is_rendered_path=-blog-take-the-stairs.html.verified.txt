@@ -1,0 +1,401 @@
+﻿{
+  Version: 1.1,
+  Content: {
+    Headers: {
+      Content-Length: 23170,
+      Content-Type: text/html,
+      Last-Modified: DateTime_1
+    },
+    Value:
+
+<!DOCTYPE html>
+<html lang="en" class="min-h-screen">
+<head>
+    
+
+<title>Discoveries in Bookland - Take the Stairs</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link href="/assets/styles.css" rel="stylesheet"/>
+<meta name="description" content="Take the Stairs drives home the reality that self-discipline is necessary to achieve success and that there is no easy path to success. As the author says, it&#x27;s about taking the stairs instead of the escalator."/>
+<link rel="canonical" href="https://www.discoveriesinbookland.com/blog/take-the-stairs"/>
+
+<meta itemProp="name" content="Take the Stairs"/>
+<meta itemProp="description" content="Take the Stairs drives home the reality that self-discipline is necessary to achieve success and that there is no easy path to success. As the author says, it&#x27;s about taking the stairs instead of the escalator."/>
+    <meta itemProp="image" content="https://www.discoveriesinbookland.com/assets/images/social/take-the-stairs-facebook.png"/>
+<meta property="og:url" content="/blog/take-the-stairs"/>
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="Take the Stairs"/>
+<meta property="og:description" content="Take the Stairs drives home the reality that self-discipline is necessary to achieve success and that there is no easy path to success. As the author says, it&#x27;s about taking the stairs instead of the escalator."/>
+    <meta property="og:image" content="https://www.discoveriesinbookland.com/assets/images/social/take-the-stairs-facebook.png"/>
+    <meta property="og:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/take-the-stairs-facebook.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="ankur_sheel"/>
+<meta name="twitter:creator" content="ankur_sheel"/>
+<meta name="twitter:title" content="Take the Stairs"/>
+<meta name="twitter:description" content="Take the Stairs drives home the reality that self-discipline is necessary to achieve success and that there is no easy path to success. As the author says, it&#x27;s about taking the stairs instead of the escalator."/>
+    <meta name="twitter:image" content="https://www.discoveriesinbookland.com/assets/images/social/take-the-stairs-twitter.png"/>
+    <meta name="twitter:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/take-the-stairs-twitter.png"/>
+
+</head>
+<body class="font-sans font-normal leading-relaxed font-base text-gray-800 min-h-screen bg-gray-100">
+<header class="sticky top-0 bg-white shadow-lg z-10">
+    
+
+<!-- https://www.section.io/engineering-education/creating-a-responsive-navigation-bar-using-tailwind-css-and-javascript/ -->
+
+<nav>
+    <div class="max-w-6xl mx-auto px-4">
+        <div class="flex justify-between">
+            <div class="flex space-x-7 items-center">
+                <!-- Website Logo -->
+                <div>
+                    <a href="/" class="flex items-center py-4 px-2 ">
+                        <span class="font-semibold text-gray-500 text-lg hover:text-green-500">
+                            Discoveries in Bookland
+                        </span
+                        >
+                    </a>
+                </div>
+                <ul class="hidden lg:flex items-center space-x-1">
+                        <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
+                            <a href="/pages/about">About</a>
+                        </li>
+                        <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
+                            <a href="/blog">All Summaries</a>
+                        </li>
+                        <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
+                            <a href="/tags">All Tags</a>
+                        </li>
+                        <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
+                            <a href="/pages/contact">Contact</a>
+                        </li>
+                </ul>
+            </div>
+
+            <ul class="hidden lg:flex items-center space-x-3">
+                <li>
+                    <a role="button" class="" target="_blank" rel="noopener noreferrer" href="/rss.xml" title="RSS">
+                        <img class="h-8 mr-2 border-none" src="/assets/images/rss.svg" alt="RSS">
+                    </a>
+                </li>
+                <li>
+                    <a role="button" class="inline-flex items-center bg-green-400 text-white p-2 rounded-md text-2xl drop-shadow-lg hover:bg-green-800" target="_blank" rel="noopener noreferrer" href="https://www.buymeacoffee.com/ankursheel" title="Did you learn something or find this summary interesting?">
+                        <img class="h-8 mr-2 border-none" src="/assets/images/bmc-logo.svg" alt="Buy Me A Coffee">
+                        <p class="font-cookie">Buy me a book</p>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="lg:hidden flex items-center">
+                <button class="outline-none mobile-menu-button" aria-label="Mobile Menu">
+                    <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+                        <path fill-rule="evenodd"
+                              d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
+                    </svg>
+                </button>
+            </div>
+
+        </div>
+        <div class="hidden mobile-menu">
+            <ul class="flex flex-col">
+                    <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
+                        <a href="/pages/about" class="block">About</a>
+                    </li>
+                    <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
+                        <a href="/blog" class="block">All Summaries</a>
+                    </li>
+                    <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
+                        <a href="/tags" class="block">All Tags</a>
+                    </li>
+                    <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
+                        <a href="/pages/contact" class="block">Contact</a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+</header>
+<main class="mx-auto max-w-prose p-8 prose prose-xl prose-purple" >
+    <h1 class="text-center">Take the Stairs</h1>
+    <div class="flex flex-col min-h-screen">
+        <article>
+            
+<div class="prose-sm italic ">
+    <div class="flex justify-evenly items-center">
+        <i>Published Date: 13-Aug-2021</i>
+        <i class="font-bold">
+            Reading Time: 9 min
+        </i>
+    </div>
+
+    <div class="flex flex-row flex-wrap gap-1 place-content-center">
+            <div class="flex-initial border-2 border-black p-2 m-2 border rounded-xl">
+                <a role="button" href="/tags/personal-development-&#x2014;-inspirational" class="badge text-black bg-grey-light no-underline">Personal Development &#x2014; Inspirational</a>
+            </div>
+    </div>
+</div>
+
+<div class="grid md:grid-cols-2 grid-cols-1">
+    <h2 class="md:col-span-2">What I read</h2>
+    <img src="/assets/images/posts/take-the-stairs/cover.jpg" alt="Book Cover"></img>
+    <div class="pl-4">
+
+        <p>Take the Stairs: 7 Steps to Achieving True Success</p>
+
+        <p>
+            <a href="https://www.amazon.com/Take-Stairs-Steps-Achieving-Success/dp/0399537767">Buy it on Amazon</a>
+        </p>
+
+        <p>224 pages</p>
+
+        <p>
+            Authors:
+                <a href="https://www.roryvaden.com/">Rory Vaden</a>
+        </p>
+
+        <p>Rating: 2 / 5</p>
+    </div>
+    <div class="md:col-span-2">
+        <h2 id="summary">Summary</h2>
+<p>The basic premise of &quot;Take the Stairs&quot; is that we live in a world of people who want to take the easy way in their pursuit of success. The book drives home the reality that self-discipline is necessary to achieve success and that there is no easy path to success. As the author says, it's about taking the stairs instead of the escalator.</p>
+<p>The book focuses on understanding and coming to grips with emotions that prevent us from achieving success.</p>
+<p>The book is broken down into 7 parts, and each piece has a bunch of short stories and inspirational anecdotes. There are also some action items at the end of the book.</p>
+<h2 id="key-quote">Key Quote</h2>
+<blockquote>
+<p>Rent Axiom: Success is never owned, it is only rented — and the rent is due every day</p>
+</blockquote>
+<h2 id="key-takeaways">Key Takeaways</h2>
+<h3 id="decisions">Decisions</h3>
+<p>There are only 2 types of activities.</p>
+<ul>
+<li>things we feel like doing because it makes us feel good; and</li>
+<li>things that make sense logically but don't make us feel good.</li>
+</ul>
+<blockquote>
+<p>A sacrifice isn't really a sacrifice at all; it's just a short-term down payment on a rich future blessing</p>
+</blockquote>
+<p>The majority of people make decisions based on emotions and impulses. However, making decisions based on what feels good in the short term requires more work in the end.</p>
+<blockquote>
+<p>Successful people form the habit of doing things that failures don't like doing&quot;</p>
+<p><cite>Albert Gray</cite></p>
+</blockquote>
+<p>Self-discipline is the ability to take action regardless of our emotional, physical or financial state.</p>
+<p>Contrary to popular belief, it is not about doing things the hardest way possible; instead, it is about doing the hardest thing as soon as possible.</p>
+<blockquote>
+<p>Often it is not making the wrong decision that has the greatest cost, but choosing indecision that does</p>
+</blockquote>
+<p>Instead of spending our time trying to make the right decisions, we should instead start making decisions and then making them right.</p>
+<p>In other words, we should be asking <em>&quot;How&quot;</em> instead of <em>&quot;Should &quot;</em>. We should make a list of all the things in our life that are &quot;should-do's&quot; and identify which ones are important enough to be converted into &quot;How will I do's?&quot;</p>
+<blockquote>
+<p>A challenge in respect to today is a big problem. A challenge in respect to our life span is a small problem. A challenge in respect to eternity is no problem</p>
+</blockquote>
+<p>Having a long term perspective allows us to make better decisions. It empowers us with the conviction of knowing that things will work out if we put in the work.</p>
+<blockquote>
+<p>Faith, therefore, is also choosing to believe that all that is happening today — good or bad — is part of an ultimately greater plan</p>
+</blockquote>
+<p>When we do everything that we can, and things still don't work out the way we had hoped for, then we can be sure that they were definitely supposed to go the way they did.</p>
+<h3 id="time-and-energy">Time and Energy</h3>
+<p>Becoming successful requires not only physical energy but also emotional energy.</p>
+<p>Often the emotional energy of a decision is greater than the physical energy needed for executing the decision. It is the reason why so many of us give up.</p>
+<blockquote>
+<p>Peace of mind comes from falling in love with the fact that there is simply and certainly always going to be more to do than we have time for</p>
+</blockquote>
+<p>With so many options, deciding how best to spend our time is a significant cause of stress today. Having a schedule allows us to focus our energy on the tasks at hand.</p>
+<p>By offloading the thought process of deciding what activities we should or shouldn't spend time on when we are in a logical state, we can avoid spending the time and energy on figuring out what to do next.</p>
+<blockquote>
+<p>Take pride in controlling the activities that are within your power and to let go of the worry and fear attached to the results that are not</p>
+</blockquote>
+<p>Our natural instinct is to want to see the results right away, but there is a gap between the work we put in from being on schedule and when the results start to show up. This delay explains why people often have a hard time sticking to their schedules.</p>
+<blockquote>
+<p>The most important skill for the next generation of knowledge worker is not learning what to do but rather determining what not to do</p>
+</blockquote>
+<p>We should write out a detailed schedule of what our ideal week would look like right now and our ideal week in five years by filling it in the following order.</p>
+<ul>
+<li><strong>Rocks</strong>: Start by allocating the time for the harvest periods.</li>
+<li><strong>Pebbles</strong>: Thing like sleep and work-meetings around them.</li>
+<li><strong>Sand</strong>: Things like email catchup and office time</li>
+<li><strong>Water</strong>: Whatever is left and whatever we want to do</li>
+</ul>
+<h3 id="harvest-periods">Harvest Periods</h3>
+<Quote quote='The biggest problem with the notion of balance is that it causes us to ask the wrong questions. Instead of asking, "Am I spending enough time on this. activity?" we should really be asking, "When is the best time to be focused on this activity?' />
+<p>Many of us try to spend equal time on all our activities. But it is better to spend appropriate time on critical priorities.</p>
+<blockquote>
+<p>In business what you don't get done today can be done tomorrow, but with family what doesn't get done today is gone forever</p>
+</blockquote>
+<p>We should have <strong>&quot;harvest periods&quot;</strong> in some primary areas of our lives.</p>
+<ul>
+<li><strong>Family</strong>: Have one weeknight dedicated as a private date night with a spouse or a child—even if it can only happen with each person once a month</li>
+<li><strong>Fitness</strong>: Do some physical activity every day and work out hard for 30 minutes a day three times per week.</li>
+<li><strong>Faculty</strong>: Have at least one uninterrupted night per week dedicated to a personal hobby.</li>
+<li><strong>Finances</strong>: Review all of our up-to-date financial account balances every Sunday night.</li>
+</ul>
+<h3 id="focus-and-procrastination">Focus and Procrastination</h3>
+<blockquote>
+<p>In the absence of disciplined focus, we become strangely loyal to performing daily acts of trivia</p>
+<p><cite>Anonymous</cite></p>
+</blockquote>
+<p>Focus is minimizing the amount of distraction. To achieve focus, we need to manage our thoughts, our words and our behaviour.</p>
+<p>One of the most important ways to focus our thoughts is to make the first and last thoughts of the day that inspire us.</p>
+<blockquote>
+<p>Distraction is a dangerously deceptive saboteur of our goals</p>
+</blockquote>
+<p>There are 3 types of procrastination.</p>
+<ul>
+<li><strong>Classic Procrastination</strong> is consciously delaying what we know we should be doing.</li>
+<li><strong>Creative avoidance</strong> is unconsciously filling the day with menial work by taking things that aren't important and making them urgent.</li>
+<li><strong>Priority dilution</strong> is when we take urgent things and inappropriately makes them essential.</li>
+</ul>
+<p>People who are struggling with procrastination have one of the following attitudes.</p>
+<blockquote>
+<p>I’m scared to do it</p>
+</blockquote>
+<ul>
+<li>We don't challenge ourselves to test our limits because we are afraid, aka <strong>FEAR(False Evidence Appearing Real)</strong>.</li>
+</ul>
+<blockquote>
+<p>I shouldn't have to do it</p>
+</blockquote>
+<ul>
+<li>We believe that we are entitled to a life that is supposed to be easier, aka <strong>Entitlement</strong>.</li>
+</ul>
+<blockquote>
+<p>I won't try to do it if I can't do it right</p>
+</blockquote>
+<ul>
+<li>We don't take on a challenging task because at least we know we won't fail. So we wait for the perfect plan, the perfect time, and the perfect resources, aka <strong>Perfectionism</strong>.</li>
+</ul>
+<blockquote>
+<p>The Law of E. F. Hutton — when the real leader speaks, people listen</p>
+<p><cite>John Maxwell</cite></p>
+</blockquote>
+<p>There are three ways to get people to take action.</p>
+<ul>
+<li>The first is to ask them to do it.</li>
+<li>The second is to force them to do it.</li>
+<li>The third is to help them recognize for themselves why it's in their best interest to take a particular course of action.</li>
+</ul>
+<h3 id="vision">Vision</h3>
+<blockquote>
+<p>I was doing things right, but I wasn't doing the right things</p>
+</blockquote>
+<p>A vision is an inspiring mental picture that propels us to take action. The clarity of what we want, in the long run, is directly proportionate to the levels of our endurance, our intensity of focus and discipline.</p>
+<p>We can make a vision board by cutting out inspiring images from magazines and pasting them on a poster board. We shouldn't worry about how it will look to others. We should update the pictures every couple of months to keep them inspiring.</p>
+<h3 id="commitments">Commitments</h3>
+<blockquote>
+<p>A life of average, or a life of mediocrity, doesn't come from having a bad attitude. A life of average comes from having an average attitude</p>
+</blockquote>
+<p>We should commit to an endeavour until we have maximized our potential then and only then we should evaluate the decision to leave it to try something new.</p>
+<p>When we are genuinely committed to an endeavour, there is no chance of turning back because of the unacceptable consequences of doing so. Either the stakes are too high, or the turning back isn't an option.</p>
+<p>For unacceptable consequences to be effective, they should be ongoing.</p>
+<blockquote>
+<p>It does not matter what we say we believe; our real beliefs are revealed by how we act</p>
+</blockquote>
+<p>Conditional commitments also us to have flexibility in our lives and be involved in many activities. This works only if the parties involved have a good understanding of what the boundaries are.</p>
+<blockquote>
+<p>The foundation of a disciplined life is integrity and doing what we say we're going to do</p>
+</blockquote>
+<p>Saying either <em>&quot;I will do...&quot;</em> or <em>&quot;No, I'm sorry; I can't commit to that.&quot;</em> are much harder to make, but they are much more powerful.</p>
+<blockquote>
+<p>When it comes to making commitments to other people, sometimes one of the hardest things to learn to say is no when we mean no</p>
+</blockquote>
+<p>Intellectual dishonesty is simply allowing someone to believe something that we know is not true. It is tricky to spot because it's not something we say; it's what we don't say.</p>
+<p>We can inrease our accountability cultivating it in four different relationships.</p>
+<ul>
+<li><strong>Supervisor</strong>: a boss or highly respected mentor.</li>
+<li><strong>Subordinate</strong>: an employee or mentee.</li>
+<li><strong>Significant</strong> other: a spouse, family member, colleague, best friend, or other trusted peer.</li>
+<li><strong>Supporter</strong>: a more objective outside third-party partner who will bring a unique unbiased perspective.</li>
+</ul>
+<h3 id="impact-of-words">Impact of Words</h3>
+<p>Words carry tremendous power if they are chosen with care and intention.</p>
+<p>One of the significant causes of pain is that most people don't realize the impact of their words on themselves and others.</p>
+<p>Every time we fail to come through on something we said we would do, we weaken the power of our words.</p>
+<blockquote>
+<p>Compliments create a dynamic of loyalty and positive change</p>
+</blockquote>
+<p>Humans have a deep desire to be correct. By genuinely acknowledging someone for an admirable trait or a job well done, we satisfy this desire.</p>
+<blockquote>
+<p>Whenever you say the word &quot;but&quot;, you are negating whatever you said before it</p>
+</blockquote>
+<p>The word <em>&quot;But &quot;</em> is a (subconscious) trigger to the listener that everything that came before that word is meaningless.</p>
+<p>One of the most damaging times to use the word &quot;but&quot; is when giving feedback or compliments. We might think that we are softening our criticism, but it weakens our praise and our word in general.</p>
+<blockquote>
+<p>Tell people everything they need to know, and not a word more</p>
+<p><cite>David Brooks</cite></p>
+</blockquote>
+<p>The consequences of gossip are not limited to just the instigator or the subject.</p>
+<p>It usually negatively affects those passing it along or even those trying to help by getting in the middle of it.</p>
+<p>When two people are in conflict, we should take charge of the situation by making them talk directly to one another.</p>
+<blockquote>
+<p>Saying whatever we feel and think without first filtering it through the lens of how it might impact the people around us is not transparency; it's indulgence</p>
+</blockquote>
+<p>We can harness the power of our word with the following guidelines.</p>
+<ul>
+<li>Thinking before speaking.</li>
+<li>Choosing our words carefully</li>
+<li>Doing what we say we will.</li>
+<li>Being where we promise we will.</li>
+<li>Resisting the urge to use emotionally charged language.</li>
+<li>Assuming the &quot;mic is always on&quot; and that everyone will hear everything we say.</li>
+<li>Using empowering language when speaking about ourselves and others.</li>
+</ul>
+<h2 id="other-quotes">Other Quotes</h2>
+<blockquote>
+<p>Winning is a habit; unfortunately so is losing</p>
+<p><cite>Vince Lombardi</cite></p>
+</blockquote>
+<blockquote>
+<p>Being successful doesn't happen by falling into the most desirable situation possible and somehow magically being discovered for some special uniqueness we have that no one else does</p>
+</blockquote>
+<blockquote>
+<p>That which is recognized is repeated</p>
+<p><cite>Christine Roland</cite></p>
+</blockquote>
+<blockquote>
+<p>Ignore the noise. Conquer the critical. Manage the minutiae</p>
+</blockquote>
+<blockquote>
+<p>Discipline creates freedom, but timing is everything</p>
+<p><cite>Randy Gage</cite></p>
+</blockquote>
+<h2 id="recommendation">Recommendation</h2>
+<p>The book is easy to read and is ok if you are looking for inspiration, but there is not much to learn. There is nothing new that you would not have already read in other inspirational books.</p>
+
+    </div>
+</div>
+
+
+        </article>
+    </div>
+</main>
+
+
+<script src="/assets/js/blog.js"></script>
+
+
+
+    <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="ankursheel" data-description="Support me on Buy me a coffee!" data-message="Did you learn something or find this summary interesting? Buy me a coffee" data-color="#40DCA5" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+
+
+</body>
+</html>
+
+  },
+  StatusCode: OK,
+  ReasonPhrase: OK,
+  Headers: {
+    Accept-Ranges: bytes,
+  },
+  TrailingHeaders: {},
+  RequestMessage: {
+    Version: 1.1,
+    Method: {
+      Method: GET
+    },
+    RequestUri: http://localhost:6789/blog/take-the-stairs.html,
+    Headers: {}
+  },
+  IsSuccessStatusCode: true
+}
