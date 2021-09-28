@@ -2,7 +2,7 @@
   Version: 1.1,
   Content: {
     Headers: {
-      Content-Length: 7230,
+      Content-Length: 7243,
       Content-Type: text/html,
       Last-Modified: DateTime_1
     },
@@ -23,7 +23,7 @@
 <meta itemProp="name" content="Posts tagged as &quot;Autobiography&quot;"/>
 <meta itemProp="description"/>
     <meta itemProp="image" content="https://www.discoveriesinbookland.com/assets/images/social/-facebook.png"/>
-<meta property="og:url" content="/tags/autobiography"/>
+<meta property="og:url" content="https://www.discoveriesinbookland.com/tags/autobiography"/>
 <meta property="og:type" content="website"/>
 <meta property="og:title" content="Posts tagged as &quot;Autobiography&quot;"/>
 <meta property="og:description"/>
@@ -59,7 +59,7 @@
                 </div>
                 <ul class="hidden lg:flex items-center space-x-1">
                         <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
-                            <a href="/pages/about">About</a>
+                            <a href="/about">About</a>
                         </li>
                         <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
                             <a href="/blog">All Summaries</a>
@@ -68,7 +68,7 @@
                             <a href="/tags">All Tags</a>
                         </li>
                         <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
-                            <a href="/pages/contact">Contact</a>
+                            <a href="/contact">Contact</a>
                         </li>
                 </ul>
             </div>
@@ -100,7 +100,7 @@
         <div class="hidden mobile-menu">
             <ul class="flex flex-col">
                     <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
-                        <a href="/pages/about" class="block">About</a>
+                        <a href="/about" class="block">About</a>
                     </li>
                     <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
                         <a href="/blog" class="block">All Summaries</a>
@@ -109,7 +109,7 @@
                         <a href="/tags" class="block">All Tags</a>
                     </li>
                     <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
-                        <a href="/pages/contact" class="block">Contact</a>
+                        <a href="/contact" class="block">Contact</a>
                     </li>
             </ul>
         </div>

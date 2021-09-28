@@ -2,7 +2,7 @@
   Version: 1.1,
   Content: {
     Headers: {
-      Content-Length: 7079,
+      Content-Length: 7640,
       Content-Type: text/html,
       Last-Modified: DateTime_1
     },
@@ -13,26 +13,26 @@
 <head>
     
 
-<title>Discoveries in Bookland - About</title>
+<title>Discoveries in Bookland - Discoveries in Bookland</title>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <link href="/assets/styles.css" rel="stylesheet"/>
 <meta name="description"/>
-<link rel="canonical" href="https://www.discoveriesinbookland.com/pages/about"/>
+<link rel="canonical" href="https://www.discoveriesinbookland.com/contact"/>
 
-<meta itemProp="name" content="About"/>
+<meta itemProp="name" content="Discoveries in Bookland"/>
 <meta itemProp="description"/>
     <meta itemProp="image" content="https://www.discoveriesinbookland.com/assets/images/social/-facebook.png"/>
-<meta property="og:url" content="/pages/about"/>
+<meta property="og:url" content="https://www.discoveriesinbookland.com/contact"/>
 <meta property="og:type" content="website"/>
-<meta property="og:title" content="About"/>
+<meta property="og:title" content="Discoveries in Bookland"/>
 <meta property="og:description"/>
     <meta property="og:image" content="https://www.discoveriesinbookland.com/assets/images/social/-facebook.png"/>
     <meta property="og:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/-facebook.png"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:site" content="ankur_sheel"/>
 <meta name="twitter:creator" content="ankur_sheel"/>
-<meta name="twitter:title" content="About"/>
+<meta name="twitter:title" content="Discoveries in Bookland"/>
 <meta name="twitter:description"/>
     <meta name="twitter:image" content="https://www.discoveriesinbookland.com/assets/images/social/-twitter.png"/>
     <meta name="twitter:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/-twitter.png"/>
@@ -59,7 +59,7 @@
                 </div>
                 <ul class="hidden lg:flex items-center space-x-1">
                         <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
-                            <a href="/pages/about">About</a>
+                            <a href="/about">About</a>
                         </li>
                         <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
                             <a href="/blog">All Summaries</a>
@@ -68,7 +68,7 @@
                             <a href="/tags">All Tags</a>
                         </li>
                         <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
-                            <a href="/pages/contact">Contact</a>
+                            <a href="/contact">Contact</a>
                         </li>
                 </ul>
             </div>
@@ -100,7 +100,7 @@
         <div class="hidden mobile-menu">
             <ul class="flex flex-col">
                     <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
-                        <a href="/pages/about" class="block">About</a>
+                        <a href="/about" class="block">About</a>
                     </li>
                     <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
                         <a href="/blog" class="block">All Summaries</a>
@@ -109,7 +109,7 @@
                         <a href="/tags" class="block">All Tags</a>
                     </li>
                     <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
-                        <a href="/pages/contact" class="block">Contact</a>
+                        <a href="/contact" class="block">Contact</a>
                     </li>
             </ul>
         </div>
@@ -118,24 +118,35 @@
 
 </header>
 <main class="mx-auto max-w-prose p-8 prose prose-xl prose-purple" >
-    <h1 class="text-center">About</h1>
+    <h1 class="text-center">Discoveries in Bookland</h1>
     <div class="flex flex-col min-h-screen">
         <article>
-            <p>I am a huge fan of reading books. Earlier, I would read a lot of fictional books but lately, I have been getting into non-fiction books.</p>
-<p><img src="/assets/images/cover.jpg" alt="Books" /></p>
-<h2 id="why-discoveries-in-bookland">Why Discoveries in Bookland</h2>
-<p>I realized that although I was reading a lot of books with a lot of takeaways, I was forgetting the takeaways after a while. This is an attempt to pen down my thoughts about the key ideas of the book.</p>
-<h2 id="structure">Structure</h2>
-<ul>
-<li>The book I read</li>
-<li>A short summary of the book.</li>
-<li>Key Takeaways</li>
-<li>A recommendation of whether I thought it was worth my time</li>
-</ul>
-<h2 id="join-me-on-the-adventure">Join me on the adventure</h2>
-<p>Here, I endeavor to put down the key ideas from the books I read. Every book you will see is a book I have actually read.</p>
-<p>In the weeks that follow I'll be writing up posts for this series as I finish each book.</p>
-<p>I hope you join me and I would love to hear your thoughts :)</p>
+            
+<form method="post" netlify-honeypot="bot-field" data-netlify="true" name="contact">
+    <input type="hidden" name="bot-field"/>
+    <input type="hidden" name="form-name" value="contact"/>
+    <div class="grid grid-cols-1 gap-3 auto-cols-min">
+        <div>
+            <label for="name" class="block mb-2 ">Name</label>
+            <input type="text" name="name" id="name" required class="mt-1 block w-full rounded-md border-gray-300 focus:border-gray-500 focus:ring-0"/>
+        </div>
+        <div>
+            <label for="email" class="block mb-2 ">Email Address</label>
+            <input type="email" name="email" id="email" required class="mt-1 block w-full rounded-md border-gray-300 focus:border-gray-500 focus:ring-0"/>
+        </div>
+        <div>
+            <label for="subject" class="block mb-2 ">Subject</label>
+            <input type="text" name="subject" id="subject" required class="mt-1 block w-full rounded-md border-gray-300 focus:border-gray-500 focus:ring-0"/>
+        </div>
+        <div>
+            <label for="message" class="block mb-2 ">Your Message</label>
+            <textarea rows="5" name="message" id="message" required class="mt-1 block w-full rounded-md border-gray-300 focus:border-gray-500 focus:ring-0"></textarea>
+        </div>
+        <div>
+            <button type="submit" class="w-full px-3 py-4 text-white bg-green-400 rounded-md focus:bg-indigo-600 focus:outline-none">Send Message</button>
+        </div>
+    </div>
+</form>
 
         </article>
     </div>
@@ -161,7 +172,7 @@
     Method: {
       Method: GET
     },
-    RequestUri: http://localhost:6789/pages/about.html,
+    RequestUri: http://localhost:6789/contact.html,
     Headers: {}
   },
   IsSuccessStatusCode: true

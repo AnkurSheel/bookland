@@ -41,7 +41,7 @@ namespace Bookland.Integration.Tests
         public async Task File_are_outputted_correctly()
         {
             var outputDirectory = HttpServerFixture.GetOutputDirectory();
-            var files = Directory.GetFiles(outputDirectory, "*", SearchOption.AllDirectories);
+            var files = Directory.GetFiles(outputDirectory, "*", SearchOption.AllDirectories).OrderBy(x => x);
             await Verifier.Verify(files);
         }
 
