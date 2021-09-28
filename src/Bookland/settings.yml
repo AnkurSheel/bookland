@@ -6,13 +6,13 @@ TwitterUsername: 'ankur_sheel'
 ReadingTimeWordsPerMinute: 238
 HeaderLinks:
   - Title: About
-    Url: /pages/about
+    Url: /about
   - Title: All Summaries
     Url: /blog
   - Title: All Tags
     Url: /tags
   - Title: Contact
-    Url: /pages/contact
+    Url: /contact
 #
 #
 #googleTagManagerId: 'GTM-MQGJF8W',
