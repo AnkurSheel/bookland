@@ -21,7 +21,7 @@
     <meta itemProp="image" content="@Model.Document.GetImageFacebook()"/>
 }
 @* OpenGraph tags *@
-<meta property="og:url" content="@Model.Document.GetPageUrl()"/>
+<meta property="og:url" content="@Model.Document.GetPageUrl(false)"/>
 <meta property="og:type" content="@type"/>
 <meta property="og:title" content="@Model.Document.GetTitle()"/>
 <meta property="og:description" content="@Model.Document.GetExcerpt()"/>
