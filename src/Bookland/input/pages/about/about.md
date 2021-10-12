@@ -1,10 +1,10 @@
-published: true
+---
 title: 'About'
 ---
 
 I am a huge fan of reading books. Earlier, I would read a lot of fictional books but lately, I have been getting into non-fiction books.
 
-![Books](/assets/images/cover.jpg)
+![Books](./cover.jpg)
 
 ## Why Discoveries in Bookland
 

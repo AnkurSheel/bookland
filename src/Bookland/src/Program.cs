@@ -4,8 +4,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Statiq.App;
 using Statiq.Common;
 using Statiq.Web;
+using StatiqHelpers.Extensions;
 using StatiqHelpers.ImageHelpers;
-using StatiqHelpers.ReadingTimeModule;
+using StatiqHelpers.Pipelines;
 
 namespace Bookland
 {
@@ -16,14 +17,10 @@ namespace Bookland
                 .RemovePipelines()
                 .AddNpmProcesses()
                 .AddSetting(WebKeys.OutputPath, "../../output")
+                .AddSetting(WebKeys.CachePath, "../../cache")
                 .AddCommand<ResizeJpeg>()
-                .ConfigureServices(
-                    services =>
-                    {
-                        services.AddTransient<IImageService, ImageService>();
-                        services.AddTransient<IReadingTimeService, ReadingTimeService>();
-                    })
                 .AddPipelines()
+                .AddServices()
                 .RunAsync();
     }
 }
