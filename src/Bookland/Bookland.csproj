@@ -7,16 +7,11 @@
         <WarningsAsErrors>nullable</WarningsAsErrors>
     </PropertyGroup>
 
-    <ItemGroup>
-        <PackageReference Include="Statiq.Html" Version="1.0.0-beta.48" />
-        <PackageReference Include="Statiq.Web" Version="1.0.0-beta.33" />
-    </ItemGroup>
-
     <ItemGroup Condition="'$(Configuration)'=='Debug'">
         <ProjectReference Include="..\..\..\StatiqHelpers\src\StatiqHelpers\StatiqHelpers.csproj" />
     </ItemGroup>
 
     <ItemGroup Condition="'$(Configuration)'=='Release'">
-        <PackageReference Include="Codinators.StatiqHelpers" Version="0.5.1" />
+        <PackageReference Include="Codinators.StatiqHelpers" Version="0.10.0" />
     </ItemGroup>
 </Project>

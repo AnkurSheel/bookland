@@ -13,9 +13,10 @@ HeaderLinks:
     Url: /tags
   - Title: Contact
     Url: /contact
+GoogleTagManagerId: GTM-MQGJF8W
+
 #
 #
-#googleTagManagerId: 'GTM-MQGJF8W',
 #icon: 'content/images/inaki-del-olmo-bookshelf.jpg',
 #headerTitle: 'Home',
 #headerLinksIcon: 'inaki-del-olmo-bookshelf.jpg',
