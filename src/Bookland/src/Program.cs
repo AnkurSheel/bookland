@@ -18,7 +18,7 @@ namespace Bookland
                 .AddNpmProcesses()
                 .AddSetting(WebKeys.OutputPath, "../../output")
                 .AddSetting(WebKeys.CachePath, "../../cache")
-                .AddCommand<ResizeJpeg>()
+                .AddCommand<ResizeImage>()
                 .AddPipelines()
                 .AddServices()
                 .RunAsync();
