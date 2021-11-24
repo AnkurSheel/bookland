@@ -2,7 +2,6 @@
 title: 'Death by Meeting'
 excerpt: 'Meetings are critical for making decisions. But we dread meetings because most of them are bad. In "Death by Meeting", Patrick Lencioni shows us how we can change the bad meeting culture and make our meetings both interesting and effective.'
 coverImage: ./cover.jpg
-featuredImagePosition: 'top 25% center'
 tags:
     - 'Leadership'
     - 'Business'

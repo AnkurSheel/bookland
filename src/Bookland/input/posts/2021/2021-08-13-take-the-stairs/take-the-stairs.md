@@ -4,7 +4,6 @@ excerpt: "Take the Stairs drives home the reality that self-discipline is necess
 tags:
     - 'Personal Development — Inspirational'
 coverImage: ./cover.jpg
-featuredImagePosition: 'top 22% center'
 bookTitle: 'Take the Stairs: 7 Steps to Achieving True Success'
 amazonLink: 'https://www.amazon.com/Take-Stairs-Steps-Achieving-Success/dp/0399537767'
 authors:

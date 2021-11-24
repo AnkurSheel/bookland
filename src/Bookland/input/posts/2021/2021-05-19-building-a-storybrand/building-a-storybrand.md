@@ -6,7 +6,6 @@ tags:
     - 'Communication'
     - 'Marketing'
 coverImage: ./cover.jpg
-featuredImagePosition: 'top 37% center'
 bookTitle: 'Building a StoryBrand: Clarify Your Message So Customers Will Listen'
 amazonLink: 'https://www.amazon.com/Building-StoryBrand-Clarify-Message-Customers/dp/0718033329'
 authors:

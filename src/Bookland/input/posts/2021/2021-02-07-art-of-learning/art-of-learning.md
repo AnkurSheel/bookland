@@ -2,7 +2,6 @@
 title: 'Art of Learning'
 excerpt: 'The Art Of Learning is Josh Waitzkin’s autobiography dealing with his rise to the top of the chess and martial arts world. It gives an insight into the mindset and training of a world champion.'
 coverImage: ./cover.jpg
-featuredImagePosition: 'top 60% center'
 tags:
     - 'Autobiography'
     - 'Personal Development — Inspirational'

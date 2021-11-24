@@ -5,7 +5,6 @@ tags:
     - 'Leadership'
     - 'Professional Development — Practical'
 coverImage: ./cover.jpg
-# featuredImagePosition: 'top 22% center'
 bookTitle: 'Extreme Ownership: How U.S. Navy SEALs Lead and Win'
 amazonLink: 'https://www.amazon.com/Extreme-Ownership-U-S-Navy-SEALs-dp-1250183863/dp/1250183863/'
 authors:
