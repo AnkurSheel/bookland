@@ -1,12 +1,7 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
-    purge: {
-        enabled: true,
-        content: ['../**/input/**/*.cshtml'],
-    },
-    mode: 'jit',
-    darkMode: false, // or 'media' or 'class'
+    content: ['../**/input/**/*.cshtml'],
     theme: {
         extend: {
             fontFamily: {
@@ -22,7 +17,11 @@ module.exports = {
                         a: {
                             textDecoration: 'none',
                             '&:hover': {
+                                color: '#000',
                                 textDecoration: `underline wavy`,
+                            },
+                            '&:focus': {
+                                color: '#000',
                             },
                         },
                         'blockquote > p:first-of-type': {
