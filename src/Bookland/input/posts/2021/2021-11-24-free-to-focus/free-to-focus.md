@@ -1,6 +1,6 @@
 ---
 title: 'Free to Focus'
-excerpt: ' A way to be more productive to focus on the right things rather than being productive just for the sake of being productive'
+excerpt: 'A framework for a productivity system that helps us focus on optimising our life to do more of the right things (for us) rather than just more things'
 tags:
     - 'Personal Development — Practical'
 coverImage: ./cover.png
