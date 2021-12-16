@@ -1,13 +1,4 @@
-﻿{
-  Version: 1.1,
-  Content: {
-    Headers: {
-      Content-Length: 29339,
-      Content-Type: text/html,
-      Last-Modified: DateTime_1
-    },
-    Value:
-
+﻿
 <!DOCTYPE html>
 <html lang="en" class="min-h-screen">
 <head>
@@ -164,7 +155,7 @@
         <p>Rating: 5 / 5</p>
     </div>
     <div class="md:col-span-2">
-        <h2 id="summary">Summary</h2>
+        <html><head></head><body><h2 id="summary">Summary</h2>
 <p>Building a Storybrand is a guide for creating effective marketing messages. The book discusses how we can use critical elements that make a compelling story to stop bombarding our prospective customers with marketing noise that doesn't resonate.</p>
 <p>This book is divided into 3 stages and has actionable steps to create our Brandscript</p>
 <h2 id="key-quote">Key Quote</h2>
@@ -225,7 +216,7 @@
 <ul>
 <li><strong>External problems</strong> is the physical/tangible problem</li>
 <li><strong>Internal problems</strong> are the frustrations that are caused by external problems.</li>
-<li><strong>Philosophical problem</strong> answers the question &quot;Why?&quot; and gives our customers a more profound sense of meaning.</li>
+<li><strong>Philosophical problem</strong> answers the question "Why?" and gives our customers a more profound sense of meaning.</li>
 </ul>
 <blockquote>
 <p>Brands that don’t warn their customers about what could happen if they don’t buy their products fail to answer the “so what” question every customer is secretly asking</p>
@@ -293,7 +284,7 @@
 <blockquote>
 <p>The fewer words you use, the more likely it is that people will read them</p>
 </blockquote>
-<p>There should be very few words on our website. We should see if we can replace some of our text with images or reduce paragraphs using bullet points or summarise sentences into bite-sized soundbites. If we need a long section of text to explain something, we can place a &quot;Read More&quot; link at the end of the 1st or 2nd sentence so that people can expand it if they like.</p>
+<p>There should be very few words on our website. We should see if we can replace some of our text with images or reduce paragraphs using bullet points or summarise sentences into bite-sized soundbites. If we need a long section of text to explain something, we can place a "Read More" link at the end of the 1st or 2nd sentence so that people can expand it if they like.</p>
 <blockquote>
 <p>The key to great writing isn’t in what they say; it’s in what they don’t say</p>
 </blockquote>
@@ -308,7 +299,7 @@
 <blockquote>
 <p>Customers don’t generally care about your story; they care about their own</p>
 </blockquote>
-<p>A one-liner is a single statement that answers the question &quot;What do you do?&quot; and helps people realise why they need our product.</p>
+<p>A one-liner is a single statement that answers the question "What do you do?" and helps people realise why they need our product.</p>
 <p>It needs to answer the following questions.</p>
 <ol>
 <li>Who is your customer?</li>
@@ -409,7 +400,7 @@
 </blockquote>
 <h2 id="recommendation">Recommendation</h2>
 <p>Considering this book is about marketing and crafting a compelling message, it is no surprise that it is exceptionally well written. It is organised in a very easy to follow way. This book is not only for marketers and copywriters. It is a must-read for anyone else that wants to help people connect with their brand more effectively. It can help clarify our message, organise our thoughts and simplify our marketing.</p>
-
+</body></html>
     </div>
 </div>
 
@@ -420,6 +411,7 @@
 
 
 <script src="/assets/js/blog.js"></script>
+    <script data-goatcounter="https://discoveriesinbookland.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 
 
 
@@ -428,21 +420,3 @@
 
 </body>
 </html>
-
-  },
-  StatusCode: OK,
-  ReasonPhrase: OK,
-  Headers: {
-    Accept-Ranges: bytes,
-  },
-  TrailingHeaders: {},
-  RequestMessage: {
-    Version: 1.1,
-    Method: {
-      Method: GET
-    },
-    RequestUri: http://localhost:6789/blog/building-a-storybrand.html,
-    Headers: {}
-  },
-  IsSuccessStatusCode: true
-}

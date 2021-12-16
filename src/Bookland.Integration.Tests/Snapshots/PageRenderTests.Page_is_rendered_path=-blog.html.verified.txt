@@ -1,13 +1,4 @@
-﻿{
-  Version: 1.1,
-  Content: {
-    Headers: {
-      Content-Length: 17905,
-      Content-Type: text/html,
-      Last-Modified: DateTime_1
-    },
-    Value:
-
+﻿
 <!DOCTYPE html>
 <html lang="en" class="min-h-screen">
 <head>
@@ -123,6 +114,7 @@
         <article>
             
 
+
 <div class="md:grid md:grid-cols-2 flex flex-col shadow-md mb-10 items-center bg-gray-200 rounded-3xl">
     <a href="/blog/art-of-learning" class="ml-4 mr-4">
         <img src="/assets/images/posts/art-of-learning/cover.jpg" alt="Book Cover" class="max-w-xs rounded-lg w-full"/>
@@ -234,6 +226,25 @@
             <a href="/blog/extreme-ownership">Read the Summary, Takeaways and Recommendation</a>
         </p>
         <div class="font-semibold">16 min</div>
+    </div>
+</div>
+
+<div class="md:grid md:grid-cols-2 flex flex-col shadow-md mb-10 items-center bg-gray-200 rounded-3xl">
+    <a href="/blog/free-to-focus" class="ml-4 mr-4">
+        <img src="/assets/images/posts/free-to-focus/cover.png" alt="Book Cover" class="max-w-xs rounded-lg w-full"/>
+    </a>
+
+    <div class="mx-4 flex flex-col my-4">
+        <a href="/blog/free-to-focus" class="text-center prose-2xl mb-4">Free to Focus</a>
+        <div class="font-semibold">Author(s): Michael Hyatt</div>
+        <div class="font-semibold">Rating: 5 / 5 </div>
+        <p>
+            A framework for a productivity system that helps us focus on optimising our life to do more of the right things (for us) rather than just more things
+        </p>
+        <p>
+            <a href="/blog/free-to-focus">Read the Summary, Takeaways and Recommendation</a>
+        </p>
+        <div class="font-semibold">19 min</div>
     </div>
 </div>
 
@@ -357,26 +368,9 @@
 
 
 <script src="/assets/js/blog.js"></script>
+    <script data-goatcounter="https://discoveriesinbookland.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 
 
 
 </body>
 </html>
-
-  },
-  StatusCode: OK,
-  ReasonPhrase: OK,
-  Headers: {
-    Accept-Ranges: bytes,
-  },
-  TrailingHeaders: {},
-  RequestMessage: {
-    Version: 1.1,
-    Method: {
-      Method: GET
-    },
-    RequestUri: http://localhost:6789/blog.html,
-    Headers: {}
-  },
-  IsSuccessStatusCode: true
-}

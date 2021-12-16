@@ -4,26 +4,26 @@
 <head>
     
 
-<title>Discoveries in Bookland - Posts tagged as &quot;Company Journey&quot;</title>
+<title>Discoveries in Bookland - Posts tagged as &quot;Personal Development &#x2014; Practical&quot;</title>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <link href="/assets/styles.css" rel="stylesheet"/>
 <meta name="description"/>
-<link rel="canonical" href="https://www.discoveriesinbookland.com/tags/company-journey"/>
+<link rel="canonical" href="https://www.discoveriesinbookland.com/tags/personal-development-%E2%80%94-practical"/>
 
-<meta itemProp="name" content="Posts tagged as &quot;Company Journey&quot;"/>
+<meta itemProp="name" content="Posts tagged as &quot;Personal Development &#x2014; Practical&quot;"/>
 <meta itemProp="description"/>
     <meta itemProp="image" content="https://www.discoveriesinbookland.com/assets/images/social/-facebook.png"/>
-<meta property="og:url" content="https://www.discoveriesinbookland.com/tags/company-journey"/>
+<meta property="og:url" content="https://www.discoveriesinbookland.com/tags/personal-development-%E2%80%94-practical"/>
 <meta property="og:type" content="website"/>
-<meta property="og:title" content="Posts tagged as &quot;Company Journey&quot;"/>
+<meta property="og:title" content="Posts tagged as &quot;Personal Development &#x2014; Practical&quot;"/>
 <meta property="og:description"/>
     <meta property="og:image" content="https://www.discoveriesinbookland.com/assets/images/social/-facebook.png"/>
     <meta property="og:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/-facebook.png"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:site" content="ankur_sheel"/>
 <meta name="twitter:creator" content="ankur_sheel"/>
-<meta name="twitter:title" content="Posts tagged as &quot;Company Journey&quot;"/>
+<meta name="twitter:title" content="Posts tagged as &quot;Personal Development &#x2014; Practical&quot;"/>
 <meta name="twitter:description"/>
     <meta name="twitter:image" content="https://www.discoveriesinbookland.com/assets/images/social/-twitter.png"/>
     <meta name="twitter:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/-twitter.png"/>
@@ -109,65 +109,27 @@
 
 </header>
 <main class="mx-auto max-w-prose p-8 prose prose-xl prose-purple" >
-    <h1 class="text-center">Posts tagged as &quot;Company Journey&quot;</h1>
+    <h1 class="text-center">Posts tagged as &quot;Personal Development &#x2014; Practical&quot;</h1>
     <div class="flex flex-col min-h-screen">
         <article>
             
 
 <div class="md:grid md:grid-cols-2 flex flex-col shadow-md mb-10 items-center bg-gray-200 rounded-3xl">
-    <a href="/blog/elon-musk" class="ml-4 mr-4">
-        <img src="/assets/images/posts/elon-musk/cover.jpg" alt="Book Cover" class="max-w-xs rounded-lg w-full"/>
+    <a href="/blog/free-to-focus" class="ml-4 mr-4">
+        <img src="/assets/images/posts/free-to-focus/cover.png" alt="Book Cover" class="max-w-xs rounded-lg w-full"/>
     </a>
 
     <div class="mx-4 flex flex-col my-4">
-        <a href="/blog/elon-musk" class="text-center prose-2xl mb-4">Elon Musk</a>
-        <div class="font-semibold">Author(s): Ashlee Vance</div>
-        <div class="font-semibold">Rating: 2 / 5 </div>
-        <p>
-            This book gives a great insight into Elon Musk as a person as well as into his companies. It reveals the work ethic, the drive and the ruthlessness that exists within Elon that helps him achieve his goals. 
-        </p>
-        <p>
-            <a href="/blog/elon-musk">Read the Summary, Takeaways and Recommendation</a>
-        </p>
-        <div class="font-semibold">4 min</div>
-    </div>
-</div>
-
-<div class="md:grid md:grid-cols-2 flex flex-col shadow-md mb-10 items-center bg-gray-200 rounded-3xl">
-    <a href="/blog/bad-blood" class="ml-4 mr-4">
-        <img src="/assets/images/posts/bad-blood/cover.jpg" alt="Book Cover" class="max-w-xs rounded-lg w-full"/>
-    </a>
-
-    <div class="mx-4 flex flex-col my-4">
-        <a href="/blog/bad-blood" class="text-center prose-2xl mb-4">Bad Blood</a>
-        <div class="font-semibold">Author(s): John Carreyrou</div>
-        <div class="font-semibold">Rating: 4 / 5 </div>
-        <p>
-            The book is about the inner workings at Theranos,  a  startup making medical devices to enable the testing of blood using just a pinprick.
-        </p>
-        <p>
-            <a href="/blog/bad-blood">Read the Summary, Takeaways and Recommendation</a>
-        </p>
-        <div class="font-semibold">2 min</div>
-    </div>
-</div>
-
-<div class="md:grid md:grid-cols-2 flex flex-col shadow-md mb-10 items-center bg-gray-200 rounded-3xl">
-    <a href="/blog/to-pixar-and-beyond" class="ml-4 mr-4">
-        <img src="/assets/images/posts/to-pixar-and-beyond/cover.jpg" alt="Book Cover" class="max-w-xs rounded-lg w-full"/>
-    </a>
-
-    <div class="mx-4 flex flex-col my-4">
-        <a href="/blog/to-pixar-and-beyond" class="text-center prose-2xl mb-4">To Pixar and Beyond</a>
-        <div class="font-semibold">Author(s): Lawrence Levy</div>
+        <a href="/blog/free-to-focus" class="text-center prose-2xl mb-4">Free to Focus</a>
+        <div class="font-semibold">Author(s): Michael Hyatt</div>
         <div class="font-semibold">Rating: 5 / 5 </div>
         <p>
-            This is a very well written book and gives an extremely good insight into Pixar&#x27;s struggle to become a blockbuster factory.
+            A framework for a productivity system that helps us focus on optimising our life to do more of the right things (for us) rather than just more things
         </p>
         <p>
-            <a href="/blog/to-pixar-and-beyond">Read the Summary, Takeaways and Recommendation</a>
+            <a href="/blog/free-to-focus">Read the Summary, Takeaways and Recommendation</a>
         </p>
-        <div class="font-semibold">1 min</div>
+        <div class="font-semibold">19 min</div>
     </div>
 </div>
 

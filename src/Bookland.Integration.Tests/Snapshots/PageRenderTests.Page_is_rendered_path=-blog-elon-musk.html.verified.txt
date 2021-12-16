@@ -1,13 +1,4 @@
-﻿{
-  Version: 1.1,
-  Content: {
-    Headers: {
-      Content-Length: 13856,
-      Content-Type: text/html,
-      Last-Modified: DateTime_1
-    },
-    Value:
-
+﻿
 <!DOCTYPE html>
 <html lang="en" class="min-h-screen">
 <head>
@@ -161,13 +152,13 @@
         <p>Rating: 2 / 5</p>
     </div>
     <div class="md:col-span-2">
-        <h2 id="summary">Summary</h2>
-<p>This book gives a great insight into Elon Musk as a person as well as into his companies. It starts from Elon's childhood and goes right up to the current status quo. It reveals the work ethic, the drive and the ruthlessness that exists within Elon that helps him achieve his goals. As his ex-wife, Justine puts it (in the book) &quot;He does what he wants and he is relentless about it. Its Elon's world and the rest of us live in it.</p>
+        <html><head></head><body><h2 id="summary">Summary</h2>
+<p>This book gives a great insight into Elon Musk as a person as well as into his companies. It starts from Elon's childhood and goes right up to the current status quo. It reveals the work ethic, the drive and the ruthlessness that exists within Elon that helps him achieve his goals. As his ex-wife, Justine puts it (in the book) "He does what he wants and he is relentless about it. Its Elon's world and the rest of us live in it.</p>
 <p>Vance strikes a perfect balance between the personal and the professional life of Elon. He does not shie away from detailing the various challenges and failures that Elon faced. An interesting thing that I learned was that Elon was the inspiration for Downey's interpretation of Tony Stark. However, I felt that although Elon has been shown as an extremely hard task-master with little empathy for his employees, the negative stories seem to have been glossed over. I wonder if that was to keep the aura of Elon Musk intact.</p>
 <h2 id="key-quote">Key Quote</h2>
 <blockquote>
 <p>I think there are probably too many smart people pursuing internet stuff, finance and law. That is part of the reason why we haven't seen as much innovation</p>
-<p>&quot;&quot;Elon Musk</p>
+<p>""Elon Musk</p>
 </blockquote>
 <h2 id="key-takeaways">Key Takeaways</h2>
 <ul>
@@ -186,7 +177,7 @@
 <li>You have to do something that has an effect on the world.</li>
 <li>You have to do something you love to be successful.</li>
 <li>Nothing matters, if you don't get the product right.</li>
-<li>The objective should be - &quot;What delivers fundamental value&quot;</li>
+<li>The objective should be - "What delivers fundamental value"</li>
 <li>Word of mouth reviews is critical.</li>
 <li>Always follow through your commitments, even if they are delayed.</li>
 <li>Problems can be turned into an excuse to show off dedication to pleasing the customer.</li>
@@ -214,7 +205,7 @@
 <h2 id="recommendation">Recommendation</h2>
 <p>The book makes for a good read and has some interesting takeaways. However, I think it will be tough to apply them if you do not have a similar personality like Elon. I also didn’t like the fact that it glosses over the people challenges</p>
 <p>I don't think it is a book that I will pick up again and again. However, It is worth reading it at least once</p>
-
+</body></html>
     </div>
 </div>
 
@@ -225,6 +216,7 @@
 
 
 <script src="/assets/js/blog.js"></script>
+    <script data-goatcounter="https://discoveriesinbookland.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 
 
 
@@ -233,21 +225,3 @@
 
 </body>
 </html>
-
-  },
-  StatusCode: OK,
-  ReasonPhrase: OK,
-  Headers: {
-    Accept-Ranges: bytes,
-  },
-  TrailingHeaders: {},
-  RequestMessage: {
-    Version: 1.1,
-    Method: {
-      Method: GET
-    },
-    RequestUri: http://localhost:6789/blog/elon-musk.html,
-    Headers: {}
-  },
-  IsSuccessStatusCode: true
-}

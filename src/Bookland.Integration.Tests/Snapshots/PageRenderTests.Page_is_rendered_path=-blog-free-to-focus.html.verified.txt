@@ -1,0 +1,583 @@
+﻿
+<!DOCTYPE html>
+<html lang="en" class="min-h-screen">
+<head>
+    
+
+<title>Discoveries in Bookland - Free to Focus</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link href="/assets/styles.css" rel="stylesheet"/>
+<meta name="description" content="A framework for a productivity system that helps us focus on optimising our life to do more of the right things (for us) rather than just more things"/>
+<link rel="canonical" href="https://www.discoveriesinbookland.com/blog/free-to-focus"/>
+
+<meta itemProp="name" content="Free to Focus"/>
+<meta itemProp="description" content="A framework for a productivity system that helps us focus on optimising our life to do more of the right things (for us) rather than just more things"/>
+    <meta itemProp="image" content="https://www.discoveriesinbookland.com/assets/images/social/free-to-focus-facebook.png"/>
+<meta property="og:url" content="https://www.discoveriesinbookland.com/blog/free-to-focus"/>
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="Free to Focus"/>
+<meta property="og:description" content="A framework for a productivity system that helps us focus on optimising our life to do more of the right things (for us) rather than just more things"/>
+    <meta property="og:image" content="https://www.discoveriesinbookland.com/assets/images/social/free-to-focus-facebook.png"/>
+    <meta property="og:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/free-to-focus-facebook.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="ankur_sheel"/>
+<meta name="twitter:creator" content="ankur_sheel"/>
+<meta name="twitter:title" content="Free to Focus"/>
+<meta name="twitter:description" content="A framework for a productivity system that helps us focus on optimising our life to do more of the right things (for us) rather than just more things"/>
+    <meta name="twitter:image" content="https://www.discoveriesinbookland.com/assets/images/social/free-to-focus-twitter.png"/>
+    <meta name="twitter:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/free-to-focus-twitter.png"/>
+
+</head>
+<body class="font-sans font-normal leading-relaxed font-base text-gray-800 min-h-screen bg-gray-100">
+<header class="sticky top-0 bg-white shadow-lg z-10">
+    
+
+<!-- https://www.section.io/engineering-education/creating-a-responsive-navigation-bar-using-tailwind-css-and-javascript/ -->
+
+<nav>
+    <div class="max-w-6xl mx-auto px-4">
+        <div class="flex justify-between">
+            <div class="flex space-x-7 items-center">
+                <!-- Website Logo -->
+                <div>
+                    <a href="/" class="flex items-center py-4 px-2 ">
+                        <span class="font-semibold text-gray-500 text-lg hover:text-green-500">
+                            Discoveries in Bookland
+                        </span
+                        >
+                    </a>
+                </div>
+                <ul class="hidden lg:flex items-center space-x-1">
+                        <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
+                            <a href="/about">About</a>
+                        </li>
+                        <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
+                            <a href="/blog">All Summaries</a>
+                        </li>
+                        <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
+                            <a href="/tags">All Tags</a>
+                        </li>
+                        <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
+                            <a href="/contact">Contact</a>
+                        </li>
+                </ul>
+            </div>
+
+            <ul class="hidden lg:flex items-center space-x-3">
+                <li>
+                    <a role="button" class="" target="_blank" rel="noopener noreferrer" href="/rss.xml" title="RSS">
+                        <img class="h-8 mr-2 border-none" src="/assets/images/rss.svg" alt="RSS">
+                    </a>
+                </li>
+                <li>
+                    <a role="button" class="inline-flex items-center bg-green-400 text-white p-2 rounded-md text-2xl drop-shadow-lg hover:bg-green-800" target="_blank" rel="noopener noreferrer" href="https://www.buymeacoffee.com/ankursheel" title="Did you learn something or find this summary interesting?">
+                        <img class="h-8 mr-2 border-none" src="/assets/images/bmc-logo.svg" alt="Buy Me A Coffee">
+                        <p class="font-cookie">Buy me a book</p>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="lg:hidden flex items-center">
+                <button class="outline-none mobile-menu-button" aria-label="Mobile Menu">
+                    <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+                        <path fill-rule="evenodd"
+                              d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
+                    </svg>
+                </button>
+            </div>
+
+        </div>
+        <div class="hidden mobile-menu">
+            <ul class="flex flex-col">
+                    <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
+                        <a href="/about" class="block">About</a>
+                    </li>
+                    <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
+                        <a href="/blog" class="block">All Summaries</a>
+                    </li>
+                    <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
+                        <a href="/tags" class="block">All Tags</a>
+                    </li>
+                    <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
+                        <a href="/contact" class="block">Contact</a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+</header>
+<main class="mx-auto max-w-prose p-8 prose prose-xl prose-purple" >
+    <h1 class="text-center">Free to Focus</h1>
+    <div class="flex flex-col min-h-screen">
+        <article>
+            
+<div class="prose-sm italic ">
+    <div class="flex justify-evenly items-center">
+        <i>Published Date: 24-Nov-2021</i>
+        <i class="font-bold">
+            Reading Time: 19 min
+        </i>
+    </div>
+
+    <div class="flex flex-row flex-wrap gap-1 place-content-center">
+            <div class="flex-initial border-2 border-black p-2 m-2 border rounded-xl">
+                <a role="button" href="/tags/personal-development-&#x2014;-practical" class="badge text-black bg-grey-light no-underline">Personal Development &#x2014; Practical</a>
+            </div>
+    </div>
+</div>
+
+<div class="grid md:grid-cols-2 grid-cols-1">
+    <h2 class="md:col-span-2">What I read</h2>
+    <img src="/assets/images/posts/free-to-focus/cover.png" alt="Book Cover"></img>
+    <div class="pl-4">
+
+        <p>Free to Focus: A Total Productivity System to Achieve More by Doing Less</p>
+
+        <p>
+            <a href="https://www.amazon.com/Free-Focus-Productivity-System-Achieve-ebook/dp/B07F3DM7C1">Buy it on Amazon</a>
+        </p>
+
+        <p>250 pages</p>
+
+        <p>
+            Authors:
+                <a href="https://michaelhyatt.com/">Michael Hyatt</a>
+        </p>
+
+        <p>Rating: 5 / 5</p>
+    </div>
+    <div class="md:col-span-2">
+        <html><head></head><body><h2 id="summary">Summary</h2>
+<p>In this book, Michael Hyatt provides a framework for a productivity system that helps us focus on optimising our life to do more of the right things (for us) rather than just more things.</p>
+<p>The book has tips that can be put into practice with little effort as long as we are intentional about it.</p>
+<h2 id="key-quote">Key Quote</h2>
+<blockquote>
+<p>Productivity is not about getting more things done; it's about getting the right things done</p>
+</blockquote>
+<h2 id="key-takeaways">Key Takeaways</h2>
+<h3 id="what-are-the-different-types-of-freedom">What are the different types of freedom?</h3>
+<blockquote>
+<p>That's what productivity gives you: the freedom to choose what you want to focus your time and energy on</p>
+</blockquote>
+<p>There are 4 different types of Freedom.</p>
+<ol>
+<li>The freedom to focus and do the deep work that creates a significant impact.</li>
+<li>The freedom to be present to our family and friends.</li>
+<li>The freedom to be spontaneous.</li>
+<li>The freedom to do nothing.</li>
+</ol>
+<h3 id="proficiency-and-passion">Proficiency and Passion</h3>
+<p>We need to be both passionate and proficient, or our energy and performance will suffer.</p>
+<p><strong>Proficiency</strong> and <strong>Passion</strong> are the 2 criteria that can help us identify and filter our high leverage activity from low-leverage busy work.</p>
+<p><strong>Passion</strong> is the work we love, and that energizes us.</p>
+<blockquote>
+<p>Our proficiency is best seen by other people</p>
+</blockquote>
+<p><strong>Proficiency</strong> describes not only how well we actually do something but that we are also generating results that other people can measure and reward</p>
+<h3 id="the-4-zones">The 4 Zones</h3>
+<p>We can start by picturing a grid with <strong>Proficiency</strong> running across the X-axis and <strong>Passion</strong> running up the Y-axis.</p>
+<h4 id="zone-4-the-drudgery-zone">Zone 4: The Drudgery Zone</h4>
+<blockquote>
+<p>What you don't do is just as important to your productivity as what you do.</p>
+</blockquote>
+<p>The drudgery zone is made of tasks for which we have no passion and no proficiency.
+This is the worst kind of work for us to do.</p>
+<h4 id="zone-3-the-disinterest-zone">Zone 3: The Disinterest Zone</h4>
+<blockquote>
+<p>Just because you're good at something doesn't mean you should do it</p>
+</blockquote>
+<p>The disinterest zone is made of tasks that we are proficient at but arent that passionate about.</p>
+<p>If we are not careful, we can get stuck in this zone because it pays the bills. But, doing the tasks that we are not passionate about takes away energy from what we are passionate about.</p>
+<h4 id="zone-2-the-distraction-zone">Zone 2: The Distraction Zone</h4>
+<blockquote>
+<p>Sometimes you must have the courage to tell yourself no too</p>
+</blockquote>
+<p>The distraction zone is made of things that we are passionate about but have little proficiency for.</p>
+<h4 id="zone-1-the-desire-zone">Zone 1: The Desire Zone</h4>
+<blockquote>
+<p>True productivity is about doing more of what is in your Desire Zone and less of everything else</p>
+</blockquote>
+<p>The desire zone is where our passion and proficiency intersect.</p>
+<p>Concentrating on these tasks allows us to do more high-leverage work in less time, enabling us to win.</p>
+<blockquote>
+<p>Believe it or not, it's possible to stay in your Desire Zone but still work yourself to death.</p>
+</blockquote>
+<p>We should only delegate something in this zone if our Desire Zone has more tasks than we can reasonably do ourselves.</p>
+<h4 id="zone-x-the-development-zone">Zone X: The development Zone</h4>
+<p>This zone is outside the grid and helps us gauge work outside the desire zone but potentially moving towards it.</p>
+<p>If we have a hunch we could develop passion and proficiency with a task, we should stay open-minded about it.</p>
+<h4 id="notes">Notes</h4>
+<ul>
+<li>If something is outside our Desire Zone, we should at least stop and ask the question, "Could I eliminate this?"</li>
+</ul>
+<h3 id="the-importance-of-rituals">The importance of Rituals</h3>
+<p>Rituals offer us 3 key benefits.</p>
+<ol>
+<li>Even though formulating rituals requires a lot of effort, that effort is needed only once. Once we have a system to apply the same solution to the same problem, we can focus on other things.</li>
+<li>Rituals speed up our work as we don't have to think about the next step.</li>
+<li>Rituals prevent mistakes because designing rituals allow us to anticipate different failure points and build safety nets.</li>
+</ol>
+<h3 id="the-4-foundational-rituals">The 4 foundational rituals</h3>
+<blockquote>
+<p>When will you start and when will you finish?</p>
+</blockquote>
+<ol>
+<li><strong>Morning</strong>: Starts the moment we wake up to when we start work.</li>
+<li><strong>Workday Startup</strong>: Starts as soon as we start work.</li>
+<li><strong>Workday Shutdown</strong>: Starts as soon as we finish work. It's essential to review critical weekly and daily tasks as part of this ritual. We should also set our next day's tasks.</li>
+<li><strong>Evening</strong>: Helps us wind down and get ready to sleep.</li>
+</ol>
+<p>Workday startup and shutdown rituals are a great time to process our inboxes throughout the week, allowing us to get a jump on the day and then close any open loops before we break for the day.</p>
+<p>If our team requires quicker feedback, we can do another inbox check before lunch.</p>
+<h3 id="the-3-categories-of-activities">The 3 categories of activities</h3>
+<h4 id="front-stage">Front Stage</h4>
+<p>These are all the work-related tasks that deliver the result for which our boss and/or customers pay us.</p>
+<p>It may or may not be done in public.</p>
+<h4 id="back-stage">Back Stage</h4>
+<blockquote>
+<p>Back Stage tasks are necessary for Front Stage performance</p>
+</blockquote>
+<p>Backstage work includes time for learning new skills to enhance our performance. They usually have some type of coordination. It also takes backstage time to prepare for front stage work.</p>
+<p>We should schedule time for Back Stage activities as they will likely be less rewarding and exciting than Front Stage tasks.</p>
+<h4 id="off-stage">Off Stage</h4>
+<blockquote>
+<p>Do whatever it takes to safeguard your time Off Stage.</p>
+</blockquote>
+<p>The off-stage is the time we are not working. It is crucial to restore our energy to work on the front and backstage tasks.</p>
+<h3 id="how-can-we-use-templates-for-productivity">How can we use templates for productivity?</h3>
+<blockquote>
+<p>Every time you work on a project, ask yourself, What components will I use again?</p>
+</blockquote>
+<p>Anytime we expect to do something more than once or twice, we should create a template.</p>
+<p>The basic concept of templates is to solve a problem once, write it down and then use it whenever we need it next.</p>
+<h3 id="process-automation">Process Automation</h3>
+<p>Process automation is a written, easy-to-follow set of instructions for performing a job.</p>
+<p>Although they can seem similar to rituals, they are much more detailed and specific to a set of tasks.</p>
+<p>We also need to remember that not all jobs lend themselves to documented workflows. Others might be outside our area of expertise.</p>
+<h3 id="the-5-steps-to-create-a-workflow">The 5 steps to create a workflow</h3>
+<p><em>Its best to start with a simple workflow when starting out as we could get stuck and give up if we started with a complicated process.</em></p>
+<h4 id="step-1-notice">Step 1: Notice</h4>
+<p>The first step in creating a workflow is to pay attention to what we are doing each week and identify areas where a workflow could help.</p>
+<p>We need to think through each part of the entire procedure from start to finish and be meticulous in our detail.</p>
+<h4 id="step-2-document">Step 2: Document</h4>
+<p>We want to document every little thing on paper so someone who knows nothing about the process can execute it flawlessly.</p>
+<h4 id="step-3-optimize">Step 3: Optimize</h4>
+<p>We review what we have written and ask ourselves three questions:</p>
+<ol>
+<li>Which of these steps can be eliminated?</li>
+<li>Which of these steps can be simplified?</li>
+<li>Which of these steps should be done in a different order?</li>
+</ol>
+<p>We want to give the person following the workflow as much information as they need but not so much that they will skip steps.</p>
+<h4 id="step-4-test">Step 4: Test</h4>
+<p>We need to execute only what we have written down to see if we have missed anything when we test.  Testing what's on the document and only what's on the document will immediately reveal any holes.</p>
+<p>We need to keep correcting the workflow until we have a perfect, functioning process document that works as intended, no matter who's following it.</p>
+<h4 id="step-5-share">Step 5: Share</h4>
+<p>The point is to share it and make sure anyone who might need it someday knows where to find it.</p>
+<p>We need to encourage people to make refinements to the workflow as they find gaps in it.</p>
+<h3 id="delegation">Delegation</h3>
+<blockquote>
+<p>You can't buy happiness, but you can buy back your time by offloading tasks you deem stressful or unlikable</p>
+</blockquote>
+<p>Delegation is a process and requires an investment of our time. It is not simply a matter of handing someone a task and some instructions and then reaping the rewards of the other person's efforts.</p>
+<p>Delegation is not abdication. The outcome is still our responsibility. We will need to check in periodically to ensure things are progressing as expected.</p>
+<p>Even though delegation requires us to slow down to get a new person up to speed, in the long run, it frees up time.</p>
+<h3 id="the-5-levels-of-delegation">The 5 levels of delegation</h3>
+<p>It isn't enough to describe the ultimate outcome we want to achieve when delegating. We also need to specify how much authority and autonomy we are giving to the person.</p>
+<h4 id="level-1">Level 1</h4>
+<p>In Level 1 Delegation, we want the person to do precisely what we have asked them to do.</p>
+<p>This level is perfect for new hires, entry-level people, or any other time we are clear on what needs to be done and just need someone to do it.</p>
+<p><strong>Example Phrase</strong></p>
+<blockquote>
+<p>Here's what I need you to do. Do not deviate from my instructions. I have already researched the options and determined what I need you to do.</p>
+</blockquote>
+<ul>
+<li><strong>Here's what I need you to do</strong>: We explicitly tell the person what we want them to do.</li>
+<li><strong>Do not deviate from my instructions</strong>: This makes our expectations clear.</li>
+<li><strong>I've already researched the options and determined what I want you to do</strong>:  This provides the rationale and context for why we have chosen this level.</li>
+</ul>
+<h4 id="level-2">Level 2</h4>
+<p>In Level 2 delegation, we want the person to examine or research a topic and report back to us.</p>
+<p>This level can be used whenever we are not ready to decide and need someone to gather information.</p>
+<p><strong>Example Phrase</strong></p>
+<blockquote>
+<p>Here's what I need you to do. I want you to research the topic and report back with your findings. We will then discuss it, and I will make a decision and tell you what I want you to do.</p>
+</blockquote>
+<ul>
+<li><strong>Here's what I need you to do</strong>: We explicitly tell the person what we want them to do.</li>
+<li><strong>I want you to research the topic and report back with your findings</strong>: We need to also clarify the level, type and scope of the research we want doing.</li>
+<li><strong>We will then discuss it</strong>: We are letting them know that we will have a conversation to discuss their findings.</li>
+<li><strong>I will make a decision and tell you what I want you to do</strong>: We are making sure they know that we will make the decision. This is important as we let the person know that they are not authorized to take any action or make any decisions.</li>
+</ul>
+<h4 id="level-3">Level 3</h4>
+<p>In Level 3 delegation, we give the person more room to operate and participate in problem-solving. However, we still reserve the final decision for ourselves.</p>
+<p>This level is excellent for delegating to future leaders because it gives us a safe opportunity to judge their decision-making skills without any risk.</p>
+<p><strong>Example Phrase</strong></p>
+<blockquote>
+<p>Here's what I need you to do. Research the topic, outline the options, and then make a recommendation. Give me the pros and cons of each option, but tell me what you think we should do. If I agree with your decision, I will authorize you to move forward.</p>
+</blockquote>
+<ul>
+<li><strong>Here's what I need you to do</strong>: We explicitly tell the person what we want them to do.</li>
+<li><strong>Research the topic, outline the options, and then make a recommendation</strong>: We need to also clarify the level, type and scope of the research we want them to do. We are also asking them to evaluate the options pick one.</li>
+<li><strong>Give me the pros and cons of each option, but tell me what you think we should do</strong>: We make it clear that they should not expect us to agree with their decision without first explaining why they made the decision they did.</li>
+<li><strong>If I agree with your decision, I'll authorize you to move forward</strong>: If they have done their job well, we will give the final approval and permit them to move forward.</li>
+</ul>
+<h4 id="level-4">Level 4</h4>
+<p>At Level 4, we want the person to evaluate the options, decide on their own, execute the decision, and then update us after the fact.</p>
+<p>This is a great level to use with growing leaders because it empowers them with decision-making experience and gives us plenty of opportunities to evaluate how well they are doing. It's also a valuable level for assignments that aren't mission-critical and for which we don't have a strong preference regarding the outcome,</p>
+<p>We need to be sure it's a person we can trust to act on our behalf. We should also not second-guess the decision they made.</p>
+<p><strong>Example Phrase</strong></p>
+<blockquote>
+<p>Here's what I need you to do. Make the best decision you can. Take action. Then tell me what you did. [Optional] Keep me apprised of your progress.</p>
+</blockquote>
+<ul>
+<li><strong>Here's what I need you to do</strong>: We explicitly tell the person what we want them to do.</li>
+<li><strong>Make the best decision you can</strong>: We explicitly ask them to decide after doing the research, evaluating the pros and cons, and exploring the best options.</li>
+<li><strong>Take action</strong>: We are making it clear that we expect them to act without waiting on us.</li>
+<li><strong>Tell me what you did</strong>: This step is simply about keeping us informed.</li>
+<li><strong>Keep me apprised of your progress</strong>: This part is optional and is primarily helpful for projects with many moving parts or will take a long time to complete.</li>
+</ul>
+<h4 id="level-5">Level 5</h4>
+<p>At Level 5, we effectively hand the entire project or task over to someone else and exit the decision altogether.</p>
+<p><strong>Example Phrase</strong></p>
+<blockquote>
+<p>Here's what I need you to do. Make whatever decision you think is best. There's no need to report back or tell me what you did.</p>
+</blockquote>
+<ul>
+<li><strong>Here's what I need you to do</strong>: We explicitly tell the person what we want them to do.</li>
+<li><strong>Make whatever decision you think is best</strong>: We explicitly ask them to make the decision after doing the research, evaluating the pros and cons, and exploring the best options.</li>
+<li><strong>There's no need to report back or tell me what you did</strong>: We release them from any obligation to get back to us and officially exit the process.</li>
+</ul>
+<h3 id="the-7-steps-to-becoming-a-master-delegator">The 7 steps to becoming a master delegator</h3>
+<blockquote>
+<p>The real arrogance isn't delegating work we don't like; it's assuming everyone likes and dislikes what we do</p>
+</blockquote>
+<ol>
+<li>Decide what to delegate.</li>
+<li>Match the task to the best person.</li>
+<li>Communicate the workflow and the result we need them to accomplish.</li>
+<li>Provide the necessary resources.</li>
+<li>Specify the delegation level.</li>
+<li>Give them room to operate.</li>
+<li>Check-in and provide feedback as needed</li>
+</ol>
+<h3 id="the-importance-of-saying-no">The importance of saying NO</h3>
+<blockquote>
+<p>Whatever the reason, it is important to get comfortable saying no</p>
+</blockquote>
+<p>Saying yes to one thing means saying no to something else. Even if we hate saying no, we must understand that every yes inherently contains a no.</p>
+<p>We can evaluate the cost of saying yes by asking ourselves.</p>
+<ul>
+<li>What will I have to give up to say yes to this opportunity?</li>
+<li>Will saying no to this allow me to say yes to something better?</li>
+</ul>
+<p>This also means turning down a ton of excellent and worthwhile ideas.</p>
+<h3 id="what-is-a-positive-no">What is a Positive No?</h3>
+<blockquote>
+<p>No” is rarely a popular response, but that doesn't mean it must be rude, undignified, or ungraceful. In fact, it's possible to say no in a positive way that leaves both you and the other person better off than either of you were before</p>
+</blockquote>
+<p>The Positive No is a simple formula by William Ury with 3 parts: yes-no-yes</p>
+<ul>
+<li><strong>Yes</strong>: Say yes to protecting what is important to us. This should also include affirming the other person. We don't want to shame others for thinking of us as a possible solution to their problem.</li>
+<li><strong>No</strong>  The answer continues with a no that is clear and sets boundaries. We should not leave open the possibility that we might be able to do it another time.</li>
+<li><strong>Yes</strong>: We end the response by affirming the relationship again and offering another solution to the person's request. That way, we aren't taking on the responsibility ourselves, but we show our care and support by helping solve the problem.</li>
+</ul>
+<h3 id="how-to-negotiate-out-of-an-existing-commitment">How to negotiate out of an existing commitment?</h3>
+<p>If we have already committed to doing something, we should find a way to honour our commitment.</p>
+<p>However, we can attempt to negotiate out of the commitment using the following steps.</p>
+<ol>
+<li>We need to take responsibility for making the commitment and not shift the blame or try to play dumb.</li>
+<li>We should reaffirm our willingness to honour our commitment as refusing to follow through or help find a solution will damage our reputation</li>
+<li>We should explain why honouring the commitment is not the best outcome for the other party. We need to focus on what's best for them, not us.</li>
+<li>We should offer to help find an alternative solution and clarify that we aren't walking out on our commitment until we find a mutually agreeable solution.</li>
+</ol>
+<h3 id="importance-of-sleep">Importance of Sleep</h3>
+<blockquote>
+<p>You need to give yourself permission to sleep as much as you find necessary to be at your best</p>
+</blockquote>
+<p>Sleep is essential for high performance, but it's one of the first things we cut.</p>
+<p>Sufficient sleep keeps us mentally sharp and improves our ability to remember, learn, and grow. It refreshes our emotional state, reduces stress, and recharges our bodies.</p>
+<p>Meanwhile, going without sleep makes it harder to stay focused, solve problems, make good decisions, or even play nice with others.</p>
+<p>We can add a short nap to our daily schedule. But, it should not be longer than twenty or thirty minutes, or we might have a hard time waking up and will feel groggy, not reinvigorated.</p>
+<h3 id="eliminating-interruptions-and-distractions">Eliminating Interruptions and Distractions</h3>
+<p>While an interruption is an external force demanding our attention, a distraction is anything internal that disables or destroys concentration.</p>
+<blockquote>
+<p>An open-door policy sounds nice, but you'll never get any meaningful work done if you can't limit incoming access</p>
+</blockquote>
+<p>Unless we work in a customer service position, we should always opt for delayed communication. We should not engage in email or slack more than 2-3 times a day.</p>
+<blockquote>
+<p>Don't wait for them to come find you; tell them in advance</p>
+</blockquote>
+<p>Since we are limiting others access to us, we should proactively set their expectations by letting the relevant people know that we are going offline to focus.</p>
+<h3 id="eisenhower-priority-matrix-popularized-by-stephen-covey">Eisenhower Priority Matrix popularized by Stephen Covey</h3>
+<p>It's a simple grid divided into four quadrants in which the horizontal axis corresponds to urgency, the vertical to importance.</p>
+<h4 id="quadrant-1">Quadrant 1</h4>
+<p>Quadrant 1 indicates tasks that are both important and urgent for us.</p>
+<p>It does not mean tasks that are important and urgent to someone else but not necessarily to us.</p>
+<h4 id="quadrant-2">Quadrant 2</h4>
+<p>Quadrant 2 refers to tasks that are important but not urgent right now.</p>
+<p>We can defer these tasks should also plan to attack them soon.</p>
+<h4 id="quadrant-3">Quadrant 3</h4>
+<p>Quadrant 3 consists of tasks that are time-sensitive and important to others, but not necessarily to us.</p>
+<p>We should evaluate Quadrant 3 items on a case-by-case basis by asking ourselves 3 key questions:</p>
+<ol>
+<li>Are we putting Quadrant 1 or 2 items at risk by saying yes?</li>
+<li>What will we have to say no to say yes to this request?</li>
+<li>Will we end up resenting our participation or the other person if we agree?</li>
+</ol>
+<h4 id="quadrant-4">Quadrant 4</h4>
+<p>Quadrant 4 indicates tasks that are neither urgent nor important to us.</p>
+<p>These should never make it onto our calendars or task lists.</p>
+<h3 id="creating-an-ideal-week">Creating an Ideal week</h3>
+<blockquote>
+<p>We should design our lives first and then tailor our work to meet our lifestyle objectives</p>
+</blockquote>
+<ol>
+<li>Start with an empty calendar for each day of the week.</li>
+<li>For each day, decide if it is Front Stage, Back Stage, or Off Stage.</li>
+<li>Divide each day into 3 blocks of time - morning, workday, and evening.
+<ol>
+<li>For example, self in the morning, work in the midday, and rejuvenation in the evening.</li>
+</ol>
+</li>
+<li>Group the individual activities that will fall into the above themes.</li>
+</ol>
+<h4 id="notes-1">Notes</h4>
+<ul>
+<li>Don't worry about making it perfect, and don't try to do this on top of our existing calendar appointments</li>
+<li>Avoiding Back Stage work during Front Stage time is impossible, so we should schedule it and guard against its overflow into our Front Stage time.</li>
+<li>The exact tasks will change week to week depending on ongoing and one-off projects, but we should try to  group them as best as we can</li>
+</ul>
+<h3 id="weekly-preview">Weekly Preview</h3>
+<blockquote>
+<p>By scheduling time to eliminate, automate, and delegate, you'll get far more accomplished than if you try to squeeze these activities into the margins.</p>
+</blockquote>
+<p>The weekly review is a chance to reflect on our previous week and prepare for the next one.</p>
+<p>It enables us to keep track of all the tasks that we need to do.</p>
+<ol>
+<li>List the things we accomplished and are most proud of in the previous week.</li>
+<li>Go through the previous week and answer three questions.
+<ol>
+<li>How far did we get on with our major tasks from the prior week?</li>
+<li>What worked and what didn't?</li>
+<li>What will we keep, improve, start, or stop doing based on what we just identified?</li>
+</ol>
+</li>
+<li>Go through the deferred tasks - the tasks we intentionally decided to later and take one of the following actions
+<ol>
+<li><strong>Eliminate</strong>: Remove tasks that are no longer relevant.</li>
+<li><strong>Schedule</strong>: Put tasks that need to be done later on our calendar. We should try to batch similar tasks as much as possible.</li>
+<li><strong>Prioritize</strong>: For tasks that we want to work on this week but don't have a specific deadline, add it to the list of the 3 priority tasks for the week.</li>
+<li><strong>Defer</strong>: For tasks that we still want to do but don't have time for this week, we can leave it on the list and consider it again during the following review.</li>
+</ol>
+</li>
+<li>Review delegated tasks and see if we need to follow up with the person working on them.</li>
+<li>Scan through any notes that we have captured during the week and take one of the following actions
+<ol>
+<li><strong>Eliminate</strong>: Remove tasks that are no longer relevant.</li>
+<li><strong>Schedule</strong>: Put tasks that need to be done later on our calendar. We should try to batch similar tasks as much as possible.</li>
+<li><strong>Prioritize</strong>: For tasks that we want to work on this week but don't have a specific deadline, add it to the list of the 3 priority tasks for the week.</li>
+<li><strong>Defer</strong>: For tasks that we still want to do but don't have time for this week, we can leave it on the list and consider it again during the following review.</li>
+</ol>
+</li>
+<li>Review critical projects and deliverables for deadlines and list them by date to sequence our work.</li>
+<li>Check our calendar and list upcoming meetings by date so that we can sequence our work.</li>
+<li>Establish the 3 most important things (Weekly Big 3) we need to accomplish to progress our goals and projects.</li>
+<li>Schedule time for rejuvenation.</li>
+</ol>
+<h4 id="notes-2">Notes</h4>
+<ul>
+<li>We can complete the weekly anytime we want, but the best times are Friday afternoon, Sunday evening or Monday morning.</li>
+<li>We should schedule it as a recurring 30-minute appointment on our calendar.</li>
+</ul>
+<h3 id="design-our-day">Design Our Day</h3>
+<blockquote>
+<p>Great days don't just happen; they are caused</p>
+</blockquote>
+<p>We should aim for only three key tasks each day and let these be informed by our Weekly Big 3.</p>
+<p>We can choose our Daily Big 3 by selecting tasks that are in</p>
+<ul>
+<li>our Desire Zone</li>
+<li>Quadrant 1(important and urgent) of the Priority matrix</li>
+<li>Quadrant 2(important, not urgent) of the Priority matrix</li>
+</ul>
+<p>We need to follow the priority matrix to deal with outside requests and other tasks, or our day will be overwhelmed by Quadrant 3 tasks (urgent to someone else, but not important to us).</p>
+<h3 id="how-do-we-put-all-of-this-into-practice">How do we put all of this into Practice?</h3>
+<blockquote>
+<p>You'll never master how if you don't start by identifying what</p>
+</blockquote>
+<ol>
+<li>Ask what we want, how many hours we want to work, how many items we want on our task list, how many nights and weekends we want to work.</li>
+<li>List our regular tasks and activities.</li>
+<li>Evaluate each item on the list by passion and proficiency and put them in the appropriate zone.</li>
+<li>For each task on the list that we did not classify as a Desire Zone activity,
+<ol>
+<li>ask, "Does this really need to happen? Can I just eliminate it?
+<ol>
+<li>Remove the obvious things that can be removed</li>
+</ol>
+</li>
+<li>record the tasks we should not do.</li>
+<li>mark candidates for automation and pick one to tackle today.</li>
+</ol>
+</li>
+<li>Delegate any tasks left in the Drudgery Zone that have not been eliminated or automated.</li>
+<li>Delegate any tasks left in the Disinterest Zone.</li>
+<li>Evaluate each task in the Distraction Zone by asking, "To what extent I am passionate about this? Is it worth parking this task in my Development Zone to see if I can hone my skills enough to move it into my Desire Zone"
+<ol>
+<li>If the answer is no, delegate it.</li>
+</ol>
+</li>
+<li>Design our 4 foundational rituals by indicating which activities we want to incorporate and how much time we will allow for each.
+<ol>
+<li>Then total those times to see how long it will take us to execute our rituals.</li>
+</ol>
+</li>
+<li>Plan an Ideal week.</li>
+<li>Design our week and Day</li>
+<li>Eliminate Interruptions and Distractions.</li>
+</ol>
+<h2 id="other-quotes">Other Quotes</h2>
+<blockquote>
+<p>The best time to plan how to respond to a request is before that request ever hits your desk</p>
+</blockquote>
+<blockquote>
+<p>Just because you can wear all the hats in the business doesn't mean they all fit</p>
+</blockquote>
+<blockquote>
+<p>You never have to land all your planes at once. Just because something is important doesn't mean it's important right now</p>
+</blockquote>
+<blockquote>
+<p>High performance for its own sake is just burnout waiting to happen</p>
+</blockquote>
+<blockquote>
+<p>Marathons are finished one stride at a time</p>
+</blockquote>
+<blockquote>
+<p>Multitasking doesn't feel slow. It actually feels fast, like we're flying</p>
+</blockquote>
+<h2 id="recommendation">Recommendation</h2>
+<p>I enjoyed this book. There were a lot of tidbits in this book that I can apply to my life. Learning how to apply Rituals, Ideal Week and Weekly review made it a worthwhile use of my time.</p>
+<p>This book is suitable for anyone who is not managing their time optimally and would like to become more productive. However, if you are already designing your day and doing a weekly review, it may not be worth the time and effort.</p>
+</body></html>
+    </div>
+</div>
+
+
+        </article>
+    </div>
+</main>
+
+
+<script src="/assets/js/blog.js"></script>
+    <script data-goatcounter="https://discoveriesinbookland.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+
+
+    <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="ankursheel" data-description="Support me on Buy me a coffee!" data-message="Did you learn something or find this summary interesting? Buy me a coffee" data-color="#40DCA5" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+
+
+</body>
+</html>

@@ -1,13 +1,4 @@
-﻿{
-  Version: 1.1,
-  Content: {
-    Headers: {
-      Content-Length: 16123,
-      Content-Type: text/html,
-      Last-Modified: DateTime_1
-    },
-    Value:
-
+﻿
 <!DOCTYPE html>
 <html lang="en" class="min-h-screen">
 <head>
@@ -164,7 +155,7 @@
         <p>Rating: 5 / 5</p>
     </div>
     <div class="md:col-span-2">
-        <h2 id="summary">Summary</h2>
+        <html><head></head><body><h2 id="summary">Summary</h2>
 <p>The book is based on the premise that to grow an efficient and profitable business, you need to take the profit before paying expenses. This approach works for both new and existing businesses. At the end of each chapter, Mike suggests some actions that you can take to achieve a profitable business. He shares many examples of entrepreneurs who have applied the Profit First methodology scenarios as well as examples of how to apply the system. For some of the techniques, he also gives some advanced strategies.</p>
 <p>The book starts by giving you a way to assess your business and setting up accounts to get started with the Profit First Technique. It then gives a roadmap to continuously apply the profit first technique on a regular cadence. The book also shares some tips on reducing expenses, personal finance, handling layoffs and finance for kids.</p>
 <h2 id="key-quote">Key Quote</h2>
@@ -264,7 +255,7 @@
 </ul>
 <h2 id="recommendation">Recommendation</h2>
 <p>There are a few topics like Personal Finance, Layoffs and Finance for kids that I think other books are better suited for and could have been avoided. However, the core of the book is a must-read for anyone wanting to own a profitable business. The step by step guide with examples make it very easy to understand the concepts and to apply it to your business.</p>
-
+</body></html>
     </div>
 </div>
 
@@ -275,6 +266,7 @@
 
 
 <script src="/assets/js/blog.js"></script>
+    <script data-goatcounter="https://discoveriesinbookland.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 
 
 
@@ -283,21 +275,3 @@
 
 </body>
 </html>
-
-  },
-  StatusCode: OK,
-  ReasonPhrase: OK,
-  Headers: {
-    Accept-Ranges: bytes,
-  },
-  TrailingHeaders: {},
-  RequestMessage: {
-    Version: 1.1,
-    Method: {
-      Method: GET
-    },
-    RequestUri: http://localhost:6789/blog/profit-first.html,
-    Headers: {}
-  },
-  IsSuccessStatusCode: true
-}
