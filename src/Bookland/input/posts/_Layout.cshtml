@@ -5,7 +5,7 @@
 }
 <div class="prose-sm italic ">
     <div class="flex justify-evenly items-center">
-        <i>Published Date: @Model.Document.GetPublishedDate().ToString("dd-MMM-yyyy")</i>
+        <i>Last Updated On: @Model.Document.GetPublishedDate().ToString("dd-MMM-yyyy")</i>
         <i class="font-bold">
             Reading Time: @Model.Document.GetReadingTime().RoundedMinutes min
         </i>
@@ -15,15 +15,12 @@
         @foreach (var tag in Model.Document.GetTags())
         {
             var path = new NormalizedPath($"/tags/{tag}").OptimizeFileName().ToString();
-
-            <div class="flex-initial border-2 border-black p-2 m-2 border rounded-xl">
-                <a role="button" href="@path" class="badge text-black bg-grey-light no-underline">@tag</a>
-            </div>
+            <a href="@path" class="block flex-initial border-2 border-black m-2 rounded-xl p-2 bg-gray-200 shadow-md">@tag</a>
         }
     </div>
 </div>
 
-<div class="grid md:grid-cols-2 grid-cols-1">
+<div class="grid grid-cols-1 md:grid-cols-2">
     <h2 class="md:col-span-2">What I read</h2>
     <img src="@Model.Document.GetCoverImageLink()" alt="Book Cover"></img>
     <div class="pl-4">
@@ -56,6 +53,8 @@
     </div>
 </div>
 
+@await Html.PartialAsync("../partials/_SocialShareBar.cshtml")
+
 @section Scripts{
     @* <div class="flex items-center space-x-3 flex-col mt-8 pt-4 border-2"> *@
     @*     <h2>Did you learn something or find this summary interesting?</h2> *@
@@ -65,5 +64,5 @@
     @*     </a> *@
     @* </div> *@
 
-    <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="ankursheel" data-description="Support me on Buy me a coffee!" data-message="Did you learn something or find this summary interesting? Buy me a coffee" data-color="#40DCA5" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+    <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="@Model.Context.GetBuyMeACoffeeUsername()" data-description="Support me on Buy me a coffee!" data-message="Did you learn something or find this summary interesting? Buy me a coffee" data-color="#40DCA5" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
 }
