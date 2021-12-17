@@ -11,7 +11,6 @@ namespace Bookland
     {
         public static async Task<int> Main(string[] args)
             => await Bootstrapper.Factory.InitStatiq(args)
-                .AddNpmProcesses()
                 .AddSetting(WebKeys.OutputPath, "../../output")
                 .AddSetting(WebKeys.CachePath, "../../cache")
                 .RunAsync();

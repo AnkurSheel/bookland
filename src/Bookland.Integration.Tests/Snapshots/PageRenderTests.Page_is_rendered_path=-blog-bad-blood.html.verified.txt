@@ -1,13 +1,4 @@
-﻿{
-  Version: 1.1,
-  Content: {
-    Headers: {
-      Content-Length: 11672,
-      Content-Type: text/html,
-      Last-Modified: DateTime_1
-    },
-    Value:
-
+﻿
 <!DOCTYPE html>
 <html lang="en" class="min-h-screen">
 <head>
@@ -164,7 +155,7 @@
         <p>Rating: 4 / 5</p>
     </div>
     <div class="md:col-span-2">
-        <h2 id="summary">Summary</h2>
+        <html><head></head><body><h2 id="summary">Summary</h2>
 <p>The book is about Theranos, a startup making medical devices to enable the testing of blood using just a pinprick. It was at the time a fabled unicorn having a star cast board of members and one of the highest valuations.</p>
 <p>The first part of the book gives an insight into the inner workings of the company and how it was built on a culture of fear and lies.The second part, however talks about how the author got involved and his efforts of getting the story published while the company tried various tactics to intimidate him and his sources.</p>
 <p>Its an extremely interesting and well written book.</p>
@@ -191,7 +182,7 @@
 <p>Considering that John is a professional writer, it comes as no surprise that the book is a compelling read.</p>
 <p>The one misgiving I have about the book is that it mostly talked about the mistakes that were made and ignores the things that were done right. It would have been nice to read about some of the things that were done right. However, they fall into the realm of how Elizabeth holmes conned the various parties. The only praise that I could find in the book for her is along of the lines of that she is an amazing salesperson who is smart, inspiring and energising. Personally, I feel that for a company to reach that size both in the number of employees and the valuation, it's not possible that only mistakes were made.</p>
 <p>Although it did not have much in the way of takeaways, it was still an interesting and well written book to read.</p>
-
+</body></html>
     </div>
 </div>
 
@@ -202,6 +193,7 @@
 
 
 <script src="/assets/js/blog.js"></script>
+    <script data-goatcounter="https://discoveriesinbookland.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 
 
 
@@ -210,21 +202,3 @@
 
 </body>
 </html>
-
-  },
-  StatusCode: OK,
-  ReasonPhrase: OK,
-  Headers: {
-    Accept-Ranges: bytes,
-  },
-  TrailingHeaders: {},
-  RequestMessage: {
-    Version: 1.1,
-    Method: {
-      Method: GET
-    },
-    RequestUri: http://localhost:6789/blog/bad-blood.html,
-    Headers: {}
-  },
-  IsSuccessStatusCode: true
-}

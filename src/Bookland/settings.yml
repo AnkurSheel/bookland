@@ -3,6 +3,7 @@ Description: 'A blog for book reviews'
 Host: 'www.discoveriesinbookland.com'
 LinksUseHttps: true
 TwitterUsername: 'ankur_sheel'
+BuyMeACoffeeUsername: 'ankursheel'
 ReadingTimeWordsPerMinute: 238
 HeaderLinks:
   - Title: About
@@ -24,35 +25,3 @@ GoatCounterCode: discoveriesinbookland
 #donateText: 'Did you learn something or find this summary interesting?',
 #buyMeACoffee: {
 #  link: 'https://www.buymeacoffee.com/ankursheel',
-#  altText: 'Show your support',
-#},
-#socialLinks: {
-#  twitter: {
-#    url: 'https://twitter.com/ankur_sheel',
-#    text: 'Follow me on Twitter',
-#  },
-#  github: {
-#    url: '',
-#    text: '',
-#  },
-#  linkedin: {
-#    url: '',
-#    text: '',
-#  },
-#  rss: {
-#    url: '/blog/rss.xml',
-#    text: 'Subsribe on RSS',
-#  },
-#},
-#footerLinks: [
-#  {
-#    sectionName: 'Follow me',
-#    links: [
-#      {
-#        label: 'Twitter',
-#        url: 'https://twitter.com/ankur_sheel',
-#      },
-#    ],
-#  },
-#],
-#};

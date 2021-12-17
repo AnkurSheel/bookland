@@ -2,21 +2,21 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net;
+using System.Net.Http;
 using System.Threading.Tasks;
-using VerifyTests;
 using VerifyXunit;
 using Xunit;
 
 namespace Bookland.Integration.Tests
 {
     [UsesVerify]
-    public class PageRenderTests : IClassFixture<HttpServerFixture>
+    public class PageRenderTests : IClassFixture<TestServerFixture>
     {
-        private readonly HttpServerFixture _httpServerFixture;
+        private readonly HttpClient? _httpClient;
 
-        public PageRenderTests(HttpServerFixture fixture)
+        public PageRenderTests(TestServerFixture fixture)
         {
-            _httpServerFixture = fixture;
+            _httpClient = fixture.Client;
         }
 
         [Theory]
@@ -25,32 +25,41 @@ namespace Bookland.Integration.Tests
         {
             var settings = new VerifyTests.VerifySettings();
             settings.UseParameters(path);
-            settings.ScrubLines(removeLine: line => line.Contains("ETag"));
 
-            if (_httpServerFixture.Client == null)
+            if (_httpClient == null)
             {
                 Assert.False(true);
                 return;
             }
-            var response = await _httpServerFixture.Client.GetAsync(path);
+
+            var response = await _httpClient.GetAsync(path);
             Assert.Equal(HttpStatusCode.OK, response.StatusCode);
-            await Verifier.Verify(response, settings);
+            var content = await response.Content.ReadAsStringAsync();
+            await Verifier.Verify(content, settings);
         }
 
         [Fact]
         public async Task File_are_outputted_correctly()
         {
-            var outputDirectory = HttpServerFixture.GetOutputDirectory();
-            var files = Directory.GetFiles(outputDirectory, "*", SearchOption.AllDirectories).OrderBy(x => x);
+            var outputDirectory = TestHelpers.GetOutputDirectory();
+            var files = Directory.GetFiles(outputDirectory, "*", SearchOption.AllDirectories)
+                .OrderBy(x => x)
+                .Select(x => x.Substring(outputDirectory.Length).Replace("\\", "/").Replace("index.html", "").Replace(".html", "/"));
             await Verifier.Verify(files);
         }
 
         public static IEnumerable<object[]> GetData()
         {
-            var outputDirectory = HttpServerFixture.GetOutputDirectory();
-            var files = Directory.GetFiles(outputDirectory, "*.html", SearchOption.AllDirectories).Select(x => x.Substring(outputDirectory.Length).Replace("\\", "/")).ToList();
+            var outputDirectory = TestHelpers.GetOutputDirectory();
+            var patterns = new[] { "*.html", "*.js", "*.xml" };
 
-            return files.Select(x => new object[] { x });
+            List<string> filePaths = new List<string>();
+
+            filePaths = patterns.Aggregate(filePaths, (current, pattern) => current.Concat(Directory.GetFiles(outputDirectory, pattern, SearchOption.AllDirectories)).ToList());
+
+            filePaths = filePaths.Select(x => x.Substring(outputDirectory.Length).Replace("\\", "/")).ToList();
+
+            return filePaths.Select(x => new object[] { x });
         }
     }
 }

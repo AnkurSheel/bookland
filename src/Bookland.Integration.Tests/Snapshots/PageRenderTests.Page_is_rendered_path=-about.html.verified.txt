@@ -1,13 +1,4 @@
-﻿{
-  Version: 1.1,
-  Content: {
-    Headers: {
-      Content-Length: 7080,
-      Content-Type: text/html,
-      Last-Modified: DateTime_1
-    },
-    Value:
-
+﻿
 <!DOCTYPE html>
 <html lang="en" class="min-h-screen">
 <head>
@@ -22,20 +13,20 @@
 
 <meta itemProp="name" content="About"/>
 <meta itemProp="description"/>
-    <meta itemProp="image" content="https://www.discoveriesinbookland.com/assets/images/social/-facebook.png"/>
+    <meta itemProp="image" content="https://www.discoveriesinbookland.com/assets/images/social/about-facebook.png"/>
 <meta property="og:url" content="https://www.discoveriesinbookland.com/about"/>
 <meta property="og:type" content="website"/>
 <meta property="og:title" content="About"/>
 <meta property="og:description"/>
-    <meta property="og:image" content="https://www.discoveriesinbookland.com/assets/images/social/-facebook.png"/>
-    <meta property="og:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/-facebook.png"/>
+    <meta property="og:image" content="https://www.discoveriesinbookland.com/assets/images/social/about-facebook.png"/>
+    <meta property="og:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/about-facebook.png"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:site" content="ankur_sheel"/>
 <meta name="twitter:creator" content="ankur_sheel"/>
 <meta name="twitter:title" content="About"/>
 <meta name="twitter:description"/>
-    <meta name="twitter:image" content="https://www.discoveriesinbookland.com/assets/images/social/-twitter.png"/>
-    <meta name="twitter:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/-twitter.png"/>
+    <meta name="twitter:image" content="https://www.discoveriesinbookland.com/assets/images/social/about-twitter.png"/>
+    <meta name="twitter:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/about-twitter.png"/>
 
 </head>
 <body class="font-sans font-normal leading-relaxed font-base text-gray-800 min-h-screen bg-gray-100">
@@ -122,7 +113,7 @@
     <div class="flex flex-col min-h-screen">
         <article>
             <p>I am a huge fan of reading books. Earlier, I would read a lot of fictional books but lately, I have been getting into non-fiction books.</p>
-<p><img src="/assets/images/cover.jpg" alt="Books" /></p>
+<p><img src="/assets/images/pages/about/cover.jpg" alt="Books" /></p>
 <h2 id="why-discoveries-in-bookland">Why Discoveries in Bookland</h2>
 <p>I realized that although I was reading a lot of books with a lot of takeaways, I was forgetting the takeaways after a while. This is an attempt to pen down my thoughts about the key ideas of the book.</p>
 <h2 id="structure">Structure</h2>
@@ -143,26 +134,9 @@
 
 
 <script src="/assets/js/blog.js"></script>
+    <script data-goatcounter="https://discoveriesinbookland.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 
 
 
 </body>
 </html>
-
-  },
-  StatusCode: OK,
-  ReasonPhrase: OK,
-  Headers: {
-    Accept-Ranges: bytes,
-  },
-  TrailingHeaders: {},
-  RequestMessage: {
-    Version: 1.1,
-    Method: {
-      Method: GET
-    },
-    RequestUri: http://localhost:6789/about.html,
-    Headers: {}
-  },
-  IsSuccessStatusCode: true
-}

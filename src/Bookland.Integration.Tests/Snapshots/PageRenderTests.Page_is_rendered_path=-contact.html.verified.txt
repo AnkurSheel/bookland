@@ -1,41 +1,32 @@
-﻿{
-  Version: 1.1,
-  Content: {
-    Headers: {
-      Content-Length: 7640,
-      Content-Type: text/html,
-      Last-Modified: DateTime_1
-    },
-    Value:
-
+﻿
 <!DOCTYPE html>
 <html lang="en" class="min-h-screen">
 <head>
     
 
-<title>Discoveries in Bookland - Discoveries in Bookland</title>
+<title>Discoveries in Bookland - Get in Touch</title>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <link href="/assets/styles.css" rel="stylesheet"/>
 <meta name="description"/>
 <link rel="canonical" href="https://www.discoveriesinbookland.com/contact"/>
 
-<meta itemProp="name" content="Discoveries in Bookland"/>
+<meta itemProp="name" content="Get in Touch"/>
 <meta itemProp="description"/>
-    <meta itemProp="image" content="https://www.discoveriesinbookland.com/assets/images/social/-facebook.png"/>
+    <meta itemProp="image" content="https://www.discoveriesinbookland.com/assets/images/social/contact-facebook.png"/>
 <meta property="og:url" content="https://www.discoveriesinbookland.com/contact"/>
 <meta property="og:type" content="website"/>
-<meta property="og:title" content="Discoveries in Bookland"/>
+<meta property="og:title" content="Get in Touch"/>
 <meta property="og:description"/>
-    <meta property="og:image" content="https://www.discoveriesinbookland.com/assets/images/social/-facebook.png"/>
-    <meta property="og:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/-facebook.png"/>
+    <meta property="og:image" content="https://www.discoveriesinbookland.com/assets/images/social/contact-facebook.png"/>
+    <meta property="og:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/contact-facebook.png"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:site" content="ankur_sheel"/>
 <meta name="twitter:creator" content="ankur_sheel"/>
-<meta name="twitter:title" content="Discoveries in Bookland"/>
+<meta name="twitter:title" content="Get in Touch"/>
 <meta name="twitter:description"/>
-    <meta name="twitter:image" content="https://www.discoveriesinbookland.com/assets/images/social/-twitter.png"/>
-    <meta name="twitter:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/-twitter.png"/>
+    <meta name="twitter:image" content="https://www.discoveriesinbookland.com/assets/images/social/contact-twitter.png"/>
+    <meta name="twitter:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/contact-twitter.png"/>
 
 </head>
 <body class="font-sans font-normal leading-relaxed font-base text-gray-800 min-h-screen bg-gray-100">
@@ -118,10 +109,11 @@
 
 </header>
 <main class="mx-auto max-w-prose p-8 prose prose-xl prose-purple" >
-    <h1 class="text-center">Discoveries in Bookland</h1>
+    <h1 class="text-center">Get in Touch</h1>
     <div class="flex flex-col min-h-screen">
         <article>
             
+
 <form method="post" netlify-honeypot="bot-field" data-netlify="true" name="contact">
     <input type="hidden" name="bot-field"/>
     <input type="hidden" name="form-name" value="contact"/>
@@ -154,26 +146,9 @@
 
 
 <script src="/assets/js/blog.js"></script>
+    <script data-goatcounter="https://discoveriesinbookland.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 
 
 
 </body>
 </html>
-
-  },
-  StatusCode: OK,
-  ReasonPhrase: OK,
-  Headers: {
-    Accept-Ranges: bytes,
-  },
-  TrailingHeaders: {},
-  RequestMessage: {
-    Version: 1.1,
-    Method: {
-      Method: GET
-    },
-    RequestUri: http://localhost:6789/contact.html,
-    Headers: {}
-  },
-  IsSuccessStatusCode: true
-}

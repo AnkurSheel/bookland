@@ -1,6 +1,4 @@
 ﻿using System;
-using System.IO;
-using System.Linq;
 using System.Net.Http;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -9,7 +7,7 @@ using Microsoft.Extensions.FileProviders;
 
 namespace Bookland.Integration.Tests
 {
-    public class HttpServerFixture : IDisposable
+    public class TestServerFixture : IDisposable
     {
         public HttpClient? Client { get; private set; }
 
@@ -17,9 +15,9 @@ namespace Bookland.Integration.Tests
 
         private readonly string _outputDirectory;
 
-        public HttpServerFixture()
+        public TestServerFixture()
         {
-            _outputDirectory = GetOutputDirectory();
+            _outputDirectory = TestHelpers.GetOutputDirectory();
             CreateClient();
         }
 
@@ -27,20 +25,6 @@ namespace Bookland.Integration.Tests
         {
             Client?.Dispose();
             _server?.Dispose();
-        }
-
-        public static string GetOutputDirectory()
-        {
-            var directory = Directory.GetCurrentDirectory();
-
-            while (directory != null && !Directory.GetFiles(directory, "*.sln").Any())
-            {
-                directory = Directory.GetParent(directory)?.FullName;
-            }
-
-            return directory != null
-                ? Path.Combine(directory, "output")
-                : "";
         }
 
         private  HttpClient CreateClient()
