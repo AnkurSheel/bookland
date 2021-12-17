@@ -28,7 +28,8 @@ namespace Bookland.Extensions
                         "tailwind",
                         "build",
                         $"-i {Path.Combine(currentDirectory, "input", "assets", "_site.css")}",
-                        $"-o {Path.Combine(currentDirectory, "input", "assets", "styles.css")}")
+                        $"-o {Path.Combine(currentDirectory, "input", "assets", "styles.css")}",
+                        $"--minify")
                     {
                         LogErrors = false,
                         WorkingDirectory = nodeDirectory
