@@ -5,7 +5,7 @@
 }
 <div class="prose-sm italic ">
     <div class="flex justify-evenly items-center">
-        <i>Last Updated On: @Model.Document.GetPublishedDate().ToString("dd-MMM-yyyy")</i>
+        <span>Last Updated: <time datetime="@Model.Document.GetLastUpdatedDate().ToString("yyyy-MM-dd")">@Model.Document.GetLastUpdatedDate().ToString("MMMM dd, yyyy")</time></span>
         <i class="font-bold">
             Reading Time: @Model.Document.GetReadingTime().RoundedMinutes min
         </i>
@@ -49,7 +49,7 @@
         <p>Rating: @Model.Document.GetRating() / 5</p>
     </div>
     <div class="md:col-span-2">
-        @RenderBody()
+@RenderBody()
     </div>
 </div>
 
@@ -64,5 +64,5 @@
     @*     </a> *@
     @* </div> *@
 
-    <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="@Model.Context.GetBuyMeACoffeeUsername()" data-description="Support me on Buy me a coffee!" data-message="Did you learn something or find this summary interesting? Buy me a coffee" data-color="#40DCA5" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+    @* <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="@Model.Context.GetBuyMeACoffeeUsername()" data-description="Support me on Buy me a coffee!" data-message="Did you learn something or find this summary interesting? Buy me a coffee" data-color="#40DCA5" data-position="Right" data-x_margin="18" data-y_margin="18"></script> *@
 }

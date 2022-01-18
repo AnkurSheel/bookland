@@ -1,10 +1,28 @@
 ﻿---
-Title: All Summaries
+Title: All Articles
 ---
 
 @model Posts
 
-@foreach (var post in Model.AllPosts)
+@{
+    const int numberOfRecentPosts = 5;
+    var sortedPosts = Model.AllPosts.OrderBy(x => x.Document.GetTitle()).ToList();
+    var recentPosts = Model.AllPosts.OrderByDescending(x => x.Document.GetLastUpdatedDate()).ToList().Take(numberOfRecentPosts);
+}
+
+<h2> @numberOfRecentPosts Most Recent Summmaries</h2>
+@foreach (var post in recentPosts)
 {
-    @await Html.PartialAsync("partials/_Card.cshtml", post)
+    <div>
+        <a href="@post.Document.GetPageUrl()" class="mb-4">@post.Document.GetTitle()</a>
+    </div>
+}
+
+<h2>Alphabetical (@sortedPosts.Count)</h2>
+
+@foreach (var post in sortedPosts)
+{
+    <div>
+        <a href="@post.Document.GetPageUrl()" class="mb-4">@post.Document.GetTitle()</a>
+    </div>
 }
