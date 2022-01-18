@@ -17,7 +17,7 @@ I realized that although I was reading a lot of books with a lot of takeaways, I
 -   Key Takeaways
 -   A recommendation of whether I thought it was worth my time
 
-## Join me on the adventure
+## Join me on the discovery
 
 Here, I endeavor to put down the key ideas from the books I read. Every book you will see is a book I have actually read.
 
