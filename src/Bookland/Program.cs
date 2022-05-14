@@ -11,6 +11,7 @@ namespace Bookland
             => await Bootstrapper.Factory.InitStatiq(args)
                 .AddSetting(WebKeys.OutputPath, "../../output")
                 .AddSetting(WebKeys.CachePath, "../../cache")
+                .AddSetting(WebKeys.InputPaths, new[] { "input", "content" })
                 .RunAsync();
     }
 }
