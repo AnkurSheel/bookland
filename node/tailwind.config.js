@@ -17,11 +17,7 @@ module.exports = {
                         a: {
                             textDecoration: 'none',
                             '&:hover': {
-                                color: '#000',
                                 textDecoration: `underline wavy`,
-                            },
-                            '&:focus': {
-                                color: '#000',
                             },
                         },
                         'blockquote > p:first-of-type': {
@@ -42,6 +38,14 @@ module.exports = {
                         'blockquote p:last-of-type::after': false,
                         'blockquote cite:before': {
                             content: "'--'",
+                        },
+                        'code::before': false,
+                        'code::after': false,
+                        code: {
+                            'border-radius': '0.25rem',
+                            padding: '0.15rem 0.3rem',
+                            borderWidth: '2px',
+                            borderColor: 'rgba(0,0,0,0.1)',
                         },
                     },
                 },

@@ -22,3 +22,33 @@ from = "/blog/the-motive"
 to = "/blog/motive"
 status = 301
 force = false
+
+[[redirects]]
+from = "/blog/art-of-learning"
+to = "/blog/art-learning"
+status = 301
+force = false
+
+[[redirects]]
+from = "/blog/building-a-storybrand"
+to = "/blog/building-storybrand"
+status = 301
+force = false
+
+[[redirects]]
+from = "/blog/free-to-focus"
+to = "/blog/free-focus"
+status = 301
+force = false
+
+[[redirects]]
+from = "/blog/take-the-stairs"
+to = "/blog/take-stairs"
+status = 301
+force = false
+
+[[redirects]]
+from = "/blog/to-pixar-and-beyond"
+to = "/blog/pixar-beyond"
+status = 301
+force = false

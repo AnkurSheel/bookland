@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using Bookland.Models;
+﻿using Bookland.Models;
 using Statiq.Common;
 
 namespace Bookland.Extensions

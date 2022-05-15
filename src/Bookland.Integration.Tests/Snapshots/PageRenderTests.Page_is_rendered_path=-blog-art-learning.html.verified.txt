@@ -4,31 +4,31 @@
 <head>
     
 
-<title>Index card - Discoveries in Bookland</title>
+<title>Art of Learning - Discoveries in Bookland</title>
 <meta charset="utf-8"/>
 
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<meta name="description" content="This is a well written albeit basic book based on the premise that all the financial advice you need to know can fit on an index card."/>
+<meta name="description" content="The Art Of Learning is Josh Waitzkin&#x2019;s autobiography dealing with his rise to the top of the chess and martial arts world. It gives an insight into the mindset and training of a world champion."/>
 <link href="/assets/styles.css" rel="stylesheet"/>
-<link rel="canonical" href="https://www.discoveriesinbookland.com/blog/index-card"/>
+<link rel="canonical" href="https://www.discoveriesinbookland.com/blog/art-learning"/>
 
-<meta itemProp="name" content="Index card"/>
-<meta itemProp="description" content="This is a well written albeit basic book based on the premise that all the financial advice you need to know can fit on an index card."/>
-    <meta itemProp="image" content="https://www.discoveriesinbookland.com/assets/images/social/index-card-facebook.png"/>
-<meta property="og:url" content="https://www.discoveriesinbookland.com/blog/index-card"/>
+<meta itemProp="name" content="Art of Learning"/>
+<meta itemProp="description" content="The Art Of Learning is Josh Waitzkin&#x2019;s autobiography dealing with his rise to the top of the chess and martial arts world. It gives an insight into the mindset and training of a world champion."/>
+    <meta itemProp="image" content="https://www.discoveriesinbookland.com/assets/images/social/art-learning-facebook.png"/>
+<meta property="og:url" content="https://www.discoveriesinbookland.com/blog/art-learning"/>
 <meta property="og:type" content="article"/>
-<meta property="og:title" content="Index card"/>
-<meta property="og:description" content="This is a well written albeit basic book based on the premise that all the financial advice you need to know can fit on an index card."/>
-    <meta property="og:image" content="https://www.discoveriesinbookland.com/assets/images/social/index-card-facebook.png"/>
-    <meta property="og:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/index-card-facebook.png"/>
+<meta property="og:title" content="Art of Learning"/>
+<meta property="og:description" content="The Art Of Learning is Josh Waitzkin&#x2019;s autobiography dealing with his rise to the top of the chess and martial arts world. It gives an insight into the mindset and training of a world champion."/>
+    <meta property="og:image" content="https://www.discoveriesinbookland.com/assets/images/social/art-learning-facebook.png"/>
+    <meta property="og:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/art-learning-facebook.png"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:site" content="ankur_sheel"/>
 <meta name="twitter:creator" content="ankur_sheel"/>
-<meta name="twitter:title" content="Index card"/>
-<meta name="twitter:description" content="This is a well written albeit basic book based on the premise that all the financial advice you need to know can fit on an index card."/>
-    <meta name="twitter:image" content="https://www.discoveriesinbookland.com/assets/images/social/index-card-twitter.png"/>
-    <meta name="twitter:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/index-card-twitter.png"/>
+<meta name="twitter:title" content="Art of Learning"/>
+<meta name="twitter:description" content="The Art Of Learning is Josh Waitzkin&#x2019;s autobiography dealing with his rise to the top of the chess and martial arts world. It gives an insight into the mindset and training of a world champion."/>
+    <meta name="twitter:image" content="https://www.discoveriesinbookland.com/assets/images/social/art-learning-twitter.png"/>
+    <meta name="twitter:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/art-learning-twitter.png"/>
 
 </head>
 <body class="font-sans font-normal leading-relaxed font-base text-gray-800 min-h-screen bg-gray-100">
@@ -69,132 +69,149 @@
 </header>
 
 <main class="mx-auto max-w-prose p-4 prose prose-xl prose-purple">
-    <h1 class="text-center">Index card</h1>
+    <h1 class="text-center">Art of Learning</h1>
     <div class="flex flex-col min-h-screen">
         <article>
             
 <div class="prose-sm italic ">
     <div class="flex justify-evenly items-center">
-        <span>Last Updated: <time datetime="2020-04-24">April 24, 2020</time></span>
+        <span>Last Updated: <time datetime="2021-02-07">February 07, 2021</time></span>
         <i class="font-bold">
-            Reading Time: 4 min
+            Reading Time: 6 min
         </i>
     </div>
 
     <div class="flex flex-row flex-wrap gap-1 place-content-center">
-            <a href="/tags/personal-finance" class="block flex-initial border-2 border-black m-2 rounded-xl p-2 bg-gray-200 shadow-md">Personal Finance</a>
+            <a href="/tags/autobiography" class="block flex-initial border-2 border-black m-2 rounded-xl p-2 bg-gray-200 shadow-md">Autobiography</a>
+            <a href="/tags/personal-development-&#x2014;-inspirational" class="block flex-initial border-2 border-black m-2 rounded-xl p-2 bg-gray-200 shadow-md">Personal Development &#x2014; Inspirational</a>
     </div>
 </div>
 
 <div class="grid grid-cols-1 md:grid-cols-2">
     <h2 class="md:col-span-2">What I read</h2>
-    <img src="/assets/images/posts/index-card/cover.jpg" width="400" alt="Book Cover"/>
+    <img src="/assets/images/posts/art-learning/cover.jpg" width="400" alt="Book Cover"/>
     <div class="pl-4">
 
-        <p>The Index Card: Why Personal Finance Doesn&#x2019;t have to be complicated</p>
+        <p>The Art of Learning: An Inner Journey to Optimal Performance</p>
 
         <p>
-            <a href="https://www.amazon.com/Index-Card-Personal-Finance-Complicated/dp/1591847680">Buy it on Amazon</a>
+            <a href="https://www.amazon.com/The-Art-Learning-Journey-Performance/dp/0743277465/">Buy it on Amazon</a>
         </p>
 
-        <p>256 pages</p>
+        <p>288 pages</p>
 
         <p>
             Authors:
-                <a href="http://helaineolen.com/">Helaine Ole</a>
-                    <span>and</span>
-                <a>Harold Pollack</a>
+                <a href="https://www.joshwaitzkin.com/">Josh Waitzkin</a>
         </p>
 
-        <p>Rating: 2 / 5</p>
+        <p>Rating: 1 / 5</p>
     </div>
     <div class="md:col-span-2">
 <h2 id="summary">Summary</h2>
-<p>The book is based on the premise that all the financial advice you need to know can fit on an index card. The book is broken down into 9 chapters each of which corresponds to a rule on the index card. Each chapter explains how the rule works accompanied with detailed stories and examples. It is a good book to read if you are just starting to get your financial life in order.</p>
-<p>Some of the advice is US-centric but can be applied to other countries as well.</p>
+<p>The Art Of Learning is Josh Waitzkin’s autobiography dealing with his rise to the top of the chess and the martial arts world. It gives an insight into the mindset and training of a world champion. Not only does it talk about learning (as implied by the title) but also other topics such as parenting, coaching, dealing with chaos and unfair situations.</p>
 <h2 id="key-quote">Key Quote</h2>
 <blockquote>
-<p>This is your financial life. Take control of it</p>
+<p>There are clear distinctions between what it takes to be decent, what it takes to be good, what it takes to be great, and what it takes to be among the best</p>
 </blockquote>
 <h2 id="key-takeaways">Key Takeaways</h2>
-<h3 id="budgeting">Budgeting</h3>
-<ul>
-<li>If you are always worried about your immediate cash flow, you will make mistakes.</li>
-<li>Do not wait for more than a week to assign expenses to proper categories in your budget.</li>
-<li>Dividing every expense into categories allows you to see the big picture.</li>
-</ul>
-<h3 id="saving">Saving</h3>
-<ul>
-<li>An emergency fund is a basic foundation for having stability.</li>
-<li>To gain control over your financial life, pay down the bill with the highest interest rate while paying the required minimum on the rest.</li>
-<li>Save for retirement after funding your emergency fund.</li>
-<li>Take full advantage of the retirement account match offered by your employer. It is free money.</li>
-</ul>
-<h3 id="financial-advice">Financial Advice</h3>
-<ul>
-<li>Most financial advisors are salespersons or brokers even if their official title is different.</li>
-<li>Your neighbourhood brokerage or bank is not the place to get unconflicted financial advice. If you want unconflicted financial advice, you almost certainly have to pay for it.</li>
-<li>A fiduciary is a financial advisor who has a legal and regulatory duty to put your interests ahead of his or her own. They are also known as a certified financial planner (CFP), registered investment advisor (RIA) or fee-only advisor.</li>
-<li>You want to seek out an advisor who works on a fee-only basis. This means the advisor is paid by you and only by you. Never assume someone is a fiduciary. Always ask. You need to ask and ask quite specifically: Do you work to the fiduciary standard at all times? This last part, “at all times” is important.</li>
-</ul>
-<h3 id="investing">Investing</h3>
-<ul>
-<li><p>Don't fall for stories that you can invest in more funds or that it will be easier to monitor your money if it's all in one place.</p>
-</li>
-<li><p>Warren Buffet is an excellent stock picker but he also gets benefits from getting access to deals not available to mere run-of-the-mill investors like the rest of us.</p>
-</li>
-<li><p>“Alternative investments” is a nice way of saying “This is a risky investment”</p>
-</li>
-<li><p>Diversify so that not everything in your investment portfolio rises and falls by the same amount at the same time.</p>
-</li>
-<li><p>If you put money only in supersafe assets that earn low returns you will lose money relative to inflation and increase your risk of outliving your money.</p>
-</li>
-<li><p>Formula to decide how much money to put in stock market funds:</p>
-<ul>
-<li><strong>Percentage of your assets invested in stocks = 100 - your current age</strong></li>
-</ul>
-</li>
-<li><p>Stock investment Breakdown</p>
-<ul>
-<li>70%: A good S &amp; P 500 index fund for assured quick diversification.</li>
-<li>15%: A small-cap index fund because they have generally outperformed large-cap funds but have a greater risk.</li>
-<li>15%: A broad-based international fund. Make sure that you choose an international fund and not a global fund.</li>
-<li><strong>[Optional]</strong> (5-10%): If you don't own property, a real estate investment trust index fund.</li>
-</ul>
-</li>
-</ul>
-<h3 id="housing">Housing</h3>
-<ul>
-<li>You should spend no more than a third of your take-home pay on housing.</li>
-<li>Finance your emergency fund. Then think about purchasing a home.</li>
-<li>Get your mortgage pre-approved by a bank before you look at the first house.</li>
-<li>Your house is your home. It is not a speculative investment.</li>
-<li>There are practical benefits to owning your residence but it is almost always a highly leveraged aka risky investment.</li>
-<li>If your interest rate drops by less than one percentage point or if you are planning to move soon, it's not worth refinancing.</li>
-</ul>
-<h3 id="insurance">Insurance</h3>
-<ul>
-<li>Insurance is a complicated but necessary evil.</li>
-<li>Get a thirty-year level term life policy.</li>
-<li>Understand exactly what kind of coverage is contained in the policy you are buying. You need to pose worst-case scenarios to the person selling the policy and then make sure to get their answers in writing.</li>
-<li>Go for the high-deductible options when buying insurance.</li>
-<li>Adequate liability insurance is at least twice the amount of your net worth.</li>
-<li>If you have a high net worth get umbrella insurance which covers the amount of your potential responsibility if you exhaust your liability insurance.</li>
-</ul>
-<h2 id="other-quotes">Other quotes</h2>
-<ul>
-<li>Simplicity takes work and insight to achieve.</li>
-<li>One of the most important biases is the overconfidence that comes with expertise.</li>
-<li>Starvation budgets work no better than starvation diets.</li>
-<li>It's better to save 1 per cent consistently than try and fail over and over again to save 10 to 20 per cent.</li>
-<li>If it’s free, you are the product.</li>
-<li>If you sit down for cards, and you don’t know who the sucker is it's you.</li>
-<li>Popular advice is if we just give up a $5 small luxury a day, we can retire millionaires. But if that were all it took, most of us would be millionaires already.</li>
-<li>That's the thing about bubbles and great market runs - Anyone can make money. Until times change or the bubble bursts.</li>
-<li>The three most important things in a real estate purchase are location, location, and location.</li>
-</ul>
+<h3 id="what-are-the-different-theories-of-intelligence">What are the different theories of intelligence?</h3>
+<blockquote>
+<p>Every loss is an opportunity for growth</p>
+</blockquote>
+<p>There are 2 theories of intelligence</p>
+<p><strong>Entity Theorists</strong></p>
+<p>Entity theorists see their overall intelligence as a fixed entity. As children, they tend to have been told that they did well when they succeeded and that they weren't good at something when they failed. As a result, they are more prone to quit</p>
+<p><strong>Incremental / learning Theorists</strong></p>
+<p>Incremental theorists believe that they can become good at anything with hard work. As children, they have been given process-oriented feedback and have learnt to associate effort with success. As a result, they are more likely to rise to the challenge.</p>
+<h3 id="what-can-we-do-as-parentscoach">What can we do as parents/coach?</h3>
+<p>It is important for a parent to be empathetic and inspiring and to make sure that their child knows that they would be loved regardless of the outcomes.</p>
+<p>As a parent, we also need to choose the right teacher for our child especially since a lot of teachers are incentivised for short term wins over a long term approach.</p>
+<p>It is important to get to know the student and build a rapport. Once we have gained their trust, we should let them express themself and not suppress their natural voice by forcing them into cookie-cutter moulds.</p>
+<blockquote>
+<p>Confidence is critical for a great competitor, but overconfidence is brittle</p>
+</blockquote>
+<p>Even though we might want to praise all the decisions made by a student (especially if they are young) to build confidence, we need to remember that it discourages objectivity, encourages self-indulgence and creates a dishonest relationship.</p>
+<p>Rather than feeding them information, we should let them make important decisions and ask them to explain their thought process regardless of whether the outcome was good or bad. The introspective thinking can result in a healthy coping mechanism.</p>
+<p>Short term goals can be useful as long as they are balanced with a long term philosophy. But, the regular feedback should respond to effort over results. When the student loses, we shouldn't say &quot;it doesn't matter&quot; but instead show empathy. Focusing only on wins can make a child terrified of shattering the facade of perfection. However, remember that it is important to enjoy a win.</p>
+<p>We need to make the relationship to the game about learning and passion rather than the competition.</p>
+<h3 id="how-can-we-pursue-excellence">How can we pursue excellence?</h3>
+<p>It is rarely a mysterious technique that results in success but a mastery of a basic skill set.</p>
+<blockquote>
+<p>The intuition makes uncanny connections</p>
+</blockquote>
+<p>It is critical to integrate new ideas, experiments and knowledge in a manner that is in sync with our personality. The effects of moving away from our natural voice can be disturbing.</p>
+<blockquote>
+<p>A common error is to take on too much at once</p>
+</blockquote>
+<p>We need to begin with the fundamentals and get a solid foundation of the principles of our discipline. Once we are comfortable with the fundamentals we can add more complicated manoeuvres in a step by step manner so that we can maintain the sense of ease.</p>
+<blockquote>
+<p>We have to be able to do something slowly before we can have any hope of doing it correctly with speed</p>
+</blockquote>
+<p>If it's a physical discipline, we can slowly and incrementally condense our movements. The key is to take small steps to refine our timing and precision so that the body can barely feel the condensing practice and repeating each step over and over again.</p>
+<blockquote>
+<p>Growth comes at the expense of previous comfort or safety</p>
+</blockquote>
+<p>We grow by pushing ourselves and finding what lies at the outer reaches of our abilities.</p>
+<blockquote>
+<p>Tactics come easy once principles are in the blood</p>
+</blockquote>
+<p>It is important to take breaks from competitive intensity and allow protected periods of cultivation. There are 2 reasons for this. First, we need time to internalize new skills before we can improve. Secondly, players who can relax in brief moments of inactivity can handle the pressure much better.</p>
+<h3 id="how-can-we-respond-to-chaos">How can we respond to chaos?</h3>
+<blockquote>
+<p>No matter how much preparation we do, in the real tests of our lives, we’ll be in unfamiliar terrain</p>
+</blockquote>
+<p>It is important to learn how to dictate the tone of battle and that involves knowing how to avoid being distracted by random unexpected events.</p>
+<blockquote>
+<p>Good competitors tend to rise to the level of the opposition</p>
+</blockquote>
+<p>We need to learn how to use emotion to our advantage. If we take on the mentality of a victim then half the battle is already lost.</p>
+<blockquote>
+<p>The unconscious mind is a powerful tool, and learning how to relax under pressure is a key first step to tapping into its potential</p>
+</blockquote>
+<p>An error can trigger fear or confusion that muddies the decision-making process. But, we need to remember that its the not the first mistake but the subsequent mistakes that prove disastrous. Being able to regain presence and clarity of mind after making an error can turn losses into wins.</p>
+<blockquote>
+<p>If we rely on having no nerves then when the pressure is high enough, or when the pain is too piercing to ignore, our ideal state will shatter</p>
+</blockquote>
+<p>There are 3 critical steps in learning how to respond to chaotic situations</p>
+<ol>
+<li>We have to learn how to be at peace with imperfections.</li>
+<li>Use that imperfection to our advantage.</li>
+<li>Create little jolts in our consciousness so that we are constantly inspired whether or not external conditions are inspiring.</li>
+</ol>
+<h3 id="how-can-we-achieve-incremental-growth-by-relaxation">How can we achieve incremental growth by relaxation?</h3>
+<p>We need to start by creating a natural routine that is relatively portable and makes us feel positive. Once we have fully internalised the routine, we can do it before important events.</p>
+<p>The next step is to gradually alter the routine so that it is similar enough to have the same effect but slightly different so that the trigger is both lower maintenance and flexible. Again the key is to make the changes incrementally so that the body can barely feel the difference from the last version of the routine.</p>
+<h3 id="misc">Misc</h3>
+<blockquote>
+<p>It’s amazing how much you can learn about someone when they get caught in the rain</p>
+</blockquote>
+<p>People can reveal nuances in their character in the more mundane moments</p>
+<p>If both players are aware of a tell, then it will be neutralized, made ineffective, and others will have to be unearthed and exploited.</p>
+<p>To always be prepared for exertion by being nourished without having a full stomach(and thereby dull our) senses, we can eat five almonds every forty-five minutes</p>
+<h2 id="other-quotes">Other Quotes</h2>
+<blockquote>
+<p>We should not expect the rest of the world to understand what it takes to become the best that we can become</p>
+</blockquote>
+<blockquote>
+<p>The road to success is not easy or else everyone would be the greatest at what they do</p>
+</blockquote>
+<blockquote>
+<p>Great ones are willing to get burned time and again as they sharpen their swords in the fire</p>
+</blockquote>
+<blockquote>
+<p>If your goal is to be mediocre, then you have a considerable margin for error</p>
+</blockquote>
+<blockquote>
+<p>To win, to be right, to have everything under control. This ultimately cripples growth</p>
+</blockquote>
+<blockquote>
+<p>Once you know what good feels like, you can zero in on it, search it out regardless of the pursuit</p>
+</blockquote>
 <h2 id="recommendation">Recommendation</h2>
-<p>This book is great if you are just getting started with sorting out your financial life. It explains the different concepts in a very easy to understand way. But for people who are in control of their financial life, this book does not offer anything new.</p>
+<p>I am not a big fan of the book. As an autobiography, its a fine read with a moderately compelling story. It shows how he has tackled and solved many problems that he faced to reach the top.</p>
+<p>Although different principles appear in the book it is a little light on tips and it isn't always clear how they can be applied. I also felt that most of them do not apply to other disciplines that don't have rigid rules and where it might be better to collaborate rather than compete.</p>
+<p>I would give it a miss unless you are interested in the world of chess or martial arts and how Josh became the best in those 2 fields.</p>
 
     </div>
 </div>
@@ -206,7 +223,7 @@
     <p>I would be really thankful if you let me know by sharing it on Twitter. You can also support me by buying me a coffee 🙂</p>
 
     <div class="my-6 flex justify-center gap-5 flex-wrap">
-        <a class="bg-social-twitter social-button" href="https://twitter.com/intent/tweet?url=https://www.discoveriesinbookland.com/blog/index-card&text=Index%20card via @ankur_sheel.&#xD;&#xA;This%20is%20a%20well%20written%20albeit%20basic%20book%20based%20on%20the%20premise%20that%20all%20the%20financial%20advice%20you%20need%20to%20know%20can%20fit%20on%20an%20index%20card." onclick="window.open(this.href, 'twitter-share', 'width=550,height=235'); return false;">Share on Twitter</a>
+        <a class="bg-social-twitter social-button" href="https://twitter.com/intent/tweet?url=https://www.discoveriesinbookland.com/blog/art-learning&text=Art%20of%20Learning via @ankur_sheel.&#xD;&#xA;The%20Art%20Of%20Learning%20is%20Josh%20Waitzkin%E2%80%99s%20autobiography%20dealing%20with%20his%20rise%20to%20the%20top%20of%20the%20chess%20and%20martial%20arts%20world.%20It%20gives%20an%20insight%20into%20the%20mindset%20and%20training%20of%20a%20world%20champion." onclick="window.open(this.href, 'twitter-share', 'width=550,height=235'); return false;">Share on Twitter</a>
         <a class="inline-flex items-center flex-nowrap social-button bg-green-400" target="_blank" rel="noopener noreferrer" href="https://www.buymeacoffee.com/ankursheel">
             <svg class="h-8 mr-2" viewBox="0 0 884 1279" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M791.109 297.518L790.231 297.002L788.201 296.383C789.018 297.072 790.04 297.472 791.109 297.518V297.518Z" fill="#0D0C22"/>
