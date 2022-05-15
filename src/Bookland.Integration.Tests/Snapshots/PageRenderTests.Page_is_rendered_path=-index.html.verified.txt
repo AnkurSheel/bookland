@@ -6,9 +6,11 @@
 
 <title>Discoveries in Bookland - Discoveries in Bookland</title>
 <meta charset="utf-8"/>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<link href="/assets/styles.css" rel="stylesheet"/>
 <meta name="description"/>
+<link href="/assets/styles.css" rel="stylesheet"/>
 <link rel="canonical" href="https://www.discoveriesinbookland.com/"/>
 
 <meta itemProp="name" content="Discoveries in Bookland"/>
@@ -30,85 +32,43 @@
 
 </head>
 <body class="font-sans font-normal leading-relaxed font-base text-gray-800 min-h-screen bg-gray-100">
-<header class="sticky top-0 bg-white shadow-lg z-10">
+<noscript>
+        <img src="https://discoveriesinbookland.goatcounter.com/count?p=/test-noscript">
+</noscript>
+
+<header class="sticky top-0 bg-white shadow-lg z-10 w-full">
     
-
-<!-- https://www.section.io/engineering-education/creating-a-responsive-navigation-bar-using-tailwind-css-and-javascript/ -->
-
-<nav>
-    <div class="max-w-6xl mx-auto px-4">
-        <div class="flex justify-between">
-            <div class="flex space-x-7 items-center">
-                <!-- Website Logo -->
-                <div>
-                    <a href="/" class="flex items-center py-4 px-2 ">
-                        <span class="font-semibold text-gray-500 text-lg hover:text-green-500">
-                            Discoveries in Bookland
-                        </span
-                        >
-                    </a>
-                </div>
-                <ul class="hidden lg:flex items-center space-x-1">
-                        <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
-                            <a href="/about">About</a>
-                        </li>
-                        <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
-                            <a href="/blog">All Summaries</a>
-                        </li>
-                        <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
-                            <a href="/tags">All Tags</a>
-                        </li>
-                        <li class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition-all transform hover:scale-110">
-                            <a href="/contact">Contact</a>
-                        </li>
-                </ul>
-            </div>
-
-            <ul class="hidden lg:flex items-center space-x-3">
-                <li>
-                    <a role="button" class="" target="_blank" rel="noopener noreferrer" href="/rss.xml" title="RSS">
-                        <img class="h-8 mr-2 border-none" src="/assets/images/rss.svg" alt="RSS">
-                    </a>
-                </li>
-                <li>
-                    <a role="button" class="inline-flex items-center bg-green-400 text-white p-2 rounded-md text-2xl drop-shadow-lg hover:bg-green-800" target="_blank" rel="noopener noreferrer" href="https://www.buymeacoffee.com/ankursheel" title="Did you learn something or find this summary interesting?">
-                        <img class="h-8 mr-2 border-none" src="/assets/images/bmc-logo.svg" alt="Buy Me A Coffee">
-                        <p class="font-cookie">Buy me a book</p>
-                    </a>
-                </li>
-            </ul>
-
-            <div class="lg:hidden flex items-center">
-                <button class="outline-none mobile-menu-button" aria-label="Mobile Menu">
-                    <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
-                        <path fill-rule="evenodd"
-                              d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
-                    </svg>
-                </button>
-            </div>
-
-        </div>
-        <div class="hidden mobile-menu">
-            <ul class="flex flex-col">
-                    <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
-                        <a href="/about" class="block">About</a>
-                    </li>
-                    <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
-                        <a href="/blog" class="block">All Summaries</a>
-                    </li>
-                    <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
-                        <a href="/tags" class="block">All Tags</a>
-                    </li>
-                    <li class="text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
-                        <a href="/contact" class="block">Contact</a>
-                    </li>
-            </ul>
-        </div>
+<nav x-data="{ open: false }" class="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 md:px-8">
+    <div class="p-4 flex flex-row items-center justify-between font-semibold">
+        <a href="/" class="navigation-link text-lg hover:invert-0 text-gray-900 uppercase rounded-lg focus:outline-none">Discoveries in Bookland</a>
+        <button class="md:hidden rounded-lg focus:outline-none focus:shadow-outline" x-on:click="open = !open">
+            <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
+                <path x-show="!open" fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+                <path x-show="open" fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+            </svg>
+        </button>
     </div>
-</nav>
+    <ul :class="{'flex': open, 'hidden': !open}" class="flex-col flex-grow pb-4 md:pb-0 hidden md:flex md:justify-end md:flex-row">
+        
 
+    <li class="navigation-link">
+                <a class="hover:invert-0" href="/about">About</a>
+    </li>
+    <li class="navigation-link">
+                <a class="hover:invert-0" href="/blog">All Summaries</a>
+    </li>
+    <li class="navigation-link">
+                <a class="hover:invert-0" href="/tags">All Tags</a>
+    </li>
+    <li class="navigation-link">
+                <a class="hover:invert-0" href="/contact">Contact</a>
+    </li>
+
+    </ul>
+</nav>
 </header>
-<main class="mx-auto max-w-prose p-8 prose prose-xl prose-purple" >
+
+<main class="mx-auto max-w-prose p-4 prose prose-xl prose-purple">
     <h1 class="text-center">Discoveries in Bookland</h1>
     <div class="flex flex-col min-h-screen">
         <article>
@@ -123,21 +83,21 @@
     <div class="bg-gray-200 rounded-3xl px-4 my-8">
         <div class="flex flex-col gap-1 flex-auto text-center">
         <h2>Latest Summaries</h2>
-                    <a href="/blog/free-to-focus" class="prose-2xl mb-4">Free to Focus</a>
+                    <a href="/blog/free-focus" class="prose-2xl mb-4">Free to Focus</a>
                     <a href="/blog/extreme-ownership" class="prose-2xl mb-4">Extreme Ownership</a>
-                    <a href="/blog/take-the-stairs" class="prose-2xl mb-4">Take the Stairs</a>
-                    <a href="/blog/building-a-storybrand" class="prose-2xl mb-4">Building a Storybrand</a>
+                    <a href="/blog/take-stairs" class="prose-2xl mb-4">Take the Stairs</a>
+                    <a href="/blog/building-storybrand" class="prose-2xl mb-4">Building a Storybrand</a>
                     <a href="/blog/motive" class="prose-2xl mb-4">Motive</a>
         </div>
     </div>
     <div class="bg-gray-200 rounded-3xl px-4 my-8">
         <div class="flex flex-col gap-1 flex-auto text-center">
             <h2 class="">Top Rated Books</h2>
-                    <a href="/blog/building-a-storybrand" class="prose-2xl mb-4">Building a Storybrand</a>
+                    <a href="/blog/building-storybrand" class="prose-2xl mb-4">Building a Storybrand</a>
                     <a href="/blog/death-meeting" class="prose-2xl mb-4">Death by Meeting</a>
-                    <a href="/blog/free-to-focus" class="prose-2xl mb-4">Free to Focus</a>
+                    <a href="/blog/free-focus" class="prose-2xl mb-4">Free to Focus</a>
                     <a href="/blog/profit-first" class="prose-2xl mb-4">Profit First</a>
-                    <a href="/blog/to-pixar-and-beyond" class="prose-2xl mb-4">To Pixar and Beyond</a>
+                    <a href="/blog/pixar-beyond" class="prose-2xl mb-4">To Pixar and Beyond</a>
         </div>
     </div>
 </div>
@@ -146,9 +106,39 @@
     </div>
 </main>
 
+<footer class="shadow-lg z-10 w-full bg-gray-500 text-white">
+    
+<div class="flex justify-between items-center max-w-6xl mx-auto px-4 py-3 mt-14">
+    <div class="flex">
+        <a class="" href="https://twitter.com/ankur_sheel" title="Connect on Twitter" target="_blank" rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 15 15" class="h-6">
+                <path fill="currentColor" fill-rule="evenodd" d="M7.233 4.696c0-1.727 1.4-3.127 3.127-3.127 1.014 0 1.823.479 2.365 1.175a5.246 5.246 0 0 0 1.626-.629 2.634 2.634 0 0 1-1.148 1.45l.002.003a5.26 5.26 0 0 0 1.5-.413l-.001.002c-.337.505-.76.95-1.248 1.313.026.177.04.354.04.53 0 3.687-2.809 7.975-7.975 7.975a7.93 7.93 0 0 1-4.296-1.26.5.5 0 0 1-.108-.748.45.45 0 0 1 .438-.215c.916.108 1.83-.004 2.637-.356a3.086 3.086 0 0 1-1.69-1.876.45.45 0 0 1 .103-.448 3.07 3.07 0 0 1-1.045-2.31v-.034a.45.45 0 0 1 .365-.442 3.068 3.068 0 0 1-.344-1.416c0-.468.003-1.058.332-1.59a.45.45 0 0 1 .323-.208.5.5 0 0 1 .538.161 6.964 6.964 0 0 0 4.46 2.507v-.044Zm-1.712 7.279a6.936 6.936 0 0 1-2.249-.373 5.318 5.318 0 0 0 2.39-1.042.45.45 0 0 0-.27-.804 2.174 2.174 0 0 1-1.714-.888c.19-.015.376-.048.556-.096a.45.45 0 0 0-.028-.876 2.18 2.18 0 0 1-1.644-1.474c.2.048.409.077.623.084a.45.45 0 0 0 .265-.824 2.177 2.177 0 0 1-.97-1.812c0-.168.003-.317.013-.453a7.95 7.95 0 0 0 5.282 2.376.5.5 0 0 0 .513-.61 2.127 2.127 0 0 1 2.071-2.614c1.234 0 2.136 1.143 2.136 2.432 0 3.256-2.476 6.974-6.975 6.974Z" clip-rule="evenodd"/>
+            </svg>
+        </a>
 
-<script src="/assets/js/blog.js"></script>
-    <script data-goatcounter="https://discoveriesinbookland.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+        <a class="ml-4" href="https://www.buymeacoffee.com/ankursheel" title="Buy Me A Coffee" target="_blank" rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="feather feather-coffee h-6" viewBox="0 0 24 24">
+                <path d="M18 8h1a4 4 0 0 1 0 8h-1M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8zm4-7v3m4-3v3m4-3v3"/>
+            </svg>
+        </a>
+
+        <a class="ml-4" target="_blank" rel="noopener noreferrer" href="/rss.xml" title="RSS">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" class="h-6">
+                <path d="M6.503 20.752A3.25 3.25 0 0 1 3.252 24 3.25 3.25 0 0 1 0 20.752a3.25 3.25 0 0 1 3.252-3.248 3.25 3.25 0 0 1 3.251 3.248zM0 8.18v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817C15.777 15.29 8.721 8.242 0 8.18zm0-3.368C10.58 4.858 19.152 13.406 19.183 24H24C23.97 10.769 13.245.046 0 0v4.812z" fill="currentColor"/>
+            </svg>
+        </a>
+    </div>
+    <div class="copy">
+        © AnkurSheel 2022
+    </div>
+</div>
+
+</footer>
+
+
+<script src="/assets/js/blog.js" defer></script>
+<script src="https://unpkg.com/alpinejs@3.10.2/dist/cdn.min.js" defer></script>
+    <script data-goatcounter="https://discoveriesinbookland.goatcounter.com/count" src="/assets/js/gc-count.js"></script>
 
 
 
