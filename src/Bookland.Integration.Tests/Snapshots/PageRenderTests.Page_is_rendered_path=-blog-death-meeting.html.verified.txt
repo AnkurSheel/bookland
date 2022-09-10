@@ -11,8 +11,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta name="description" content="Meetings are critical for making decisions. But we dread meetings because most of them are bad. In &quot;Death by Meeting&quot;, Patrick Lencioni shows us how we can change the bad meeting culture and make our meetings both interesting and effective."/>
 <link href="/assets/styles.css" rel="stylesheet"/>
-<link rel="canonical" href="https://www.discoveriesinbookland.com/blog/death-meeting"/>
-
+    <link rel="canonical" href="https://www.discoveriesinbookland.com/blog/death-meeting"/>
 <meta itemProp="name" content="Death by Meeting"/>
 <meta itemProp="description" content="Meetings are critical for making decisions. But we dread meetings because most of them are bad. In &quot;Death by Meeting&quot;, Patrick Lencioni shows us how we can change the bad meeting culture and make our meetings both interesting and effective."/>
     <meta itemProp="image" content="https://www.discoveriesinbookland.com/assets/images/social/death-meeting-facebook.png"/>
@@ -73,6 +72,7 @@
     <div class="flex flex-col min-h-screen">
         <article>
             
+
 <div class="prose-sm italic ">
     <div class="flex justify-evenly items-center">
         <span>Last Updated: <time datetime="2020-10-21">October 21, 2020</time></span>
@@ -109,7 +109,7 @@
         <p>Rating: 5 / 5</p>
     </div>
     <div class="md:col-span-2">
-<h2 id="summary">Summary</h2>
+        <h2 id="summary">Summary</h2>
 <p>Meetings are critical for making decisions. But we dread meetings because most of them are bad. In &quot;Death by Meeting&quot;, Patrick Lencioni shows us how we can change the bad meeting culture. He draws a comparison between meetings and movies and how it's surprising that even though meetings have more potential to be more interesting, they are not. He offers practical advice to make our meetings more interesting and effective.</p>
 <p>The book is divided into 2 distinct parts - a business fable and a practical description of the model. Most of the book is the fictional story which presents common scenarios with meetings at the workplace along with the solutions in an easy to digest framework. The model extracts the lessons and drive the point home,</p>
 <h2 id="key-quote">Key Quote</h2>
@@ -238,10 +238,7 @@
 
 
 
-<aside class="border-t-2 mt-2 p-4 bg-slate-200 rounded-lg shadow-sm">
-    <h2 class="mt-2 text-center">Did you like this summary?</h2>
-    <p>I would be really thankful if you let me know by sharing it on Twitter. You can also support me by buying me a coffee 🙂</p>
-
+<aside class="m-2">
     <div class="my-6 flex justify-center gap-5 flex-wrap">
         <a class="bg-social-twitter social-button" href="https://twitter.com/intent/tweet?url=https://www.discoveriesinbookland.com/blog/death-meeting&text=Death%20by%20Meeting via @ankur_sheel.&#xD;&#xA;Meetings%20are%20critical%20for%20making%20decisions.%20But%20we%20dread%20meetings%20because%20most%20of%20them%20are%20bad.%20In%20%22Death%20by%20Meeting%22%2C%20Patrick%20Lencioni%20shows%20us%20how%20we%20can%20change%20the%20bad%20meeting%20culture%20and%20make%20our%20meetings%20both%20interesting%20and%20effective." onclick="window.open(this.href, 'twitter-share', 'width=550,height=235'); return false;">Share on Twitter</a>
         <a class="inline-flex items-center flex-nowrap social-button bg-green-400" target="_blank" rel="noopener noreferrer" href="https://www.buymeacoffee.com/ankursheel">
@@ -265,6 +262,29 @@
         </a>
     </div>
 </aside>
+
+
+
+
+    <aside class="border-t-2 mt-2 p-4 rounded-lg shadow-sm">
+        <h2 class="mt-2 text-center">More like this</h2>
+
+        <ul>
+                <li>
+                    <a href="profit-first">Profit First</a>
+                </li>
+                <li>
+                    <a href="motive">Motive</a>
+                </li>
+                <li>
+                    <a href="building-storybrand">Building a Storybrand</a>
+                </li>
+                <li>
+                    <a href="extreme-ownership">Extreme Ownership</a>
+                </li>
+        </ul>
+    </aside>
+
 
 
         </article>
@@ -297,7 +317,6 @@
         © AnkurSheel 2022
     </div>
 </div>
-
 </footer>
 
 

@@ -35,7 +35,6 @@ namespace Bookland.Integration.Tests
             {
                 File.Delete(filePair.VerifiedPath);
             }
-
             File.Copy(filePair.ReceivedPath, filePair.VerifiedPath);
             // File.Delete(filePair.Received);
         }

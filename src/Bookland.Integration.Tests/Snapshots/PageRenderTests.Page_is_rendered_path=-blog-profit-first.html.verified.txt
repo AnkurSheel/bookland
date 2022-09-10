@@ -11,8 +11,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta name="description" content="This book is a step by step guide to implement the profit first technique - a strategy to divide your income into different buckets and taking a profit before paying your expenses to run an efficient and profitable business"/>
 <link href="/assets/styles.css" rel="stylesheet"/>
-<link rel="canonical" href="https://www.discoveriesinbookland.com/blog/profit-first"/>
-
+    <link rel="canonical" href="https://www.discoveriesinbookland.com/blog/profit-first"/>
 <meta itemProp="name" content="Profit First"/>
 <meta itemProp="description" content="This book is a step by step guide to implement the profit first technique - a strategy to divide your income into different buckets and taking a profit before paying your expenses to run an efficient and profitable business"/>
     <meta itemProp="image" content="https://www.discoveriesinbookland.com/assets/images/social/profit-first-facebook.png"/>
@@ -73,6 +72,7 @@
     <div class="flex flex-col min-h-screen">
         <article>
             
+
 <div class="prose-sm italic ">
     <div class="flex justify-evenly items-center">
         <span>Last Updated: <time datetime="2020-08-08">August 08, 2020</time></span>
@@ -109,7 +109,7 @@
         <p>Rating: 5 / 5</p>
     </div>
     <div class="md:col-span-2">
-<h2 id="summary">Summary</h2>
+        <h2 id="summary">Summary</h2>
 <p>The book is based on the premise that to grow an efficient and profitable business, you need to take the profit before paying expenses. This approach works for both new and existing businesses. At the end of each chapter, Mike suggests some actions that you can take to achieve a profitable business. He shares many examples of entrepreneurs who have applied the Profit First methodology scenarios as well as examples of how to apply the system. For some of the techniques, he also gives some advanced strategies.</p>
 <p>The book starts by giving you a way to assess your business and setting up accounts to get started with the Profit First Technique. It then gives a roadmap to continuously apply the profit first technique on a regular cadence. The book also shares some tips on reducing expenses, personal finance, handling layoffs and finance for kids.</p>
 <h2 id="key-quote">Key Quote</h2>
@@ -215,10 +215,7 @@
 
 
 
-<aside class="border-t-2 mt-2 p-4 bg-slate-200 rounded-lg shadow-sm">
-    <h2 class="mt-2 text-center">Did you like this summary?</h2>
-    <p>I would be really thankful if you let me know by sharing it on Twitter. You can also support me by buying me a coffee 🙂</p>
-
+<aside class="m-2">
     <div class="my-6 flex justify-center gap-5 flex-wrap">
         <a class="bg-social-twitter social-button" href="https://twitter.com/intent/tweet?url=https://www.discoveriesinbookland.com/blog/profit-first&text=Profit%20First via @ankur_sheel.&#xD;&#xA;This%20book%20is%20a%20step%20by%20step%20guide%20to%20implement%20the%20profit%20first%20technique%20-%20a%20strategy%20to%20divide%20your%20income%20into%20different%20buckets%20and%20taking%20a%20profit%20before%20paying%20your%20expenses%20to%20run%20an%20efficient%20and%20profitable%20business" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235'); return false;">Share on Twitter</a>
         <a class="inline-flex items-center flex-nowrap social-button bg-green-400" target="_blank" rel="noopener noreferrer" href="https://www.buymeacoffee.com/ankursheel">
@@ -242,6 +239,29 @@
         </a>
     </div>
 </aside>
+
+
+
+
+    <aside class="border-t-2 mt-2 p-4 rounded-lg shadow-sm">
+        <h2 class="mt-2 text-center">More like this</h2>
+
+        <ul>
+                <li>
+                    <a href="death-meeting">Death by Meeting</a>
+                </li>
+                <li>
+                    <a href="motive">Motive</a>
+                </li>
+                <li>
+                    <a href="building-storybrand">Building a Storybrand</a>
+                </li>
+                <li>
+                    <a href="bad-blood">Bad Blood</a>
+                </li>
+        </ul>
+    </aside>
+
 
 
         </article>
@@ -274,7 +294,6 @@
         © AnkurSheel 2022
     </div>
 </div>
-
 </footer>
 
 

@@ -11,8 +11,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta name="description" content="A framework for a productivity system that helps us focus on optimising our life to do more of the right things (for us) rather than just more things"/>
 <link href="/assets/styles.css" rel="stylesheet"/>
-<link rel="canonical" href="https://www.discoveriesinbookland.com/blog/free-focus"/>
-
+    <link rel="canonical" href="https://www.discoveriesinbookland.com/blog/free-focus"/>
 <meta itemProp="name" content="Free to Focus"/>
 <meta itemProp="description" content="A framework for a productivity system that helps us focus on optimising our life to do more of the right things (for us) rather than just more things"/>
     <meta itemProp="image" content="https://www.discoveriesinbookland.com/assets/images/social/free-focus-facebook.png"/>
@@ -73,6 +72,7 @@
     <div class="flex flex-col min-h-screen">
         <article>
             
+
 <div class="prose-sm italic ">
     <div class="flex justify-evenly items-center">
         <span>Last Updated: <time datetime="2021-11-24">November 24, 2021</time></span>
@@ -107,7 +107,7 @@
         <p>Rating: 5 / 5</p>
     </div>
     <div class="md:col-span-2">
-<h2 id="summary">Summary</h2>
+        <h2 id="summary">Summary</h2>
 <p>In this book, Michael Hyatt provides a framework for a productivity system that helps us focus on optimising our life to do more of the right things (for us) rather than just more things.</p>
 <p>The book has tips that can be put into practice with little effort as long as we are intentional about it.</p>
 <h2 id="key-quote">Key Quote</h2>
@@ -525,10 +525,7 @@ This is the worst kind of work for us to do.</p>
 
 
 
-<aside class="border-t-2 mt-2 p-4 bg-slate-200 rounded-lg shadow-sm">
-    <h2 class="mt-2 text-center">Did you like this summary?</h2>
-    <p>I would be really thankful if you let me know by sharing it on Twitter. You can also support me by buying me a coffee 🙂</p>
-
+<aside class="m-2">
     <div class="my-6 flex justify-center gap-5 flex-wrap">
         <a class="bg-social-twitter social-button" href="https://twitter.com/intent/tweet?url=https://www.discoveriesinbookland.com/blog/free-focus&text=Free%20to%20Focus via @ankur_sheel.&#xD;&#xA;A%20framework%20for%20a%20productivity%20system%20that%20helps%20us%20focus%20on%20optimising%20our%20life%20to%20do%20more%20of%20the%20right%20things%20%28for%20us%29%20rather%20than%20just%20more%20things" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235'); return false;">Share on Twitter</a>
         <a class="inline-flex items-center flex-nowrap social-button bg-green-400" target="_blank" rel="noopener noreferrer" href="https://www.buymeacoffee.com/ankursheel">
@@ -552,6 +549,11 @@ This is the worst kind of work for us to do.</p>
         </a>
     </div>
 </aside>
+
+
+
+
+
 
 
         </article>
@@ -584,7 +586,6 @@ This is the worst kind of work for us to do.</p>
         © AnkurSheel 2022
     </div>
 </div>
-
 </footer>
 
 

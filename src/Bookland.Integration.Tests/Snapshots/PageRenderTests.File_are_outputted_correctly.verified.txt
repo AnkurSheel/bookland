@@ -1,4 +1,5 @@
 ﻿[
+  /404/,
   /about/,
   /assets/fonts/Cookie-Regular.ttf,
   /assets/fonts/Cookie-Regular.woff2,

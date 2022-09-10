@@ -11,8 +11,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta name="description" content="The Art Of Learning is Josh Waitzkin&#x2019;s autobiography dealing with his rise to the top of the chess and martial arts world. It gives an insight into the mindset and training of a world champion."/>
 <link href="/assets/styles.css" rel="stylesheet"/>
-<link rel="canonical" href="https://www.discoveriesinbookland.com/blog/art-learning"/>
-
+    <link rel="canonical" href="https://www.discoveriesinbookland.com/blog/art-learning"/>
 <meta itemProp="name" content="Art of Learning"/>
 <meta itemProp="description" content="The Art Of Learning is Josh Waitzkin&#x2019;s autobiography dealing with his rise to the top of the chess and martial arts world. It gives an insight into the mindset and training of a world champion."/>
     <meta itemProp="image" content="https://www.discoveriesinbookland.com/assets/images/social/art-learning-facebook.png"/>
@@ -73,6 +72,7 @@
     <div class="flex flex-col min-h-screen">
         <article>
             
+
 <div class="prose-sm italic ">
     <div class="flex justify-evenly items-center">
         <span>Last Updated: <time datetime="2021-02-07">February 07, 2021</time></span>
@@ -108,7 +108,7 @@
         <p>Rating: 1 / 5</p>
     </div>
     <div class="md:col-span-2">
-<h2 id="summary">Summary</h2>
+        <h2 id="summary">Summary</h2>
 <p>The Art Of Learning is Josh Waitzkin’s autobiography dealing with his rise to the top of the chess and the martial arts world. It gives an insight into the mindset and training of a world champion. Not only does it talk about learning (as implied by the title) but also other topics such as parenting, coaching, dealing with chaos and unfair situations.</p>
 <h2 id="key-quote">Key Quote</h2>
 <blockquote>
@@ -218,10 +218,7 @@
 
 
 
-<aside class="border-t-2 mt-2 p-4 bg-slate-200 rounded-lg shadow-sm">
-    <h2 class="mt-2 text-center">Did you like this summary?</h2>
-    <p>I would be really thankful if you let me know by sharing it on Twitter. You can also support me by buying me a coffee 🙂</p>
-
+<aside class="m-2">
     <div class="my-6 flex justify-center gap-5 flex-wrap">
         <a class="bg-social-twitter social-button" href="https://twitter.com/intent/tweet?url=https://www.discoveriesinbookland.com/blog/art-learning&text=Art%20of%20Learning via @ankur_sheel.&#xD;&#xA;The%20Art%20Of%20Learning%20is%20Josh%20Waitzkin%E2%80%99s%20autobiography%20dealing%20with%20his%20rise%20to%20the%20top%20of%20the%20chess%20and%20martial%20arts%20world.%20It%20gives%20an%20insight%20into%20the%20mindset%20and%20training%20of%20a%20world%20champion." onclick="window.open(this.href, 'twitter-share', 'width=550,height=235'); return false;">Share on Twitter</a>
         <a class="inline-flex items-center flex-nowrap social-button bg-green-400" target="_blank" rel="noopener noreferrer" href="https://www.buymeacoffee.com/ankursheel">
@@ -245,6 +242,20 @@
         </a>
     </div>
 </aside>
+
+
+
+
+    <aside class="border-t-2 mt-2 p-4 rounded-lg shadow-sm">
+        <h2 class="mt-2 text-center">More like this</h2>
+
+        <ul>
+                <li>
+                    <a href="take-stairs">Take the Stairs</a>
+                </li>
+        </ul>
+    </aside>
+
 
 
         </article>
@@ -277,7 +288,6 @@
         © AnkurSheel 2022
     </div>
 </div>
-
 </footer>
 
 

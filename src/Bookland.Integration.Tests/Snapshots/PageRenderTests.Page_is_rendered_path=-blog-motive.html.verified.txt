@@ -11,8 +11,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta name="description" content="What is your motive to take a leadership position? Is it because it&#x2019;s the next step on the organisational ladder or is it to get the opportunity to serve?  This book challenges us to look at our motivations for leading."/>
 <link href="/assets/styles.css" rel="stylesheet"/>
-<link rel="canonical" href="https://www.discoveriesinbookland.com/blog/motive"/>
-
+    <link rel="canonical" href="https://www.discoveriesinbookland.com/blog/motive"/>
 <meta itemProp="name" content="Motive"/>
 <meta itemProp="description" content="What is your motive to take a leadership position? Is it because it&#x2019;s the next step on the organisational ladder or is it to get the opportunity to serve?  This book challenges us to look at our motivations for leading."/>
     <meta itemProp="image" content="https://www.discoveriesinbookland.com/assets/images/social/motive-facebook.png"/>
@@ -73,6 +72,7 @@
     <div class="flex flex-col min-h-screen">
         <article>
             
+
 <div class="prose-sm italic ">
     <div class="flex justify-evenly items-center">
         <span>Last Updated: <time datetime="2021-03-22">March 22, 2021</time></span>
@@ -109,7 +109,7 @@
         <p>Rating: 4 / 5</p>
     </div>
     <div class="md:col-span-2">
-<h2 id="summary">Summary</h2>
+        <h2 id="summary">Summary</h2>
 <p>What is your motive to take a leadership position? Is it because it’s the next step on the organisational ladder, or is it to get the opportunity to serve? This book aims to challenge us to look at our motivations for leading. It also looks at how the two types of leaders handle 5 different responsibilities.</p>
 <p>The book is divided into 2 distinct parts - a business fable and a practical description of the model. Most of the book is a fictional story that presents a conversation between 2 ceos on how to be a good leader. The model extracts the lessons and drive the point home.</p>
 <h2 id="key-quote">Key Quote</h2>
@@ -208,10 +208,7 @@
 
 
 
-<aside class="border-t-2 mt-2 p-4 bg-slate-200 rounded-lg shadow-sm">
-    <h2 class="mt-2 text-center">Did you like this summary?</h2>
-    <p>I would be really thankful if you let me know by sharing it on Twitter. You can also support me by buying me a coffee 🙂</p>
-
+<aside class="m-2">
     <div class="my-6 flex justify-center gap-5 flex-wrap">
         <a class="bg-social-twitter social-button" href="https://twitter.com/intent/tweet?url=https://www.discoveriesinbookland.com/blog/motive&text=Motive via @ankur_sheel.&#xD;&#xA;What%20is%20your%20motive%20to%20take%20a%20leadership%20position%3F%20Is%20it%20because%20it%E2%80%99s%20the%20next%20step%20on%20the%20organisational%20ladder%20or%20is%20it%20to%20get%20the%20opportunity%20to%20serve%3F%20%20This%20book%20challenges%20us%20to%20look%20at%20our%20motivations%20for%20leading." onclick="window.open(this.href, 'twitter-share', 'width=550,height=235'); return false;">Share on Twitter</a>
         <a class="inline-flex items-center flex-nowrap social-button bg-green-400" target="_blank" rel="noopener noreferrer" href="https://www.buymeacoffee.com/ankursheel">
@@ -235,6 +232,29 @@
         </a>
     </div>
 </aside>
+
+
+
+
+    <aside class="border-t-2 mt-2 p-4 rounded-lg shadow-sm">
+        <h2 class="mt-2 text-center">More like this</h2>
+
+        <ul>
+                <li>
+                    <a href="building-storybrand">Building a Storybrand</a>
+                </li>
+                <li>
+                    <a href="death-meeting">Death by Meeting</a>
+                </li>
+                <li>
+                    <a href="extreme-ownership">Extreme Ownership</a>
+                </li>
+                <li>
+                    <a href="profit-first">Profit First</a>
+                </li>
+        </ul>
+    </aside>
+
 
 
         </article>
@@ -267,7 +287,6 @@
         © AnkurSheel 2022
     </div>
 </div>
-
 </footer>
 
 

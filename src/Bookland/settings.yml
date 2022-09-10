@@ -5,6 +5,7 @@ LinksUseHttps: true
 TwitterUsername: 'ankur_sheel'
 BuyMeACoffeeUsername: 'ankursheel'
 ReadingTimeWordsPerMinute: 238
+NumberOfRelatedPosts: 4
 HeaderLinks:
   - Title: About
     Url: /about
