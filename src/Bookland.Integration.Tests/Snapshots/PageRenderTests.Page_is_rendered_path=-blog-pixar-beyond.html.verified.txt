@@ -11,8 +11,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta name="description" content="This is a very well written book and gives an extremely good insight into Pixar&#x27;s struggle to become a blockbuster factory."/>
 <link href="/assets/styles.css" rel="stylesheet"/>
-<link rel="canonical" href="https://www.discoveriesinbookland.com/blog/pixar-beyond"/>
-
+    <link rel="canonical" href="https://www.discoveriesinbookland.com/blog/pixar-beyond"/>
 <meta itemProp="name" content="To Pixar and Beyond"/>
 <meta itemProp="description" content="This is a very well written book and gives an extremely good insight into Pixar&#x27;s struggle to become a blockbuster factory."/>
     <meta itemProp="image" content="https://www.discoveriesinbookland.com/assets/images/social/pixar-beyond-facebook.png"/>
@@ -73,6 +72,7 @@
     <div class="flex flex-col min-h-screen">
         <article>
             
+
 <div class="prose-sm italic ">
     <div class="flex justify-evenly items-center">
         <span>Last Updated: <time datetime="2019-02-27">February 27, 2019</time></span>
@@ -109,7 +109,7 @@
         <p>Rating: 5 / 5</p>
     </div>
     <div class="md:col-span-2">
-<h2 id="summary">Summary</h2>
+        <h2 id="summary">Summary</h2>
 <p>This is a very well written book and gives an extremely good insight into Pixar's struggle to become a blockbuster factory and its process of raising an IPO. Apart from that it also painted a completely different picture of Steve Job's style of working.</p>
 <h2 id="key-quote">Key Quote</h2>
 <blockquote>
@@ -142,10 +142,7 @@
 
 
 
-<aside class="border-t-2 mt-2 p-4 bg-slate-200 rounded-lg shadow-sm">
-    <h2 class="mt-2 text-center">Did you like this summary?</h2>
-    <p>I would be really thankful if you let me know by sharing it on Twitter. You can also support me by buying me a coffee 🙂</p>
-
+<aside class="m-2">
     <div class="my-6 flex justify-center gap-5 flex-wrap">
         <a class="bg-social-twitter social-button" href="https://twitter.com/intent/tweet?url=https://www.discoveriesinbookland.com/blog/pixar-beyond&text=To%20Pixar%20and%20Beyond via @ankur_sheel.&#xD;&#xA;This%20is%20a%20very%20well%20written%20book%20and%20gives%20an%20extremely%20good%20insight%20into%20Pixar%27s%20struggle%20to%20become%20a%20blockbuster%20factory." onclick="window.open(this.href, 'twitter-share', 'width=550,height=235'); return false;">Share on Twitter</a>
         <a class="inline-flex items-center flex-nowrap social-button bg-green-400" target="_blank" rel="noopener noreferrer" href="https://www.buymeacoffee.com/ankursheel">
@@ -169,6 +166,29 @@
         </a>
     </div>
 </aside>
+
+
+
+
+    <aside class="border-t-2 mt-2 p-4 rounded-lg shadow-sm">
+        <h2 class="mt-2 text-center">More like this</h2>
+
+        <ul>
+                <li>
+                    <a href="bad-blood">Bad Blood</a>
+                </li>
+                <li>
+                    <a href="elon-musk">Elon Musk</a>
+                </li>
+                <li>
+                    <a href="profit-first">Profit First</a>
+                </li>
+                <li>
+                    <a href="death-meeting">Death by Meeting</a>
+                </li>
+        </ul>
+    </aside>
+
 
 
         </article>
@@ -201,7 +221,6 @@
         © AnkurSheel 2022
     </div>
 </div>
-
 </footer>
 
 

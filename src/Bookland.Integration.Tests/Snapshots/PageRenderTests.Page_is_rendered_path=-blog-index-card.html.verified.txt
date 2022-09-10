@@ -11,8 +11,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta name="description" content="This is a well written albeit basic book based on the premise that all the financial advice you need to know can fit on an index card."/>
 <link href="/assets/styles.css" rel="stylesheet"/>
-<link rel="canonical" href="https://www.discoveriesinbookland.com/blog/index-card"/>
-
+    <link rel="canonical" href="https://www.discoveriesinbookland.com/blog/index-card"/>
 <meta itemProp="name" content="Index card"/>
 <meta itemProp="description" content="This is a well written albeit basic book based on the premise that all the financial advice you need to know can fit on an index card."/>
     <meta itemProp="image" content="https://www.discoveriesinbookland.com/assets/images/social/index-card-facebook.png"/>
@@ -73,6 +72,7 @@
     <div class="flex flex-col min-h-screen">
         <article>
             
+
 <div class="prose-sm italic ">
     <div class="flex justify-evenly items-center">
         <span>Last Updated: <time datetime="2020-04-24">April 24, 2020</time></span>
@@ -109,7 +109,7 @@
         <p>Rating: 2 / 5</p>
     </div>
     <div class="md:col-span-2">
-<h2 id="summary">Summary</h2>
+        <h2 id="summary">Summary</h2>
 <p>The book is based on the premise that all the financial advice you need to know can fit on an index card. The book is broken down into 9 chapters each of which corresponds to a rule on the index card. Each chapter explains how the rule works accompanied with detailed stories and examples. It is a good book to read if you are just starting to get your financial life in order.</p>
 <p>Some of the advice is US-centric but can be applied to other countries as well.</p>
 <h2 id="key-quote">Key Quote</h2>
@@ -201,10 +201,7 @@
 
 
 
-<aside class="border-t-2 mt-2 p-4 bg-slate-200 rounded-lg shadow-sm">
-    <h2 class="mt-2 text-center">Did you like this summary?</h2>
-    <p>I would be really thankful if you let me know by sharing it on Twitter. You can also support me by buying me a coffee 🙂</p>
-
+<aside class="m-2">
     <div class="my-6 flex justify-center gap-5 flex-wrap">
         <a class="bg-social-twitter social-button" href="https://twitter.com/intent/tweet?url=https://www.discoveriesinbookland.com/blog/index-card&text=Index%20card via @ankur_sheel.&#xD;&#xA;This%20is%20a%20well%20written%20albeit%20basic%20book%20based%20on%20the%20premise%20that%20all%20the%20financial%20advice%20you%20need%20to%20know%20can%20fit%20on%20an%20index%20card." onclick="window.open(this.href, 'twitter-share', 'width=550,height=235'); return false;">Share on Twitter</a>
         <a class="inline-flex items-center flex-nowrap social-button bg-green-400" target="_blank" rel="noopener noreferrer" href="https://www.buymeacoffee.com/ankursheel">
@@ -228,6 +225,20 @@
         </a>
     </div>
 </aside>
+
+
+
+
+    <aside class="border-t-2 mt-2 p-4 rounded-lg shadow-sm">
+        <h2 class="mt-2 text-center">More like this</h2>
+
+        <ul>
+                <li>
+                    <a href="one-page-financial-plan">One Page Financial Plan</a>
+                </li>
+        </ul>
+    </aside>
+
 
 
         </article>
@@ -260,7 +271,6 @@
         © AnkurSheel 2022
     </div>
 </div>
-
 </footer>
 
 

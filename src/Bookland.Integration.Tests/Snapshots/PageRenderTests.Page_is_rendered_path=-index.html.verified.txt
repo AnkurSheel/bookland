@@ -9,26 +9,20 @@
 
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<meta name="description"/>
+<meta name="description" content="A blog for book reviews"/>
 <link href="/assets/styles.css" rel="stylesheet"/>
-<link rel="canonical" href="https://www.discoveriesinbookland.com/"/>
-
+    <link rel="canonical" href="https://www.discoveriesinbookland.com/"/>
 <meta itemProp="name" content="Discoveries in Bookland"/>
-<meta itemProp="description"/>
-    <meta itemProp="image" content="https://www.discoveriesinbookland.com/assets/images/social/-facebook.png"/>
+<meta itemProp="description" content="A blog for book reviews"/>
 <meta property="og:url" content="https://www.discoveriesinbookland.com/"/>
 <meta property="og:type" content="website"/>
 <meta property="og:title" content="Discoveries in Bookland"/>
-<meta property="og:description"/>
-    <meta property="og:image" content="https://www.discoveriesinbookland.com/assets/images/social/-facebook.png"/>
-    <meta property="og:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/-facebook.png"/>
+<meta property="og:description" content="A blog for book reviews"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:site" content="ankur_sheel"/>
 <meta name="twitter:creator" content="ankur_sheel"/>
 <meta name="twitter:title" content="Discoveries in Bookland"/>
-<meta name="twitter:description"/>
-    <meta name="twitter:image" content="https://www.discoveriesinbookland.com/assets/images/social/-twitter.png"/>
-    <meta name="twitter:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/-twitter.png"/>
+<meta name="twitter:description" content="A blog for book reviews"/>
 
 </head>
 <body class="font-sans font-normal leading-relaxed font-base text-gray-800 min-h-screen bg-gray-100">
@@ -132,7 +126,6 @@
         © AnkurSheel 2022
     </div>
 </div>
-
 </footer>
 
 

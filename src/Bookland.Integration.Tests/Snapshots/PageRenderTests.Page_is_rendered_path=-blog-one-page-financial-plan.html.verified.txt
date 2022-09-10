@@ -11,8 +11,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta name="description" content="A one-page financial plan represents only 3-4 things that are most important to us along with some action items to achieve our goals.In his book The One Page Financial Plan, Carl Richards shares the steps to make a good one-page financial plan that is customised for us."/>
 <link href="/assets/styles.css" rel="stylesheet"/>
-<link rel="canonical" href="https://www.discoveriesinbookland.com/blog/one-page-financial-plan"/>
-
+    <link rel="canonical" href="https://www.discoveriesinbookland.com/blog/one-page-financial-plan"/>
 <meta itemProp="name" content="One Page Financial Plan"/>
 <meta itemProp="description" content="A one-page financial plan represents only 3-4 things that are most important to us along with some action items to achieve our goals.In his book The One Page Financial Plan, Carl Richards shares the steps to make a good one-page financial plan that is customised for us."/>
     <meta itemProp="image" content="https://www.discoveriesinbookland.com/assets/images/social/one-page-financial-plan-facebook.png"/>
@@ -73,6 +72,7 @@
     <div class="flex flex-col min-h-screen">
         <article>
             
+
 <div class="prose-sm italic ">
     <div class="flex justify-evenly items-center">
         <span>Last Updated: <time datetime="2020-09-01">September 01, 2020</time></span>
@@ -107,7 +107,7 @@
         <p>Rating: 4 / 5</p>
     </div>
     <div class="md:col-span-2">
-<h2 id="summary">Summary</h2>
+        <h2 id="summary">Summary</h2>
 <p>Most smart people prefer to do nothing rather than make the wrong decision. When confronted with a long list of options, people just want to be told what to do. This makes creating a financial plan overwhelming. Others don't want to own up to their past mistakes. Some just want to live for today and don't want to create plans or have goals. Others have a goal but no idea on how to reach them. Others are so focused on the goal that they forget to enjoy their life and end up being disappointed.</p>
 <p>All of these people need a financial plan. It is the best way to give ourselves more time. After all, if we don't know what our goals are and where we are today, how can we get to where we want to be tomorrow.</p>
 <p>A one-page financial plan is different from traditional financial plans because it represents only 3-4 things that are most important to us along with some action items to achieve our goals. In his book The One Page Financial Plan, Carl Richards shares the steps to make a good one-page financial plan that is customised for us. He also shares some tips and tricks to get on top of our finances.</p>
@@ -247,10 +247,7 @@
 
 
 
-<aside class="border-t-2 mt-2 p-4 bg-slate-200 rounded-lg shadow-sm">
-    <h2 class="mt-2 text-center">Did you like this summary?</h2>
-    <p>I would be really thankful if you let me know by sharing it on Twitter. You can also support me by buying me a coffee 🙂</p>
-
+<aside class="m-2">
     <div class="my-6 flex justify-center gap-5 flex-wrap">
         <a class="bg-social-twitter social-button" href="https://twitter.com/intent/tweet?url=https://www.discoveriesinbookland.com/blog/one-page-financial-plan&text=One%20Page%20Financial%20Plan via @ankur_sheel.&#xD;&#xA;A%20one-page%20financial%20plan%20represents%20only%203-4%20things%20that%20are%20most%20important%20to%20us%20along%20with%20some%20action%20items%20to%20achieve%20our%20goals.In%20his%20book%20The%20One%20Page%20Financial%20Plan%2C%20Carl%20Richards%20shares%20the%20steps%20to%20make%20a%20good%20one-page%20financial%20plan%20that%20is%20customised%20for%20us." onclick="window.open(this.href, 'twitter-share', 'width=550,height=235'); return false;">Share on Twitter</a>
         <a class="inline-flex items-center flex-nowrap social-button bg-green-400" target="_blank" rel="noopener noreferrer" href="https://www.buymeacoffee.com/ankursheel">
@@ -274,6 +271,20 @@
         </a>
     </div>
 </aside>
+
+
+
+
+    <aside class="border-t-2 mt-2 p-4 rounded-lg shadow-sm">
+        <h2 class="mt-2 text-center">More like this</h2>
+
+        <ul>
+                <li>
+                    <a href="index-card">Index card</a>
+                </li>
+        </ul>
+    </aside>
+
 
 
         </article>
@@ -306,7 +317,6 @@
         © AnkurSheel 2022
     </div>
 </div>
-
 </footer>
 
 

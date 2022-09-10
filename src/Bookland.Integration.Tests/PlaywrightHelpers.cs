@@ -1,6 +1,4 @@
-﻿using System;
-using System.Threading.Tasks;
-using PlaywrightSharp;
+﻿using PlaywrightSharp;
 
 namespace Bookland.Integration.Tests
 {

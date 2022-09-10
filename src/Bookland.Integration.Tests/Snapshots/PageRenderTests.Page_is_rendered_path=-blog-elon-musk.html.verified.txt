@@ -11,8 +11,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta name="description" content="This book gives a great insight into Elon Musk as a person as well as into his companies. It reveals the work ethic, the drive and the ruthlessness that exists within Elon that helps him achieve his goals. "/>
 <link href="/assets/styles.css" rel="stylesheet"/>
-<link rel="canonical" href="https://www.discoveriesinbookland.com/blog/elon-musk"/>
-
+    <link rel="canonical" href="https://www.discoveriesinbookland.com/blog/elon-musk"/>
 <meta itemProp="name" content="Elon Musk"/>
 <meta itemProp="description" content="This book gives a great insight into Elon Musk as a person as well as into his companies. It reveals the work ethic, the drive and the ruthlessness that exists within Elon that helps him achieve his goals. "/>
     <meta itemProp="image" content="https://www.discoveriesinbookland.com/assets/images/social/elon-musk-facebook.png"/>
@@ -73,6 +72,7 @@
     <div class="flex flex-col min-h-screen">
         <article>
             
+
 <div class="prose-sm italic ">
     <div class="flex justify-evenly items-center">
         <span>Last Updated: <time datetime="2019-05-15">May 15, 2019</time></span>
@@ -108,7 +108,7 @@
         <p>Rating: 2 / 5</p>
     </div>
     <div class="md:col-span-2">
-<h2 id="summary">Summary</h2>
+        <h2 id="summary">Summary</h2>
 <p>This book gives a great insight into Elon Musk as a person as well as into his companies. It starts from Elon's childhood and goes right up to the current status quo. It reveals the work ethic, the drive and the ruthlessness that exists within Elon that helps him achieve his goals. As his ex-wife, Justine puts it (in the book) &quot;He does what he wants and he is relentless about it. Its Elon's world and the rest of us live in it.</p>
 <p>Vance strikes a perfect balance between the personal and the professional life of Elon. He does not shie away from detailing the various challenges and failures that Elon faced. An interesting thing that I learned was that Elon was the inspiration for Downey's interpretation of Tony Stark. However, I felt that although Elon has been shown as an extremely hard task-master with little empathy for his employees, the negative stories seem to have been glossed over. I wonder if that was to keep the aura of Elon Musk intact.</p>
 <h2 id="key-quote">Key Quote</h2>
@@ -167,10 +167,7 @@
 
 
 
-<aside class="border-t-2 mt-2 p-4 bg-slate-200 rounded-lg shadow-sm">
-    <h2 class="mt-2 text-center">Did you like this summary?</h2>
-    <p>I would be really thankful if you let me know by sharing it on Twitter. You can also support me by buying me a coffee 🙂</p>
-
+<aside class="m-2">
     <div class="my-6 flex justify-center gap-5 flex-wrap">
         <a class="bg-social-twitter social-button" href="https://twitter.com/intent/tweet?url=https://www.discoveriesinbookland.com/blog/elon-musk&text=Elon%20Musk via @ankur_sheel.&#xD;&#xA;This%20book%20gives%20a%20great%20insight%20into%20Elon%20Musk%20as%20a%20person%20as%20well%20as%20into%20his%20companies.%20It%20reveals%20the%20work%20ethic%2C%20the%20drive%20and%20the%20ruthlessness%20that%20exists%20within%20Elon%20that%20helps%20him%20achieve%20his%20goals.%20" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235'); return false;">Share on Twitter</a>
         <a class="inline-flex items-center flex-nowrap social-button bg-green-400" target="_blank" rel="noopener noreferrer" href="https://www.buymeacoffee.com/ankursheel">
@@ -194,6 +191,23 @@
         </a>
     </div>
 </aside>
+
+
+
+
+    <aside class="border-t-2 mt-2 p-4 rounded-lg shadow-sm">
+        <h2 class="mt-2 text-center">More like this</h2>
+
+        <ul>
+                <li>
+                    <a href="bad-blood">Bad Blood</a>
+                </li>
+                <li>
+                    <a href="pixar-beyond">To Pixar and Beyond</a>
+                </li>
+        </ul>
+    </aside>
+
 
 
         </article>
@@ -226,7 +240,6 @@
         © AnkurSheel 2022
     </div>
 </div>
-
 </footer>
 
 

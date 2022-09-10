@@ -11,24 +11,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta name="description"/>
 <link href="/assets/styles.css" rel="stylesheet"/>
-<link rel="canonical" href="https://www.discoveriesinbookland.com/tags/marketing"/>
-
+    <link rel="canonical" href="https://www.discoveriesinbookland.com/tags/marketing"/>
 <meta itemProp="name" content="Posts tagged as &quot;Marketing&quot;"/>
 <meta itemProp="description"/>
-    <meta itemProp="image" content="https://www.discoveriesinbookland.com/assets/images/social/-facebook.png"/>
 <meta property="og:url" content="https://www.discoveriesinbookland.com/tags/marketing"/>
 <meta property="og:type" content="website"/>
 <meta property="og:title" content="Posts tagged as &quot;Marketing&quot;"/>
 <meta property="og:description"/>
-    <meta property="og:image" content="https://www.discoveriesinbookland.com/assets/images/social/-facebook.png"/>
-    <meta property="og:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/-facebook.png"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:site" content="ankur_sheel"/>
 <meta name="twitter:creator" content="ankur_sheel"/>
 <meta name="twitter:title" content="Posts tagged as &quot;Marketing&quot;"/>
 <meta name="twitter:description"/>
-    <meta name="twitter:image" content="https://www.discoveriesinbookland.com/assets/images/social/-twitter.png"/>
-    <meta name="twitter:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/-twitter.png"/>
 
 </head>
 <body class="font-sans font-normal leading-relaxed font-base text-gray-800 min-h-screen bg-gray-100">
@@ -92,7 +86,6 @@
         <div class="font-semibold">13 min</div>
     </div>
 </div>
-
         </article>
     </div>
 </main>
@@ -123,7 +116,6 @@
         © AnkurSheel 2022
     </div>
 </div>
-
 </footer>
 
 

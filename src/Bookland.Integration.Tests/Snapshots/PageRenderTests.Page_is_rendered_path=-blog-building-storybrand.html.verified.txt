@@ -11,8 +11,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta name="description" content="How can we use key elements that make a compelling story to create effective marketing messages? This book gives us actionable steps to stop bombarding our prospective customers with noise."/>
 <link href="/assets/styles.css" rel="stylesheet"/>
-<link rel="canonical" href="https://www.discoveriesinbookland.com/blog/building-storybrand"/>
-
+    <link rel="canonical" href="https://www.discoveriesinbookland.com/blog/building-storybrand"/>
 <meta itemProp="name" content="Building a Storybrand"/>
 <meta itemProp="description" content="How can we use key elements that make a compelling story to create effective marketing messages? This book gives us actionable steps to stop bombarding our prospective customers with noise."/>
     <meta itemProp="image" content="https://www.discoveriesinbookland.com/assets/images/social/building-storybrand-facebook.png"/>
@@ -73,6 +72,7 @@
     <div class="flex flex-col min-h-screen">
         <article>
             
+
 <div class="prose-sm italic ">
     <div class="flex justify-evenly items-center">
         <span>Last Updated: <time datetime="2021-05-19">May 19, 2021</time></span>
@@ -109,7 +109,7 @@
         <p>Rating: 5 / 5</p>
     </div>
     <div class="md:col-span-2">
-<h2 id="summary">Summary</h2>
+        <h2 id="summary">Summary</h2>
 <p>Building a Storybrand is a guide for creating effective marketing messages. The book discusses how we can use critical elements that make a compelling story to stop bombarding our prospective customers with marketing noise that doesn't resonate.</p>
 <p>This book is divided into 3 stages and has actionable steps to create our Brandscript</p>
 <h2 id="key-quote">Key Quote</h2>
@@ -360,10 +360,7 @@
 
 
 
-<aside class="border-t-2 mt-2 p-4 bg-slate-200 rounded-lg shadow-sm">
-    <h2 class="mt-2 text-center">Did you like this summary?</h2>
-    <p>I would be really thankful if you let me know by sharing it on Twitter. You can also support me by buying me a coffee 🙂</p>
-
+<aside class="m-2">
     <div class="my-6 flex justify-center gap-5 flex-wrap">
         <a class="bg-social-twitter social-button" href="https://twitter.com/intent/tweet?url=https://www.discoveriesinbookland.com/blog/building-storybrand&text=Building%20a%20Storybrand via @ankur_sheel.&#xD;&#xA;How%20can%20we%20use%20key%20elements%20that%20make%20a%20compelling%20story%20to%20create%20effective%20marketing%20messages%3F%20This%20book%20gives%20us%20actionable%20steps%20to%20stop%20bombarding%20our%20prospective%20customers%20with%20noise." onclick="window.open(this.href, 'twitter-share', 'width=550,height=235'); return false;">Share on Twitter</a>
         <a class="inline-flex items-center flex-nowrap social-button bg-green-400" target="_blank" rel="noopener noreferrer" href="https://www.buymeacoffee.com/ankursheel">
@@ -387,6 +384,26 @@
         </a>
     </div>
 </aside>
+
+
+
+
+    <aside class="border-t-2 mt-2 p-4 rounded-lg shadow-sm">
+        <h2 class="mt-2 text-center">More like this</h2>
+
+        <ul>
+                <li>
+                    <a href="motive">Motive</a>
+                </li>
+                <li>
+                    <a href="death-meeting">Death by Meeting</a>
+                </li>
+                <li>
+                    <a href="profit-first">Profit First</a>
+                </li>
+        </ul>
+    </aside>
+
 
 
         </article>
@@ -419,7 +436,6 @@
         © AnkurSheel 2022
     </div>
 </div>
-
 </footer>
 
 
