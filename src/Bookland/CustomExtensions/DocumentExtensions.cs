@@ -1,7 +1,7 @@
 ﻿using Bookland.Models;
 using Statiq.Common;
 
-namespace Bookland.Extensions
+namespace Bookland.CustomExtensions
 {
     public static class DocumentExtensions
     {

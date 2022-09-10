@@ -3,6 +3,7 @@
 @{
     Layout = "../_Layout.cshtml";
 }
+
 <div class="prose-sm italic ">
     <div class="flex justify-evenly items-center">
         <span>Last Updated: <time datetime="@Model.Document.GetLastUpdatedDate().ToString("yyyy-MM-dd")">@Model.Document.GetLastUpdatedDate().ToString("MMMM dd, yyyy")</time></span>
@@ -49,11 +50,13 @@
         <p>Rating: @Model.Document.GetRating() / 5</p>
     </div>
     <div class="md:col-span-2">
-@RenderBody()
+        @RenderBody()
     </div>
 </div>
 
 @await Html.PartialAsync("../partials/_SocialShareBar.cshtml")
+
+@await Html.PartialAsync("../partials/_RelatedPosts.cshtml")
 
 @section Scripts{
     @* <div class="flex items-center space-x-3 flex-col mt-8 pt-4 border-2"> *@
