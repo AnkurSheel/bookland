@@ -9,29 +9,28 @@
     Save time and spend it on other things that you love... I have the answers!
 </p>
 
-<div class="flex flex-col gap-10 lg:flex-row lg:justify-between">
-    <div class="bg-gray-200 rounded-3xl px-4 my-8">
-        <div class="flex flex-col gap-1 flex-auto text-center">
-        <h2>Latest Summaries</h2>
-            @{
-                var latestPosts = Model.Posts.OrderByDescending(x => x.GetPublishedDate()).Take(numberOfSummaries);
-                foreach (var post in latestPosts)
-                {
-                    <a href="@post.GetPageUrl()" class="prose-2xl mb-4">@post.GetTitle()</a>
-                }
-            }
-        </div>
-    </div>
-    <div class="bg-gray-200 rounded-3xl px-4 my-8">
-        <div class="flex flex-col gap-1 flex-auto text-center">
-            <h2 class="">Top Rated Books</h2>
-            @{
-                var topRatedPosts = Model.Posts.OrderByDescending(x => x.GetRating()).ThenBy(x => x.GetTitle()).Take(numberOfSummaries);
-                foreach (var post in topRatedPosts)
-                {
-                    <a href="@post.GetPageUrl()" class="prose-2xl mb-4">@post.GetTitle()</a>
-                }
-            }
-        </div>
-    </div>
-</div>
+<h2>Latest Summaries</h2>
+<ul class="p-0">
+    @{
+        var latestPosts = Model.Posts.OrderByDescending(x => x.GetPublishedDate()).Take(numberOfSummaries);
+        foreach (var post in latestPosts)
+        {
+            <li class="list-none mt-6 md:mt-1 p-0">
+                <a href="@post.GetPageUrl()" class="prose-2xl mb-4">@post.GetTitle()</a>
+            </li>
+        }
+    }
+</ul>
+
+<h2>Top Rated Books</h2>
+<ul class="p-0">
+    @{
+        var topRatedPosts = Model.Posts.OrderByDescending(x => x.GetRating()).ThenBy(x => x.GetTitle()).Take(numberOfSummaries);
+        foreach (var post in topRatedPosts)
+        {
+            <li class="list-none mt-6 md:mt-1 p-0">
+                <a href="@post.GetPageUrl()" class="prose-2xl mb-4">@post.GetTitle()</a>
+            </li>
+        }
+    }
+</ul>
