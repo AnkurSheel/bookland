@@ -4,3 +4,5 @@ variables:
       value: '$(Pipeline.Workspace)/.yarn'
     - name: 'PROJECT_FOLDER'
       value: 'Bookland'
+    - name: 'NETLIFY_PREVIEW_SUFFIX'
+      value: '--bookland.netlify.app'
