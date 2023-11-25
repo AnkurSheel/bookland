@@ -69,6 +69,24 @@
             
 
 <div class="md:grid md:grid-cols-2 flex flex-col shadow-md mb-10 items-center bg-gray-200 rounded-3xl">
+    <a href="/blog/bullet-journal-method" class="ml-4 mr-4">
+        <img src="/assets/images/posts/bullet-journal-method/cover.jpg" alt="Book Cover" class="max-w-xs rounded-lg w-full"/>
+    </a>
+
+    <div class="mx-4 flex flex-col my-4">
+        <a href="/blog/bullet-journal-method" class="text-center prose-2xl mb-4">The Bullet Journal Method</a>
+        <div class="font-semibold">Author(s): Ryder Carroll</div>
+        <div class="font-semibold">Rating: 4 / 5 </div>
+        <p>
+            The Bullet Journal Method is a simple but flexible journaling method to help us become mindful of how we spend our time and our energy
+        </p>
+        <p>
+            <a href="/blog/bullet-journal-method">Read the Summary, Takeaways and Recommendation</a>
+        </p>
+        <div class="font-semibold">8 min</div>
+    </div>
+</div>
+<div class="md:grid md:grid-cols-2 flex flex-col shadow-md mb-10 items-center bg-gray-200 rounded-3xl">
     <a href="/blog/free-focus" class="ml-4 mr-4">
         <img src="/assets/images/posts/free-focus/cover.png" alt="Book Cover" class="max-w-xs rounded-lg w-full"/>
     </a>
@@ -113,7 +131,7 @@
         </a>
     </div>
     <div class="copy">
-        © AnkurSheel 2022
+        © AnkurSheel 2023
     </div>
 </div>
 </footer>

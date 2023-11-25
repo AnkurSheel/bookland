@@ -4,30 +4,30 @@
 <head>
     
 
-<title>Art of Learning - Discoveries in Bookland</title>
+<title>The Bullet Journal Method - Discoveries in Bookland</title>
 <meta charset="utf-8"/>
 
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<meta name="description" content="The Art Of Learning is Josh Waitzkin&#x2019;s autobiography dealing with his rise to the top of the chess and martial arts world. It gives an insight into the mindset and training of a world champion."/>
+<meta name="description" content="The Bullet Journal Method is a simple but flexible journaling method to help us become mindful of how we spend our time and our energy"/>
 <link href="/assets/styles.css" rel="stylesheet"/>
-    <link rel="canonical" href="https://www.discoveriesinbookland.com/blog/art-learning"/>
-<meta itemProp="name" content="Art of Learning"/>
-<meta itemProp="description" content="The Art Of Learning is Josh Waitzkin&#x2019;s autobiography dealing with his rise to the top of the chess and martial arts world. It gives an insight into the mindset and training of a world champion."/>
-    <meta itemProp="image" content="https://www.discoveriesinbookland.com/assets/images/social/art-learning-facebook.png"/>
-<meta property="og:url" content="https://www.discoveriesinbookland.com/blog/art-learning"/>
+    <link rel="canonical" href="https://www.discoveriesinbookland.com/blog/bullet-journal-method"/>
+<meta itemProp="name" content="The Bullet Journal Method"/>
+<meta itemProp="description" content="The Bullet Journal Method is a simple but flexible journaling method to help us become mindful of how we spend our time and our energy"/>
+    <meta itemProp="image" content="https://www.discoveriesinbookland.com/assets/images/social/bullet-journal-method-facebook.png"/>
+<meta property="og:url" content="https://www.discoveriesinbookland.com/blog/bullet-journal-method"/>
 <meta property="og:type" content="article"/>
-<meta property="og:title" content="Art of Learning"/>
-<meta property="og:description" content="The Art Of Learning is Josh Waitzkin&#x2019;s autobiography dealing with his rise to the top of the chess and martial arts world. It gives an insight into the mindset and training of a world champion."/>
-    <meta property="og:image" content="https://www.discoveriesinbookland.com/assets/images/social/art-learning-facebook.png"/>
-    <meta property="og:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/art-learning-facebook.png"/>
+<meta property="og:title" content="The Bullet Journal Method"/>
+<meta property="og:description" content="The Bullet Journal Method is a simple but flexible journaling method to help us become mindful of how we spend our time and our energy"/>
+    <meta property="og:image" content="https://www.discoveriesinbookland.com/assets/images/social/bullet-journal-method-facebook.png"/>
+    <meta property="og:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/bullet-journal-method-facebook.png"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:site" content="ankur_sheel"/>
 <meta name="twitter:creator" content="ankur_sheel"/>
-<meta name="twitter:title" content="Art of Learning"/>
-<meta name="twitter:description" content="The Art Of Learning is Josh Waitzkin&#x2019;s autobiography dealing with his rise to the top of the chess and martial arts world. It gives an insight into the mindset and training of a world champion."/>
-    <meta name="twitter:image" content="https://www.discoveriesinbookland.com/assets/images/social/art-learning-twitter.png"/>
-    <meta name="twitter:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/art-learning-twitter.png"/>
+<meta name="twitter:title" content="The Bullet Journal Method"/>
+<meta name="twitter:description" content="The Bullet Journal Method is a simple but flexible journaling method to help us become mindful of how we spend our time and our energy"/>
+    <meta name="twitter:image" content="https://www.discoveriesinbookland.com/assets/images/social/bullet-journal-method-twitter.png"/>
+    <meta name="twitter:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/bullet-journal-method-twitter.png"/>
 
 </head>
 <body class="font-sans font-normal leading-relaxed font-base text-gray-800 min-h-screen bg-gray-100">
@@ -68,150 +68,232 @@
 </header>
 
 <main class="mx-auto max-w-prose p-4 prose prose-xl prose-purple">
-    <h1 class="text-center">Art of Learning</h1>
+    <h1 class="text-center">The Bullet Journal Method</h1>
     <div class="flex flex-col min-h-screen">
         <article>
             
 
 <div class="prose-sm italic ">
     <div class="flex justify-evenly items-center">
-        <span>Last Updated: <time datetime="2021-02-07">February 07, 2021</time></span>
+        <span>Last Updated: <time datetime="2022-11-07">November 07, 2022</time></span>
         <i class="font-bold">
-            Reading Time: 6 min
+            Reading Time: 8 min
         </i>
     </div>
 
     <div class="flex flex-row flex-wrap gap-1 place-content-center">
-            <a href="/tags/autobiography" class="block flex-initial border-2 border-black m-2 rounded-xl p-2 bg-gray-200 shadow-md">Autobiography</a>
-            <a href="/tags/personal-development-&#x2014;-inspirational" class="block flex-initial border-2 border-black m-2 rounded-xl p-2 bg-gray-200 shadow-md">Personal Development &#x2014; Inspirational</a>
+            <a href="/tags/personal-development-&#x2014;-practical" class="block flex-initial border-2 border-black m-2 rounded-xl p-2 bg-gray-200 shadow-md">Personal Development &#x2014; Practical</a>
     </div>
 </div>
 
 <div class="grid grid-cols-1 md:grid-cols-2">
     <h2 class="md:col-span-2">What I read</h2>
-    <img src="/assets/images/posts/art-learning/cover.jpg" width="400" alt="Book Cover"/>
+    <img src="/assets/images/posts/bullet-journal-method/cover.jpg" width="400" alt="Book Cover"/>
     <div class="pl-4">
 
-        <p>The Art of Learning: An Inner Journey to Optimal Performance</p>
+        <p>The Bullet Journal Method: Track the Past, Order the Present, Design the Future</p>
 
         <p>
-            <a href="https://www.amazon.com/The-Art-Learning-Journey-Performance/dp/0743277465/">Buy it on Amazon</a>
+            <a href="https://www.amazon.com/Bullet-Journal-Method-Present-Design/dp/0525533338">Buy it on Amazon</a>
         </p>
 
-        <p>288 pages</p>
+        <p>320 pages</p>
 
         <p>
             Authors:
-                <a href="https://www.joshwaitzkin.com/">Josh Waitzkin</a>
+                <a href="https://www.rydercarroll.com/">Ryder Carroll</a>
         </p>
 
-        <p>Rating: 1 / 5</p>
+        <p>Rating: 4 / 5</p>
     </div>
     <div class="md:col-span-2">
         <h2 id="summary">Summary</h2>
-<p>The Art Of Learning is Josh Waitzkin’s autobiography dealing with his rise to the top of the chess and the martial arts world. It gives an insight into the mindset and training of a world champion. Not only does it talk about learning (as implied by the title) but also other topics such as parenting, coaching, dealing with chaos and unfair situations.</p>
+<p>The Bullet Journal Method is a simple but flexible journaling method to help us become mindful of how we spend our time and our energy.</p>
+<p>It is based on the premise that writing things down lets us capture our thoughts. It can help us recover from decision fatigue by allowing us to distance ourselves and get some perspective by periodically reviewing those notes.</p>
+<p>The constraint of using paper is a significant theme of the book and the system.</p>
 <h2 id="key-quote">Key Quote</h2>
 <blockquote>
-<p>There are clear distinctions between what it takes to be decent, what it takes to be good, what it takes to be great, and what it takes to be among the best</p>
+<p>Life is messy and often wildly unpredictable. The Bullet Journal embraces the chaos by not trying to fight it.</p>
 </blockquote>
 <h2 id="key-takeaways">Key Takeaways</h2>
-<h3 id="what-are-the-different-theories-of-intelligence">What are the different theories of intelligence?</h3>
+<h3 id="what-are-bullets">What are Bullets?</h3>
+<p>Bullets are short objective sentences used to capture your thoughts.</p>
 <blockquote>
-<p>Every loss is an opportunity for growth</p>
+<p>Do your future self a kindness and don't sacrifice clarity for brevity</p>
 </blockquote>
-<p>There are 2 theories of intelligence</p>
-<p><strong>Entity Theorists</strong></p>
-<p>Entity theorists see their overall intelligence as a fixed entity. As children, they tend to have been told that they did well when they succeeded and that they weren't good at something when they failed. As a result, they are more prone to quit</p>
-<p><strong>Incremental / learning Theorists</strong></p>
-<p>Incremental theorists believe that they can become good at anything with hard work. As children, they have been given process-oriented feedback and have learnt to associate effort with success. As a result, they are more likely to rise to the challenge.</p>
-<h3 id="what-can-we-do-as-parentscoach">What can we do as parents/coach?</h3>
-<p>It is important for a parent to be empathetic and inspiring and to make sure that their child knows that they would be loved regardless of the outcomes.</p>
-<p>As a parent, we also need to choose the right teacher for our child especially since a lot of teachers are incentivised for short term wins over a long term approach.</p>
-<p>It is important to get to know the student and build a rapport. Once we have gained their trust, we should let them express themself and not suppress their natural voice by forcing them into cookie-cutter moulds.</p>
+<p>Crafting effective Bullets requires striking a balance between brevity and clarity. Writing down your thoughts becomes a chore if it's too long. If an entry is too short, you may not be able to decipher it later.</p>
+<h3 id="types-of-bullets">Types of Bullets</h3>
+<p>Bullets can be of different types, and each type is assigned a symbol to allow you to contextualize your thoughts in real time.</p>
+<h4 id="tasks">Tasks</h4>
 <blockquote>
-<p>Confidence is critical for a great competitor, but overconfidence is brittle</p>
+<p>The friction of an unfinished Task actively engages your mind</p>
 </blockquote>
-<p>Even though we might want to praise all the decisions made by a student (especially if they are young) to build confidence, we need to remember that it discourages objectivity, encourages self-indulgence and creates a dishonest relationship.</p>
-<p>Rather than feeding them information, we should let them make important decisions and ask them to explain their thought process regardless of whether the outcome was good or bad. The introspective thinking can result in a healthy coping mechanism.</p>
-<p>Short term goals can be useful as long as they are balanced with a long term philosophy. But, the regular feedback should respond to effort over results. When the student loses, we shouldn't say &quot;it doesn't matter&quot; but instead show empathy. Focusing only on wins can make a child terrified of shattering the facade of perfection. However, remember that it is important to enjoy a win.</p>
-<p>We need to make the relationship to the game about learning and passion rather than the competition.</p>
-<h3 id="how-can-we-pursue-excellence">How can we pursue excellence?</h3>
-<p>It is rarely a mysterious technique that results in success but a mastery of a basic skill set.</p>
-<blockquote>
-<p>The intuition makes uncanny connections</p>
-</blockquote>
-<p>It is critical to integrate new ideas, experiments and knowledge in a manner that is in sync with our personality. The effects of moving away from our natural voice can be disturbing.</p>
-<blockquote>
-<p>A common error is to take on too much at once</p>
-</blockquote>
-<p>We need to begin with the fundamentals and get a solid foundation of the principles of our discipline. Once we are comfortable with the fundamentals we can add more complicated manoeuvres in a step by step manner so that we can maintain the sense of ease.</p>
-<blockquote>
-<p>We have to be able to do something slowly before we can have any hope of doing it correctly with speed</p>
-</blockquote>
-<p>If it's a physical discipline, we can slowly and incrementally condense our movements. The key is to take small steps to refine our timing and precision so that the body can barely feel the condensing practice and repeating each step over and over again.</p>
-<blockquote>
-<p>Growth comes at the expense of previous comfort or safety</p>
-</blockquote>
-<p>We grow by pushing ourselves and finding what lies at the outer reaches of our abilities.</p>
-<blockquote>
-<p>Tactics come easy once principles are in the blood</p>
-</blockquote>
-<p>It is important to take breaks from competitive intensity and allow protected periods of cultivation. There are 2 reasons for this. First, we need time to internalize new skills before we can improve. Secondly, players who can relax in brief moments of inactivity can handle the pressure much better.</p>
-<h3 id="how-can-we-respond-to-chaos">How can we respond to chaos?</h3>
-<blockquote>
-<p>No matter how much preparation we do, in the real tests of our lives, we’ll be in unfamiliar terrain</p>
-</blockquote>
-<p>It is important to learn how to dictate the tone of battle and that involves knowing how to avoid being distracted by random unexpected events.</p>
-<blockquote>
-<p>Good competitors tend to rise to the level of the opposition</p>
-</blockquote>
-<p>We need to learn how to use emotion to our advantage. If we take on the mentality of a victim then half the battle is already lost.</p>
-<blockquote>
-<p>The unconscious mind is a powerful tool, and learning how to relax under pressure is a key first step to tapping into its potential</p>
-</blockquote>
-<p>An error can trigger fear or confusion that muddies the decision-making process. But, we need to remember that its the not the first mistake but the subsequent mistakes that prove disastrous. Being able to regain presence and clarity of mind after making an error can turn losses into wins.</p>
-<blockquote>
-<p>If we rely on having no nerves then when the pressure is high enough, or when the pain is too piercing to ignore, our ideal state will shatter</p>
-</blockquote>
-<p>There are 3 critical steps in learning how to respond to chaotic situations</p>
+<p>Tasks are the things that you need to do.</p>
+<p>They can have multiple steps, aka subtasks, that need to be marked as completed before the master task can be marked as complete. Subtasks are indented below the master task.</p>
+<p>Tasks can have 5 different states.</p>
 <ol>
-<li>We have to learn how to be at peace with imperfections.</li>
-<li>Use that imperfection to our advantage.</li>
-<li>Create little jolts in our consciousness so that we are constantly inspired whether or not external conditions are inspiring.</li>
+<li><strong>Incomplete Tasks</strong> are entries that require you to take action. They are depicted by a <code>filled O</code>.</li>
+<li><strong>Completed Tasks</strong> are entries that have been completed. They are depicted by <code>x</code>.</li>
+<li><strong>Migrated Tasks</strong> have been moved into your next Monthly Log or a specific Collection. They are depicted by <code>&gt;</code>.</li>
+<li><strong>Scheduled Tasks</strong> are tasks moved into the Future Log because they are tied to a date that falls outside the current month. They are depicted by <code>&lt;</code>.</li>
+<li><strong>Irrelevant Tasks</strong> are tasks that don't matter anymore. You can strike out these tasks. They are depicted by <del><code>0</code></del>.</li>
 </ol>
-<h3 id="how-can-we-achieve-incremental-growth-by-relaxation">How can we achieve incremental growth by relaxation?</h3>
-<p>We need to start by creating a natural routine that is relatively portable and makes us feel positive. Once we have fully internalised the routine, we can do it before important events.</p>
-<p>The next step is to gradually alter the routine so that it is similar enough to have the same effect but slightly different so that the trigger is both lower maintenance and flexible. Again the key is to make the changes incrementally so that the body can barely feel the difference from the last version of the routine.</p>
-<h3 id="misc">Misc</h3>
+<h4 id="events">Events</h4>
 <blockquote>
-<p>It’s amazing how much you can learn about someone when they get caught in the rain</p>
+<p>Good or bad, big or small, jot it down. Over the days, months, and years, they will form a pretty accurate roadmap of your life.</p>
 </blockquote>
-<p>People can reveal nuances in their character in the more mundane moments</p>
-<p>If both players are aware of a tell, then it will be neutralized, made ineffective, and others will have to be unearthed and exploited.</p>
-<p>To always be prepared for exertion by being nourished without having a full stomach(and thereby dull our) senses, we can eat five almonds every forty-five minutes</p>
+<p>Events are experience-related entries that can either be scheduled preemptively or logged after they occur. They are depicted by <code>open O</code>.</p>
+<h4 id="notes">Notes</h4>
+<blockquote>
+<p>The more content you try to capture during a lecture or a meeting, the less you're thinking about what's being said.</p>
+</blockquote>
+<p>Notes are pieces of information that aren't actionable, but you don't want to forget. They are depicted by <code>-</code></p>
+<p>Instead of capturing everything in a meeting, give yourself a moment to process what you heard after it's over and capture whatever surfaces in a note.</p>
+<h4 id="custom-bullets">Custom Bullets</h4>
+<p>Custom Bullets help you quickly capture entries that are unique to your situation.</p>
+<h3 id="signifiers">Signifiers</h3>
+<p>Signifiers are symbols used to highlight specific entries to give them additional context.</p>
+<h4 id="priority-signifier">Priority Signifier</h4>
+<p>Priority Signifiers are used to mark a bullet as important. They are depicted by <code>*</code>.</p>
+<h4 id="inspiration-signifier">Inspiration Signifier</h4>
+<p>Inspiration signifiers can help quickly scan entries to find noteworthy things. They are depicted by <code>!</code>.</p>
+<h3 id="collections">Collections</h3>
+<p>Collections are the modular building blocks of BuJo, used to store related content. Although there are a few core collections, you can create one for anything you want to keep track of.</p>
+<h4 id="daily-log">Daily Log</h4>
+<p>The <strong>Daily Log Collection</strong> is a catchall to capture your thoughts throughout the day. It is based on the concept of <strong>Rapid Logging</strong>, a way to quickly capture your thoughts into Bullets.</p>
+<h4 id="monthly-log">Monthly Log</h4>
+<blockquote>
+<p>Understanding how we got to where we are today will allow us to make more informed decisions as we plot our course forward.</p>
+</blockquote>
+<p>The <strong>Monthly Log</strong> provides an overview of time and tasks for the current month. It is designed for reference only. It has 2 components.</p>
+<ol>
+<li>The <strong>Calendar Page</strong> acts as a timeline by capturing events after they happen</li>
+<li>The <strong>Tasks Page</strong> is used to capture items that matter this month. It is filled as part of the monthly migration.</li>
+</ol>
+<h4 id="future-log">Future Log</h4>
+<p>The <strong>Future Log</strong> stores tasks and events that fall outside the current month.</p>
+<h3 id="using-the-bullet-journal-method-for-goals">Using the Bullet Journal Method for Goals</h3>
+<blockquote>
+<p>When not set with intention, goals can be knee-jerk reactions to something ugly or painful in our lives.</p>
+</blockquote>
+<p>Write down all goals, regardless of whether they are big or small. You can have separate collections for personal and professional goals.</p>
+<p>It can help to write a brief mission statement to define why we're doing something, what we hope to get out of the experience, and how we will do it.</p>
+<p>I want to <em><strong>[what]</strong></em> so that I can <em><strong>[why]</strong></em> by <em><strong>[how]</strong></em>.</p>
+<h4 id="exercise">5,4,3,2,1 exercise</h4>
+<p>You can use the <strong>5,4,3,2,1 exercise</strong> to prioritize your goals.</p>
+<blockquote>
+<p>It's easy to forget that just because something could be done does not mean that it should be done</p>
+</blockquote>
+<p><strong>Steps</strong> <!--convert into table--></p>
+<ol>
+<li>Divide the page into 5 rows</li>
+<li>Top Cell will store goals you want to accomplish in 5 years</li>
+<li>Next cell, goals you want to achieve in 4 months</li>
+<li>Next cell, goals you want to achieve in 3 weeks</li>
+<li>Next cell, goals you want to achieve in 2 days</li>
+<li>Next cell, goals you want to achieve in 1 hour</li>
+<li>Add your four short-term goals (those in the hour and day cells) to your Daily Log and set them as priorities with a <code>*</code> Signifier.</li>
+<li>The remaining goals get their own collection.</li>
+</ol>
+<blockquote>
+<p>Each decision, until it's been made and acted on, is simply a thought</p>
+</blockquote>
+<h4 id="sprints">Sprints</h4>
+<p>Though goals provide direction, they focus on outcomes that are ultimately out of our control. <strong>Sprints</strong> are independent, self-contained projects that can be used to break goals into actionable steps.</p>
+<p>They should have nothing preventing you from starting and take less than a month to complete.</p>
+<blockquote>
+<p>The longer a goal takes to accomplish, the more it taxes your motivation.</p>
+</blockquote>
+<p>Break Sprints into clearly defined, actionable Tasks. Once you've listed out your Tasks, start figuring out how much time each Sprint would take. Take the time estimate and triple it.</p>
+<p>Lock in a dedicated time to work through your Tasks by blocking them on your calendar.</p>
+<p>Now you know when the project begins, how long it will take and when it ends.</p>
+<h3 id="using-the-bullet-journal-method-to-track-habits">Using the Bullet Journal Method to Track Habits</h3>
+<blockquote>
+<p>Progress is more important than speed.</p>
+</blockquote>
+<p>On the right margin of the page, create columns for each thing you want to track. These columns should align with the days of the month. Add Task bullets in the cells to mark them when you take action.</p>
+<p>Remember to add a key so that your future self will know what you were keeping track of when looking back through this note.</p>
+<h3 id="daily-reflection">Daily Reflection</h3>
+<p>In the morning, review all pages of the current month to remind yourself of any open tasks.</p>
+<p>In the night</p>
+<ul>
+<li>Mark completed tasks with an <code>x</code>.</li>
+<li>Transfer any bullets with a future date from your Daily Log into your Future Log. Mark the entry as scheduled <code>&lt;</code>.</li>
+<li>If a task is missing, write it down</li>
+<li>Strike out tasks that are not important</li>
+<li>Write down more than 1 thing that you are grateful for</li>
+</ul>
+<h3 id="monthly-migration">Monthly Migration</h3>
+<p>At the end of the month, scan all of the pages of the past month, and review the state of your Tasks.</p>
+<ul>
+<li><p>Strike out incomplete tasks that have become irrelevant</p>
+</li>
+<li><p>If a Task remains relevant, then migrate it. You can migrate it in 3 ways</p>
+<ol>
+<li>Transcribe the open Task to the Tasks page of your new Monthly Log. Then mark the old entry as migrated</li>
+<li>Transcribe the Task into a Custom Collection. Then mark the old entry as migrated</li>
+<li>If the Task is date-specific and falls outside the current month, migrate it into your Future Log. Then mark it as scheduled.</li>
+</ol>
+</li>
+<li><p>Go through the future Log for any items that are ready now. If so, migrate those items into your Monthly Log. Mark them as migrated.</p>
+</li>
+</ul>
+<h3 id="yearly-migration">Yearly Migration</h3>
+<blockquote>
+<p>If an entry isn't worth the few seconds of effort required to rewrite it, then it's probably not that important.</p>
+</blockquote>
+<p>The yearly migration is designed to add the friction you need to slow down, step back, and consider the things you task yourself with.</p>
+<p>Review all the collections you have created when you get to the end of the year. Decide if these Collections (and their open Tasks) get to accompany you into your next Bullet Journal.</p>
 <h2 id="other-quotes">Other Quotes</h2>
 <blockquote>
-<p>We should not expect the rest of the world to understand what it takes to become the best that we can become</p>
+<p>In a cut-and-paste world that celebrates speed, we often mistake convenience for efficiency</p>
 </blockquote>
 <blockquote>
-<p>The road to success is not easy or else everyone would be the greatest at what they do</p>
+<p>The more you invent, the more complex it is, and the slower you will become.</p>
 </blockquote>
 <blockquote>
-<p>Great ones are willing to get burned time and again as they sharpen their swords in the fire</p>
+<p>It's not about how many goals you have. It's about working on what matters.</p>
 </blockquote>
 <blockquote>
-<p>If your goal is to be mediocre, then you have a considerable margin for error</p>
+<p>Don't worry about getting everything right or perfect. Every master starts by picking up a tool for the first time.</p>
 </blockquote>
 <blockquote>
-<p>To win, to be right, to have everything under control. This ultimately cripples growth</p>
+<p>Convenience, however, often comes at the expense of understanding</p>
 </blockquote>
 <blockquote>
-<p>Once you know what good feels like, you can zero in on it, search it out regardless of the pursuit</p>
+<p>Happiness is like an orgasm: If you think about it too much, it will go away</p>
+<p><cite>Tim Minchin</cite></p>
+</blockquote>
+<blockquote>
+<p>What can be bought can be owned. There is no happiness store. It's not because it can't be bought; it's because happiness can't be owned.</p>
+</blockquote>
+<blockquote>
+<p>Even the greatest menu is useless if you don't order</p>
+</blockquote>
+<blockquote>
+<p>There are naïve questions, tedious questions, ill-phrased questions, questions put after inadequate self-criticism. But every question is a cry to understand the world. There is no such thing as a dumb question</p>
+<p><cite>Carl Sagan</cite></p>
+</blockquote>
+<blockquote>
+<p>Just because you're driving at full speed does not mean you're going in the right direction.</p>
+</blockquote>
+<blockquote>
+<p>You're either the person who creates energy. Or you're the one who destroys it</p>
+<p><cite>Seth Godin</cite></p>
+</blockquote>
+<blockquote>
+<p>The big misconception is that the alternative to perfection is failure</p>
+</blockquote>
+<blockquote>
+<p>Start with less, but do it better. You can always add more later.</p>
+<p><cite>Dieter Rams</cite></p>
+</blockquote>
+<blockquote>
+<p>In order to make any true progress, you need to understand the effects of your efforts. You need to understand not only what is or is not working, but also why</p>
 </blockquote>
 <h2 id="recommendation">Recommendation</h2>
-<p>I am not a big fan of the book. As an autobiography, its a fine read with a moderately compelling story. It shows how he has tackled and solved many problems that he faced to reach the top.</p>
-<p>Although different principles appear in the book it is a little light on tips and it isn't always clear how they can be applied. I also felt that most of them do not apply to other disciplines that don't have rigid rules and where it might be better to collaborate rather than compete.</p>
-<p>I would give it a miss unless you are interested in the world of chess or martial arts and how Josh became the best in those 2 fields.</p>
+<p>I like the ideas presented in the book. However, the book suggests using an analogue system which I prefer to avoid. A lot of it needs to be adapted to today's digital world. Although, that should be easy to do.</p>
+<p>It can be helpful if you are struggling with procrastination or feeling overwhelmed with everything you have to do.</p>
 
     </div>
 </div>
@@ -220,7 +302,7 @@
 
 <aside class="m-2">
     <div class="my-6 flex justify-center gap-5 flex-wrap">
-        <a class="bg-social-twitter social-button" href="https://twitter.com/intent/tweet?url=https://www.discoveriesinbookland.com/blog/art-learning&text=Art%20of%20Learning via @ankur_sheel.&#xD;&#xA;The%20Art%20Of%20Learning%20is%20Josh%20Waitzkin%E2%80%99s%20autobiography%20dealing%20with%20his%20rise%20to%20the%20top%20of%20the%20chess%20and%20martial%20arts%20world.%20It%20gives%20an%20insight%20into%20the%20mindset%20and%20training%20of%20a%20world%20champion." onclick="window.open(this.href, 'twitter-share', 'width=550,height=235'); return false;">Share on Twitter</a>
+        <a class="bg-social-twitter social-button" href="https://twitter.com/intent/tweet?url=https://www.discoveriesinbookland.com/blog/bullet-journal-method&text=The%20Bullet%20Journal%20Method via @ankur_sheel.&#xD;&#xA;The%20Bullet%20Journal%20Method%20is%20a%20simple%20but%20flexible%20journaling%20method%20to%20help%20us%20become%20mindful%20of%20how%20we%20spend%20our%20time%20and%20our%20energy" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235'); return false;">Share on Twitter</a>
         <a class="inline-flex items-center flex-nowrap social-button bg-green-400" target="_blank" rel="noopener noreferrer" href="https://www.buymeacoffee.com/ankursheel">
             <svg class="h-8 mr-2" viewBox="0 0 884 1279" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M791.109 297.518L790.231 297.002L788.201 296.383C789.018 297.072 790.04 297.472 791.109 297.518V297.518Z" fill="#0D0C22"/>
@@ -251,7 +333,7 @@
 
         <ul>
                 <li>
-                    <a href="take-stairs">Take the Stairs</a>
+                    <a href="free-focus">Free to Focus</a>
                 </li>
         </ul>
     </aside>

@@ -90,6 +90,9 @@
             <a role="button" href="/tags/personal-development-&#x2014;-inspirational" class="capitalize badge text-gray-900 bg-grey-light no-underline"> Personal Development &#x2014; Inspirational (2)</a>
         </div>
         <div class="flex-initial border-2 border-black p-2 m-2 rounded-xl text">
+            <a role="button" href="/tags/personal-development-&#x2014;-practical" class="capitalize badge text-gray-900 bg-grey-light no-underline"> Personal Development &#x2014; Practical (2)</a>
+        </div>
+        <div class="flex-initial border-2 border-black p-2 m-2 rounded-xl text">
             <a role="button" href="/tags/personal-finance" class="capitalize badge text-gray-900 bg-grey-light no-underline"> Personal Finance (2)</a>
         </div>
         <div class="flex-initial border-2 border-black p-2 m-2 rounded-xl text">
@@ -100,9 +103,6 @@
         </div>
         <div class="flex-initial border-2 border-black p-2 m-2 rounded-xl text">
             <a role="button" href="/tags/marketing" class="capitalize badge text-gray-900 bg-grey-light no-underline"> Marketing (1)</a>
-        </div>
-        <div class="flex-initial border-2 border-black p-2 m-2 rounded-xl text">
-            <a role="button" href="/tags/personal-development-&#x2014;-practical" class="capitalize badge text-gray-900 bg-grey-light no-underline"> Personal Development &#x2014; Practical (1)</a>
         </div>
         <div class="flex-initial border-2 border-black p-2 m-2 rounded-xl text">
             <a role="button" href="/tags/professional-development-&#x2014;-practical" class="capitalize badge text-gray-900 bg-grey-light no-underline"> Professional Development &#x2014; Practical (1)</a>
@@ -136,7 +136,7 @@
         </a>
     </div>
     <div class="copy">
-        © AnkurSheel 2022
+        © AnkurSheel 2023
     </div>
 </div>
 </footer>

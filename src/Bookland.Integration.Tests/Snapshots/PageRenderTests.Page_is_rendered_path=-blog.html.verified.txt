@@ -107,6 +107,9 @@
         <a href="/blog/take-stairs" class="mb-4">Take the Stairs</a><span> by Rory Vaden</span>
     </div>
     <div>
+        <a href="/blog/bullet-journal-method" class="mb-4">The Bullet Journal Method</a><span> by Ryder Carroll</span>
+    </div>
+    <div>
         <a href="/blog/pixar-beyond" class="mb-4">To Pixar and Beyond</a><span> by Lawrence Levy</span>
     </div>
 
@@ -137,7 +140,7 @@
         </a>
     </div>
     <div class="copy">
-        © AnkurSheel 2022
+        © AnkurSheel 2023
     </div>
 </div>
 </footer>

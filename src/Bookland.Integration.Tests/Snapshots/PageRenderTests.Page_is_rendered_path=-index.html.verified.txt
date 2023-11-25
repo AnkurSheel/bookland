@@ -73,28 +73,43 @@
     Save time and spend it on other things that you love... I have the answers!
 </p>
 
-<div class="flex flex-col gap-10 lg:flex-row lg:justify-between">
-    <div class="bg-gray-200 rounded-3xl px-4 my-8">
-        <div class="flex flex-col gap-1 flex-auto text-center">
-        <h2>Latest Summaries</h2>
-                    <a href="/blog/free-focus" class="prose-2xl mb-4">Free to Focus</a>
-                    <a href="/blog/extreme-ownership" class="prose-2xl mb-4">Extreme Ownership</a>
-                    <a href="/blog/take-stairs" class="prose-2xl mb-4">Take the Stairs</a>
-                    <a href="/blog/building-storybrand" class="prose-2xl mb-4">Building a Storybrand</a>
-                    <a href="/blog/motive" class="prose-2xl mb-4">Motive</a>
-        </div>
-    </div>
-    <div class="bg-gray-200 rounded-3xl px-4 my-8">
-        <div class="flex flex-col gap-1 flex-auto text-center">
-            <h2 class="">Top Rated Books</h2>
-                    <a href="/blog/building-storybrand" class="prose-2xl mb-4">Building a Storybrand</a>
-                    <a href="/blog/death-meeting" class="prose-2xl mb-4">Death by Meeting</a>
-                    <a href="/blog/free-focus" class="prose-2xl mb-4">Free to Focus</a>
-                    <a href="/blog/profit-first" class="prose-2xl mb-4">Profit First</a>
-                    <a href="/blog/pixar-beyond" class="prose-2xl mb-4">To Pixar and Beyond</a>
-        </div>
-    </div>
-</div>
+<h2>Latest Summaries</h2>
+<ul class="p-0">
+            <li class="list-none mt-6 md:mt-1 p-0">
+                <a href="/blog/bullet-journal-method" class="prose-2xl mb-4">The Bullet Journal Method</a>
+            </li>
+            <li class="list-none mt-6 md:mt-1 p-0">
+                <a href="/blog/free-focus" class="prose-2xl mb-4">Free to Focus</a>
+            </li>
+            <li class="list-none mt-6 md:mt-1 p-0">
+                <a href="/blog/extreme-ownership" class="prose-2xl mb-4">Extreme Ownership</a>
+            </li>
+            <li class="list-none mt-6 md:mt-1 p-0">
+                <a href="/blog/take-stairs" class="prose-2xl mb-4">Take the Stairs</a>
+            </li>
+            <li class="list-none mt-6 md:mt-1 p-0">
+                <a href="/blog/building-storybrand" class="prose-2xl mb-4">Building a Storybrand</a>
+            </li>
+</ul>
+
+<h2>Top Rated Books</h2>
+<ul class="p-0">
+            <li class="list-none mt-6 md:mt-1 p-0">
+                <a href="/blog/building-storybrand" class="prose-2xl mb-4">Building a Storybrand</a>
+            </li>
+            <li class="list-none mt-6 md:mt-1 p-0">
+                <a href="/blog/death-meeting" class="prose-2xl mb-4">Death by Meeting</a>
+            </li>
+            <li class="list-none mt-6 md:mt-1 p-0">
+                <a href="/blog/free-focus" class="prose-2xl mb-4">Free to Focus</a>
+            </li>
+            <li class="list-none mt-6 md:mt-1 p-0">
+                <a href="/blog/profit-first" class="prose-2xl mb-4">Profit First</a>
+            </li>
+            <li class="list-none mt-6 md:mt-1 p-0">
+                <a href="/blog/pixar-beyond" class="prose-2xl mb-4">To Pixar and Beyond</a>
+            </li>
+</ul>
 
         </article>
     </div>
@@ -123,7 +138,7 @@
         </a>
     </div>
     <div class="copy">
-        © AnkurSheel 2022
+        © AnkurSheel 2023
     </div>
 </div>
 </footer>

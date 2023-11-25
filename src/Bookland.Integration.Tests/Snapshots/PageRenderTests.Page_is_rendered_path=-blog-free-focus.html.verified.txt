@@ -553,6 +553,15 @@ This is the worst kind of work for us to do.</p>
 
 
 
+    <aside class="border-t-2 mt-2 p-4 rounded-lg shadow-sm">
+        <h2 class="mt-2 text-center">More like this</h2>
+
+        <ul>
+                <li>
+                    <a href="bullet-journal-method">The Bullet Journal Method</a>
+                </li>
+        </ul>
+    </aside>
 
 
 
@@ -583,7 +592,7 @@ This is the worst kind of work for us to do.</p>
         </a>
     </div>
     <div class="copy">
-        © AnkurSheel 2022
+        © AnkurSheel 2023
     </div>
 </div>
 </footer>
