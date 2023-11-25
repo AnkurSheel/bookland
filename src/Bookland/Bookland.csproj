@@ -13,6 +13,10 @@
     </ItemGroup>
 
     <ItemGroup Condition="'$(Configuration)'=='Release'">
-        <PackageReference Include="Codinators.StatiqHelpers" Version="0.27.1"/>
+        <PackageReference Include="Codinators.StatiqHelpers" Version="0.27.3"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="input\pages\404.cshtml.bak" />
     </ItemGroup>
 </Project>
