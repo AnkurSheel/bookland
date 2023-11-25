@@ -4,30 +4,30 @@
 <head>
     
 
-<title>Profit First</title>
+<title>The Bullet Journal Method</title>
 <meta charset="utf-8"/>
 
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<meta name="description" content="This book is a step by step guide to implement the profit first technique - a strategy to divide your income into different buckets and taking a profit before paying your expenses to run an efficient and profitable business"/>
+<meta name="description" content="The Bullet Journal Method is a simple but flexible journaling method to help us become mindful of how we spend our time and our energy"/>
 <link href="/assets/styles.css" rel="stylesheet"/>
-    <link rel="canonical" href="https://www.discoveriesinbookland.com/blog/profit-first"/>   
-<meta itemProp="name" content="Profit First"/>
-<meta itemProp="description" content="This book is a step by step guide to implement the profit first technique - a strategy to divide your income into different buckets and taking a profit before paying your expenses to run an efficient and profitable business"/>
-    <meta itemProp="image" content="https://www.discoveriesinbookland.com/assets/images/social/profit-first-facebook.png"/>
-<meta property="og:url" content="https://www.discoveriesinbookland.com/blog/profit-first"/>
+    <link rel="canonical" href="https://www.discoveriesinbookland.com/blog/bullet-journal-method"/>   
+<meta itemProp="name" content="The Bullet Journal Method"/>
+<meta itemProp="description" content="The Bullet Journal Method is a simple but flexible journaling method to help us become mindful of how we spend our time and our energy"/>
+    <meta itemProp="image" content="https://www.discoveriesinbookland.com/assets/images/social/bullet-journal-method-facebook.png"/>
+<meta property="og:url" content="https://www.discoveriesinbookland.com/blog/bullet-journal-method"/>
 <meta property="og:type" content="article"/>
-<meta property="og:title" content="Profit First"/>
-<meta property="og:description" content="This book is a step by step guide to implement the profit first technique - a strategy to divide your income into different buckets and taking a profit before paying your expenses to run an efficient and profitable business"/>
-    <meta property="og:image" content="https://www.discoveriesinbookland.com/assets/images/social/profit-first-facebook.png"/>
-    <meta property="og:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/profit-first-facebook.png"/>
+<meta property="og:title" content="The Bullet Journal Method"/>
+<meta property="og:description" content="The Bullet Journal Method is a simple but flexible journaling method to help us become mindful of how we spend our time and our energy"/>
+    <meta property="og:image" content="https://www.discoveriesinbookland.com/assets/images/social/bullet-journal-method-facebook.png"/>
+    <meta property="og:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/bullet-journal-method-facebook.png"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:site" content="ankur_sheel"/>
 <meta name="twitter:creator" content="ankur_sheel"/>
-<meta name="twitter:title" content="Profit First"/>
-<meta name="twitter:description" content="This book is a step by step guide to implement the profit first technique - a strategy to divide your income into different buckets and taking a profit before paying your expenses to run an efficient and profitable business"/>
-    <meta name="twitter:image" content="https://www.discoveriesinbookland.com/assets/images/social/profit-first-twitter.png"/>
-    <meta name="twitter:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/profit-first-twitter.png"/>
+<meta name="twitter:title" content="The Bullet Journal Method"/>
+<meta name="twitter:description" content="The Bullet Journal Method is a simple but flexible journaling method to help us become mindful of how we spend our time and our energy"/>
+    <meta name="twitter:image" content="https://www.discoveriesinbookland.com/assets/images/social/bullet-journal-method-twitter.png"/>
+    <meta name="twitter:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/bullet-journal-method-twitter.png"/>
 
 </head>
 <body class="font-sans font-normal leading-relaxed font-base text-gray-800 min-h-screen bg-gray-100">
@@ -92,147 +92,232 @@
 </header>
 
 <main class="mx-auto max-w-prose p-4 prose prose-xl prose-purple">
-    <h1 class="text-center">Profit First</h1>
+    <h1 class="text-center">The Bullet Journal Method</h1>
     <div class="flex flex-col min-h-screen">
         <article class="prose-code:bg-slate-400">
             
 
 <div class="prose-sm italic">
     <div class="flex sm:flex-row justify-evenly items-center text-sm">
-        <p class="mr-4">Last Updated on <time datetime="2020-08-08">Aug 08, 2020</time></p>
+        <p class="mr-4">Last Updated on <time datetime="2022-11-07">Nov 07, 2022</time></p>
         <p>
-            Estimated Reading Time: <span  class="font-bold">5 min</span>
+            Estimated Reading Time: <span  class="font-bold">8 min</span>
         </p>
     </div>
 
     <div class="flex flex-row flex-wrap gap-1 place-content-center">
-            <a href="/tags/business" class="block flex-initial border-2 border-black m-2 rounded-xl p-2 bg-gray-200 shadow-md">Business</a>
-            <a href="/tags/company-building" class="block flex-initial border-2 border-black m-2 rounded-xl p-2 bg-gray-200 shadow-md">Company Building</a>
-            <a href="/tags/business-finance" class="block flex-initial border-2 border-black m-2 rounded-xl p-2 bg-gray-200 shadow-md">Business Finance</a>
+            <a href="/tags/personal-development-&#x2014;-practical" class="block flex-initial border-2 border-black m-2 rounded-xl p-2 bg-gray-200 shadow-md">Personal Development &#x2014; Practical</a>
     </div>
 </div>
 
 <div class="grid grid-cols-1 md:grid-cols-2">
     <h2 class="md:col-span-2">What I read</h2>
-    <img src="/assets/images/posts/profit-first/cover.jpg" width="400" alt="Book Cover"/>
+    <img src="/assets/images/posts/bullet-journal-method/cover.jpg" width="400" alt="Book Cover"/>
     <div class="pl-4">
 
-        <p>Profit First: Transform Your Business from a Cash-Eating Monster to a Money-Making Machine</p>
+        <p>The Bullet Journal Method: Track the Past, Order the Present, Design the Future</p>
 
         <p>
-            <a href="https://www.amazon.com/Profit-First-Transform-Cash-Eating-Money-Making-ebook/dp/B01HCGYTH4">Buy it on Amazon</a>
+            <a href="https://www.amazon.com/Bullet-Journal-Method-Present-Design/dp/0525533338">Buy it on Amazon</a>
         </p>
 
-        <p>224 pages</p>
+        <p>320 pages</p>
 
         <p>
             Authors:
-                <a href="https://mikemichalowicz.com/">Mike Michalowicz</a>
+                <a href="https://www.rydercarroll.com/">Ryder Carroll</a>
         </p>
 
-        <p>Rating: 5 / 5</p>
+        <p>Rating: 4 / 5</p>
     </div>
     <div class="md:col-span-2">
         <h2 id="summary">Summary</h2>
-<p>The book is based on the premise that to grow an efficient and profitable business, you need to take the profit before paying expenses. This approach works for both new and existing businesses. At the end of each chapter, Mike suggests some actions that you can take to achieve a profitable business. He shares many examples of entrepreneurs who have applied the Profit First methodology scenarios as well as examples of how to apply the system. For some of the techniques, he also gives some advanced strategies.</p>
-<p>The book starts by giving you a way to assess your business and setting up accounts to get started with the Profit First Technique. It then gives a roadmap to continuously apply the profit first technique on a regular cadence. The book also shares some tips on reducing expenses, personal finance, handling layoffs and finance for kids.</p>
+<p>The Bullet Journal Method is a simple but flexible journaling method to help us become mindful of how we spend our time and our energy.</p>
+<p>It is based on the premise that writing things down lets us capture our thoughts. It can help us recover from decision fatigue by allowing us to distance ourselves and get some perspective by periodically reviewing those notes.</p>
+<p>The constraint of using paper is a significant theme of the book and the system.</p>
 <h2 id="key-quote">Key Quote</h2>
 <blockquote>
-<p>Revenue is vanity, profit is sanity, and cash is king</p>
+<p>Life is messy and often wildly unpredictable. The Bullet Journal embraces the chaos by not trying to fight it.</p>
 </blockquote>
 <h2 id="key-takeaways">Key Takeaways</h2>
+<h3 id="what-are-bullets">What are Bullets?</h3>
+<p>Bullets are short objective sentences used to capture your thoughts.</p>
+<blockquote>
+<p>Do your future self a kindness and don't sacrifice clarity for brevity</p>
+</blockquote>
+<p>Crafting effective Bullets requires striking a balance between brevity and clarity. Writing down your thoughts becomes a chore if it's too long. If an entry is too short, you may not be able to decipher it later.</p>
+<h3 id="types-of-bullets">Types of Bullets</h3>
+<p>Bullets can be of different types, and each type is assigned a symbol to allow you to contextualize your thoughts in real time.</p>
+<h4 id="tasks">Tasks</h4>
+<blockquote>
+<p>The friction of an unfinished Task actively engages your mind</p>
+</blockquote>
+<p>Tasks are the things that you need to do.</p>
+<p>They can have multiple steps, aka subtasks, that need to be marked as completed before the master task can be marked as complete. Subtasks are indented below the master task.</p>
+<p>Tasks can have 5 different states.</p>
+<ol>
+<li><strong>Incomplete Tasks</strong> are entries that require you to take action. They are depicted by a <code>filled O</code>.</li>
+<li><strong>Completed Tasks</strong> are entries that have been completed. They are depicted by <code>x</code>.</li>
+<li><strong>Migrated Tasks</strong> have been moved into your next Monthly Log or a specific Collection. They are depicted by <code>&gt;</code>.</li>
+<li><strong>Scheduled Tasks</strong> are tasks moved into the Future Log because they are tied to a date that falls outside the current month. They are depicted by <code>&lt;</code>.</li>
+<li><strong>Irrelevant Tasks</strong> are tasks that don't matter anymore. You can strike out these tasks. They are depicted by <del><code>0</code></del>.</li>
+</ol>
+<h4 id="events">Events</h4>
+<blockquote>
+<p>Good or bad, big or small, jot it down. Over the days, months, and years, they will form a pretty accurate roadmap of your life.</p>
+</blockquote>
+<p>Events are experience-related entries that can either be scheduled preemptively or logged after they occur. They are depicted by <code>open O</code>.</p>
+<h4 id="notes">Notes</h4>
+<blockquote>
+<p>The more content you try to capture during a lecture or a meeting, the less you're thinking about what's being said.</p>
+</blockquote>
+<p>Notes are pieces of information that aren't actionable, but you don't want to forget. They are depicted by <code>-</code></p>
+<p>Instead of capturing everything in a meeting, give yourself a moment to process what you heard after it's over and capture whatever surfaces in a note.</p>
+<h4 id="custom-bullets">Custom Bullets</h4>
+<p>Custom Bullets help you quickly capture entries that are unique to your situation.</p>
+<h3 id="signifiers">Signifiers</h3>
+<p>Signifiers are symbols used to highlight specific entries to give them additional context.</p>
+<h4 id="priority-signifier">Priority Signifier</h4>
+<p>Priority Signifiers are used to mark a bullet as important. They are depicted by <code>*</code>.</p>
+<h4 id="inspiration-signifier">Inspiration Signifier</h4>
+<p>Inspiration signifiers can help quickly scan entries to find noteworthy things. They are depicted by <code>!</code>.</p>
+<h3 id="collections">Collections</h3>
+<p>Collections are the modular building blocks of BuJo, used to store related content. Although there are a few core collections, you can create one for anything you want to keep track of.</p>
+<h4 id="daily-log">Daily Log</h4>
+<p>The <strong>Daily Log Collection</strong> is a catchall to capture your thoughts throughout the day. It is based on the concept of <strong>Rapid Logging</strong>, a way to quickly capture your thoughts into Bullets.</p>
+<h4 id="monthly-log">Monthly Log</h4>
+<blockquote>
+<p>Understanding how we got to where we are today will allow us to make more informed decisions as we plot our course forward.</p>
+</blockquote>
+<p>The <strong>Monthly Log</strong> provides an overview of time and tasks for the current month. It is designed for reference only. It has 2 components.</p>
+<ol>
+<li>The <strong>Calendar Page</strong> acts as a timeline by capturing events after they happen</li>
+<li>The <strong>Tasks Page</strong> is used to capture items that matter this month. It is filled as part of the monthly migration.</li>
+</ol>
+<h4 id="future-log">Future Log</h4>
+<p>The <strong>Future Log</strong> stores tasks and events that fall outside the current month.</p>
+<h3 id="using-the-bullet-journal-method-for-goals">Using the Bullet Journal Method for Goals</h3>
+<blockquote>
+<p>When not set with intention, goals can be knee-jerk reactions to something ugly or painful in our lives.</p>
+</blockquote>
+<p>Write down all goals, regardless of whether they are big or small. You can have separate collections for personal and professional goals.</p>
+<p>It can help to write a brief mission statement to define why we're doing something, what we hope to get out of the experience, and how we will do it.</p>
+<p>I want to <em><strong>[what]</strong></em> so that I can <em><strong>[why]</strong></em> by <em><strong>[how]</strong></em>.</p>
+<h4 id="exercise">5,4,3,2,1 exercise</h4>
+<p>You can use the <strong>5,4,3,2,1 exercise</strong> to prioritize your goals.</p>
+<blockquote>
+<p>It's easy to forget that just because something could be done does not mean that it should be done</p>
+</blockquote>
+<p><strong>Steps</strong> <!--convert into table--></p>
+<ol>
+<li>Divide the page into 5 rows</li>
+<li>Top Cell will store goals you want to accomplish in 5 years</li>
+<li>Next cell, goals you want to achieve in 4 months</li>
+<li>Next cell, goals you want to achieve in 3 weeks</li>
+<li>Next cell, goals you want to achieve in 2 days</li>
+<li>Next cell, goals you want to achieve in 1 hour</li>
+<li>Add your four short-term goals (those in the hour and day cells) to your Daily Log and set them as priorities with a <code>*</code> Signifier.</li>
+<li>The remaining goals get their own collection.</li>
+</ol>
+<blockquote>
+<p>Each decision, until it's been made and acted on, is simply a thought</p>
+</blockquote>
+<h4 id="sprints">Sprints</h4>
+<p>Though goals provide direction, they focus on outcomes that are ultimately out of our control. <strong>Sprints</strong> are independent, self-contained projects that can be used to break goals into actionable steps.</p>
+<p>They should have nothing preventing you from starting and take less than a month to complete.</p>
+<blockquote>
+<p>The longer a goal takes to accomplish, the more it taxes your motivation.</p>
+</blockquote>
+<p>Break Sprints into clearly defined, actionable Tasks. Once you've listed out your Tasks, start figuring out how much time each Sprint would take. Take the time estimate and triple it.</p>
+<p>Lock in a dedicated time to work through your Tasks by blocking them on your calendar.</p>
+<p>Now you know when the project begins, how long it will take and when it ends.</p>
+<h3 id="using-the-bullet-journal-method-to-track-habits">Using the Bullet Journal Method to Track Habits</h3>
+<blockquote>
+<p>Progress is more important than speed.</p>
+</blockquote>
+<p>On the right margin of the page, create columns for each thing you want to track. These columns should align with the days of the month. Add Task bullets in the cells to mark them when you take action.</p>
+<p>Remember to add a key so that your future self will know what you were keeping track of when looking back through this note.</p>
+<h3 id="daily-reflection">Daily Reflection</h3>
+<p>In the morning, review all pages of the current month to remind yourself of any open tasks.</p>
+<p>In the night</p>
 <ul>
-<li>A business is made up of 5 components
-<ul>
-<li>Income
-<ul>
-<li>The total revenue of the business</li>
+<li>Mark completed tasks with an <code>x</code>.</li>
+<li>Transfer any bullets with a future date from your Daily Log into your Future Log. Mark the entry as scheduled <code>&lt;</code>.</li>
+<li>If a task is missing, write it down</li>
+<li>Strike out tasks that are not important</li>
+<li>Write down more than 1 thing that you are grateful for</li>
 </ul>
+<h3 id="monthly-migration">Monthly Migration</h3>
+<p>At the end of the month, scan all of the pages of the past month, and review the state of your Tasks.</p>
+<ul>
+<li><p>Strike out incomplete tasks that have become irrelevant</p>
 </li>
-<li>Profit
-<ul>
-<li>Profit distributions to all the equity owners</li>
-</ul>
+<li><p>If a Task remains relevant, then migrate it. You can migrate it in 3 ways</p>
+<ol>
+<li>Transcribe the open Task to the Tasks page of your new Monthly Log. Then mark the old entry as migrated</li>
+<li>Transcribe the Task into a Custom Collection. Then mark the old entry as migrated</li>
+<li>If the Task is date-specific and falls outside the current month, migrate it into your Future Log. Then mark it as scheduled.</li>
+</ol>
 </li>
-<li>Owners Compensation
-<ul>
-<li>The amount all the equity owners take as pay</li>
-</ul>
-</li>
-<li>Tax
-<ul>
-<li>The direct tax liabilities of the business and the personal income taxes of the owners</li>
-</ul>
-</li>
-<li>Operating Expenses
-<ul>
-<li>All other expenses required to run the business</li>
-</ul>
+<li><p>Go through the future Log for any items that are ready now. If so, migrate those items into your Monthly Log. Mark them as migrated.</p>
 </li>
 </ul>
-</li>
-<li>Most businesses fail because of lack of profitability.</li>
-<li>Real Revenue is the money that your company makes after paying for material and subcontractors.</li>
-<li>For each full-time employee, your company should generate a Real Revenue of $150K-$250K</li>
-<li>For a tech business, real revenue should be 2.5 times the labour cost</li>
-<li>For a cheap labour field business, Real revenue should be 4 times the labour cost</li>
-<li>Growth is only half the equation. It is an important half but still only a half</li>
-<li>The perfect size of your business will happen naturally.</li>
-<li>You want at least a 5% profit allocation to have a minimum buffer to keep your business afloat.</li>
-<li>A higher (current) profit allocation percentage implies higher efficiency in running the business which means less in operating expenses. eg
-<ul>
-<li>5% profit allocation = 3 weeks of operating cash</li>
-<li>12% profit allocation = 2 months of operating cash</li>
-<li>24% profit allocation = 5 months of operating cash</li>
-</ul>
-</li>
-<li>The goal of every business is health and that is achieved through efficiency not by cutting owners compensation</li>
-<li>Have at least a 3-month reserve</li>
-<li>Figure out how to consistently be profitable and then do everything to grow that.</li>
-<li>Assess your business by comparing your Current Allocation Percentages(CAP) against the Target Allocation Percentages(TAP)</li>
-<li>Cancel whatever you don't need to run your business efficiently or to keep your customers happy</li>
-<li>Negotiate every expense except payroll</li>
-<li>Challenge yourself to go just 1 more day without the item that you need to purchase. Sometimes, you will discover that you no longer need the item.</li>
-<li><strong>Parkinson's Law</strong>: The demand for something expand to match its supply. It triggers 2 behaviours when supply is scant
-<ul>
-<li>You become frugal</li>
-<li>You become innovative and find ways to get maximum value.</li>
-</ul>
-</li>
-<li>Thinking that something good will happen just because we work harder, longer or better does not work in real life. It just happens in the movies.</li>
-<li>Try to become the best at one thing i.e. mastering the process of delivering perfectly and efficiently rather than trying to do a large variety of things.</li>
-<li>To grow the biggest, you need to determine what you are best at and do it even better.</li>
-<li>If you believe that achieving a number is possible, you will achieve it.</li>
-<li>You must pay yourself first even if you are in debt</li>
-<li>Get rid of bad clients who want your least profitable products and services because you are losing money.</li>
-<li>Every time your income increases, set aside at least half of the increase as savings and you can use the rest for lifestyle upgrades.</li>
-<li>Remember to celebrate.</li>
-<li>More revenue does not mean that you are more successful, what matter is Profit</li>
-<li>Maximize Profit regardless of the current size of your business.</li>
-<li>Accountants define Profit as a number at the bottom of an accounting report. We just need to define it as <strong>Cash in the bank</strong>.</li>
-<li>To keep big margins, you have to make the most of it when you have them and keep innovating to increase profitability by becoming efficient.</li>
-<li>Efficiency (getting more things done with fewer resources) is directly related to profitability.</li>
-<li>If you have to layoff people, its better to let 1 more person go than asking the remaining people to take a pay cut.</li>
-<li>Have only 1 round of layoffs and assure the rest of the team that everyone remaining is to stay after explaining the reason of the layoff.</li>
-<li>Instead of giving kids an allowance, give them job list with corresponding pay rates that they can choose from.</li>
-</ul>
+<h3 id="yearly-migration">Yearly Migration</h3>
+<blockquote>
+<p>If an entry isn't worth the few seconds of effort required to rewrite it, then it's probably not that important.</p>
+</blockquote>
+<p>The yearly migration is designed to add the friction you need to slow down, step back, and consider the things you task yourself with.</p>
+<p>Review all the collections you have created when you get to the end of the year. Decide if these Collections (and their open Tasks) get to accompany you into your next Bullet Journal.</p>
 <h2 id="other-quotes">Other Quotes</h2>
-<ul>
-<li>Failed entrepreneurs are, in fact, the lucky ones! The majority of the businesses that survive are racking up debt, and their leaders are perpetually stressed.</li>
-<li>When you hit rock bottom, sometimes you get dragged along the bottom, scraping your face on every one of those rocks until you are battered, bruised and bloodied</li>
-<li>A financially healthy company is a result of small daily financial wins, not one big moment.</li>
-<li>Profitability isn't an event; its a habit</li>
-<li>If you think you can or think you can't, you're right. - Henry Ford</li>
-<li>Well-dressed poverty is still poverty</li>
-<li>Effort is financial cost and time cost</li>
-<li>Small questions lead only small answers</li>
-<li>Money can always be found through streamlining and innovation, and that begins with asking the big questions</li>
-<li>Innovation occurs in small steps, big leaps and everywhere in between</li>
-<li>When you make enough money, you don't have to budget</li>
-<li>Cash is cash. Either you have it or you don't</li>
-</ul>
+<blockquote>
+<p>In a cut-and-paste world that celebrates speed, we often mistake convenience for efficiency</p>
+</blockquote>
+<blockquote>
+<p>The more you invent, the more complex it is, and the slower you will become.</p>
+</blockquote>
+<blockquote>
+<p>It's not about how many goals you have. It's about working on what matters.</p>
+</blockquote>
+<blockquote>
+<p>Don't worry about getting everything right or perfect. Every master starts by picking up a tool for the first time.</p>
+</blockquote>
+<blockquote>
+<p>Convenience, however, often comes at the expense of understanding</p>
+</blockquote>
+<blockquote>
+<p>Happiness is like an orgasm: If you think about it too much, it will go away</p>
+<p><cite>Tim Minchin</cite></p>
+</blockquote>
+<blockquote>
+<p>What can be bought can be owned. There is no happiness store. It's not because it can't be bought; it's because happiness can't be owned.</p>
+</blockquote>
+<blockquote>
+<p>Even the greatest menu is useless if you don't order</p>
+</blockquote>
+<blockquote>
+<p>There are naïve questions, tedious questions, ill-phrased questions, questions put after inadequate self-criticism. But every question is a cry to understand the world. There is no such thing as a dumb question</p>
+<p><cite>Carl Sagan</cite></p>
+</blockquote>
+<blockquote>
+<p>Just because you're driving at full speed does not mean you're going in the right direction.</p>
+</blockquote>
+<blockquote>
+<p>You're either the person who creates energy. Or you're the one who destroys it</p>
+<p><cite>Seth Godin</cite></p>
+</blockquote>
+<blockquote>
+<p>The big misconception is that the alternative to perfection is failure</p>
+</blockquote>
+<blockquote>
+<p>Start with less, but do it better. You can always add more later.</p>
+<p><cite>Dieter Rams</cite></p>
+</blockquote>
+<blockquote>
+<p>In order to make any true progress, you need to understand the effects of your efforts. You need to understand not only what is or is not working, but also why</p>
+</blockquote>
 <h2 id="recommendation">Recommendation</h2>
-<p>There are a few topics like Personal Finance, Layoffs and Finance for kids that I think other books are better suited for and could have been avoided. However, the core of the book is a must-read for anyone wanting to own a profitable business. The step by step guide with examples make it very easy to understand the concepts and to apply it to your business.</p>
+<p>I like the ideas presented in the book. However, the book suggests using an analogue system which I prefer to avoid. A lot of it needs to be adapted to today's digital world. Although, that should be easy to do.</p>
+<p>It can be helpful if you are struggling with procrastination or feeling overwhelmed with everything you have to do.</p>
 
     </div>
 </div>
@@ -241,8 +326,8 @@
 
 <aside class="m-2">
     <div class="my-6 flex justify-center gap-5 flex-wrap">
-        <a class="bg-social-twitter social-button" href="https://twitter.com/intent/tweet?url=https://www.discoveriesinbookland.com/blog/profit-first&text=Profit%20First via @ankur_sheel.&#xD;&#xA;This%20book%20is%20a%20step%20by%20step%20guide%20to%20implement%20the%20profit%20first%20technique%20-%20a%20strategy%20to%20divide%20your%20income%20into%20different%20buckets%20and%20taking%20a%20profit%20before%20paying%20your%20expenses%20to%20run%20an%20efficient%20and%20profitable%20business" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235'); return false;">Share on Twitter</a>
-        <a class="bg-social-linkedin social-button" href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.discoveriesinbookland.com/blog/profit-first" target="_blank" rel="noopener noreferrer">Share on Linkedin</a>
+        <a class="bg-social-twitter social-button" href="https://twitter.com/intent/tweet?url=https://www.discoveriesinbookland.com/blog/bullet-journal-method&text=The%20Bullet%20Journal%20Method via @ankur_sheel.&#xD;&#xA;The%20Bullet%20Journal%20Method%20is%20a%20simple%20but%20flexible%20journaling%20method%20to%20help%20us%20become%20mindful%20of%20how%20we%20spend%20our%20time%20and%20our%20energy" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235'); return false;">Share on Twitter</a>
+        <a class="bg-social-linkedin social-button" href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.discoveriesinbookland.com/blog/bullet-journal-method" target="_blank" rel="noopener noreferrer">Share on Linkedin</a>
         <div class="md:hidden">        
             
 <a class="inline-flex items-center flex-nowrap social-button bg-green-400" target="_blank" rel="noopener noreferrer" href="https://www.buymeacoffee.com/ankursheel">
@@ -277,16 +362,7 @@
 
         <ul>
                 <li>
-                    <a href="death-meeting">Death by Meeting</a>
-                </li>
-                <li>
-                    <a href="motive">Motive</a>
-                </li>
-                <li>
-                    <a href="building-storybrand">Building a Storybrand</a>
-                </li>
-                <li>
-                    <a href="bad-blood">Bad Blood</a>
+                    <a href="free-focus">Free to Focus</a>
                 </li>
         </ul>
     </aside>

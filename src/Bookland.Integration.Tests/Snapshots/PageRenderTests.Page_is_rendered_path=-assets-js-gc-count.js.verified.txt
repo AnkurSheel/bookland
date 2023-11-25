@@ -3,7 +3,8 @@ window.goatcounter=window.goatcounter.vars
 else
 window.goatcounter=window.goatcounter||{}
 var s=document.querySelector('script[data-goatcounter]')
-if(s&&s.dataset.goatcounterSettings){try{var set=JSON.parse(s.dataset.goatcounterSettings)}catch(err){console.error('invalid JSON in data-goatcounter-settings: '+err)}
+if(s&&s.dataset.goatcounterSettings){try{var set=JSON.parse(s.dataset.goatcounterSettings)}
+catch(err){console.error('invalid JSON in data-goatcounter-settings: '+err)}
 for(var k in set)
 if(['no_onload','no_events','allow_local','allow_frame','path','title','referrer','event'].indexOf(k)>-1)
 window.goatcounter[k]=set[k]}
@@ -125,7 +126,8 @@ if(!p)
 return warn('visit_count: append not found: '+opt.append)
 p.appendChild(d)})}
 if(location.hash==='#toggle-goatcounter'){if(localStorage.getItem('skipgc')==='t'){localStorage.removeItem('skipgc','t')
-alert('GoatCounter tracking is now ENABLED in this browser.')}else{localStorage.setItem('skipgc','t')
+alert('GoatCounter tracking is now ENABLED in this browser.')}
+else{localStorage.setItem('skipgc','t')
 alert('GoatCounter tracking is now DISABLED in this browser until '+location+' is loaded again.')}}
 if(!goatcounter.no_onload)
 on_load(function(){if(!('visibilityState'in document)||document.visibilityState==='visible')

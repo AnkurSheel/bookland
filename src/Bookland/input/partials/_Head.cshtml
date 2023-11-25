@@ -6,7 +6,7 @@
         : "website";
 }
 
-<title>@Model.Document.GetTitle() - @Model.Context.GetSiteTitle()</title>
+<title>@Model.Document.GetTitle()</title>
 <meta charset="utf-8"/>
 
 @if (Model.Context.GetGoogleTagManagerId() != null)
@@ -25,7 +25,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link href="/@Constants.AssetsDirectory/styles.css" rel="stylesheet"/>
 @if (!Model.Document.Destination.FileNameWithoutExtension.Name.Equals("404"))
 {
-    <link rel="canonical" href="@Model.Context.GetCanonicalUrl(Model.Document)"/>
+    <link rel="canonical" href="@Model.Context.GetCanonicalUrl(Model.Document)"/>   
 }
 
 @* Google / Search Engine Tags *@

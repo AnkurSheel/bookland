@@ -19,12 +19,12 @@ jobs:
           - task: NodeTool@0
             displayName: 'Install Node.js'
             inputs:
-                versionSpec: '14.x'
+                versionSpec: '16.x'
 
           - task: Cache@2
             inputs:
-                key: '15May22 | yarn | "$(Agent.OS)" | node/yarn.lock'
-                restoreKeys: '15May22 | yarn | "$(Agent.OS)" | node/yarn.lock'
+                key: '26Nov22 | yarn | "$(Agent.OS)" | node/yarn.lock'
+                restoreKeys: '26Nov22 | yarn | "$(Agent.OS)" | node/yarn.lock'
                 path: $(YARN_CACHE_FOLDER)
             displayName: Cache Yarn packages
 
