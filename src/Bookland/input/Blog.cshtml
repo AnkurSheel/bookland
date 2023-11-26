@@ -24,7 +24,18 @@ Title: All Summaries
 @foreach (var post in sortedPosts)
 {
     var authors = string.Join(", ", post.Document.GetAuthors().Select(x => x.Name));
-    <div>
-        <a href="@post.Document.GetPageUrl()" class="mb-4">@post.Document.GetTitle()</a><span> by @authors</span>
+
+    <div class="md:grid md:grid-cols-2 flex flex-col shadow-md mb-10 items-center bg-gray-200 rounded-3xl">
+         <a href="@post.Document.GetPageUrl()" class="ml-4 mr-4">
+            <img src="@post.Document.GetCoverImageLink()" alt="Book Cover" class="h-64 max-w-xs rounded-lg"/>
+        </a>
+        <div class="mx-4 flex flex-col my-4">
+            <a href="@post.Document.GetPageUrl()" class="mb-4">@post.Document.GetTitle()</a>
+            <div><span class="font-semibold">Author(s):</span> @authors</div>
+            <div><span class="font-semibold">Rating:</span> @post.Document.GetRating() / 5 </div>
+            <div><span class="font-semibold">Reading Time:</span> @post.Document.GetReadingTime().RoundedMinutes min</div>
+            <div><span class="font-semibold">Last Updated on </span>@post.Document.GetLastUpdatedDate().ToString("MMM dd, yyyy")</div>
+        </div> 
+       
     </div>
 }
