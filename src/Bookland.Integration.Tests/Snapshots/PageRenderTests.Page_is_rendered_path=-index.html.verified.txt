@@ -100,6 +100,9 @@
 <h2>Latest Summaries</h2>
 <ul class="p-0">
             <li class="list-none mt-6 md:mt-1 p-0">
+                <a href="/blog/psychology-money" class="prose-2xl mb-4">The Psychology of Money</a>
+            </li>
+            <li class="list-none mt-6 md:mt-1 p-0">
                 <a href="/blog/bullet-journal-method" class="prose-2xl mb-4">The Bullet Journal Method</a>
             </li>
             <li class="list-none mt-6 md:mt-1 p-0">
@@ -110,9 +113,6 @@
             </li>
             <li class="list-none mt-6 md:mt-1 p-0">
                 <a href="/blog/take-stairs" class="prose-2xl mb-4">Take the Stairs</a>
-            </li>
-            <li class="list-none mt-6 md:mt-1 p-0">
-                <a href="/blog/building-storybrand" class="prose-2xl mb-4">Building a Storybrand</a>
             </li>
 </ul>
 
@@ -131,7 +131,7 @@
                 <a href="/blog/profit-first" class="prose-2xl mb-4">Profit First</a>
             </li>
             <li class="list-none mt-6 md:mt-1 p-0">
-                <a href="/blog/pixar-beyond" class="prose-2xl mb-4">To Pixar and Beyond</a>
+                <a href="/blog/psychology-money" class="prose-2xl mb-4">The Psychology of Money</a>
             </li>
 </ul>
 

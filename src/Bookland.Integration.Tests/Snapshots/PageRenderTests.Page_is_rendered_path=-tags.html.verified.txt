@@ -108,6 +108,9 @@
             <a role="button" href="/tags/leadership" class="capitalize badge text-gray-900 bg-grey-light no-underline"> Leadership (3)</a>
         </div>
         <div class="flex-initial border-2 border-black p-2 m-2 rounded-xl text">
+            <a role="button" href="/tags/personal-finance" class="capitalize badge text-gray-900 bg-grey-light no-underline"> Personal Finance (3)</a>
+        </div>
+        <div class="flex-initial border-2 border-black p-2 m-2 rounded-xl text">
             <a role="button" href="/tags/communication" class="capitalize badge text-gray-900 bg-grey-light no-underline"> Communication (2)</a>
         </div>
         <div class="flex-initial border-2 border-black p-2 m-2 rounded-xl text">
@@ -115,9 +118,6 @@
         </div>
         <div class="flex-initial border-2 border-black p-2 m-2 rounded-xl text">
             <a role="button" href="/tags/personal-development-&#x2014;-practical" class="capitalize badge text-gray-900 bg-grey-light no-underline"> Personal Development &#x2014; Practical (2)</a>
-        </div>
-        <div class="flex-initial border-2 border-black p-2 m-2 rounded-xl text">
-            <a role="button" href="/tags/personal-finance" class="capitalize badge text-gray-900 bg-grey-light no-underline"> Personal Finance (2)</a>
         </div>
         <div class="flex-initial border-2 border-black p-2 m-2 rounded-xl text">
             <a role="button" href="/tags/autobiography" class="capitalize badge text-gray-900 bg-grey-light no-underline"> Autobiography (1)</a>

@@ -311,6 +311,9 @@
                 <li>
                     <a href="index-card">Index card</a>
                 </li>
+                <li>
+                    <a href="psychology-money">The Psychology of Money</a>
+                </li>
         </ul>
     </aside>
 

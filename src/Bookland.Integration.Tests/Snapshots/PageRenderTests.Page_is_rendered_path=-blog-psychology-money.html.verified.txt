@@ -4,30 +4,30 @@
 <head>
     
 
-<title>Index card</title>
+<title>The Psychology of Money</title>
 <meta charset="utf-8"/>
 
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<meta name="description" content="This is a well written albeit basic book based on the premise that all the financial advice you need to know can fit on an index card."/>
+<meta name="description" content="Dive into the psychology behind financial decisions with &#x27;The Psychology of Money.&#x27; Unraveling the impact of behaviors on finances, this book offers invaluable insights for beginners and seasoned individuals alike."/>
 <link href="/assets/styles.css" rel="stylesheet"/>
-    <link rel="canonical" href="https://www.discoveriesinbookland.com/blog/index-card"/>   
-<meta itemProp="name" content="Index card"/>
-<meta itemProp="description" content="This is a well written albeit basic book based on the premise that all the financial advice you need to know can fit on an index card."/>
-    <meta itemProp="image" content="https://www.discoveriesinbookland.com/assets/images/social/index-card-facebook.png"/>
-<meta property="og:url" content="https://www.discoveriesinbookland.com/blog/index-card"/>
+    <link rel="canonical" href="https://www.discoveriesinbookland.com/blog/psychology-money"/>   
+<meta itemProp="name" content="The Psychology of Money"/>
+<meta itemProp="description" content="Dive into the psychology behind financial decisions with &#x27;The Psychology of Money.&#x27; Unraveling the impact of behaviors on finances, this book offers invaluable insights for beginners and seasoned individuals alike."/>
+    <meta itemProp="image" content="https://www.discoveriesinbookland.com/assets/images/social/psychology-money-facebook.png"/>
+<meta property="og:url" content="https://www.discoveriesinbookland.com/blog/psychology-money"/>
 <meta property="og:type" content="article"/>
-<meta property="og:title" content="Index card"/>
-<meta property="og:description" content="This is a well written albeit basic book based on the premise that all the financial advice you need to know can fit on an index card."/>
-    <meta property="og:image" content="https://www.discoveriesinbookland.com/assets/images/social/index-card-facebook.png"/>
-    <meta property="og:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/index-card-facebook.png"/>
+<meta property="og:title" content="The Psychology of Money"/>
+<meta property="og:description" content="Dive into the psychology behind financial decisions with &#x27;The Psychology of Money.&#x27; Unraveling the impact of behaviors on finances, this book offers invaluable insights for beginners and seasoned individuals alike."/>
+    <meta property="og:image" content="https://www.discoveriesinbookland.com/assets/images/social/psychology-money-facebook.png"/>
+    <meta property="og:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/psychology-money-facebook.png"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:site" content="ankur_sheel"/>
 <meta name="twitter:creator" content="ankur_sheel"/>
-<meta name="twitter:title" content="Index card"/>
-<meta name="twitter:description" content="This is a well written albeit basic book based on the premise that all the financial advice you need to know can fit on an index card."/>
-    <meta name="twitter:image" content="https://www.discoveriesinbookland.com/assets/images/social/index-card-twitter.png"/>
-    <meta name="twitter:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/index-card-twitter.png"/>
+<meta name="twitter:title" content="The Psychology of Money"/>
+<meta name="twitter:description" content="Dive into the psychology behind financial decisions with &#x27;The Psychology of Money.&#x27; Unraveling the impact of behaviors on finances, this book offers invaluable insights for beginners and seasoned individuals alike."/>
+    <meta name="twitter:image" content="https://www.discoveriesinbookland.com/assets/images/social/psychology-money-twitter.png"/>
+    <meta name="twitter:image:secure_url" content="https://www.discoveriesinbookland.com/assets/images/social/psychology-money-twitter.png"/>
 
 </head>
 <body class="font-sans font-normal leading-relaxed font-base text-gray-800 min-h-screen bg-gray-100">
@@ -92,16 +92,16 @@
 </header>
 
 <main class="mx-auto max-w-prose p-4 prose prose-xl prose-purple">
-    <h1 class="text-center">Index card</h1>
+    <h1 class="text-center">The Psychology of Money</h1>
     <div class="flex flex-col min-h-screen">
         <article class="prose-code:bg-slate-400">
             
 
 <div class="prose-sm italic">
     <div class="flex sm:flex-row justify-evenly items-center text-sm">
-        <p class="mr-4">Last Updated on <time datetime="2020-04-24">Apr 24, 2020</time></p>
+        <p class="mr-4">Last Updated on <time datetime="2023-11-25">Nov 25, 2023</time></p>
         <p>
-            Estimated Reading Time: <span  class="font-bold">4 min</span>
+            Estimated Reading Time: <span  class="font-bold">7 min</span>
         </p>
     </div>
 
@@ -112,113 +112,170 @@
 
 <div class="grid grid-cols-1 md:grid-cols-2">
     <h2 class="md:col-span-2">What I read</h2>
-    <img src="/assets/images/posts/index-card/cover.jpg" width="400" alt="Book Cover"/>
+    <img src="/assets/images/posts/psychology-money/cover.jpg" width="400" alt="Book Cover"/>
     <div class="pl-4">
 
-        <p>The Index Card: Why Personal Finance Doesn&#x2019;t have to be complicated</p>
+        <p>The Psychology of Money: Timeless lessons on wealth, greed, and happiness</p>
 
         <p>
-            <a href="https://www.amazon.com/Index-Card-Personal-Finance-Complicated/dp/1591847680">Buy it on Amazon</a>
+            <a href="https://www.amazon.com/Psychology-Money-Morgan-Housel/dp/0857197681">Buy it on Amazon</a>
         </p>
 
         <p>256 pages</p>
 
         <p>
             Authors:
-                <a href="http://helaineolen.com/">Helaine Ole</a>
-                    <span>and</span>
-                <a>Harold Pollack</a>
+                <a href="https://www.morganhousel.com/">Morgan Housel</a>
         </p>
 
-        <p>Rating: 2 / 5</p>
+        <p>Rating: 5 / 5</p>
     </div>
     <div class="md:col-span-2">
         <h2 id="summary">Summary</h2>
-<p>The book is based on the premise that all the financial advice you need to know can fit on an index card. The book is broken down into 9 chapters each of which corresponds to a rule on the index card. Each chapter explains how the rule works accompanied with detailed stories and examples. It is a good book to read if you are just starting to get your financial life in order.</p>
-<p>Some of the advice is US-centric but can be applied to other countries as well.</p>
+<p>&quot;The Psychology of Money&quot; explores the intricate relationship between human behavior and financial decision-making through short stories. It sheds light on how personal biases and emotions significantly influence our handling of money.</p>
+<p>The author's focus on the psychological, emotional, and behavioral dimensions of managing money brings a distinctive viewpoint to personal finance.</p>
+<p>Through its exploration of behavioral patterns impacting finances, it equips readers with invaluable perspectives to understand and improve their financial decisions.</p>
 <h2 id="key-quote">Key Quote</h2>
 <blockquote>
-<p>This is your financial life. Take control of it</p>
+<p>Money has a little to do with how smart you are and a lot to do with how you behave</p>
 </blockquote>
 <h2 id="key-takeaways">Key Takeaways</h2>
-<h3 id="budgeting">Budgeting</h3>
-<ul>
-<li>If you are always worried about your immediate cash flow, you will make mistakes.</li>
-<li>Do not wait for more than a week to assign expenses to proper categories in your budget.</li>
-<li>Dividing every expense into categories allows you to see the big picture.</li>
-</ul>
-<h3 id="saving">Saving</h3>
-<ul>
-<li>An emergency fund is a basic foundation for having stability.</li>
-<li>To gain control over your financial life, pay down the bill with the highest interest rate while paying the required minimum on the rest.</li>
-<li>Save for retirement after funding your emergency fund.</li>
-<li>Take full advantage of the retirement account match offered by your employer. It is free money.</li>
-</ul>
-<h3 id="financial-advice">Financial Advice</h3>
-<ul>
-<li>Most financial advisors are salespersons or brokers even if their official title is different.</li>
-<li>Your neighbourhood brokerage or bank is not the place to get unconflicted financial advice. If you want unconflicted financial advice, you almost certainly have to pay for it.</li>
-<li>A fiduciary is a financial advisor who has a legal and regulatory duty to put your interests ahead of his or her own. They are also known as a certified financial planner (CFP), registered investment advisor (RIA) or fee-only advisor.</li>
-<li>You want to seek out an advisor who works on a fee-only basis. This means the advisor is paid by you and only by you. Never assume someone is a fiduciary. Always ask. You need to ask and ask quite specifically: Do you work to the fiduciary standard at all times? This last part, “at all times” is important.</li>
-</ul>
-<h3 id="investing">Investing</h3>
-<ul>
-<li><p>Don't fall for stories that you can invest in more funds or that it will be easier to monitor your money if it's all in one place.</p>
-</li>
-<li><p>Warren Buffet is an excellent stock picker but he also gets benefits from getting access to deals not available to mere run-of-the-mill investors like the rest of us.</p>
-</li>
-<li><p>“Alternative investments” is a nice way of saying “This is a risky investment”</p>
-</li>
-<li><p>Diversify so that not everything in your investment portfolio rises and falls by the same amount at the same time.</p>
-</li>
-<li><p>If you put money only in supersafe assets that earn low returns you will lose money relative to inflation and increase your risk of outliving your money.</p>
-</li>
-<li><p>Formula to decide how much money to put in stock market funds:</p>
-<ul>
-<li><strong>Percentage of your assets invested in stocks = 100 - your current age</strong></li>
-</ul>
-</li>
-<li><p>Stock investment Breakdown</p>
-<ul>
-<li>70%: A good S &amp; P 500 index fund for assured quick diversification.</li>
-<li>15%: A small-cap index fund because they have generally outperformed large-cap funds but have a greater risk.</li>
-<li>15%: A broad-based international fund. Make sure that you choose an international fund and not a global fund.</li>
-<li><strong>[Optional]</strong> (5-10%): If you don't own property, a real estate investment trust index fund.</li>
-</ul>
-</li>
-</ul>
-<h3 id="housing">Housing</h3>
-<ul>
-<li>You should spend no more than a third of your take-home pay on housing.</li>
-<li>Finance your emergency fund. Then think about purchasing a home.</li>
-<li>Get your mortgage pre-approved by a bank before you look at the first house.</li>
-<li>Your house is your home. It is not a speculative investment.</li>
-<li>There are practical benefits to owning your residence but it is almost always a highly leveraged aka risky investment.</li>
-<li>If your interest rate drops by less than one percentage point or if you are planning to move soon, it's not worth refinancing.</li>
-</ul>
-<h3 id="insurance">Insurance</h3>
-<ul>
-<li>Insurance is a complicated but necessary evil.</li>
-<li>Get a thirty-year level term life policy.</li>
-<li>Understand exactly what kind of coverage is contained in the policy you are buying. You need to pose worst-case scenarios to the person selling the policy and then make sure to get their answers in writing.</li>
-<li>Go for the high-deductible options when buying insurance.</li>
-<li>Adequate liability insurance is at least twice the amount of your net worth.</li>
-<li>If you have a high net worth get umbrella insurance which covers the amount of your potential responsibility if you exhaust your liability insurance.</li>
-</ul>
-<h2 id="other-quotes">Other quotes</h2>
-<ul>
-<li>Simplicity takes work and insight to achieve.</li>
-<li>One of the most important biases is the overconfidence that comes with expertise.</li>
-<li>Starvation budgets work no better than starvation diets.</li>
-<li>It's better to save 1 per cent consistently than try and fail over and over again to save 10 to 20 per cent.</li>
-<li>If it’s free, you are the product.</li>
-<li>If you sit down for cards, and you don’t know who the sucker is it's you.</li>
-<li>Popular advice is if we just give up a $5 small luxury a day, we can retire millionaires. But if that were all it took, most of us would be millionaires already.</li>
-<li>That's the thing about bubbles and great market runs - Anyone can make money. Until times change or the bubble bursts.</li>
-<li>The three most important things in a real estate purchase are location, location, and location.</li>
-</ul>
+<h3 id="understanding-success-and-failure-patterns">Understanding Success and Failure Patterns</h3>
+<p>In the financial world, news is dominated by extreme examples. These examples highlight exceptional gains that come from a fraction of actions.</p>
+<blockquote>
+<p>The more you want something to be true, the more likely you are to believe a story that overestimates the odds of it being true.</p>
+</blockquote>
+<p>We need to remember that these only apply to some situations. We should instead look for the typical patterns of success and failure.</p>
+<h3 id="the-roles-of-luck-and-risk">The Roles of Luck and Risk</h3>
+<blockquote>
+<p>Life is about playing the odds, and we all think about odds a little differently</p>
+</blockquote>
+<p>Besides individual effort, luck and risk play significant roles in life. They delineate the fine line between boldness and recklessness.</p>
+<p>While luck can pave the way for success, it is frequently disregarded as a critical factor in success.</p>
+<p>Accepting luck's role in personal success can feel demoralising, and suggesting that another person's success is because of luck makes us look jealous and mean.</p>
+<blockquote>
+<p>Risk is whats left over when you think you've thought of everything.</p>
+<p><cite>Carl Richards</cite></p>
+</blockquote>
+<p>Risk is when things don't go as planned. It is frequently misunderstood as poor decision-making even though no endeavour guarantees 100% success.</p>
+<blockquote>
+<p>There is no reason to risk what you have and need for what you don't have and don't need</p>
+</blockquote>
+<p>However, it is important to remember that essential aspects like reputation, freedom, family, and happiness are not worth risking.</p>
+<h3 id="wealth-creation-and-preservation">Wealth Creation and Preservation</h3>
+<p>Even though the quality of education and the doors that open for us are heavily linked to our parents' socioeconomic status, pursuing financial gains and acquiring wealth involves taking risks.</p>
+<blockquote>
+<p>There are a million ways to get wealthy. But there's only one way to stay wealthy: some combination of frugality and paranoia</p>
+</blockquote>
+<p>Safeguarding and preserving that hard-earned money demands a persistent fear — a fear that what we've gathered might vanish.</p>
+<blockquote>
+<p>Past a certain level of income, people fall into three groups: Those who save, those who don't think they can save, and those who don't think they need to save.</p>
+</blockquote>
+<p>Contrary to popular belief, the size of our income plays a minor role compared to our savings rate. It's about resisting the urge to spend immediately, paving the way for more choices and opportunities in the future.</p>
+<blockquote>
+<p>All lifestyles exist on a spectrum, and what is decent to one person can feel like royalty or poverty to another</p>
+</blockquote>
+<p>Accepting that we might have enough shields us from falling into the trap of ceaseless social comparison, an endless pursuit without boundaries or satisfaction.</p>
+<h3 id="the-importance-of-having-room-for-error">The Importance of Having Room for Error</h3>
+<blockquote>
+<p>Things that have never happened before happen all the time.</p>
+<p><cite>Scott Sagan</cite></p>
+</blockquote>
+<p>Many decisions rely on precise conditions for success. This insistence on everything falling into place perfectly contributes to their downfall, even if the core idea was correct.</p>
+<p>Having a margin of safety significantly improves the chances of success by accounting for unforeseen circumstances.</p>
+<h3 id="understanding-market-bubbles">Understanding Market Bubbles</h3>
+<p>Individuals have distinct goals and time horizons when it comes to investments. It leads them to prioritise different aspects when making investment decisions.</p>
+<blockquote>
+<p>Success is a lousy teacher. It seduces smart people into thinking they can't lose.</p>
+<p>&quot;Bill Gates&quot;</p>
+</blockquote>
+<p>Market bubbles materialise as a result of individuals engaging in short-term trading practices, driven by the desire to capture and exploit the ever-growing momentum within the market</p>
+<p>However, the real damage of these bubbles manifests when long-term investors, playing a separate investment game altogether, begin adopting the techniques employed by short-term traders.</p>
+<h3 id="the-power-of-compounding">The Power of Compounding</h3>
+<blockquote>
+<p>An interesting quirk of investing history is that the further back you look, the more likely you are to be examining a world that no longer applies to today</p>
+</blockquote>
+<p>The highest returns in investment are often singular occurrences and not consistently reproducible.</p>
+<blockquote>
+<p>Do not aim to be coldly rational when making financial decisions. Aim to just be pretty reasonable.</p>
+</blockquote>
+<p>Contrary to common misconceptions, compounding doesn't rely on obtaining extraordinary returns but rather on obtaining steady, moderate returns over an extended timeframe.</p>
+<blockquote>
+<p>It is not necessarily the amount of snow that causes ice sheets but the fact that snow, however little, lasts</p>
+<p><cite>Gwen Schultz</cite></p>
+</blockquote>
+<p>Achieving success through compounding requires investors to endure for extended periods without encountering substantial losses or being forced to liquidate their investments prematurely.</p>
+<p>Granting compounding the necessary years or decades is essential for optimal results.</p>
+<h3 id="unique-decision-making">Unique Decision-making</h3>
+<blockquote>
+<p>When you make decisions for reasons that I can't even comprehend, I might follow you blindly into a decision that is right for you and disastrous to me.</p>
+</blockquote>
+<p>The decisions made by others might appear puzzling or illogical, yet these choices are a product of their unique life experiences. Every individual's decision-making is heavily influenced by their life journey, which in turn influences their viewpoints and actions.</p>
+<blockquote>
+<p>Some lessons have to be experienced before they can be understood</p>
+<p><cite>Michael Batnick</cite></p>
+</blockquote>
+<p>Additionally, despite the desire to assess the wisdom behind certain decisions, the complexity of human decision-making poses a significant challenge. This difficulty leads to oversimplified narratives that offer a simplistic view but fail to encapsulate the complexity and nuances of real-life decision-making processes.</p>
+<h3 id="the-importance-of-flexibility">The Importance of Flexibility</h3>
+<blockquote>
+<p>The man who can do the average thing when all those around him are going crazy</p>
+<p><cite>Napoleon</cite></p>
+</blockquote>
+<p>Napoleon's definition of a military genius holds profound wisdom beyond the battlefield.</p>
+<p>This sentiment echoes the significance of adaptability in a world abundant with intellect. Flexibility emerges as a strategic advantage, allowing for patience and discernment in decision-making.</p>
+<h3 id="balanced-approach-in-life-and-finance">Balanced Approach in Life and Finance</h3>
+<blockquote>
+<p>True success is exiting some rat race to modulate ones activities for peace of mind</p>
+<p><cite>Nassim Taleb</cite></p>
+</blockquote>
+<p>Achieving financial success isn't solely about accumulating wealth. Ensuring that our financial decisions provide us with peace of mind is a key aspect of successful money management.</p>
+<blockquote>
+<p>Everything has a price, and the key to a lot of things with money is just figuring out what that price is and being willing to pay it. The problem is that the price of a lot of things is not obvious until you have experienced them firsthand when the bill is overdue</p>
+</blockquote>
+<p>However, success comes at a cost, and acknowledging and preparing to pay this price is vital.
+Stopping the goalpost from constantly shifting is one of the most challenging financial skills to master</p>
+<p>In a world where capitalism excels in generating both wealth and envy, it's crucial to have moderate annual savings, moderate free time, moderate commute, and moderate time with the family. This not only bolsters the ability to adhere to plans but also reduces the likelihood of regret</p>
+<h3 id="perception-of-success">Perception of Success</h3>
+<blockquote>
+<p>There is no faster way to feel rich than to spend lots of money on really nice things. But the way to be rich is to spend money you have, and to not spend money you dont have</p>
+<p><cite>Bill Mann</cite></p>
+</blockquote>
+<p>The desire to become a millionaire often stems from a fascination with spending rather than saving. Ironically, the wish to spend a million dollars contradicts the essence of attaining millionaire status.</p>
+<p>Similarly, coveting luxurious possessions like fancy cars or high-end watches might mask a deeper longing for respect and admiration. Contrary to common perception, these virtues are better acquired through acts of kindness and humility rather than flaunting opulent possessions.</p>
+<h2 id="other-quotes">Other Quotes</h2>
+<blockquote>
+<p>History never repeats itself; man always does</p>
+<p><cite>Voltaire</cite></p>
+</blockquote>
+<blockquote>
+<p>Optimism sounds like a sales pitch. Pessimism sounds like someone trying to help you. Real optimists dont believe that everything will be great. That's complacency. Optimism is a belief that the odds of a good outcome are in your favor over time, even when there will be setbacks along the way.</p>
+</blockquote>
+<blockquote>
+<p>Every job looks easy when you are not the one doing it</p>
+<p><cite>Jeff Immelt</cite></p>
+</blockquote>
+<blockquote>
+<p>While conservatism in a bullish market might feel counterintuitive, its value lies in averting rash actions during bearish trends.</p>
+</blockquote>
+<blockquote>
+<p>I did not intend to get rich. I just wanted to get independent.</p>
+<p><cite>Charlie Munger</cite></p>
+</blockquote>
+<blockquote>
+<p>We need to believe we live in a predictable, controllable world, so we turn to authoritative-sounding people who promise to satisfy that need</p>
+<p><cite>Philip Tetlock</cite></p>
+</blockquote>
+<blockquote>
+<p>It's not whether you're right or wrong that's important, but how much money you make when you're right and how much you lose when you're wrong</p>
+<p><cite>George Soros</cite></p>
+</blockquote>
+<blockquote>
+<p>You can be risk loving and yet completely averse to ruin.</p>
+<p><cite>Nassim Taleb</cite></p>
+</blockquote>
 <h2 id="recommendation">Recommendation</h2>
-<p>This book is great if you are just getting started with sorting out your financial life. It explains the different concepts in a very easy to understand way. But for people who are in control of their financial life, this book does not offer anything new.</p>
+<p>In essence, &quot;Psychology of Money&quot; is a compelling and informative read with a clear and engaging writing style.</p>
+<p>Regardless of whether you're a beginner or someone well-acquainted with financial matters, &quot;The Psychology of Money&quot; is a must-read.</p>
 
     </div>
 </div>
@@ -227,8 +284,8 @@
 
 <aside class="m-2">
     <div class="my-6 flex justify-center gap-5 flex-wrap">
-        <a class="bg-social-twitter social-button" href="https://twitter.com/intent/tweet?url=https://www.discoveriesinbookland.com/blog/index-card&text=Index%20card via @ankur_sheel.&#xD;&#xA;This%20is%20a%20well%20written%20albeit%20basic%20book%20based%20on%20the%20premise%20that%20all%20the%20financial%20advice%20you%20need%20to%20know%20can%20fit%20on%20an%20index%20card." onclick="window.open(this.href, 'twitter-share', 'width=550,height=235'); return false;">Share on Twitter</a>
-        <a class="bg-social-linkedin social-button" href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.discoveriesinbookland.com/blog/index-card" target="_blank" rel="noopener noreferrer">Share on Linkedin</a>
+        <a class="bg-social-twitter social-button" href="https://twitter.com/intent/tweet?url=https://www.discoveriesinbookland.com/blog/psychology-money&text=The%20Psychology%20of%20Money via @ankur_sheel.&#xD;&#xA;Dive%20into%20the%20psychology%20behind%20financial%20decisions%20with%20%27The%20Psychology%20of%20Money.%27%20Unraveling%20the%20impact%20of%20behaviors%20on%20finances%2C%20this%20book%20offers%20invaluable%20insights%20for%20beginners%20and%20seasoned%20individuals%20alike." onclick="window.open(this.href, 'twitter-share', 'width=550,height=235'); return false;">Share on Twitter</a>
+        <a class="bg-social-linkedin social-button" href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.discoveriesinbookland.com/blog/psychology-money" target="_blank" rel="noopener noreferrer">Share on Linkedin</a>
         <div class="md:hidden">        
             
 <a class="inline-flex items-center flex-nowrap social-button bg-green-400" target="_blank" rel="noopener noreferrer" href="https://www.buymeacoffee.com/ankursheel">
@@ -266,7 +323,7 @@
                     <a href="one-page-financial-plan">One Page Financial Plan</a>
                 </li>
                 <li>
-                    <a href="psychology-money">The Psychology of Money</a>
+                    <a href="index-card">Index card</a>
                 </li>
         </ul>
     </aside>

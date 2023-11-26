@@ -93,6 +93,24 @@
             
 
 <div class="md:grid md:grid-cols-2 flex flex-col shadow-md mb-10 items-center bg-gray-200 rounded-3xl">
+    <a href="/blog/psychology-money" class="ml-4 mr-4">
+        <img src="/assets/images/posts/psychology-money/cover.jpg" alt="Book Cover" class="max-w-xs rounded-lg w-full"/>
+    </a>
+
+    <div class="mx-4 flex flex-col my-4">
+        <a href="/blog/psychology-money" class="text-center prose-2xl mb-4">The Psychology of Money</a>
+        <div class="font-semibold">Author(s): Morgan Housel</div>
+        <div class="font-semibold">Rating: 5 / 5 </div>
+        <p>
+            Dive into the psychology behind financial decisions with &#x27;The Psychology of Money.&#x27; Unraveling the impact of behaviors on finances, this book offers invaluable insights for beginners and seasoned individuals alike.
+        </p>
+        <p>
+            <a href="/blog/psychology-money">Read the Summary, Takeaways and Recommendation</a>
+        </p>
+        <div class="font-semibold">7 min</div>
+    </div>
+</div>
+<div class="md:grid md:grid-cols-2 flex flex-col shadow-md mb-10 items-center bg-gray-200 rounded-3xl">
     <a href="/blog/one-page-financial-plan" class="ml-4 mr-4">
         <img src="/assets/images/posts/one-page-financial-plan/cover.jpg" alt="Book Cover" class="max-w-xs rounded-lg w-full"/>
     </a>

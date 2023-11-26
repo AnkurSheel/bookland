@@ -134,6 +134,9 @@
         <a href="/blog/bullet-journal-method" class="mb-4">The Bullet Journal Method</a><span> by Ryder Carroll</span>
     </div>
     <div>
+        <a href="/blog/psychology-money" class="mb-4">The Psychology of Money</a><span> by Morgan Housel</span>
+    </div>
+    <div>
         <a href="/blog/pixar-beyond" class="mb-4">To Pixar and Beyond</a><span> by Lawrence Levy</span>
     </div>
 
